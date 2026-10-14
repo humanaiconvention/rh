@@ -38,7 +38,7 @@ $$
 
 only squarefree $d$ survive, and its $\sqrt d$-coordinate is $\mu(d)S_d/d$.
 
-At $d=2$, $\mu(2)S_2$ is the number of odd integers in $(M-k,M]$. It is positive for $M\ge16$, when $k\ge2$, and for odd $8\le M<16$. The remaining small even cases have these nonzero coefficients:
+At $d=2$, $\mu(2)S_2$ is the number of odd integers in $(M-k,M]$. It is positive for $M\ge16$, when $k\ge2$, and for odd $8\le M\lt 16$. The remaining small even cases have these nonzero coefficients:
 
 | $M$ | $d$ | $\mu(d)S_d$ |
 |---:|---:|---:|

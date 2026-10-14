@@ -32,7 +32,7 @@ Proof: expand
 $\sum_{(r,\Pi)=1}\mu(r)^2K_{P,r}(u)K_{P,r}(v)/r$.
 For $r\mid n$ coprime to $\Pi$, $a_P(n/r)=a_P(n)$. The remaining finite sum over squarefree divisors of $\gcd(n,m)$ factors into the displayed product.
 
-For $u,v\ge0$, $a_P(n)\ge a(n)>0$ and the GCD product is at least one. Coefficientwise,
+For $u,v\ge0$, $a_P(n)\ge a(n)\gt 0$ and the GCD product is at least one. Coefficientwise,
 
 $$
 D_P^u(u,v)\ge A(u)A(v),\qquad
@@ -46,7 +46,7 @@ This uses neither a Gram argument nor a Möbius-correlation estimate.
 Fix a real scalar $c$, and center $V(u)=A(u)-cF(u)$. Allocate the scalar **only to the $r=1$ row**:
 
 $$
-L_1(u)=K_{P,1}(u)-cF(u),\qquad L_r(u)=K_{P,r}(u)\quad(r>1).
+L_1(u)=K_{P,1}(u)-cF(u),\qquad L_r(u)=K_{P,r}(u)\quad(r\gt 1).
 $$
 
 Let $D_P^c=\sum_{(r,\Pi)=1}\mu(r)^2L_r(u)L_r(v)/r$. Expanding with both weights retained gives
@@ -81,11 +81,11 @@ $$
 Thus
 
 $$
-Y_{\{2\}}^c=2(\tfrac12-a_2)a_2/\sqrt3>0.
+Y_{\{2\}}^c=2(\tfrac12-a_2)a_2/\sqrt3\gt 0.
 $$
 
 Adding prime $3$ leaves only the $r=1$ row, so the diagonal increases by exactly this amount while the complete mass stays fixed.
 
-This is a self-contained finite sign counterexample. The same algebra holds for two vectors supported at $6$, with distinct positive values $F_1,F_2$, after multiplying every entry by $F_1F_2$. The [actual kernel](kernel-calculus.md) at $N=10$, shifts $x_1=13/2,x_2=7$, and integer sample support $N/2<n<x_i$, supplies such values. This specialization uses the freely stated scalar $c=1/2$; it does not assert a value for any external normalization.
+This is a self-contained finite sign counterexample. The same algebra holds for two vectors supported at $6$, with distinct positive values $F_1,F_2$, after multiplying every entry by $F_1F_2$. The [actual kernel](kernel-calculus.md) at $N=10$, shifts $x_1=13/2,x_2=7$, and integer sample support $N/2\lt n\lt x_i$, supplies such values. This specialization uses the freely stated scalar $c=1/2$; it does not assert a value for any external normalization.
 
 A positive cross term at one cutoff defeats a universal sign shortcut. It supplies no asymptotic lower fluctuation.

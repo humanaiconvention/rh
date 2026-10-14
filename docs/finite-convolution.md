@@ -8,8 +8,8 @@ $$
 (f*g)(n)=\sum_{ab=n}f(a)g(b)\quad(n\le B).
 $$
 
-Write $\mathbf1(n)=1$, $\delta(1)=1,\delta(n)=0$ for $n>1$.
-Let $1\le Z\le B$, $u=\mu\,1_{n\le Z}$, $v=\mu\,1_{n>Z}$.
+Write $\mathbf1(n)=1$, $\delta(1)=1,\delta(n)=0$ for $n\gt 1$.
+Let $1\le Z\le B$, $u=\mu\,1_{n\le Z}$, $v=\mu\,1_{n\gt Z}$.
 Finite divisor inversion gives $\mu*\mathbf1=\delta$.
 
 For every integer $h_0\ge1$,
@@ -27,17 +27,17 @@ Indeed $\delta-u*\mathbf1=v*\mathbf1$; expand its $h_0$-th power and convolve wi
 The residual coefficient at $n$ is
 
 $$
-\sum_{\substack{d_1,\ldots,d_{h_0}>Z,\ r_1,\ldots,r_{h_0-1}\ge1\\
+\sum_{\substack{d_1,\ldots,d_{h_0}\gt Z,\ r_1,\ldots,r_{h_0-1}\ge1\\
 d_1\cdots d_{h_0}r_1\cdots r_{h_0-1}=n}}
  \mu(d_1)\cdots\mu(d_{h_0}).
 $$
 
-It vanishes for every $n\le B$ if $(Z+1)^{h_0}>B$. Strict inequality matters: equality can leave a nonzero coefficient.
+It vanishes for every $n\le B$ if $(Z+1)^{h_0}\gt B$. Strict inequality matters: equality can leave a nonzero coefficient.
 
 ## Balanced cubic form
 
 For the bulk $G=\sum_{d\le B}\mu(d)S_d/\sqrt d$, choose
-$h_0=3$, $Z=\lfloor B^{1/3}\rfloor$. The residual is zero. Define, with zero extension when $q>B$,
+$h_0=3$, $Z=\lfloor B^{1/3}\rfloor$. The residual is zero. Define, with zero extension when $q\gt B$,
 
 $$
 \Psi_2(q)=\sum_{r\le B/q}\frac{S_{qr}}{\sqrt r},

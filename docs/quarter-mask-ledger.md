@@ -23,10 +23,10 @@ $$
 b_d(j)=\mathcal B(\theta),\qquad
 \mathcal B(\theta)=
 \begin{cases}
-0&0\le\theta<1/4,\\
-1&1/4\le\theta<1/2,\\
--1&1/2\le\theta<3/4,\\
-0&3/4\le\theta<1.
+0&0\le\theta\lt 1/4,\\
+1&1/4\le\theta\lt 1/2,\\
+-1&1/2\le\theta\lt 3/4,\\
+0&3/4\le\theta\lt 1.
 \end{cases}
 $$
 
@@ -53,7 +53,7 @@ r_j=\sum_{d\le J_c}\frac{\mu(d)b_d(j)}{\sqrt d},
 \qquad H=\sum_{d\le J_c}\frac{\mu(d)S_d}{\sqrt d}.
 $$
 
-Since $0<a(n)\le1$,
+Since $0\lt a(n)\le1$,
 
 $$
 r_{j+1}-r_j
@@ -66,7 +66,7 @@ The exact pairwise variance identity therefore yields
 
 $$
 W:=\sum_{j=L+1}^{M}(r_j-H/k)^2
- =\frac1k\sum_{L<i<j\le M}(r_i-r_j)^2
+ =\frac1k\sum_{L\lt i\lt j\le M}(r_i-r_j)^2
  \le3k(k^2-1)\le3M^{3/4}.
 $$
 
@@ -90,12 +90,12 @@ $$
 
 The subtracted constant telescopes to zero. It does not impose a sign on the remaining summands.
 
-At a split $1\le D<J_c$, the two pieces are exactly
+At a split $1\le D\lt J_c$, the two pieces are exactly
 
 $$
 \sum_{d\le D}\mu(d)F(d)-\mathfrak m(D)F(D+1),
 \quad
-\sum_{D<d\le J_c}\mu(d)F(d)+\mathfrak m(D)F(D+1).
+\sum_{D\lt d\le J_c}\mu(d)F(d)+\mathfrak m(D)F(D+1).
 $$
 
 The attached boundary phases cancel only when both pieces are retained.
@@ -106,21 +106,21 @@ Write $H=G+C$, where
 
 $$
 G=\sum_{d\le B}\frac{\mu(d)S_d}{\sqrt d},\qquad
-C=\sum_{B<d\le4M}\frac{\mu(d)[M-\lceil d/4\rceil+1]}{\sqrt d}.
+C=\sum_{B\lt d\le4M}\frac{\mu(d)[M-\lceil d/4\rceil+1]}{\sqrt d}.
 $$
 
 On this cap the bracket takes the values $k,k-1,\ldots,1$, each four times. Consequently
 
 $$
-|C|\le\frac{2k(k+1)}{\sqrt{4L+1}}<2.
+|C|\le\frac{2k(k+1)}{\sqrt{4L+1}}\lt 2.
 $$
 
-This supporting estimate may use absolute values on the cap; it does not do so on the unresolved bulk $G$. To verify the strict constant, use $L\ge3M/4$, $k\le M^{1/4}$, and $M^{-1/4}\le8^{-1/4}<3/5$:
+This supporting estimate may use absolute values on the cap; it does not do so on the unresolved bulk $G$. To verify the strict constant, use $L\ge3M/4$, $k\le M^{1/4}$, and $M^{-1/4}\le8^{-1/4}\lt 3/5$:
 
 $$
 \frac{2k(k+1)}{\sqrt{4L+1}}
  \le\frac2{\sqrt3}(1+M^{-1/4})
- <\frac{16}{5\sqrt3}<2.
+ \lt \frac{16}{5\sqrt3}\lt 2.
 $$
 
 Thus $|H|\le C_H\sqrt M$ and $|G|\le C_G\sqrt M$ are equivalent up to constants. Both remain open here.

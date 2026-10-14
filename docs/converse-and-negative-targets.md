@@ -5,13 +5,13 @@
 The concrete hypothesis here is
 
 $$
-\exists C<\infty\ \forall M\ge8:\quad |G(M)|\le C\sqrt M.
+\exists C\lt \infty\ \forall M\ge8:\quad |G(M)|\le C\sqrt M.
 $$
 
 Its exact negation is
 
 $$
-\forall C<\infty\ \exists M\ge8:\quad |G(M)|/\sqrt M>C.
+\forall C\lt \infty\ \exists M\ge8:\quad |G(M)|/\sqrt M\gt C.
 $$
 
 Equivalently, that ratio is unbounded. A power-law lower subsequence would suffice, but is stronger than necessary: subpower unbounded growth is another possibility.
