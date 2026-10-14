@@ -16,7 +16,7 @@ These are explanatory notes and reproducible checks, using standard finite algeb
 | What is valid for the singular weight? | [Kernel calculus](docs/kernel-calculus.md) |
 | What would a counterexample actually establish? | [Converse and negative targets](docs/converse-and-negative-targets.md) |
 
-**Open target in this extract:** for the complete bulk sum $G(M)$ defined in the first note, prove $|G(M)|\le C\sqrt M$ for all integers $M\ge8$, or show that $|G(M)|/\sqrt M$ is unbounded. Neither is established here. A growing isolated component is insufficient.
+**Open target in this extract:** for the complete bulk sum $`G(M)`$ defined in the first note, prove $`|G(M)|\le C\sqrt M`$ for all integers $`M\ge8`$, or show that $`|G(M)|/\sqrt M`$ is unbounded. Neither is established here. A growing isolated component is insufficient.
 
 ## Run the checks
 
@@ -27,7 +27,7 @@ python -B scripts/check_finite_identities.py
 python -B scripts/reproduce_measurements.py
 ~~~
 
-The first checks exact rational square-root coordinates against separately constructed finite sums. The second recomputes every interval in [the measurement table](data/finite-measurements.md), including the largest $M=65\,536$. Integer square roots give rigorous rounding bounds; floating-point values are not used.
+The first checks exact rational square-root coordinates against separately constructed finite sums. The second recomputes every interval in [the measurement table](data/finite-measurements.md), including the largest $`M=65\,536`$. Integer square roots give rigorous rounding bounds; floating-point values are not used.
 
 Finite tests support bookkeeping. The proofs in the notes establish the stated general identities; the tests do not establish the open all-scale estimate.
 
