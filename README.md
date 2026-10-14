@@ -9,6 +9,7 @@ These are explanatory notes and reproducible checks, using standard finite algeb
 | Question | Read |
 |---|---|
 | What cancels, and what remains unbounded? | [Quarter-mask sum](docs/quarter-mask-ledger.md) |
+| Why does the anchored prefix-envelope certificate miss fourth-root precision? | [Envelope obstruction](docs/LEMMA-002-ENVELOPE-OBSTRUCTION.md) |
 | Does prime regrouping damp the whole sum? | [Prime phases and transfers](docs/prime-phase-transfers.md) |
 | Why does centering defeat an uncentered sign theorem? | [Finite GCD kernel](docs/uncentered-gcd-kernel.md) |
 | Can a finite convolution remove the hard estimate? | [Möbius convolution](docs/finite-convolution.md) |
