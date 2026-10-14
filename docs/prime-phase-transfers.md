@@ -3,9 +3,11 @@
 **Result.** Prime regrouping preserves the whole signed mass. It transfers energy between a grouped diagonal and its complete cross term; that transfer can have either sign.
 
 Use $M,L,B,S_d,G$ from [the quarter-mask note](quarter-mask-ledger.md). Write $j/d=q+\theta$, $0\le\theta<1$, and $h=q\bmod p$. Then
-$
+
+$$
 b_{pd}(j)=\mathcal B((h+\theta)/p).
-$
+$$
+
 The columns below are the four half-open quarter cells of $\theta$, in order.
 
 | $p$ | $h$ | phase values |
@@ -22,56 +24,70 @@ The columns below are the four half-open quarter cells of $\theta$, in order.
 | 5 | 4 | 0, 0, 0, 0 |
 
 Hence $b_d(j)b_{2d}(j)\le0$ and $b_d(j)b_{3d}(j)\ge0$. These are same-$j$ statements only:
-$
+
+$$
 S_dS_{pd}
  =\sum_j b_d(j)b_{pd}(j)
  +\sum_{j\ne\ell}b_d(j)b_{pd}(\ell).
-$
+$$
+
 The distinct-history terms prevent either cell sign from becoming a global sign theorem.
 
 ## Grouping with every cutoff tail retained
 
 Let $P$ be a finite prime set and $\Pi=\prod_{p\in P}p$. For $(r,\Pi)=1$, define
-$
+
+$$
 K_{P,r}=\sum_{\substack{b\mid\Pi\\br\le B}}
  \frac{\mu(b)S_{br}}{\sqrt b}.
-$
+$$
+
 Set $K_{P,r}=0$ for $r>B$. Unique separation of the primes in $P$ gives
-$
-G=\sum_{\substack{r\le B\$r,\Pi)=1}}
+
+$$
+G=\sum_{\substack{r\le B\\(r,\Pi)=1}}
  \frac{\mu(r)K_{P,r}}{\sqrt r}.
-$
+$$
+
 For two distinct histories $u,v$, with a common finite horizon and zero extension outside their respective supports, put
-$
+
+$$
 D_P(u,v)=\sum_{(r,\Pi)=1}\frac{\mu(r)^2K_{P,r}(u)K_{P,r}(v)}r,
-$
-$
-Y_P(u,v)=\sum_{\substack{r\ne t\$rt,\Pi)=1}}
+$$
+
+$$
+Y_P(u,v)=\sum_{\substack{r\ne t\\(rt,\Pi)=1}}
  \frac{\mu(r)\mu(t)K_{P,r}(u)K_{P,t}(v)}{\sqrt{rt}}.
-$
+$$
+
 Then $G(u)G(v)=D_P(u,v)+Y_P(u,v)$. No weights or delays have been identified.
 
 For a new prime $p\notin P$, the exact two-history transfer is
-$
+
+$$
 K_{P\cup\{p\},q}=K_{P,q}-p^{-1/2}K_{P,pq},
-$
-$
+$$
+
+$$
 D_{P\cup\{p\}}(u,v)-D_P(u,v)
  =-\frac1{\sqrt p}
  \sum_{(q,p\Pi)=1}\frac{\mu(q)^2}{q}
  [K_{P,q}(u)K_{P,pq}(v)+K_{P,pq}(u)K_{P,q}(v)].
-$
+$$
+
 It follows by expanding the new product and canceling its $p^{-1}$ corner against the old $pq$-row. All sums stop at the horizon. In particular, when $pq>B$, the original $q$-row is retained unchanged. The cross term has the opposite transfer.
 
 For a single history and distinct new primes $p,q$, the mixed transfer is
-$
+
+$$
 \begin{aligned}
 \Omega_{p,q\mid P}
 &:=D_{P\cup\{p,q\}}-D_{P\cup\{p\}}-D_{P\cup\{q\}}+D_P\\
 &=\frac2{\sqrt{pq}}\sum_{(r,pq\Pi)=1}\frac{\mu(r)^2}{r}
  [K_{P,r}K_{P,pqr}+K_{P,pr}K_{P,qr}].
 \end{aligned}
-$
+$$
+
 Expanding the four grouped energies proves this identity with the same zero extensions. It is a signed four-corner aggregate, not independent prime estimates.
 
 The whole square stays fixed. [Reproducible finite intervals](../data/finite-measurements.md) show positive and negative transfers, ruling out universal prime damping. They do not decide the open uniform bound.

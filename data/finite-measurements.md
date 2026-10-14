@@ -28,9 +28,11 @@ python -B scripts/reproduce_measurements.py
 
 The script constructs the floor histories and Möbius sieve afresh. For each needed $n$, it computes
 $t=\lfloor2^{80}/\sqrt n\rfloor$ by integer square root and verifies
-$
+
+$$
 t^2n\le2^{160}<(t+1)^2n.
-$
+$$
+
 This encloses $1/\sqrt n$ between consecutive $2^{-80}$ rationals, or exactly at one rational when equality holds. Products, squares, and signed sums use outward interval arithmetic. Each recomputed interval must fit within its published enclosure and have width below $10^{-12}$.
 
 Choosing a lower or upper root enclosure by the sign of a coefficient controls **rounding error only**. It is not an estimate formed by replacing arithmetic coefficients with their magnitudes.

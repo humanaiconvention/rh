@@ -3,13 +3,17 @@
 **Useful negative results in this repository:** centering can reverse an uncentered sign inequality; prime regrouping can increase the diagonal; and a balanced convolution can preserve the entire unresolved history. These refute particular methods, not the desired estimate.
 
 The concrete hypothesis here is
-$
+
+$$
 \exists C<\infty\ \forall M\ge8:\quad |G(M)|\le C\sqrt M.
-$
+$$
+
 Its exact negation is
-$
+
+$$
 \forall C<\infty\ \exists M\ge8:\quad |G(M)|/\sqrt M>C.
-$
+$$
+
 Equivalently, that ratio is unbounded. A power-law lower subsequence would suffice, but is stronger than necessary: subpower unbounded growth is another possibility.
 
 ## Three distinctions that prevent false counterexamples
