@@ -1,0 +1,77 @@
+{
+  "result": "pass",
+  "verified_at_utc": "2026-10-15T22:01:06.696124+00:00",
+  "lean": "Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "mathlib_commit": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+  "source": "MetaplecticDictionary.lean",
+  "source_sha256": "7c1579850fd6490b4332f5ebc6479be0f5e1db22799fd2d44ed77fb384b8ceba",
+  "build_exit_code": 0,
+  "compiler_exit_code": 0,
+  "proof_admissions": 0,
+  "extra_mathematical_axioms": [],
+  "audited_theorems": {
+    "MetaplecticDictionary.omega_primitive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.omega_integral": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.p_normSq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.pbar_normSq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.p_square": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.phase_exists": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.u_pbar_cube": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.phase_polynomial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.phase_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.survival_polynomial": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.survival_bounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MetaplecticDictionary.combined_phase_nonzero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "scope": "Exact conjugate norm-157 elements in Z[omega], unit cubic roots of conjugate(alpha)^2, their real pair polynomial, quantitative bounds, and nonvanishing. Does not certify the native Gauss-sum identification, a complete physical row value, a trace formula, or an analytic bound.",
+  "phase_choice": "Existential witness; the general theorem applies to every qualifying phase",
+  "log_sha256": "317f883a5c5782b069f7b09db3c48fb4b2fa602fb34eaaa7ae48a5112feb1202"
+}

@@ -1,0 +1,32 @@
+LEAN VERSION
+Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+
+BUILD
+ℹ [9055/9056] Built MetaplecticDictionary (24s)
+info: MetaplecticDictionary.lean:215:0: 'MetaplecticDictionary.omega_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:216:0: 'MetaplecticDictionary.omega_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:217:0: 'MetaplecticDictionary.p_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:218:0: 'MetaplecticDictionary.pbar_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:219:0: 'MetaplecticDictionary.p_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:220:0: 'MetaplecticDictionary.phase_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:221:0: 'MetaplecticDictionary.u_pbar_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:222:0: 'MetaplecticDictionary.phase_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:223:0: 'MetaplecticDictionary.phase_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:224:0: 'MetaplecticDictionary.survival_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:225:0: 'MetaplecticDictionary.survival_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MetaplecticDictionary.lean:226:0: 'MetaplecticDictionary.combined_phase_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9056 jobs).
+
+DIRECT COMPILER AND AXIOM AUDIT
+'MetaplecticDictionary.omega_primitive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.omega_integral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.p_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.pbar_normSq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.p_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.phase_exists' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.u_pbar_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.phase_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.phase_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.survival_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.survival_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'MetaplecticDictionary.combined_phase_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]

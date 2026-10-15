@@ -1,0 +1,9 @@
+.lake/
+.qa/
+__pycache__/
+*.olean
+*.ilean
+compiler-audit.log
+metaplectic-compiler-audit.log
+*.tmp
+.DS_Store

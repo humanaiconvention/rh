@@ -1,0 +1,62 @@
+{
+  "result": "pass",
+  "artifact_version": "0.1.0",
+  "verified_at_utc": "2026-10-15T18:43:31.010019+00:00",
+  "lean": "Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "mathlib_commit": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+  "source_sha256": "314ca529810b8b517592e1b502711b5abf65c32e2bbe928b8298def3f07e9046",
+  "proof_code_sha256": "888238a940a04c275a3ff5396b6ce5366197fc8f5cf8a983cb1e1a05befb3507",
+  "compiler_exit_code": 0,
+  "build_exit_code": 0,
+  "proof_admissions": 0,
+  "extra_mathematical_axioms": [],
+  "audited_theorems": {
+    "RHArchitectureObstructions.physical_deficit_at_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.eisenstein_prime_reciprocal_unbounded": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.half_outside_proved_moment_range": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.principal_euler_defect_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.principal_defects_unbounded_of_prime_reciprocals": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.principal_prime_defects_unbounded": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.principal_all_prime_defects_not_summable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "euler_strip": "1/2 < Re(x) <= 2/3",
+  "local_norm_cutoff": 64,
+  "full_prime_family_outside_finite_exclusion": true,
+  "scope": "Specified Euler factor, supplied physical exponents and moment interval. Does not certify the source manuscript's analytic estimates, RH, or impossibility of modified architectures.",
+  "provenance": {
+    "original_source_sha256": "f8255264e049f39706786d6b549db81b2fb20c5d58ba9200c29003b7deef63ac",
+    "original_report": "provenance/VERIFICATION.original.json",
+    "original_report_sha256": "8ffc07b73844870fc2775a616521f1059f286aaa61a06f1071a29444eb1918e9",
+    "public_source_changes": "Explanatory comments and public module wrapper; statements and proof bodies preserved"
+  },
+  "lake_manifest_sha256": "987f2338182bfd8e0c136e3e57ab327667fcad7982648d3974958d3dcfb2ea34",
+  "log_sha256": "e8d6459da9d2d35206151243fb88cc7b5ee9d79392e958560df787585869acda"
+}

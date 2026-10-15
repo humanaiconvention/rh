@@ -1,0 +1,42 @@
+LEAN VERSION
+Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+
+BUILD
+ℹ [9055/9056] Built Obstructions (33s)
+info: Obstructions.lean:708:0: 'RHArchitectureObstructions.physical_deficit_at_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Obstructions.lean:709:0: 'RHArchitectureObstructions.eisenstein_prime_reciprocal_unbounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Obstructions.lean:710:0: 'RHArchitectureObstructions.half_outside_proved_moment_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Obstructions.lean:711:0: 'RHArchitectureObstructions.principal_euler_defect_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Obstructions.lean:712:0: 'RHArchitectureObstructions.principal_defects_unbounded_of_prime_reciprocals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Obstructions.lean:713:0: 'RHArchitectureObstructions.principal_prime_defects_unbounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Obstructions.lean:714:0: 'RHArchitectureObstructions.principal_all_prime_defects_not_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+Build completed successfully (9056 jobs).
+
+DIRECT COMPILER AND AXIOM AUDIT
+'RHArchitectureObstructions.physical_deficit_at_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHArchitectureObstructions.eisenstein_prime_reciprocal_unbounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RHArchitectureObstructions.half_outside_proved_moment_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RHArchitectureObstructions.principal_euler_defect_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RHArchitectureObstructions.principal_defects_unbounded_of_prime_reciprocals' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RHArchitectureObstructions.principal_prime_defects_unbounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'RHArchitectureObstructions.principal_all_prime_defects_not_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

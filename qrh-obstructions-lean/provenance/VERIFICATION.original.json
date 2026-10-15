@@ -1,0 +1,55 @@
+{
+  "result": "pass",
+  "verified_at_utc": "2026-10-15T17:00:17.735540+00:00",
+  "lean": "Lean (version 4.35.0, x86_64-w64-windows-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "mathlib_commit": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+  "source_sha256": "f8255264e049f39706786d6b549db81b2fb20c5d58ba9200c29003b7deef63ac",
+  "canonical_source_sha256": "f8255264e049f39706786d6b549db81b2fb20c5d58ba9200c29003b7deef63ac",
+  "compiler_exit_code": 0,
+  "build_exit_code": 0,
+  "proof_admissions": 0,
+  "extra_mathematical_axioms": [],
+  "audited_theorems": {
+    "RHArchitectureObstructions.physical_deficit_at_half": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.eisenstein_prime_reciprocal_unbounded": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.half_outside_proved_moment_range": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.principal_euler_defect_lower_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.principal_defects_unbounded_of_prime_reciprocals": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.principal_prime_defects_unbounded": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RHArchitectureObstructions.principal_all_prime_defects_not_summable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "euler_strip": "1/2 < Re(x) <= 2/3",
+  "local_norm_cutoff": 64,
+  "full_prime_family_outside_finite_exclusion": true,
+  "scope": "Specified Euler factor, supplied physical exponents and moment interval. Does not certify the source manuscript's analytic estimates, RH, or impossibility of modified architectures.",
+  "audit_source_sha256": "8a760802c818df1c48fa13fd1e07d2654de570caa77dc213b9c3ae25e033caba",
+  "log_sha256": "14e047031913403843c77a84caa29e591e1a910f169832d4e2c19b2821780f96"
+}

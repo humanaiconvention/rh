@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this formalization, please cite this software artifact."
+type: software
+title: "Lean certificates for analytic obstructions and local phase survival"
+version: "0.1.0"
+date-released: "2026-10-15"
+authors:
+  - name: "humanaiconvention"
+license: MIT
+repository-code: "https://github.com/humanaiconvention/rh"
+url: "https://github.com/humanaiconvention/rh/tree/main/qrh-obstructions-lean"
+abstract: >-
+  Complete Lean 4 proofs of three obstructions to an unchanged one-half
+  substitution in a specified analytic architecture: Euler-defect
+  non-summability over Eisenstein prime ideals, an exact 3/8 exponent
+  deficit, and a moment-parameter mismatch; also a local conjugate-slot
+  phase polynomial and nonvanishing certificate at norm 157. The artifact
+  concerns the explicit local factor, supplied parameters, and stated
+  phase relations. It does not certify the source analytic estimates,
+  native Gauss-sum identification, or regularization operation, or exclude
+  alternative continuation methods.
+keywords:
+  - Lean 4
+  - formal verification
+  - Euler products
+  - prime ideals
+  - reproducible mathematics
