@@ -1,6 +1,6 @@
 # Finite arithmetic and Lean certificates
 
-Exact finite-arithmetic identities, reproducible checks, and two Lean 4 certificates from a bounded investigation related to the Riemann hypothesis.
+Exact finite-arithmetic identities, reproducible checks, and Lean 4 formalizations from a bounded investigation related to the Riemann hypothesis.
 
 **No RH proof, resolution of the open arithmetic bound, determinant-nonvanishing result, or research novelty is claimed.** The mathematical statements and their limits are identified below.
 
@@ -9,6 +9,7 @@ Exact finite-arithmetic identities, reproducible checks, and two Lean 4 certific
 | Question | Read |
 |---|---|
 | What has Lean verified, and how can I reproduce it? | [Lean certificates](qrh-obstructions-lean/README.md) |
+| What is proved about the complete-form domain and zero-mode Schur residual? | [Conditional form-domain package](weil-form-domain/README.md) |
 | Why is the norm-157 conjugate phase nonzero? | [Local phase survival](qrh-obstructions-lean/MetaplecticDictionary.md) |
 | What cancels, and what remains unbounded? | [Quarter-mask sum](docs/quarter-mask-ledger.md) |
 | Why does the anchored prefix-envelope certificate miss fourth-root precision? | [Envelope obstruction](docs/LEMMA-002-ENVELOPE-OBSTRUCTION.md) |

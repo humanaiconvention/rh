@@ -1,0 +1,13 @@
+# Verification scope
+
+The isolated extract contains 199 local source modules and 630 terminal axiom reports. Its dependency replay passed, using only extract-local proof objects and pinned library binaries. The final incremental stage compiled 4 modules and reused 195 already freshly checked objects only after recursive source/import fingerprints and actual dependency-object hashes matched. Earlier isolated stages supply the full local-source coverage. These counts do not mean 199 new checks occurred in the final incremental stage.
+
+All 199 source files and all 630 terminal reports are attributable to successful source compilations; every listed terminal axiom is among `propext`, `Classical.choice`, and `Quot.sound`. No `sorry`, `native_decide`, added axiom declaration or opaque replacement occurs in the release sources. The final entry point is a conditional theorem, not an assertion that its Schur matrix vanishes.
+
+**Additional kernel check:** the installed Lean kernel replayed the single terminal declaration `RhBasePositiveSchurReduction.local_complete_schur_zero_target` against its original trusted import environment. That check passed; 7,067 imported modules remained trusted. It was not a recheck of every imported proof or an external independent verifier. Full imported-environment replay and transitive-proof export did not complete within the resource budget; no completed certificate is claimed for them.
+
+The pinned package sources match their revisions and have clean tracked state. The 72 directly imported package-entry binary hashes are recorded. Transitive package binaries and toolchain correctness remain explicit trust boundaries; pinning and hashes are not proofs of those binaries. The source-only package contains no compiler objects or private checker logs.
+
+The two unchanged repository finite-arithmetic scripts also passed: 58,674 exact assertions and 11 previously published interval checks. This is a regression check of existing finite data, not evidence for the new all-radius arithmetic target.
+
+**Public helper end-to-end replay: PASS.** From an empty local proof-output directory, the supplied helper compiled all **199 local modules** and checked **630 terminal axiom reports**. The sanitized [receipt](FRESH-REPLAY-RECEIPT.json) has SHA-256 `8aabb9ffd681839f4ca20de9728c7e7ca6bc3fc2845282e3b61a2cdffb2b192c`. No original research proof-object directory was used. Imported pinned package binaries and the toolchain remained trusted. The Lake configuration was syntax checked; a full Lake resolution/build is not claimed. Later documentation and receipt additions do not change the proof-source bytes; their release hashes are checked separately.
