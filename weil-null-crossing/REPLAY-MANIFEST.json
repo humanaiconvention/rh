@@ -1,0 +1,4360 @@
+{
+  "schema": "weil-null-crossing-source-manifest-v1",
+  "scope": "Source-only supplement: exact28 accepted local sources over the immutable published199 parent. Direct helper is intended to compile all227 local sources from empty local outputs. No all-radius positivity, actual zero, RH or novelty claim.",
+  "parent": {
+    "directory": "../weil-form-domain",
+    "git_commit": "46a969283f22775a7a064df297cf10f7d9caf578",
+    "source_hashes_sha256": "2a915e93593e8b590837a430298b029fe8d8195dcbeb5d5569395c02884d6bbc",
+    "replay_manifest_sha256": "a6ef37a509acfab6e815f81d1b26f91e71498061dc4f6385ac7e6b8d7871d7f1",
+    "fresh_replay_receipt_sha256": "8aabb9ffd681839f4ca20de9728c7e7ca6bc3fc2845282e3b61a2cdffb2b192c",
+    "local_module_count": 199,
+    "terminal_report_count": 630
+  },
+  "toolchain": {
+    "version": "leanprover/lean4:v4.35.0",
+    "executable_sha256": "ec7a472d1c12a09b0c0c718f7427c2be527b3f5f07810fdbe076c2507c7a91ea",
+    "mathlib_commit": "6015dbbfc399f4548bafd46f9560ff61595fd328"
+  },
+  "pinned_packages": [
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "rev": "6015dbbfc399f4548bafd46f9560ff61595fd328"
+    },
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "rev": "dfa4f38190d07c37e315953e08b90fe2d95b3c24"
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "rev": "d6b4c7be5be75ec4917c873ac50c756dc1436372"
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "rev": "a41f0e9a4dea23188ea9cc1c41ac9f8bbafe0b93"
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "rev": "df72b022e558978a1c50264cfc4d7fec86fa8e04"
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "rev": "4a174c490d8707121c4a9290800489f105d85e07"
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "rev": "dce0ad79c486cb1fb504af04f953c3466b0c6db8"
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5"
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "rev": "c24fe6078c630e89b489bffe59b3e20ac30d12c8"
+    }
+  ],
+  "package_entry_boundaries": [
+    {
+      "module": "Mathlib.Algebra.Order.BigOperators.Group.Finset",
+      "binary_sha256": "75c65c8508f2bc6ddc844e7d71e50f19da6f77921eb28f4f00c8d94c7545f190"
+    },
+    {
+      "module": "Mathlib.Algebra.Order.Floor.Semiring",
+      "binary_sha256": "039fa738de7f585dd9f210675c3bb6d0912a845235622b4b1a2382f7b86f68a5"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.BumpFunction.Basic",
+      "binary_sha256": "a444917a8d44fdf00c2abd94d1939ffb6bd5ef289a5561e9f68a285bf76aa540"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.BumpFunction.InnerProduct",
+      "binary_sha256": "8ed15959c9e1f9eec82b68eafeb38b00de73de2fe40120b67614f1655281f0b0"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.BumpFunction.Normed",
+      "binary_sha256": "94dc3518e07c792fa8af4aeb91542de49242fc2f1d57cdb686f0a34fba0d8c3b"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.ContDiff.Basic",
+      "binary_sha256": "4606173691d6ed53e19c65e4fc5ad440042b6a831c3506bd93301313923c381f"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.ContDiff.Convolution",
+      "binary_sha256": "15949311be841a93e835fe269f954f81654127483a6bc926c48071795d24f6de"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.ContDiff.Deriv",
+      "binary_sha256": "fb03036e8990d9a45774439517a4541c598e01203c92a05406a30fb7d5071517"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.ContDiff.RCLike",
+      "binary_sha256": "10b2463f315ac6029d78fa0f6df07a2cbbd8b679f0261bfea332b1bbf897814c"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.Deriv.Abs",
+      "binary_sha256": "ab25c6c7fb881e9de358012ad430fc3422ee189efd3e8b9a56adc28d90f70181"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.Deriv.Basic",
+      "binary_sha256": "a47145201e0719c165ac8382beadc9a6f1b558e8d9c8d6caded96cfdecfc912b"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.Deriv.MeanValue",
+      "binary_sha256": "a0000cdd7cbc4f80ecbe4b59fb1f2a1b3e1ce4625b95e2e3cd47de2bbfa8aa78"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.Deriv.Support",
+      "binary_sha256": "10294f2d99dfd58ac10dac683fa319b5b6869874ddef76f27b07cb78e1146bea"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas",
+      "binary_sha256": "3a035c81dacda2bd445c6259f4b49512bbeb6cbf0196bcaa26eccbc7c79d3754"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.MeanValue",
+      "binary_sha256": "8ab15bfbf8cc0b3a5b12f88d7d337cd87822817b91f64d8bf87fa902885f7b2c"
+    },
+    {
+      "module": "Mathlib.Analysis.Convex.Deriv",
+      "binary_sha256": "f2ea21a1168b465d902008f01bd03980acd83fda4ee213f0d7698a4221328bd1"
+    },
+    {
+      "module": "Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff",
+      "binary_sha256": "16befb6edf9e31a52634ab62d2807e9cd3a763f3c298e50a596aa4ae188d553d"
+    },
+    {
+      "module": "Mathlib.Analysis.Fourier.Convolution",
+      "binary_sha256": "ec958de27bd9b12aa6eef4969e923e09641c56957625dcf44819edad28f7e54a"
+    },
+    {
+      "module": "Mathlib.Analysis.Fourier.LpSpace",
+      "binary_sha256": "7bfebe15ca8ec46833f2fdccaffb8970eda9b2ef08f3774bdd8787442489ee17"
+    },
+    {
+      "module": "Mathlib.Analysis.InnerProductSpace.Basic",
+      "binary_sha256": "b599bab2dd08072609d9a552aeb8e1ca844a2dff038fe94669dac8efbce3f923"
+    },
+    {
+      "module": "Mathlib.Analysis.InnerProductSpace.LaxMilgram",
+      "binary_sha256": "6b922d3df98fa496607ec2a77836c48e1a48c156d6347c96bcf2cd5100918639"
+    },
+    {
+      "module": "Mathlib.Analysis.InnerProductSpace.LinearMap",
+      "binary_sha256": "d7a93b0e641493b8dd753a3b6320093aff789bf025bdd0e6d2d1a53b10226013"
+    },
+    {
+      "module": "Mathlib.Analysis.InnerProductSpace.Orthonormal",
+      "binary_sha256": "35c07acbf9ec01d156545876b89b21693b8f194e299f8c8f947b8589e1248119"
+    },
+    {
+      "module": "Mathlib.Analysis.InnerProductSpace.PiL2",
+      "binary_sha256": "5a742aed7730da9960cbe30a0274e06809021b37031ae93401fc93eeed7f0106"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Group.Bounded",
+      "binary_sha256": "25f8eb3484e5470b7a487d08c9115eea59ebef5a35f517f1b3719a7326d52d48"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Group.FunctionSeries",
+      "binary_sha256": "7abcb8e6e2c5b68760ae73a0de857828be8e84fa4b869d51f07b772b0003d192"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Lp.SmoothApprox",
+      "binary_sha256": "cc6c1919ce532c6d853f435485e76b58d75e03efda503fc52bf8651c8898a015"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Operator.Basic",
+      "binary_sha256": "b23049e3e747aef64dfe8e4baa0691ba08f68d0316a46cc7c1dff359caaa68aa"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Operator.Bilinear",
+      "binary_sha256": "32e3ddc9e1d8987c222342b0dac74230263b89c6842a38f0add050f1d22a3b97"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Operator.BoundedLinearMaps",
+      "binary_sha256": "60cccceb373e54b6c8fd427c17d89d65dc8522b47b7e8f513d504256e9aa6f48"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Operator.Compact.FiniteDimension",
+      "binary_sha256": "5f9262459087a8204411768178a8629095694fcc75e5683c304c27ecf9d9a853"
+    },
+    {
+      "module": "Mathlib.Analysis.Normed.Operator.NormedSpace",
+      "binary_sha256": "0c90d8c940472811f429fa55fa6e412ef7706498c9f83e6eab9066cbcc43108e"
+    },
+    {
+      "module": "Mathlib.Analysis.PSeries",
+      "binary_sha256": "3097a2b67c1655e2b13dc39eced22aada25184b48ddcdcc1869066a4e9d23b05"
+    },
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.ImproperIntegrals",
+      "binary_sha256": "1078592b736b6febb9a48a6c9b685416e792344b07ac266f3632498ecd803b7c"
+    },
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.Integrals.Basic",
+      "binary_sha256": "3a0a7fca3e11f2875911839fe6cea2f07314f6d5be6e35f7cc865812cbad85c7"
+    },
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.Log.Basic",
+      "binary_sha256": "7ec8e9038930e22a1c3a480e6f8ddfa89bb7aeda21c0a9faf340492f18203308"
+    },
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.Log.Deriv",
+      "binary_sha256": "f87f0ed6f6f75eb689c8cf20291eb864f8e1294ef45e4bb705c140c290ded717"
+    },
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.Sqrt",
+      "binary_sha256": "db9d97107df9c9cd9f2b8a396b8591a5d8540c019a5b79e202f063a10cd94073"
+    },
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds",
+      "binary_sha256": "b09b8d92c5d2654396fab0a54e64ce778ab54d8663ec1aadb664099b72ed38f2"
+    },
+    {
+      "module": "Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp",
+      "binary_sha256": "2a0cf98aebf167180b59a6cdd2ffe96868780d0a38db02469193afc1d17ec473"
+    },
+    {
+      "module": "Mathlib.Analysis.SpecificLimits.Basic",
+      "binary_sha256": "c30280126fb2c87ff4bc812de498c2f9316f31cedffb8d0eb2b7a197e800d6b2"
+    },
+    {
+      "module": "Mathlib.Basic.Real.Basic",
+      "binary_sha256": "d150a80ebf1625e546fbf76ac4d816a478c150819bee4a38105f53a066b34ad6"
+    },
+    {
+      "module": "Mathlib.LinearAlgebra.Basis.VectorSpace",
+      "binary_sha256": "9c17233ce21005774ed53cd5b0c2b8ef8f0b26e6c0e5e374721f98bfab22258e"
+    },
+    {
+      "module": "Mathlib.LinearAlgebra.Dimension.StrongRankCondition",
+      "binary_sha256": "5c675626d7714e08f8143cc5122fbf2e909e8bd33d45c7fe7cee5e1d17cc58bc"
+    },
+    {
+      "module": "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+      "binary_sha256": "87b54d41adabb22f19b7c774c2c7493057fa0d786446ecc85a6b9e9097a506ea"
+    },
+    {
+      "module": "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+      "binary_sha256": "f90aa8a622f988d42ed2fb132f2567959e2215eb73f31512df8236814d23d459"
+    },
+    {
+      "module": "Mathlib.LinearAlgebra.Matrix.NonsingularInverse",
+      "binary_sha256": "517523c270ff3a51a4d926128e28bf4a0e5ce9358548ef27e656a47582212e30"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Function.L2Space",
+      "binary_sha256": "02ba4278c9786a7cf7283512f8d46fe39535aed6db3bdaf081b4c17877359bfc"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Function.LpSeminorm.Indicator",
+      "binary_sha256": "1d4dac9c550622a1729292b0fa44347b2baf3e939341ef6070a36e23dfa31df8"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap",
+      "binary_sha256": "a15c652e928dcdfad411156b134ae0e12d2fd368cf8d0939ef99de6f66eaa130"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Integral.Bochner.Set",
+      "binary_sha256": "c7f8737b9d4f9d2f22b8ee71441996e8bbfd123386c16742581ddc740b6a1c0d"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Integral.DominatedConvergence",
+      "binary_sha256": "571a31e17ea62476899a06feae94dc5a460a91e597abf2b6bfdc4c71488c5ac3"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Integral.IntegralEqImproper",
+      "binary_sha256": "b1d4313a2e8b95634828c8313dfdff2f8e7c24900af9b1ac95293fca0eefa069"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun",
+      "binary_sha256": "e9e8550120619e5271fa2a7d079075b75ae7ee57ccf91bdc29b7277105a68290"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Integral.Lebesgue.Add",
+      "binary_sha256": "eff60ea033d8f22143ca6ad0bd383891f8a324588f6ed80cfd9e98537eb767c4"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence",
+      "binary_sha256": "7f65932f1011386405ae972723b84205b97937d73edc3f7089820f2e32eac4a4"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Integral.Prod",
+      "binary_sha256": "75729b74a047d80c9bbc3e1ef49854a835d75098d607b139f666dbd3057b5ba1"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Measure.Haar.NormedSpace",
+      "binary_sha256": "1614131cc04239153e67fc761bed18d82e3b1eded3fcde9a9cf77eb64f8303c2"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Measure.Lebesgue.Basic",
+      "binary_sha256": "403338aedccc40f4b8a5b6004913e5d756c5480e436f083723e7d49ab68a1811"
+    },
+    {
+      "module": "Mathlib.MeasureTheory.Measure.WithDensity",
+      "binary_sha256": "68666b3b5dcf0344dae97414353fc52eb14e253ede08d3b60f1c1905bf1329b9"
+    },
+    {
+      "module": "Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt",
+      "binary_sha256": "6283a88228ea9d692860df7e3859b98f4bc245cc8147ae050a3cb1bda1c1e8a4"
+    },
+    {
+      "module": "Mathlib.NumberTheory.Harmonic.EulerMascheroni",
+      "binary_sha256": "d248c5455b57f0f74949cd5bf044973940e0ea1a11ac0b19cb7676e397d60be3"
+    },
+    {
+      "module": "Mathlib.Order.ConditionallyCompleteLattice.Basic",
+      "binary_sha256": "948d07db131d7201d623bcffc444d24454eaf84c2ae284c5a27fd9c07daf4a3c"
+    },
+    {
+      "module": "Mathlib.Tactic",
+      "binary_sha256": "20a15c9d5e041cc62caf9bc4dfaac70cfb989104ec6bd54be778e0d378212e9b"
+    },
+    {
+      "module": "Mathlib.Tactic.FieldSimp",
+      "binary_sha256": "95a4bedcd02c10aeb0db3a8fb78a37aa8eac0a40363572a50bfa7a7c2f85b251"
+    },
+    {
+      "module": "Mathlib.Tactic.Linarith",
+      "binary_sha256": "ff06a7dd7e1dad7f0b361e2d9a3ed46d9444c1be90cd656130cc8e41db0fdadb"
+    },
+    {
+      "module": "Mathlib.Tactic.Positivity",
+      "binary_sha256": "e91efb43942be630bf72e0a5cb57ecad4f6f34535e17a6670192b2c0c7f042be"
+    },
+    {
+      "module": "Mathlib.Tactic.Ring",
+      "binary_sha256": "d63e8217a9f5786c3f673020dd6db2ac45b5d72ff1185a899d431b3e80005c7e"
+    },
+    {
+      "module": "Mathlib.Topology.Algebra.Module.Basic",
+      "binary_sha256": "d69c0e5884199ec9bf56efa86b3bd398a2aebe9970bf5f3a2bc8c067aa85d864"
+    },
+    {
+      "module": "Mathlib.Topology.Algebra.Order.Field",
+      "binary_sha256": "a3bf79d4cecd9f802aa257131b20b4a232983535ecda75b00ba8a91dc90a52d0"
+    },
+    {
+      "module": "Mathlib.Topology.Algebra.Support",
+      "binary_sha256": "f91103951077d2c5bc4c3532bd294e9aba13ee118fb788ef7a999a22f67576d5"
+    },
+    {
+      "module": "Mathlib.Topology.Instances.Matrix",
+      "binary_sha256": "e67773c9a6e061732a15a41997947bccc15a7c07136b3f90f7a6421cb7e8a777"
+    },
+    {
+      "module": "Mathlib.Topology.Instances.Real.Lemmas",
+      "binary_sha256": "7f2b2b5037967d0b3c1276337aa74343fa0cb76d0934156d195f88bea98460a7"
+    },
+    {
+      "module": "Mathlib.Topology.MetricSpace.Bounded",
+      "binary_sha256": "55d59a420125d3ce7f082063497a96cd10e247b12c74a9a03084dc10dd744ed2"
+    },
+    {
+      "module": "Mathlib.Topology.MetricSpace.Cauchy",
+      "binary_sha256": "aa4569b0c5625e8e7f2840f8248192187e799c5b4e3d855887f4d995cbe57966"
+    },
+    {
+      "module": "Mathlib.Topology.MetricSpace.Lipschitz",
+      "binary_sha256": "240f7d5a1be323c3e23e3d4101b61b826ba5e169b30603c260173a4e2fc16dfc"
+    },
+    {
+      "module": "Mathlib.Topology.MetricSpace.Pseudo.Defs",
+      "binary_sha256": "f375654ac1ff7d19542c244eb56dcbe012e338a16bd46e21df8b6048bcc9af34"
+    },
+    {
+      "module": "Mathlib.Topology.Order.Compact",
+      "binary_sha256": "afbb37287e6c291ca71cbba5ba7101fb03e00c8e26d8cee3c6d494f807a3d57b"
+    },
+    {
+      "module": "Mathlib.Topology.Order.IntermediateValue",
+      "binary_sha256": "ce300e71f5b40e6e8bd0b3e378036fef28d0301b8cae286903a1d561fb7b5686"
+    },
+    {
+      "module": "Mathlib.Topology.Sequences",
+      "binary_sha256": "ffe2f63777a67956b9ed2a33441b01ae1cf185a49928396881a5a8401958d8a7"
+    }
+  ],
+  "source_roots": [
+    "RhNativeEndpointGluing001",
+    "RhActualLiteralNullSchur001",
+    "RhNativeStrictInteriorUCP001",
+    "RhLiteralSchurStrictSign001",
+    "RhNativeRayleighStrict001",
+    "RhNativeOutwardZeroNegative001",
+    "RhActualStrictSchurAudit001",
+    "RhNativeCollarNonvanishing001"
+  ],
+  "order": [
+    "RhAnchoredPrimitive001",
+    "RhAnchoredWeak001",
+    "RhAnchoredSpace001",
+    "RhAnchoredKernel001",
+    "RhAnchoredConvolution001",
+    "RhAnchoredConvolutionFormula001",
+    "RhAnchoredShift001",
+    "RhAnchoredShiftAE001",
+    "RhAnchoredSignedConvolution001",
+    "RhAnchoredCumulativeLedger001",
+    "RhAnchoredPotentialSlope001",
+    "RhAnchoredOrientation001",
+    "RhAnchoredNativeFlux001",
+    "RhAnchoredSchurInterface001",
+    "RhAnchoredFluxIdentity001",
+    "RhAnchoredFormula001",
+    "RhFinitePrimitiveIdentity001",
+    "RhFinitePrimitiveIntegrability001",
+    "RhFinitePrimitiveEndpoint001",
+    "RhFourierTailScalar001",
+    "RhFourierTrapezoid001",
+    "RhFourierTailLimit001",
+    "RhDilationScalarHead001",
+    "RhDilationScalar001",
+    "RhWeightedMeasureEmbedding001",
+    "RhFourierMonotone001",
+    "RhWeightedEnergyIdentity001",
+    "RhFourierCompatibility001",
+    "RhExponentialFourier001",
+    "RhExponentialConvolution001",
+    "RhExponentialPlancherel001",
+    "RhPhysicalPlancherel001",
+    "RhFullKernelSeries001",
+    "RhFullKernelLimit001",
+    "RhPhysicalFiniteTail001",
+    "RhPhysicalTailLimit001",
+    "RhPrimitiveFormDomain001",
+    "RhWeightedPrimitiveLift001",
+    "RhComplexWeightedBridge001",
+    "RhSmoothPrimitiveCore001",
+    "RhDilationDefs001",
+    "RhDilationRankL2001",
+    "RhInteriorSmoothCutoff001",
+    "RhInteriorSmoothDensity001",
+    "RhInteriorSmoothSequence001",
+    "RhSmoothPrimitiveMass001",
+    "RhActualCoreBump001",
+    "RhFullKernelIntegrability001",
+    "RhEndpointComplex001",
+    "RhNativeArchKernel001",
+    "RhWeightedCoreAttempt001",
+    "RhNativeBumpCapacity001",
+    "RhPrimitiveApproximation001",
+    "RhPrimitiveBumpMass001",
+    "RhSupportInclusion001",
+    "RhSupportLocalization001",
+    "RhAllPrimeUnclosedTarget001",
+    "RhCenteredPrimitiveApproximation001",
+    "RhCenteredSmoothPrimitive001",
+    "RhPhysicalMassConvergence001",
+    "RhSupportPrimeHinge001",
+    "RhPrimeHingePrimitive001",
+    "RhPrimeHingeUnrestricted001",
+    "RhAllPrimeKernel001",
+    "RhEndpointComplexReality001",
+    "RhAllPrimeIntegrability001",
+    "RhAllPrimeCutoff001",
+    "RhEndpointParityShift001",
+    "RhDilationNativeSector001",
+    "RhPrimeHingeIntegrability001",
+    "RhCompletePrimitiveDictionary001",
+    "RhDilationPhysical001",
+    "RhDilationNorm001",
+    "RhDilationShift001",
+    "RhCompleteFormBound001",
+    "RhPhysicalPrimitiveCongruence001",
+    "RhActualSmoothFormClosure001",
+    "RhActualWeightedClosure001",
+    "RhActualComplexCore001",
+    "RhWeightedMollifier001",
+    "RhDilationFourier001",
+    "RhScaledMollifier001",
+    "RhShiftFormMultiplier001",
+    "RhShiftFormContinuity001",
+    "RhWeightedShiftBilinear001",
+    "RhDilationCorrelation001",
+    "RhPhysicalShiftFourier001",
+    "RhSpatialMollifier001",
+    "RhSupportedMollifier001",
+    "RhFourierSupportBound001",
+    "RhSupportedFourierBound001",
+    "RhFiniteFourierGrid001",
+    "RhWeightedFrequencyTail001",
+    "RhFourierGridError001",
+    "RhFourierGridOperator001",
+    "RhFourierGridGlobalError001",
+    "RhSupportedCompactEmbedding001",
+    "RhClosedSmoothCore001",
+    "RhNativeCompleteBilinear001",
+    "RhNativeBoundedPartControl001",
+    "RhZeroModeSchur001",
+    "RhCoerciveSchurInverse001",
+    "RhNativeGraphCoercivity001",
+    "RhPositiveGraphCauchy001",
+    "RhCompactPositiveSequence001",
+    "RhCompactPhysicalGap001",
+    "RhCompactPositiveKernel001",
+    "RhFlatSmoothCore001",
+    "RhNativeCompactGap001",
+    "RhSchurCovariance001",
+    "RhPhysicalOrthogonalSchur001",
+    "RhNativeKernelFamily001",
+    "RhNativePhysicalKernelBasis001",
+    "RhDilationFrequency001",
+    "RhDilationEnergy001",
+    "RhDilationContraction001",
+    "RhWeightedDilation001",
+    "RhWeightedDilationMap001",
+    "RhClosedCoreDilation001",
+    "RhDilationInverseEnergy001",
+    "RhWeightedDilationInverse001",
+    "RhWeightedInwardMap001",
+    "RhClosedCoreDilationInverse001",
+    "RhFlatCoreDilation001",
+    "RhPulledCompleteForm001",
+    "RhActualKernelData001",
+    "RhFixedPhysicalComplementGeometry001",
+    "RhFixedPhysicalComplementCoercivity001",
+    "RhFixedPhysicalPulledSchur001",
+    "RhFixedPhysicalSchurMatrix001",
+    "RhPhysicalProjectionSchur001",
+    "RhRotatingPhysicalGap001",
+    "RhPhysicalOverlapFinite001",
+    "RhNativeCompleteDictionary001",
+    "RhLiteralSupportForm001",
+    "RhWeightedFrequencyDensity001",
+    "RhWeightedFrequencyDilation001",
+    "RhFrequencyDilationCompact001",
+    "RhFrequencyDilationStrong001",
+    "RhInwardFrequencyDictionary001",
+    "RhSupportedInwardStrong001",
+    "RhInwardOldNullLift001",
+    "RhPhysicalNullOverlap001",
+    "RhNativeArchDilationControl001",
+    "RhFlatCoreReal001",
+    "RhDilationRankProfiles001",
+    "RhDilationRankPerturbation001",
+    "RhDilationRankPhysical001",
+    "RhCompleteDilationDictionary001",
+    "RhPulledPhysicalDictionary001",
+    "RhNativeRankDilationControl001",
+    "RhComplexShiftDilation001",
+    "RhSupportedArithmeticContinuity001",
+    "RhNativePrimeDilationControl001",
+    "RhNativeDilationSmallness001",
+    "RhActualRotatingLocalControl001",
+    "RhOldNullPhysicalIsometry001",
+    "RhSchurMatrixZero001",
+    "RhLiteralZeroBlockSchur001",
+    "RhActualLiteralNullSchur001",
+    "RhInwardOldNullSubspace001",
+    "RhOldNullCoordinateSurjectivity001",
+    "RhIsotropicSchurObstruction001",
+    "RhFixedPhysicalLocalInverse001",
+    "RhActualNullSchurTarget001",
+    "RhSymmetricFormPolarization001",
+    "RhNativeBilinearSmallness001",
+    "RhPerturbationSource001",
+    "RhInverseCovarianceBudget001",
+    "RhActualSourceCovariance001",
+    "RhWeightedTranslation001",
+    "RhNativeTranslationAlgebra001",
+    "RhNativeTranslationForm001",
+    "RhNativeTranslationAdjoint001",
+    "RhTranslationSupport001",
+    "RhRealMollifier001",
+    "RhRealSupportedDomain001",
+    "RhRealSameWindowSmooth001",
+    "RhTranslatedCoreRadical001",
+    "RhNativeRadicalFinite001",
+    "RhLocalTranslationSpan001",
+    "RhLocalPhysicalTranslation001",
+    "RhZeroDiagonalPairing001",
+    "RhNativeNullFlux001",
+    "RhSmoothDerivativeDictionary001",
+    "RhSmoothPhysicalTransfer001",
+    "RhNativeNullFluxPhysical001",
+    "RhConditionalWeakNullUCP001",
+    "RhNativeStrictInteriorUCP001",
+    "RhLiteralSchurStrictSign001",
+    "RhActualStrictSchurAudit001",
+    "RhBasePositiveSchurReduction001",
+    "RhCompleteFormHorizon001",
+    "RhDilationComplex001",
+    "RhCompletePrimitiveComplex001",
+    "RhComplexAnchoredIntegral001",
+    "RhTranslatedJetCapacity001",
+    "RhTranslatedJetDictionary001",
+    "RhSmoothJetProfiles001",
+    "RhSmoothJetLifts001",
+    "RhSmoothKernelGraphBound001",
+    "RhModulatedCutoffProfiles001",
+    "RhCutoffPointRemoval001",
+    "RhPuncturedSmoothCore001",
+    "RhPuncturedFunctional001",
+    "RhThreePieceSmoothSplit001",
+    "RhEndpointWeakGluing001",
+    "RhFiniteJetFunctional001",
+    "RhVariationalInfimum001",
+    "RhNativeRayleighDomain001",
+    "RhNativeRayleighControl001",
+    "RhNativeRayleighRadius001",
+    "RhNativeRayleighPositivity001",
+    "RhNativeRayleighLeft001",
+    "RhNativeRayleighContinuity001",
+    "RhNativeFirstZeroReduction001",
+    "RhNativeNoNullOpenness001",
+    "RhNativeRadiusFamily001",
+    "RhGlobalNoNullCriterion001",
+    "RhLocalFiniteJetFunctional001",
+    "RhLocalSourceCovariance001",
+    "RhNativeEndpointGluing001",
+    "RhNativeCollarNonvanishing001",
+    "RhNativeOutwardZeroNegative001",
+    "RhNativeRayleighStrict001",
+    "RhSchurNegativeWitness001",
+    "RhSobolevPrimitiveBridge001"
+  ],
+  "modules": [
+    {
+      "module": "RhAnchoredPrimitive001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredPrimitive001.lean",
+      "source_sha256": "de7f9e701e18b4747cd52c019c66458b93ae040aa94139d62d9fd64d1ef24784",
+      "imports": [
+        "Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun",
+        "Mathlib.MeasureTheory.Function.L2Space",
+        "Mathlib.MeasureTheory.Integral.IntegralEqImproper",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp",
+        "Mathlib.NumberTheory.Harmonic.EulerMascheroni",
+        "Mathlib.Tactic"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.primitive_jump",
+        "RhAnchored.primitive_left_trace",
+        "RhAnchored.primitive_ac_left",
+        "RhAnchored.finiteKernel_zero_left"
+      ],
+      "dependency_source_fingerprint": "27c99aa11f2b58dfb7ac938a6c1db866ca8d3e6ffd6055693db88cb165536672"
+    },
+    {
+      "module": "RhAnchoredWeak001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredWeak001.lean",
+      "source_sha256": "7e82431d9985dccce386af87d5404c3b0b78591170811bbca58a3c21b43024d5",
+      "imports": [
+        "RhAnchoredPrimitive001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.primitive_weak_derivative",
+        "RhAnchored.primitive_parts_anchored"
+      ],
+      "dependency_source_fingerprint": "063d68452ada0b0d78c68fe1681dde01832d1ff613990d9bf415125f321fa020"
+    },
+    {
+      "module": "RhAnchoredSpace001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredSpace001.lean",
+      "source_sha256": "bd50c149f6477cb5fb49367b48d521a661e948632d32664fbe077432035141a5",
+      "imports": [
+        "RhAnchoredWeak001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.primitive_memLp",
+        "RhAnchored.primitive_parts_setIntegral_anchored"
+      ],
+      "dependency_source_fingerprint": "320393dac7735692d4edfa28919d9a268fce448cee398de479835a77209e3683"
+    },
+    {
+      "module": "RhAnchoredKernel001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredKernel001.lean",
+      "source_sha256": "76525b0f1943d30938edb63355ac73c44e67d177743b1847bb6c48b2299e3358",
+      "imports": [
+        "RhAnchoredSpace001",
+        "Mathlib.Analysis.Calculus.MeanValue",
+        "Mathlib.Topology.MetricSpace.Lipschitz"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.finiteKernel_section_ac",
+        "RhAnchored.finiteKernel_first_parts"
+      ],
+      "dependency_source_fingerprint": "e756adda348381e51f09b6dcccb7860435f2efcfb33bd2cf55fde76f9dbfab95"
+    },
+    {
+      "module": "RhAnchoredConvolution001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredConvolution001.lean",
+      "source_sha256": "3401966d30d544f5cfab224dfac87edbca3d783d86f4d2788298436dd5994156",
+      "imports": [
+        "RhAnchoredKernel001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.cumulative_primitive_lipschitz",
+        "RhAnchored.zeroExtension_primitive_continuousAt",
+        "RhAnchored.exponentialFlux_hasDerivAt"
+      ],
+      "dependency_source_fingerprint": "893cdf62d2d8f939045c656806a388fa5938f7a98d8ead1b4505e8c01d278664"
+    },
+    {
+      "module": "RhAnchoredConvolutionFormula001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredConvolutionFormula001.lean",
+      "source_sha256": "84397c6f42bfa6a2b798cee451b05c22b80393dc64ca6173e722f4a575af7e7b",
+      "imports": [
+        "RhAnchoredConvolution001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.exponentialOperator_eq_energyFormula",
+        "RhAnchored.exponentialFlux_native_hasDerivAt"
+      ],
+      "dependency_source_fingerprint": "20d6b3f0c0477d68abc35e5a24064c1255cf88f7cd21aaa569cc1d3e9048bfee"
+    },
+    {
+      "module": "RhAnchoredShift001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredShift001.lean",
+      "source_sha256": "841dc4a7b9f075d2a94ed0ea1b8bf5ffc5ee0bce8e5e18cf4f5e5aaf178127e2",
+      "imports": [
+        "RhAnchoredConvolution001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.shiftFlux_ac",
+        "RhAnchored.shiftFlux_zero_middle",
+        "RhAnchored.shiftFlux_hasDerivAt_left",
+        "RhAnchored.shiftFlux_hasDerivAt_middle",
+        "RhAnchored.shiftFlux_hasDerivAt_right"
+      ],
+      "dependency_source_fingerprint": "60b70187342534301c9004afd290f0293b65b18fbec7dc909f0bf5b82812bece"
+    },
+    {
+      "module": "RhAnchoredShiftAE001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredShiftAE001.lean",
+      "source_sha256": "d071ed294a96e19fe34bc836c01aa55658ecca82476e011cf71b67bfe87b78ea",
+      "imports": [
+        "RhAnchoredShift001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.primeShift_left_trace",
+        "RhAnchored.primeShift_right_trace",
+        "RhAnchored.shiftFlux_ae_deriv"
+      ],
+      "dependency_source_fingerprint": "19aaf6294fa8f327d8796861a7fefc800c8557769365d6c85325e62331259c12"
+    },
+    {
+      "module": "RhAnchoredSignedConvolution001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredSignedConvolution001.lean",
+      "source_sha256": "02013e212340e6f3ff6f32c7c95986ad0f14a73d2e2cf54b14bc5a1ba35a2252",
+      "imports": [
+        "RhAnchoredConvolutionFormula001",
+        "RhAnchoredShiftAE001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.signedExponentialOperator_eq_flux",
+        "RhAnchored.signedExponentialOperator_ae_deriv"
+      ],
+      "dependency_source_fingerprint": "54d6d331670e796e043aeb7e6d8dd61e969a00ce8f70379d04835dd3fc1d9cb5"
+    },
+    {
+      "module": "RhAnchoredCumulativeLedger001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredCumulativeLedger001.lean",
+      "source_sha256": "78ceeedc58707c149eacb92d4a005316c001407ddd77e988472d7e19423f22b9",
+      "imports": [
+        "RhAnchoredShiftAE001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.headMass_eq_cumulative",
+        "RhAnchored.hingeConvolution_eq_shiftFlux",
+        "RhAnchored.hingeConvolution_ae_deriv"
+      ],
+      "dependency_source_fingerprint": "c524bd756f6fe7e84d58a12f8e1b940b65fba9cc55d9c2b95e1dce0de7f58530"
+    },
+    {
+      "module": "RhAnchoredPotentialSlope001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredPotentialSlope001.lean",
+      "source_sha256": "9f5de599db9fdb52ca0cc67131124d714b295ce76556a6eec76a00d32398208f",
+      "imports": [
+        "RhAnchoredSignedConvolution001",
+        "RhAnchoredCumulativeLedger001",
+        "Mathlib.Analysis.Calculus.Deriv.Abs"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.finitePotential_hasDerivAt",
+        "RhAnchored.finiteKernel_section_ae_deriv"
+      ],
+      "dependency_source_fingerprint": "c5c29bd5a113e582bfe4e940aea1339d4279099b2dab4221c246dbb82f50a0e7"
+    },
+    {
+      "module": "RhAnchoredOrientation001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredOrientation001.lean",
+      "source_sha256": "529947f2dc49aaa0282bb72695c49886d3f2657dbb6b884fbd06d8c1d2bda9c1",
+      "imports": [
+        "RhAnchoredSignedConvolution001",
+        "RhAnchoredCumulativeLedger001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.orientationConvolution_eq_cumulative",
+        "RhAnchored.hinge_product_integrable"
+      ],
+      "dependency_source_fingerprint": "39a1d33447d767fbe04892af973241184d2f962ed14bc478c14d900999e580da"
+    },
+    {
+      "module": "RhAnchoredNativeFlux001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredNativeFlux001.lean",
+      "source_sha256": "de936d92ba71c3fd0fdc2872ba2d65b7138641b41d2f1a610a8a0a4c4c9de219",
+      "imports": [
+        "RhAnchoredSignedConvolution001",
+        "RhAnchoredCumulativeLedger001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.nativeFlux_ac",
+        "RhAnchored.nativeFlux_ae_deriv",
+        "RhAnchored.nativeFlux_pairing"
+      ],
+      "dependency_source_fingerprint": "6e30da19ebb3a8f2f619c923027353b1b8cf35caa9c2af1885e5c0605cfedd99"
+    },
+    {
+      "module": "RhAnchoredSchurInterface001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredSchurInterface001.lean",
+      "source_sha256": "727c84600d6b3ce5a3b74ce3df5596464b2071fc652c41969b0ea213e0b778b7",
+      "imports": [
+        "RhAnchoredKernel001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.finite_J_identity_of_flux_derivative"
+      ],
+      "dependency_source_fingerprint": "e5cff1ecc1428331a0e24db5b0852d7177b1a80e602266ceabfdb7656d9b553d"
+    },
+    {
+      "module": "RhAnchoredFluxIdentity001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredFluxIdentity001.lean",
+      "source_sha256": "acdcf2b9eabeb9af6c6d4fc31c58e21774ed570d1ed4c9f65c54b0a2c39defa8",
+      "imports": [
+        "RhAnchoredPotentialSlope001",
+        "RhAnchoredOrientation001",
+        "RhAnchoredNativeFlux001",
+        "RhAnchoredSchurInterface001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.potentialSlope_product_integrable",
+        "RhAnchored.firstFlux_eq_nativeFlux"
+      ],
+      "dependency_source_fingerprint": "81bd5d25dfb19120b13c62edb94a29a824c4c5e6b6b116e8277cacb76300f79f"
+    },
+    {
+      "module": "RhAnchoredFormula001",
+      "filename": "../weil-form-domain/WeilForm/RhAnchoredFormula001.lean",
+      "source_sha256": "7e04376740a23e22066b9d992fc00197d25add3369ff1e34e278dd65da699768",
+      "imports": [
+        "RhAnchoredKernel001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.finiteKernel_expansion",
+        "RhAnchored.finiteKernel_first_window_expansion"
+      ],
+      "dependency_source_fingerprint": "38e36ad70f6bd53b625f964fbde0fc8c006dd745c88405287af0ee2d23e51e45"
+    },
+    {
+      "module": "RhFinitePrimitiveIdentity001",
+      "filename": "../weil-form-domain/WeilForm/RhFinitePrimitiveIdentity001.lean",
+      "source_sha256": "0e16de281ad14c9c4335d37ee9897be24fd69b570c3ab98cb83b4568434147f0",
+      "imports": [
+        "RhAnchoredFluxIdentity001",
+        "RhAnchoredFormula001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.finite_J_Schur_identity",
+        "RhAnchored.finite_J_Schur_identity_Lp"
+      ],
+      "dependency_source_fingerprint": "574e5f00de965af6b4b17174c798aae312585bd8789eefb378ed4c74c26ab7d0"
+    },
+    {
+      "module": "RhFinitePrimitiveIntegrability001",
+      "filename": "../weil-form-domain/WeilForm/RhFinitePrimitiveIntegrability001.lean",
+      "source_sha256": "9cb13a599dd231ec2a647a2fc9f6d7e025c4104f4b3affe65fad92daac6eb5a7",
+      "imports": [
+        "RhFinitePrimitiveIdentity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.finite_J_identity_with_integrability"
+      ],
+      "dependency_source_fingerprint": "62fd3016fb1803fd30b8bbd24271e7e6765ae79a1dee00ca3ea47ab0e6b1ca3d"
+    },
+    {
+      "module": "RhFinitePrimitiveEndpoint001",
+      "filename": "../weil-form-domain/WeilForm/RhFinitePrimitiveEndpoint001.lean",
+      "source_sha256": "adec5d94a22c4e64acadd343ec7fa586d012fcc7e52065e06e0c2f540852d816",
+      "imports": [
+        "RhFinitePrimitiveIntegrability001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.first_prime_endpoint_finite_identity",
+        "RhAnchored.first_prime_endpoint_integrable"
+      ],
+      "dependency_source_fingerprint": "743fbbd5b5e3a3fd965f04843e7dd3fcd9562bcd7405fac38da2d3b0c3778bb7"
+    },
+    {
+      "module": "RhFourierTailScalar001",
+      "filename": "../weil-form-domain/WeilForm/RhFourierTailScalar001.lean",
+      "source_sha256": "b229c0acdf6e11beb6c4b414feaafc80d6a3d5f52b97d8569d1d315066b4b377",
+      "imports": [
+        "RhFinitePrimitiveEndpoint001",
+        "Mathlib.Analysis.Convex.Deriv",
+        "Mathlib.Analysis.SpecialFunctions.Log.Deriv",
+        "Mathlib.Analysis.SpecialFunctions.Integrals.Basic"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.multiplier_convex",
+        "RhTail.log_comparison",
+        "RhTail.tail_constants"
+      ],
+      "dependency_source_fingerprint": "f73d182770e01e7324fda0808596fa2060a301664981bdc8ca7849e373474ddd"
+    },
+    {
+      "module": "RhFourierTrapezoid001",
+      "filename": "../weil-form-domain/WeilForm/RhFourierTrapezoid001.lean",
+      "source_sha256": "731ff8900a796f8ff13f445bc55e27970e9bb8876ccbb83d338079642a3a5b80",
+      "imports": [
+        "RhFourierTailScalar001",
+        "Mathlib.Analysis.PSeries"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.multiplier_antitone",
+        "RhTail.finite_tail_trapezoid"
+      ],
+      "dependency_source_fingerprint": "53afec449b42e29f1552e3b8d5a9fd304e0d99608ad093a7b5ab715096eca7eb"
+    },
+    {
+      "module": "RhFourierTailLimit001",
+      "filename": "../weil-form-domain/WeilForm/RhFourierTailLimit001.lean",
+      "source_sha256": "5d2183007617c3bab934e8624a9032f27f007ec7c95e636c82da4138314c8d40",
+      "imports": [
+        "RhFourierTrapezoid001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.multiplier_series_summable",
+        "RhTail.infinite_tail_trapezoid",
+        "RhTail.exact_endpoint_multiplier_lower_bound"
+      ],
+      "dependency_source_fingerprint": "a08f30c4ef64db87de50a53c0c7fe17319cc8e1e54c51af23ac5dac39ccbda4d"
+    },
+    {
+      "module": "RhDilationScalarHead001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationScalarHead001.lean",
+      "source_sha256": "3f3a72e76263a48b248a7ea154f380ebfd47a866fdab3d58b6c1e311a5c7a41e",
+      "imports": [
+        "RhFourierTailLimit001",
+        "Mathlib.Analysis.Calculus.MeanValue"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationScalar.scaleDerivative_le_potential_difference",
+        "RhDilationScalar.finite_scaleDerivative_bound"
+      ],
+      "dependency_source_fingerprint": "ab90771298558fb00cf693ec64bd17f360852dbc3a9b103dc4f73d1d80c7c30d"
+    },
+    {
+      "module": "RhDilationScalar001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationScalar001.lean",
+      "source_sha256": "d12bb642401268f438e75e0660aa338f9745b57c3e1c05b85a2e11fe00c6efbf",
+      "imports": [
+        "RhDilationScalarHead001",
+        "Mathlib.Analysis.Calculus.Deriv.MeanValue"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationScalar.finite_multiplier_scaling",
+        "RhDilationScalar.multiplier_series_summable_pos",
+        "RhDilationScalar.archMultiplier_scaling",
+        "RhDilationScalar.beta_half_scaling"
+      ],
+      "dependency_source_fingerprint": "9fce74157f008068a3264de8d6968c5e07b2ad073059ff638777d84809eea54b"
+    },
+    {
+      "module": "RhWeightedMeasureEmbedding001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedMeasureEmbedding001.lean",
+      "source_sha256": "825c750246d6743aba5670fa8c8fb0f5bfd1e28c368905986420cd491230533a",
+      "imports": [
+        "RhDilationScalar001",
+        "Mathlib.MeasureTheory.Function.L2Space",
+        "Mathlib.MeasureTheory.Measure.WithDensity",
+        "Mathlib.Analysis.Fourier.LpSpace"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedMeasureEmbedding.archWeight_eq",
+        "RhWeightedMeasureEmbedding.volume_le_weightedMeasure",
+        "RhWeightedMeasureEmbedding.inclusion_eq_toLp",
+        "RhWeightedMeasureEmbedding.inclusion_norm_apply_le",
+        "RhWeightedMeasureEmbedding.inclusion_injective",
+        "RhWeightedMeasureEmbedding.physicalEmbedding_norm_apply_le",
+        "RhWeightedMeasureEmbedding.physicalEmbedding_injective",
+        "RhWeightedMeasureEmbedding.supportedSubspace_isClosed",
+        "RhWeightedMeasureEmbedding.mem_supportedSubspace_iff",
+        "RhWeightedMeasureEmbedding.supportedSpace_complete"
+      ],
+      "dependency_source_fingerprint": "c65dc78f3a1cff05f058bf7f84d677e7e8042775d232af9b8153081db2eeeffa"
+    },
+    {
+      "module": "RhFourierMonotone001",
+      "filename": "../weil-form-domain/WeilForm/RhFourierMonotone001.lean",
+      "source_sha256": "f4275b5143d1b775c251a35feee9aed2b195f821a7b627ddeb71b185082a643c",
+      "imports": [
+        "RhFourierTailLimit001",
+        "Mathlib.Analysis.Fourier.LpSpace",
+        "Mathlib.MeasureTheory.Integral.Lebesgue.Add"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.frequency_tail_monotone_convergence",
+        "RhTail.frequency_tail_limit",
+        "RhTail.frequency_tail_lower_bound",
+        "RhTail.plancherel_inner"
+      ],
+      "dependency_source_fingerprint": "ca6452358b219242092f7f4b928d6465c94686f81acc8c6c2c84fe14be225dec"
+    },
+    {
+      "module": "RhWeightedEnergyIdentity001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedEnergyIdentity001.lean",
+      "source_sha256": "7a7b2a0f85efd95da5c878b0f66759ad890fc62c8cc96d1b12dd172c299cc437",
+      "imports": [
+        "RhWeightedMeasureEmbedding001",
+        "RhFourierMonotone001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedEnergyIdentity.native_energy_as_frequency",
+        "RhWeightedEnergyIdentity.weighted_square_integral_split",
+        "RhWeightedEnergyIdentity.weighted_norm_square_ennreal",
+        "RhWeightedEnergyIdentity.weighted_native_energy_finite",
+        "RhWeightedEnergyIdentity.weighted_norm_square",
+        "RhWeightedEnergyIdentity.fourier_memLp_weighted",
+        "RhWeightedEnergyIdentity.physicalEmbedding_frequencyLift",
+        "RhWeightedEnergyIdentity.frequencyLift_norm_square",
+        "RhWeightedEnergyIdentity.frequencyLift_mem_supportedSubspace"
+      ],
+      "dependency_source_fingerprint": "c0f36879a29acb4be8c027e46debf076fc2d3e0aa1e7927a772210c1e5645166"
+    },
+    {
+      "module": "RhFourierCompatibility001",
+      "filename": "../weil-form-domain/WeilForm/RhFourierCompatibility001.lean",
+      "source_sha256": "65a9944e5f2f45ab8acbac0c649ed0761066618c4487fb7ef4a2e23905f64ae2",
+      "imports": [
+        "RhFourierMonotone001",
+        "Mathlib.Analysis.Distribution.AEEqOfIntegralContDiff"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.integral_fourier_ae_L2"
+      ],
+      "dependency_source_fingerprint": "352d8e36091cf4434f07fd101c457c67e84694784a4ada52e6711dc50dabec77"
+    },
+    {
+      "module": "RhExponentialFourier001",
+      "filename": "../weil-form-domain/WeilForm/RhExponentialFourier001.lean",
+      "source_sha256": "2e0885d4999643ea3a1113fcb48df43d134e4b331ecab25ddc5c5a73da3e6c03",
+      "imports": [
+        "RhFourierCompatibility001",
+        "Mathlib.Analysis.SpecialFunctions.ImproperIntegrals",
+        "Mathlib.Analysis.Fourier.Convolution"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.exponentialKernel_integrable",
+        "RhTail.exponentialKernel_fourier"
+      ],
+      "dependency_source_fingerprint": "7a92b1279b1cc5a0c6afee264accb4563094e1a97cd88aec149f65bcd937b85c"
+    },
+    {
+      "module": "RhExponentialConvolution001",
+      "filename": "../weil-form-domain/WeilForm/RhExponentialConvolution001.lean",
+      "source_sha256": "2a73a283a40e9d864cf55e630dcc4acb020f0658f7b79ef72d905453044cbf10",
+      "imports": [
+        "RhExponentialFourier001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.exponentialConvolution_memLp",
+        "RhTail.exponentialConvolution_fourier_ae"
+      ],
+      "dependency_source_fingerprint": "f8c21f6e8ba11d2393a0b4f212c9dd535364e18cab8021f4dbddc08052d44ed0"
+    },
+    {
+      "module": "RhExponentialPlancherel001",
+      "filename": "../weil-form-domain/WeilForm/RhExponentialPlancherel001.lean",
+      "source_sha256": "94b476fad8e120d551ba26b723d066b64a611b1a0ab531d150b4818340eaa5ef",
+      "imports": [
+        "RhExponentialConvolution001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.exponential_difference_plancherel",
+        "RhTail.exponential_pair_plancherel"
+      ],
+      "dependency_source_fingerprint": "fc1903d360f2ce9dd3b376eb7c98c77918d957a6dd74608a5791303d4b88e036"
+    },
+    {
+      "module": "RhPhysicalPlancherel001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalPlancherel001.lean",
+      "source_sha256": "ce22b428a8cdeb105dc1bb7fb21ac30e98773ce4cda4ee1fced941f6a0f1366e",
+      "imports": [
+        "RhExponentialPlancherel001",
+        "RhFinitePrimitiveIntegrability001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.physical_exponential_plancherel"
+      ],
+      "dependency_source_fingerprint": "a4061cca3d4ab98e52413d6ba06c147cf5eed4f2f26f51aaf573b0930b06d878"
+    },
+    {
+      "module": "RhFullKernelSeries001",
+      "filename": "../weil-form-domain/WeilForm/RhFullKernelSeries001.lean",
+      "source_sha256": "5614bc73134e7992165f9c0b0dd30c7c89f723cd2a340a8f4003ff39cd6791fb",
+      "imports": [
+        "RhFinitePrimitiveIntegrability001",
+        "Mathlib.Analysis.PSeries",
+        "Mathlib.MeasureTheory.Integral.DominatedConvergence"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.finiteKernel_tendsto",
+        "RhAnchored.finiteKernel_uniform_bound"
+      ],
+      "dependency_source_fingerprint": "0291ff505632bfb3b543958844390f7da6b611c072fb94d2a47805651479db97"
+    },
+    {
+      "module": "RhFullKernelLimit001",
+      "filename": "../weil-form-domain/WeilForm/RhFullKernelLimit001.lean",
+      "source_sha256": "af611df2009d98803e57f6dafaab666b82e627d07f875e7a2ed7abf2f9f153a3",
+      "imports": [
+        "RhFullKernelSeries001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.physical_kernel_limit"
+      ],
+      "dependency_source_fingerprint": "69b656514381462c618bd1d7f04b4edc4841472010d67057dd0bac7513fd5dee"
+    },
+    {
+      "module": "RhPhysicalFiniteTail001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalFiniteTail001.lean",
+      "source_sha256": "1c440168c644b25b4fd67761d1817823bde24f021a73a679c79bdc99c707698e",
+      "imports": [
+        "RhPhysicalPlancherel001",
+        "RhFullKernelLimit001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.finite_physical_tail"
+      ],
+      "dependency_source_fingerprint": "038d707a481b1ace5fd27ad557b657bb283f87a1596c9cbdd402bf8f7bbcbf3f"
+    },
+    {
+      "module": "RhPhysicalTailLimit001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalTailLimit001.lean",
+      "source_sha256": "523f5884e94cc6aa99de662b3f0215ffd5db00e067ab9ad3837fbfd86306950b",
+      "imports": [
+        "RhPhysicalFiniteTail001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTail.physical_fourier_tail_limit"
+      ],
+      "dependency_source_fingerprint": "a29330493d4217449ab667e5f03d8ad04e52ad1f5045d0db57c70066d9a0c505"
+    },
+    {
+      "module": "RhPrimitiveFormDomain001",
+      "filename": "../weil-form-domain/WeilForm/RhPrimitiveFormDomain001.lean",
+      "source_sha256": "c0a8a6f4b09869fdaf0719cb0853ff691c299fa10c792d6e4677e25c72f09769",
+      "imports": [
+        "RhPhysicalTailLimit001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPrimitiveFormDomain.physical_primitive_full_arch_finite"
+      ],
+      "dependency_source_fingerprint": "c701878a6c862bc8b6eb93dba6d65ed27c36a2eb91ded1c5bd35c26bcf151e40"
+    },
+    {
+      "module": "RhWeightedPrimitiveLift001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedPrimitiveLift001.lean",
+      "source_sha256": "4ff8afc6732720ef0f380e77e9cb3ee3a867cf5a2cadc4ee30875febf943899f",
+      "imports": [
+        "RhWeightedEnergyIdentity001",
+        "RhPrimitiveFormDomain001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedPrimitiveLift.physicalVector_support",
+        "RhWeightedPrimitiveLift.physicalVector_norm_square",
+        "RhWeightedPrimitiveLift.actualPrimitiveLift_physical",
+        "RhWeightedPrimitiveLift.actualPrimitiveLift_supported",
+        "RhWeightedPrimitiveLift.actualPrimitiveLift_norm_square",
+        "RhWeightedPrimitiveLift.actualPrimitiveSupportedLift_norm_square"
+      ],
+      "dependency_source_fingerprint": "35393ae8612432d750dafc1a08518d999e7f9025f8758d8406e298e828706b06"
+    },
+    {
+      "module": "RhComplexWeightedBridge001",
+      "filename": "../weil-form-domain/WeilForm/RhComplexWeightedBridge001.lean",
+      "source_sha256": "409cac898ef7d30d63e93fde27295e09d91ead76a7001a9ccdc9f2dba3bbdf72",
+      "imports": [
+        "RhWeightedPrimitiveLift001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhComplexWeightedBridge.inclusion_complex_smul",
+        "RhComplexWeightedBridge.physicalEmbedding_complex_smul",
+        "RhComplexWeightedBridge.pair_native_energy_finite",
+        "RhComplexWeightedBridge.pair_complete_graph_bound"
+      ],
+      "dependency_source_fingerprint": "2761c42eb23fe314c4efc89146f3a1623c8eae942b309ad366d1c0551e3cd6f2"
+    },
+    {
+      "module": "RhSmoothPrimitiveCore001",
+      "filename": "../weil-form-domain/WeilForm/RhSmoothPrimitiveCore001.lean",
+      "source_sha256": "ae2c1ba71ab264579655925b97c65ee51cbcacfca7074b537271331b2198008a",
+      "imports": [
+        "RhAnchoredSpace001",
+        "Mathlib.Analysis.Calculus.ContDiff.Deriv",
+        "Mathlib.Topology.Order.Compact"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSmoothPrimitiveCore.smoothPrimitive_contDiff",
+        "RhSmoothPrimitiveCore.smoothPrimitive_ae_anchored",
+        "RhSmoothPrimitiveCore.exists_smooth_compact_primitive"
+      ],
+      "dependency_source_fingerprint": "6c0221658aa1264c776626adeadae4e30c3120254e5f4f827dd8610989298a68"
+    },
+    {
+      "module": "RhDilationDefs001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationDefs001.lean",
+      "source_sha256": "94839dce699b5da56dd2a1ba5e485ec70fc80d917290a6f343c2f10b44e779df",
+      "imports": [
+        "RhAnchoredSpace001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilation.dilate_one",
+        "RhDilation.pullback_one"
+      ],
+      "dependency_source_fingerprint": "1356dc891b5a2524647f5bec7033be735cb507493a051679cb5fb219adc319f1"
+    },
+    {
+      "module": "RhDilationRankL2001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationRankL2001.lean",
+      "source_sha256": "91451308c3ab63add31482ef7b68b32444a5846bb64a0afb316dcb08be99cd55",
+      "imports": [
+        "RhDilationDefs001",
+        "Mathlib.MeasureTheory.Function.L2Space",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp",
+        "Mathlib.Analysis.SpecialFunctions.Sqrt",
+        "Mathlib.Analysis.Calculus.ContDiff.RCLike"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationRank.continuous_memLp",
+        "RhDilationRank.moment_cauchy_sq",
+        "RhDilationRank.l1_sq_le"
+      ],
+      "dependency_source_fingerprint": "0fda612205bc7d0a8a6835b22ff8a7e85d17543ce4d5ddc0f932640c86438df0"
+    },
+    {
+      "module": "RhInteriorSmoothCutoff001",
+      "filename": "../weil-form-domain/WeilForm/RhInteriorSmoothCutoff001.lean",
+      "source_sha256": "1eb4f1b806e83e2f8bb01f1b031f2660505d51581dd4c9ddaa084d9d89728573",
+      "imports": [
+        "RhSmoothPrimitiveCore001",
+        "RhDilationRankL2001",
+        "Mathlib.Analysis.Calculus.BumpFunction.InnerProduct",
+        "Mathlib.Analysis.SpecificLimits.Basic",
+        "Mathlib.MeasureTheory.Integral.DominatedConvergence"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhInteriorSmoothCutoff.cutoff_tsupport",
+        "RhInteriorSmoothCutoff.cutoff_eventually_one",
+        "RhInteriorSmoothCutoff.cutoff_square_error_tendsto",
+        "RhInteriorSmoothCutoff.cutoff_L2_error_tendsto"
+      ],
+      "dependency_source_fingerprint": "a6074dfc6a79925188c7ba526a2b1ea8dc3e5bbd23d3ff257e994110ca7df957"
+    },
+    {
+      "module": "RhInteriorSmoothDensity001",
+      "filename": "../weil-form-domain/WeilForm/RhInteriorSmoothDensity001.lean",
+      "source_sha256": "31aa9e4ba503fc46a7d37b4eb76d03c0ff4c1ce8c706ea190a7b5e5751fd7d2e",
+      "imports": [
+        "RhInteriorSmoothCutoff001",
+        "Mathlib.Analysis.Normed.Lp.SmoothApprox"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhInteriorSmoothDensity.exists_interior_smooth_approx"
+      ],
+      "dependency_source_fingerprint": "f8999167429c2114b0907c5f20837331b3dbcf03f502119110067f5b786f4e2f"
+    },
+    {
+      "module": "RhInteriorSmoothSequence001",
+      "filename": "../weil-form-domain/WeilForm/RhInteriorSmoothSequence001.lean",
+      "source_sha256": "15b3dcfd7fa5639137ff8692234c4b990899da563a9a6d0af33e371ab521c999",
+      "imports": [
+        "RhInteriorSmoothDensity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhInteriorSmoothSequence.exists_interior_smooth_sequence"
+      ],
+      "dependency_source_fingerprint": "7ae12b27fd88aae614d0bd90bc29cd30e72e31dc8997d1a1b23c03f27e70628d"
+    },
+    {
+      "module": "RhSmoothPrimitiveMass001",
+      "filename": "../weil-form-domain/WeilForm/RhSmoothPrimitiveMass001.lean",
+      "source_sha256": "9cba08d0b55b649a9101762e1b8dd7314518664059482e3cab7f184c8f9396f9",
+      "imports": [
+        "RhSmoothPrimitiveCore001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSmoothPrimitiveMass.totalMass_eq_integral",
+        "RhSmoothPrimitiveMass.exists_smooth_compact_primitive"
+      ],
+      "dependency_source_fingerprint": "425886dc99dc44ae4563d61c9d51e6fdce04a36fc96e824a6363582e4e348fc3"
+    },
+    {
+      "module": "RhActualCoreBump001",
+      "filename": "../weil-form-domain/WeilForm/RhActualCoreBump001.lean",
+      "source_sha256": "6b1ae2ee433b798317ae775fe350b29a058e8097f0cb7a8b33c2751bfad862b2",
+      "imports": [
+        "RhInteriorSmoothCutoff001",
+        "RhSmoothPrimitiveMass001",
+        "Mathlib.Analysis.Calculus.BumpFunction.Normed"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhActualCoreBump.rOut_tendsto",
+        "RhActualCoreBump.normed_tsupport",
+        "RhActualCoreBump.normed_totalMass"
+      ],
+      "dependency_source_fingerprint": "4d44e3da055c26ff35c37210b95a48bbdf1d26dd60ba04c39356b67dd9763da2"
+    },
+    {
+      "module": "RhFullKernelIntegrability001",
+      "filename": "../weil-form-domain/WeilForm/RhFullKernelIntegrability001.lean",
+      "source_sha256": "6b691a6298d46012a6b327f5456dd3af9a87d194f7f48549fcf8193b60cafe2b",
+      "imports": [
+        "RhFullKernelLimit001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAnchored.fullKernel_row_integrable",
+        "RhAnchored.fullKernel_outer_integrable"
+      ],
+      "dependency_source_fingerprint": "65f63f4a43f2223129b3226c58354ab700bda8bcd5cb9e4d5c617c2e31d563d3"
+    },
+    {
+      "module": "RhEndpointComplex001",
+      "filename": "../weil-form-domain/WeilForm/RhEndpointComplex001.lean",
+      "source_sha256": "a953d10a10d76f5925c5445400cbb4cc0e82e5369b5417b79c4d90edb9e8aa4e",
+      "imports": [
+        "RhFullKernelIntegrability001",
+        "Mathlib.Analysis.Normed.Group.FunctionSeries",
+        "Mathlib.MeasureTheory.Integral.Prod"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhEndpointComplex.fullKernel_joint_continuous",
+        "RhEndpointComplex.complex_integrand_integrable",
+        "RhEndpointComplex.real_integrand_integrable",
+        "RhEndpointComplex.complexQuadratic_eq_iterated",
+        "RhEndpointComplex.complexQuadratic_re",
+        "RhEndpointComplex.complex_positive_of_real"
+      ],
+      "dependency_source_fingerprint": "fa102f9be8147256ba1f2bd4750b0c1c887c43f112d240126d2c0483cb305052"
+    },
+    {
+      "module": "RhNativeArchKernel001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeArchKernel001.lean",
+      "source_sha256": "ddf0877b33d1182da8bf545145eeb906ddd57902ec0ebe80ea9b44dd8146bcc1",
+      "imports": [
+        "RhPrimitiveFormDomain001",
+        "RhEndpointComplex001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeArchKernel.kernel_continuous",
+        "RhNativeArchKernel.kernel_zero_left",
+        "RhNativeArchKernel.kernel_norm_le",
+        "RhNativeArchKernel.full_energy_identity",
+        "RhNativeArchKernel.kernel_quadratic_nonnegative",
+        "RhNativeArchKernel.kernel_quadratic_norm_bound"
+      ],
+      "dependency_source_fingerprint": "0f2390792095a5c77d700cf76ef3ef58ab7d5aee896667a025ee5b8f80f81c30"
+    },
+    {
+      "module": "RhWeightedCoreAttempt001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedCoreAttempt001.lean",
+      "source_sha256": "faffeab6c4ca4a6ca749b88b360f7d9d53df1e4e15e3411ae511132f69af1655",
+      "imports": [
+        "RhPrimitiveFormDomain001",
+        "RhFourierCompatibility001",
+        "Mathlib.Analysis.Calculus.BumpFunction.Normed",
+        "Mathlib.MeasureTheory.Integral.Lebesgue.DominatedConvergence"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedCoreAttempt.bump_fourier_norm_le_one",
+        "RhWeightedCoreAttempt.bumpMultiplier_tendsto",
+        "RhWeightedCoreAttempt.weighted_bump_error_tendsto_zero",
+        "RhWeightedCoreAttempt.physical_complete_bump_multiplier_convergence"
+      ],
+      "dependency_source_fingerprint": "53029c264888d1c3e56daea8a5cfabf262407edcdbbe15d67e8019d0e2f03030"
+    },
+    {
+      "module": "RhNativeBumpCapacity001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeBumpCapacity001.lean",
+      "source_sha256": "92a9d78a1af8b134d9068de81604c9dc18e764a14e38fa42fd01b97d4fd15546",
+      "imports": [
+        "RhNativeArchKernel001",
+        "RhWeightedCoreAttempt001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeBumpCapacity.kernel_small_square",
+        "RhNativeBumpCapacity.bump_quadratic_small",
+        "RhNativeBumpCapacity.normalized_bump_quadratic_tendsto_zero",
+        "RhNativeBumpCapacity.normalized_bump_full_energy_tendsto_zero"
+      ],
+      "dependency_source_fingerprint": "7277423ab522865fdb93e5dc3040f654b08168a67eb026a04f0f8083ee3e485e"
+    },
+    {
+      "module": "RhPrimitiveApproximation001",
+      "filename": "../weil-form-domain/WeilForm/RhPrimitiveApproximation001.lean",
+      "source_sha256": "5da93aa60c01b0039122248c3e5119cb2a34d9cc863c4e208bb8d7925c83c8fc",
+      "imports": [
+        "RhNativeBumpCapacity001",
+        "RhDilationRankL2001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPrimitiveApproximation.primitive_add",
+        "RhPrimitiveApproximation.primitive_smul",
+        "RhPrimitiveApproximation.primitive_square_bound"
+      ],
+      "dependency_source_fingerprint": "cd642b36f984d2e93ed7cb0bac009411a8a47333210a1992ab99ba1bc4939508"
+    },
+    {
+      "module": "RhPrimitiveBumpMass001",
+      "filename": "../weil-form-domain/WeilForm/RhPrimitiveBumpMass001.lean",
+      "source_sha256": "b4430dbaae057cf18443ecd0058f78554fb7ecb90e7a2530adbfc25410e96dec",
+      "imports": [
+        "RhPrimitiveApproximation001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPrimitiveBumpMass.primitive_bump_norm_le_one",
+        "RhPrimitiveBumpMass.primitive_bump_zero_of_outside",
+        "RhPrimitiveBumpMass.primitive_bump_square_bound",
+        "RhPrimitiveBumpMass.primitive_bump_square_tendsto_zero"
+      ],
+      "dependency_source_fingerprint": "82b050e8ff6b68c07864f7fc819a87258d0b7b8e22a4589dacdc1a9be8794cd1"
+    },
+    {
+      "module": "RhSupportInclusion001",
+      "filename": "../weil-form-domain/WeilForm/RhSupportInclusion001.lean",
+      "source_sha256": "02d39ccbb7565520028b9c93a68a051d7905ec0d33dbc5a366e8bbad6531960b",
+      "imports": [
+        "RhFullKernelLimit001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSupport.complexEnergy"
+      ],
+      "dependency_source_fingerprint": "40db02f55522eaff59a305bf954062628c90fcee2572432b6378b52e0713d67e"
+    },
+    {
+      "module": "RhSupportLocalization001",
+      "filename": "../weil-form-domain/WeilForm/RhSupportLocalization001.lean",
+      "source_sha256": "36d8cd910a9820481377f8c9f45d6e5522e30a7ad53826c014675e5908edc4d6",
+      "imports": [
+        "RhSupportInclusion001",
+        "RhFinitePrimitiveEndpoint001",
+        "Mathlib.MeasureTheory.Integral.Prod"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSupportLocalization.kernel_joint_integrable"
+      ],
+      "dependency_source_fingerprint": "9f9a98176468cbbc0ed781f91aa7ec2785b117d7511a05af855abf6d48f4fa65"
+    },
+    {
+      "module": "RhAllPrimeUnclosedTarget001",
+      "filename": "../weil-form-domain/WeilForm/RhAllPrimeUnclosedTarget001.lean",
+      "source_sha256": "508fa680626b00f2694f563917ee5bff61ee346b028a6464303eac3f898a18cc",
+      "imports": [
+        "RhFullKernelLimit001",
+        "RhSupportLocalization001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAllPrimeTarget.pair_self",
+        "RhAllPrimeTarget.pair_symmetric"
+      ],
+      "dependency_source_fingerprint": "4e76171910aa986b25e7f97faa9dc5e267563bd5103ca2a8f40802eeed276511"
+    },
+    {
+      "module": "RhCenteredPrimitiveApproximation001",
+      "filename": "../weil-form-domain/WeilForm/RhCenteredPrimitiveApproximation001.lean",
+      "source_sha256": "f6b92fc56afca581ea377b9b42756117dd9fcc33cd60365b8b076c017ee8f6fb",
+      "imports": [
+        "RhPrimitiveBumpMass001",
+        "RhAllPrimeUnclosedTarget001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCenteredPrimitiveApproximation.energy_parallelogram",
+        "RhCenteredPrimitiveApproximation.energy_l2_bound",
+        "RhCenteredPrimitiveApproximation.centered_energy_tendsto_zero",
+        "RhCenteredPrimitiveApproximation.centered_primitive_mass_tendsto_zero",
+        "RhCenteredPrimitiveApproximation.centered_graph_error_tendsto_zero"
+      ],
+      "dependency_source_fingerprint": "c780f4a5a662e7179988d537aaefd276cb50f8df3b1cbfbed4f914f9b22e59df"
+    },
+    {
+      "module": "RhCenteredSmoothPrimitive001",
+      "filename": "../weil-form-domain/WeilForm/RhCenteredSmoothPrimitive001.lean",
+      "source_sha256": "dddddba2e317fa2943e6f62bc7b29e5dfefb29aa1e560b2136702fef095e6687",
+      "imports": [
+        "RhActualCoreBump001",
+        "RhCenteredPrimitiveApproximation001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCenteredSmoothPrimitive.centered_totalMass",
+        "RhCenteredSmoothPrimitive.exists_centered_smooth_primitives"
+      ],
+      "dependency_source_fingerprint": "c49211d5fb62eee9d272a0a58ecf93c104967cd9b1e3abd6bc2deb48b7d9f1dc"
+    },
+    {
+      "module": "RhPhysicalMassConvergence001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalMassConvergence001.lean",
+      "source_sha256": "f35fa213cda82d003d30a49a807f66458cba90dd82873aab9f9a8612857a9390",
+      "imports": [
+        "RhCenteredPrimitiveApproximation001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPhysicalMassConvergence.totalMass_difference_square_bound",
+        "RhPhysicalMassConvergence.totalMass_tendsto_of_l2_error"
+      ],
+      "dependency_source_fingerprint": "1c3cbbb766915b8c47db74d9fa27b61e723d9a1b7c1fac1bf3343b082aa7dee0"
+    },
+    {
+      "module": "RhSupportPrimeHinge001",
+      "filename": "../weil-form-domain/WeilForm/RhSupportPrimeHinge001.lean",
+      "source_sha256": "db1524857f6daed0a3f21f8f7a3c697ac7a1917796e94cb5ac9bfdfa288c9ec1",
+      "imports": [
+        "RhAnchoredKernel001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSupportPrimeHinge.diagonal_zero",
+        "RhSupportPrimeHinge.off_diagonal",
+        "RhSupportPrimeHinge.antisymmetric_pair_energy",
+        "RhSupportPrimeHinge.antisymmetric_pair_negative",
+        "RhSupportPrimeHinge.even_pair_positive"
+      ],
+      "dependency_source_fingerprint": "194b43e9af9e2700ab1ea90743951b2d17a9c82fbab4508c0affc6d13598c658"
+    },
+    {
+      "module": "RhPrimeHingePrimitive001",
+      "filename": "../weil-form-domain/WeilForm/RhPrimeHingePrimitive001.lean",
+      "source_sha256": "08dc0c749ea6c735f227fa23ea9d17f66521f22c84aa9dc4eb26f384854382a2",
+      "imports": [
+        "RhSupportPrimeHinge001",
+        "RhFinitePrimitiveIntegrability001",
+        "RhFullKernelLimit001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPrimeHingePrimitive.primeHinge_as_difference",
+        "RhPrimeHingePrimitive.physical_primitive_identity"
+      ],
+      "dependency_source_fingerprint": "c7f34f88b37467ac195b1ce212f795750ef8df1daf55f06307289e6aa18d3b7f"
+    },
+    {
+      "module": "RhPrimeHingeUnrestricted001",
+      "filename": "../weil-form-domain/WeilForm/RhPrimeHingeUnrestricted001.lean",
+      "source_sha256": "016d38c5f82e574a332ffefceb886bb9fe4e9657befa4a30cf6d9e1d087876a7",
+      "imports": [
+        "RhPrimeHingePrimitive001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPrimeHingeUnrestricted.hingeConvolution_difference",
+        "RhPrimeHingeUnrestricted.shiftFlux_ae_deriv_unrestricted",
+        "RhPrimeHingeUnrestricted.physical_row_identity",
+        "RhPrimeHingeUnrestricted.physical_primitive_identity"
+      ],
+      "dependency_source_fingerprint": "662614e84be659c38ed5574b5ccd30a681fa502e488a569db013a79b95f42c5c"
+    },
+    {
+      "module": "RhAllPrimeKernel001",
+      "filename": "../weil-form-domain/WeilForm/RhAllPrimeKernel001.lean",
+      "source_sha256": "3cce884c6e13ad56f9559417021b1af4290f803410a2dc47f48091fba046e421",
+      "imports": [
+        "RhEndpointComplex001",
+        "Mathlib.NumberTheory.ArithmeticFunction.VonMangoldt"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAllPrime.weight_prime_pow",
+        "RhAllPrime.complete_joint_continuous",
+        "RhAllPrime.complete_two",
+        "RhAllPrime.complete_three"
+      ],
+      "dependency_source_fingerprint": "510a266fdadacce69a6d1cb77ab8660e5683d3191670fdf6ff9ec906faac9ff8"
+    },
+    {
+      "module": "RhEndpointComplexReality001",
+      "filename": "../weil-form-domain/WeilForm/RhEndpointComplexReality001.lean",
+      "source_sha256": "26c51a3c07fcadff3f49ecd1407ed97507c4a165096475f5a0fe1a3532055855",
+      "imports": [
+        "RhFullKernelLimit001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhEndpointComplex.fullKernel_symmetric"
+      ],
+      "dependency_source_fingerprint": "9e137ac6cf1289fb9bb0e3617e2c60282af0d7e11ed23acef962f2ba01ba714d"
+    },
+    {
+      "module": "RhAllPrimeIntegrability001",
+      "filename": "../weil-form-domain/WeilForm/RhAllPrimeIntegrability001.lean",
+      "source_sha256": "3a0df283804f2c95c63fc3d1be8e786c17fcd9fe23db39bf5cf19e65e323885a",
+      "imports": [
+        "RhAllPrimeKernel001",
+        "RhEndpointComplexReality001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAllPrime.complete_symmetric"
+      ],
+      "dependency_source_fingerprint": "fd0d086e209b52bde111baccaae6b76cac35981c65c27c9ae709cc99e0522971"
+    },
+    {
+      "module": "RhAllPrimeCutoff001",
+      "filename": "../weil-form-domain/WeilForm/RhAllPrimeCutoff001.lean",
+      "source_sha256": "528fd4de1a45391132f930010e8a621bcf240658c9b69da1e8362177fb2d9b1e",
+      "imports": [
+        "RhAllPrimeKernel001",
+        "RhFinitePrimitiveEndpoint001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhAllPrime.hinge_vanish_threshold",
+        "RhAllPrime.cutoff_stability",
+        "RhAllPrime.radius_restriction",
+        "RhAllPrime.radius_first_prime_window",
+        "RhAllPrime.radius_prime_three_window",
+        "RhAllPrime.endpoint_radius_two"
+      ],
+      "dependency_source_fingerprint": "de30d7f7c4e019c8c7ecaafe9994e0718b4c0fced5796fa454b85a85b6a87d1c"
+    },
+    {
+      "module": "RhEndpointParityShift001",
+      "filename": "../weil-form-domain/WeilForm/RhEndpointParityShift001.lean",
+      "source_sha256": "8e540da3aabca67ba6d42d85cec42f7c45b7f97184d17a71bae31937395382d0",
+      "imports": [
+        "RhFinitePrimitiveEndpoint001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhEndpointParity.shift_integrable"
+      ],
+      "dependency_source_fingerprint": "765733ad1604f2f9b5ce2cd1465b967dff047888c02ad52e2fe7abd92aa50d4d"
+    },
+    {
+      "module": "RhDilationNativeSector001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationNativeSector001.lean",
+      "source_sha256": "ae4561c1f811f30dd780c7d0965426d071dd408fbd062936c00759f673e4a20a",
+      "imports": [
+        "RhAllPrimeIntegrability001",
+        "RhAllPrimeCutoff001",
+        "RhEndpointParityShift001",
+        "RhFullKernelLimit001",
+        "RhSupportLocalization001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationNative.kernelQuadratic_add"
+      ],
+      "dependency_source_fingerprint": "5fa1991d751fef42f7722adc41b24318e090f8f9f8281a0b3f6c9a3d74970d9a"
+    },
+    {
+      "module": "RhPrimeHingeIntegrability001",
+      "filename": "../weil-form-domain/WeilForm/RhPrimeHingeIntegrability001.lean",
+      "source_sha256": "2ff6bf4e3596e2a4d5e8b870240a576e031eb61ecaf3c5e943991206c609c4ca",
+      "imports": [
+        "RhPrimeHingeUnrestricted001",
+        "RhDilationNativeSector001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPrimeHingeIntegrability.physical_integrand_integrable",
+        "RhPrimeHingeIntegrability.physical_outer_integrable",
+        "RhPrimeHingeIntegrability.primitive_shift_integrable",
+        "RhPrimeHingeIntegrability.finite_hinge_sum_identity"
+      ],
+      "dependency_source_fingerprint": "f82bc8a0a9d128ee404daa36baf21e03e005948c4549ca3876f997664c2a8540"
+    },
+    {
+      "module": "RhCompletePrimitiveDictionary001",
+      "filename": "../weil-form-domain/WeilForm/RhCompletePrimitiveDictionary001.lean",
+      "source_sha256": "9d5d5371aeff136320fcc8e4c30eefc9a20f9caf80960a0666d0bfe7bf083665",
+      "imports": [
+        "RhPrimeHingeIntegrability001",
+        "RhPrimitiveFormDomain001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCompletePrimitiveDictionary.arch_only_identity",
+        "RhCompletePrimitiveDictionary.arithmetic_primitive_identity",
+        "RhCompletePrimitiveDictionary.complete_cutoff_native_identity",
+        "RhCompletePrimitiveDictionary.all_radius_native_identity"
+      ],
+      "dependency_source_fingerprint": "ed5d0f6b7ccd89027ec8c3e507bb97387904b15044109261b38648b72f1470e2"
+    },
+    {
+      "module": "RhDilationPhysical001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationPhysical001.lean",
+      "source_sha256": "b6a6b6bec917808de2eca4cbe1a3e5a55c35a7037f4dcf35caefc2464ce07391",
+      "imports": [
+        "RhDilationDefs001",
+        "Mathlib.MeasureTheory.Measure.Lebesgue.Basic",
+        "Mathlib.MeasureTheory.Measure.Haar.NormedSpace",
+        "Mathlib.MeasureTheory.Function.LpSeminorm.Indicator"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilation.zeroExtension_pullback",
+        "RhDilation.zeroExtension_dilate",
+        "RhDilation.pullback_memLp",
+        "RhDilation.dilate_memLp_physical",
+        "RhDilation.primitive_pullback",
+        "RhDilation.dilate_primitive_pullback"
+      ],
+      "dependency_source_fingerprint": "6019969222fbf9e4bc0fb3eefdd8ca346d663a2a4a860c0b939f2f4b92a176e0"
+    },
+    {
+      "module": "RhDilationNorm001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationNorm001.lean",
+      "source_sha256": "5cddbcd4e400ce980528a3c863b1f0f35c76dd4e6d8c0d58e7b9b9273fb38f33",
+      "imports": [
+        "RhDilationPhysical001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilation.integral_square_dilate",
+        "RhDilation.dilate_square_integrable",
+        "RhDilation.physical_square_isometry",
+        "RhDilation.pullback_square_norm",
+        "RhDilation.primitive_square_pullback"
+      ],
+      "dependency_source_fingerprint": "826e6e939ab213c143c7a701012f0e4211b51c3e2b1a1dee8ce736bc59c7ed30"
+    },
+    {
+      "module": "RhDilationShift001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationShift001.lean",
+      "source_sha256": "a13522d8b5374374eaec30fb5b048f9ccd95b0e9e87c23441a207ed032f5674c",
+      "imports": [
+        "RhDilationNorm001",
+        "RhEndpointParityShift001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilation.actual_shift_pairing",
+        "RhDilation.realShift_dilate",
+        "RhDilation.shift_dilation",
+        "RhDilation.realShift_abs_bound",
+        "RhDilation.actual_shift_abs_bound"
+      ],
+      "dependency_source_fingerprint": "e42219dfc9b5a1f9929fc08a3a92c7fc42641eff462d646174bff486aad4c8ef"
+    },
+    {
+      "module": "RhCompleteFormBound001",
+      "filename": "../weil-form-domain/WeilForm/RhCompleteFormBound001.lean",
+      "source_sha256": "08fceff61273bb8ff84312d5f5297c5136f44471da9b3d184e1c581a23c7568c",
+      "imports": [
+        "RhCompletePrimitiveDictionary001",
+        "RhDilationRankL2001",
+        "RhDilationShift001",
+        "Mathlib.Algebra.Order.BigOperators.Group.Finset"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCompleteFormBound.finite_weighted_abs_bound",
+        "RhCompleteFormBound.rankScalar_abs_bound",
+        "RhCompleteFormBound.arithmetic_abs_bound",
+        "RhCompleteFormBound.complete_boundedPart_abs_bound",
+        "RhCompleteFormBound.actual_complete_decomposition",
+        "RhCompleteFormBound.actual_shifted_complete_bounds",
+        "RhCompleteFormBound.all_radius_shifted_complete_bounds"
+      ],
+      "dependency_source_fingerprint": "67ed6722792157f768c9fd0d1d08f809f6312333c75f634b4bc196c596fa7220"
+    },
+    {
+      "module": "RhPhysicalPrimitiveCongruence001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalPrimitiveCongruence001.lean",
+      "source_sha256": "0ae2d8f579790f0309f529f91cb13c7b0185d3e0e74327e19675eec28708050e",
+      "imports": [
+        "RhPhysicalMassConvergence001",
+        "RhCompleteFormBound001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPhysicalPrimitiveCongruence.physicalFourierVector_congr_ae",
+        "RhPhysicalPrimitiveCongruence.fullFrequencyEnergy_congr_ae",
+        "RhPhysicalPrimitiveCongruence.shift_pairing_congr_ae",
+        "RhPhysicalPrimitiveCongruence.boundedPart_congr_ae",
+        "RhPhysicalPrimitiveCongruence.complete_components_congr_ae"
+      ],
+      "dependency_source_fingerprint": "ff719aa38e1d1234147a4d478c8a955da2afc9ca10eafa43b16e45c0e652134b"
+    },
+    {
+      "module": "RhActualSmoothFormClosure001",
+      "filename": "../weil-form-domain/WeilForm/RhActualSmoothFormClosure001.lean",
+      "source_sha256": "1737cb30864ed7405db355a0a0b7ebf98e71dad5ac2eeb37d80a0efe13c0f5fd",
+      "imports": [
+        "RhInteriorSmoothSequence001",
+        "RhCenteredSmoothPrimitive001",
+        "RhPhysicalPrimitiveCongruence001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhActualSmoothFormClosure.shiftedCompleteValue_bounds",
+        "RhActualSmoothFormClosure.actual_smooth_complete_form_approximation"
+      ],
+      "dependency_source_fingerprint": "a8e41974172305a6b498071c3d6bc889fb3680573724ae55dcb1b20f78a1fb64"
+    },
+    {
+      "module": "RhActualWeightedClosure001",
+      "filename": "../weil-form-domain/WeilForm/RhActualWeightedClosure001.lean",
+      "source_sha256": "1bf1cba18c8609d2e3c8ff7659acea4d105dc301c0cc6ceb0b8d4d4f242194de",
+      "imports": [
+        "RhWeightedPrimitiveLift001",
+        "RhActualSmoothFormClosure001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhActualWeightedClosure.actual_smooth_weighted_approximation"
+      ],
+      "dependency_source_fingerprint": "bfa5152f86f3b2561045fdd172509b3746fcdbc0d4cfdf6f4e248724ef64e060"
+    },
+    {
+      "module": "RhActualComplexCore001",
+      "filename": "../weil-form-domain/WeilForm/RhActualComplexCore001.lean",
+      "source_sha256": "15f254ed5f66ebacf5c1fd412783ccdefa4513322bcb670ff79aecfc3dbd34dc",
+      "imports": [
+        "RhComplexWeightedBridge001",
+        "RhActualWeightedClosure001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhActualComplexCore.actualComplexPrimitiveLift_supported",
+        "RhActualComplexCore.actualComplexPrimitiveLift_physical_ae",
+        "RhActualComplexCore.actualComplexPrimitiveLift_energy_finite",
+        "RhActualComplexCore.actual_complex_smooth_weighted_approximation"
+      ],
+      "dependency_source_fingerprint": "5a4b381f996f2ace9355b658640b035040b82f804f0aa0b3b9644bf349f9f9a0"
+    },
+    {
+      "module": "RhWeightedMollifier001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedMollifier001.lean",
+      "source_sha256": "ec6cbee660d193061e90c1a55934f8fbc969712d54af766be338b7d229f94b39",
+      "imports": [
+        "RhWeightedEnergyIdentity001",
+        "RhWeightedCoreAttempt001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedMollifier.density_integral",
+        "RhWeightedMollifier.error_norm_square",
+        "RhWeightedMollifier.mollified_norm_tendsto"
+      ],
+      "dependency_source_fingerprint": "009390066c6e00500fdb50a389418fa6df77c53af1fd5c4a9b38f9bd1ed2a1f6"
+    },
+    {
+      "module": "RhDilationFourier001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationFourier001.lean",
+      "source_sha256": "a8d5155d695b04a05d9506627174ac5c793ff01136546102f1993d74d26c2bf6",
+      "imports": [
+        "RhDilationDefs001",
+        "RhExponentialPlancherel001",
+        "Mathlib.MeasureTheory.Measure.Haar.NormedSpace"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilation.complexDilate_memLp",
+        "RhDilation.fourier_complexDilate",
+        "RhDilation.fourier_dilate_real",
+        "RhDilation.fourier_complexDilate_L2_ae",
+        "RhDilation.fourier_translate",
+        "RhDilation.fourier_translate_L2_ae"
+      ],
+      "dependency_source_fingerprint": "2a10398a4d4f468a9e4a5b02b6b7d90ee0db20847b2bef67a8feacef4663e193"
+    },
+    {
+      "module": "RhScaledMollifier001",
+      "filename": "../weil-form-domain/WeilForm/RhScaledMollifier001.lean",
+      "source_sha256": "e4c9ba7eaa0d6a3d2896d5d08e58d18ac9c248df37e756d4a764eab4c53e5223",
+      "imports": [
+        "RhWeightedMollifier001",
+        "RhDilationFourier001",
+        "Mathlib.Analysis.Fourier.Convolution",
+        "Mathlib.Analysis.Calculus.ContDiff.Convolution"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhScaledMollifier.scaledBump_hasCompactSupport",
+        "RhScaledMollifier.scaledBump_integral",
+        "RhScaledMollifier.scaledBump_fourier"
+      ],
+      "dependency_source_fingerprint": "47d6c09718dc3b28f380938f78b1e00059ae429064526271b13d444294026d4b"
+    },
+    {
+      "module": "RhShiftFormMultiplier001",
+      "filename": "../weil-form-domain/WeilForm/RhShiftFormMultiplier001.lean",
+      "source_sha256": "d227f005ca952c1772892f3402323a8b3b89d8fb61833b373770e30d14242d38",
+      "imports": [
+        "RhDilationScalar001",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhShiftFormMultiplier.archMultiplier_mono_abs",
+        "RhShiftFormMultiplier.shift_graph_symbol_bound"
+      ],
+      "dependency_source_fingerprint": "cc4f7f7237e9eefe09383175bc90200ede3aeebcb7dc749df8240afc9482371e"
+    },
+    {
+      "module": "RhShiftFormContinuity001",
+      "filename": "../weil-form-domain/WeilForm/RhShiftFormContinuity001.lean",
+      "source_sha256": "67cc58ad9c7a22c6695c5809799cee915b373022125334aaa40dce52b874fa40",
+      "imports": [
+        "RhShiftFormMultiplier001",
+        "Mathlib.Analysis.SpecialFunctions.Log.Basic"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhShiftFormContinuity.native_log_lower",
+        "RhShiftFormContinuity.native_multiplier_atTop",
+        "RhShiftFormContinuity.uniform_native_shift_budget"
+      ],
+      "dependency_source_fingerprint": "9cc85f76a1728a1b8acf9703aef2e13a6bdb6c14cbc2efdbe24397d91a57a77d"
+    },
+    {
+      "module": "RhWeightedShiftBilinear001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedShiftBilinear001.lean",
+      "source_sha256": "e86fa335947c381793ab70e7b6c87338a8f71c6689ebd31ed2ba254162d10729",
+      "imports": [
+        "RhShiftFormContinuity001",
+        "RhWeightedEnergyIdentity001",
+        "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedShiftBilinear.norm_product_integral_le",
+        "RhWeightedShiftBilinear.weighted_to_native_integral",
+        "RhWeightedShiftBilinear.uniform_actual_shift_bilinear"
+      ],
+      "dependency_source_fingerprint": "f8fc97a8f52ff82cc739c59dac4fc263bb74e2338929eade3622a5bcf8b4fb01"
+    },
+    {
+      "module": "RhDilationCorrelation001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationCorrelation001.lean",
+      "source_sha256": "823b095d18715bd42121bc2a5eee63cf0f9bc61193dc8d7d4eb0aa516dca8f1d",
+      "imports": [
+        "RhDilationFourier001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilation.inner_phase_real",
+        "RhDilation.correlation_integrable",
+        "RhDilation.correlation_spectral_integrable",
+        "RhDilation.correlation_plancherel"
+      ],
+      "dependency_source_fingerprint": "ff173ed6321d0db0c6c54b2c04ffe00f4fa4f1d868689e27f6c137f43c236e1b"
+    },
+    {
+      "module": "RhPhysicalShiftFourier001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalShiftFourier001.lean",
+      "source_sha256": "0d0a82a3fd74a7128ed3416a6937b0b7c7879533c95d2cdb0c30d15d2241835b",
+      "imports": [
+        "RhWeightedShiftBilinear001",
+        "RhDilationCorrelation001",
+        "Mathlib.MeasureTheory.Integral.Bochner.Set"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPhysicalShiftFourier.supported_integrable",
+        "RhPhysicalShiftFourier.spatial_spectral_dictionary",
+        "RhPhysicalShiftFourier.uniform_supported_spatial_shift"
+      ],
+      "dependency_source_fingerprint": "5373951ba0f6c8323c3bf5568189d74bbc1b21768f38234d34c1ae86918fe8d2"
+    },
+    {
+      "module": "RhSpatialMollifier001",
+      "filename": "../weil-form-domain/WeilForm/RhSpatialMollifier001.lean",
+      "source_sha256": "3590b4d60fc74bed73c8666b0a6051680d1fa80a3223dbb1d6cbb3b5f4aa143a",
+      "imports": [
+        "RhScaledMollifier001",
+        "RhPhysicalShiftFourier001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSpatialMollifier.mollification_tsupport",
+        "RhSpatialMollifier.mollification_fourier",
+        "RhSpatialMollifier.mollification_physical"
+      ],
+      "dependency_source_fingerprint": "27f024436f39352365faf49347e1ffccf774e3fc6d17a0e223032e3b73ee1a6f"
+    },
+    {
+      "module": "RhSupportedMollifier001",
+      "filename": "../weil-form-domain/WeilForm/RhSupportedMollifier001.lean",
+      "source_sha256": "254ff8514c9502744eb153ed7ee2ad72c0a4fd9c6d41ad364fb7d4ecb4f23be1",
+      "imports": [
+        "RhSpatialMollifier001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSupportedMollifier.mollifier_physical_ae",
+        "RhSupportedMollifier.exists_smooth_across_gap"
+      ],
+      "dependency_source_fingerprint": "f088a1390dc1d577956106af1071d0bf55dd5288ffb93a634da98ff4dc55206c"
+    },
+    {
+      "module": "RhFourierSupportBound001",
+      "filename": "../weil-form-domain/WeilForm/RhFourierSupportBound001.lean",
+      "source_sha256": "561977302913af48a4a70976bcbd7e12cfbba8256420cde31a07b6f5c8ffdb3a",
+      "imports": [
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.Bounds",
+        "RhSupportedMollifier001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFourierSupportBound.phase_lipschitz",
+        "RhFourierSupportBound.fourier_lipschitz_of_support"
+      ],
+      "dependency_source_fingerprint": "2743119ab9254029dfc111701ee702a6777dfd3740d67739fc82368d7674471a"
+    },
+    {
+      "module": "RhSupportedFourierBound001",
+      "filename": "../weil-form-domain/WeilForm/RhSupportedFourierBound001.lean",
+      "source_sha256": "775c4d5e25f0e5568a402654a7d916c8ba2096bfcbfe4a33f2c66599ecd0ae3d",
+      "imports": [
+        "RhFourierSupportBound001",
+        "RhDilationRankL2001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSupportedFourierBound.representative_l1_square",
+        "RhSupportedFourierBound.actual_fourier_increment_square"
+      ],
+      "dependency_source_fingerprint": "4abbc3b3386688e8e8b6d8b5168eb69660b9939e0d53837595160da314ac087f"
+    },
+    {
+      "module": "RhFiniteFourierGrid001",
+      "filename": "../weil-form-domain/WeilForm/RhFiniteFourierGrid001.lean",
+      "source_sha256": "d667588632f5ec8b1f3073063acefb7bd1d4eccb3b7c82412eacbf80863bfbdb",
+      "imports": [
+        "RhSupportedFourierBound001",
+        "Mathlib.Algebra.Order.Floor.Semiring"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFiniteFourierGrid.unique_cell",
+        "RhFiniteFourierGrid.cell_distance",
+        "RhFiniteFourierGrid.step_eq_at_cell",
+        "RhFiniteFourierGrid.step_zero_outside"
+      ],
+      "dependency_source_fingerprint": "a9a432bb741ed3d6e8821b4bbcc43e20cecc0e5a0a8535d0708d71c98ea5029c"
+    },
+    {
+      "module": "RhWeightedFrequencyTail001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedFrequencyTail001.lean",
+      "source_sha256": "3830601d336cf01ce16a44736aae83c652091d20e1a9e7d8e858624a8a6bcd98",
+      "imports": [
+        "RhWeightedShiftBilinear001",
+        "Mathlib.MeasureTheory.Integral.Bochner.Set"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedFrequencyTail.weighted_square_integral",
+        "RhWeightedFrequencyTail.raw_high_frequency_mass",
+        "RhWeightedFrequencyTail.actual_high_frequency_mass"
+      ],
+      "dependency_source_fingerprint": "b101976056b38e9c36e96eedba1298bdc8b145eaa2c13663e892411323e9ed42"
+    },
+    {
+      "module": "RhFourierGridError001",
+      "filename": "../weil-form-domain/WeilForm/RhFourierGridError001.lean",
+      "source_sha256": "98d2ebd26f261ef07cfcc2a06fd4bc1885d34438d2f4bdc88e10cdfc921b335a",
+      "imports": [
+        "RhFiniteFourierGrid001",
+        "RhWeightedFrequencyTail001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFourierGridError.step_memLp",
+        "RhFourierGridError.low_band_error"
+      ],
+      "dependency_source_fingerprint": "9d0d556dd474ee460dcbf45929f48a483cf02dbdc5ffcdc3861b66605a9a3b96"
+    },
+    {
+      "module": "RhFourierGridOperator001",
+      "filename": "../weil-form-domain/WeilForm/RhFourierGridOperator001.lean",
+      "source_sha256": "df753a3f4d4cc1632517760bc2cac7ecb9a348557341454fea15d5648ea4703a",
+      "imports": [
+        "RhFourierGridError001",
+        "Mathlib.Analysis.Normed.Operator.Compact.FiniteDimension"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFourierGridOperator.sample_eq_fourier",
+        "RhFourierGridOperator.grid_ae",
+        "RhFourierGridOperator.grid_compact",
+        "RhFourierGridOperator.physical_grid_compact"
+      ],
+      "dependency_source_fingerprint": "0bca1b9a2ed0061225e8cc0fa5dd84584d8d72f035646e0e093aa22dff1fcc62"
+    },
+    {
+      "module": "RhFourierGridGlobalError001",
+      "filename": "../weil-form-domain/WeilForm/RhFourierGridGlobalError001.lean",
+      "source_sha256": "a7e4bb476ff909d331596be123356aa52fc8f151cd8769d26f8b596fddd44fce",
+      "imports": [
+        "RhFourierGridError001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFourierGridGlobalError.raw_fourier_ae",
+        "RhFourierGridGlobalError.outside_band_mass",
+        "RhFourierGridGlobalError.full_grid_error"
+      ],
+      "dependency_source_fingerprint": "4f721a20a4a853453dcd65c774d8468659d32791f0c2db6dc477fe00739c3098"
+    },
+    {
+      "module": "RhSupportedCompactEmbedding001",
+      "filename": "../weil-form-domain/WeilForm/RhSupportedCompactEmbedding001.lean",
+      "source_sha256": "d966ea8e3fb6a972addb0037a090dedb72a7c4383b9bd66bbbe3d34843cb4692",
+      "imports": [
+        "RhFourierGridOperator001",
+        "RhFourierGridGlobalError001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSupportedCompactEmbedding.grid_error_norm_square",
+        "RhSupportedCompactEmbedding.budget_tendsto_zero",
+        "RhSupportedCompactEmbedding.frequency_embedding_compact",
+        "RhSupportedCompactEmbedding.physical_embedding_compact"
+      ],
+      "dependency_source_fingerprint": "76a3f3fc284c0522e6cf8c6084666ca398a405f1fa9cb282c152635bf95228fe"
+    },
+    {
+      "module": "RhClosedSmoothCore001",
+      "filename": "../weil-form-domain/WeilForm/RhClosedSmoothCore001.lean",
+      "source_sha256": "a39601301122430967cbc937a61289ae45fc49196c078a590c73d682ba728508",
+      "imports": [
+        "RhActualWeightedClosure001",
+        "Mathlib.Topology.Algebra.Module.Basic"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhClosedSmoothCore.smoothCore_isClosed",
+        "RhClosedSmoothCore.coreSpace_complete",
+        "RhClosedSmoothCore.actualPrimitiveSupportedLift_mem_core",
+        "RhClosedSmoothCore.actualCoreLift_physical",
+        "RhClosedSmoothCore.actualCoreLift_norm_square"
+      ],
+      "dependency_source_fingerprint": "654889d450a77f39e396eeed4fe9b5834461f808a0be0cef52867756c6b467b1"
+    },
+    {
+      "module": "RhNativeCompleteBilinear001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeCompleteBilinear001.lean",
+      "source_sha256": "c62f1559403d261c18526058b8eaf91551571accabf70187a6d74a356d6f54df",
+      "imports": [
+        "RhClosedSmoothCore001",
+        "Mathlib.Analysis.InnerProductSpace.LinearMap"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeCompleteBilinear.archPair_diagonal",
+        "RhNativeCompleteBilinear.archPair_nonnegative",
+        "RhNativeCompleteBilinear.completeForm_symmetric"
+      ],
+      "dependency_source_fingerprint": "8e68a3625d87ab8b2e8077af2b2e9a7bab16773736aa701c026e28044feba39b"
+    },
+    {
+      "module": "RhNativeBoundedPartControl001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeBoundedPartControl001.lean",
+      "source_sha256": "7981e32eac049b239e4e855bb61c7e332a755006529435e43d81e8a439dbe52a",
+      "imports": [
+        "RhNativeCompleteBilinear001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeBoundedPartControl.shiftPair_mass_bound",
+        "RhNativeBoundedPartControl.profilePair_mass_bound",
+        "RhNativeBoundedPartControl.boundedPart_mass_bound"
+      ],
+      "dependency_source_fingerprint": "260bad5d09dc414a444e88c9ba73b42696d87453845c8daea7dd04919f14a737"
+    },
+    {
+      "module": "RhZeroModeSchur001",
+      "filename": "../weil-form-domain/WeilForm/RhZeroModeSchur001.lean",
+      "source_sha256": "e838be5913bedb307d4b3781d47298e6506bed44ba99ecf283a9794fc79febe6",
+      "imports": [
+        "Mathlib.Analysis.InnerProductSpace.Basic",
+        "Mathlib.Analysis.Normed.Operator.Basic",
+        "Mathlib.Analysis.Calculus.Deriv.Basic",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Ring"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhZeroModeSchur.completion_square",
+        "RhZeroModeSchur.cross_payment_nonnegative",
+        "RhZeroModeSchur.cross_payment_positive",
+        "RhZeroModeSchur.nonnegative_iff_residual",
+        "RhZeroModeSchur.whole_space_nonnegative_iff",
+        "RhZeroModeSchur.residual_le_diagonal",
+        "RhZeroModeSchur.toy_null_axis_derivative",
+        "RhZeroModeSchur.toy_negative_direction",
+        "RhZeroModeSchur.positive_diagonal_but_negative_residual"
+      ],
+      "dependency_source_fingerprint": "08f9a88a3ff55e87f9a686626eefa7b3e0da7d8a28ba087ffce851dca71ee89e"
+    },
+    {
+      "module": "RhCoerciveSchurInverse001",
+      "filename": "../weil-form-domain/WeilForm/RhCoerciveSchurInverse001.lean",
+      "source_sha256": "c099918491fdf92f03e5674b61e388badd54048cc9a7a336f78dcdfdd526d0a2",
+      "imports": [
+        "Mathlib.Analysis.InnerProductSpace.LaxMilgram",
+        "RhZeroModeSchur001",
+        "Mathlib.Tactic.Positivity"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCoerciveSchurInverse.perturbed_isCoercive",
+        "RhCoerciveSchurInverse.inverse_equation",
+        "RhCoerciveSchurInverse.inverse_weak_equation",
+        "RhCoerciveSchurInverse.completion_square",
+        "RhCoerciveSchurInverse.cross_payment_nonnegative",
+        "RhCoerciveSchurInverse.cross_payment_le",
+        "RhCoerciveSchurInverse.nonnegative_iff_residual",
+        "RhCoerciveSchurInverse.whole_space_nonnegative_iff",
+        "RhCoerciveSchurInverse.quantitative_inverse_and_payment",
+        "RhCoerciveSchurInverse.perturbed_nonnegative_iff"
+      ],
+      "dependency_source_fingerprint": "76bc382e644d5b44650b8a4cc4a2aae8c4fe2bd5df47824e3c620e3d5bd990b3"
+    },
+    {
+      "module": "RhNativeGraphCoercivity001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeGraphCoercivity001.lean",
+      "source_sha256": "4c9b1416fbaf7d42037be120b12f37d379472a20e628bb16469b9890f954177d",
+      "imports": [
+        "RhNativeBoundedPartControl001",
+        "RhCoerciveSchurInverse001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeGraphCoercivity.native_graph_control",
+        "RhNativeGraphCoercivity.complete_graph_gap",
+        "RhNativeGraphCoercivity.restricted_isCoercive_of_physical_gap",
+        "RhNativeGraphCoercivity.core_graph_gap"
+      ],
+      "dependency_source_fingerprint": "8b6920d9b1543482d6de6d1d6589d2ae28dca3737c077876172bc43dc25649b3"
+    },
+    {
+      "module": "RhPositiveGraphCauchy001",
+      "filename": "../weil-form-domain/WeilForm/RhPositiveGraphCauchy001.lean",
+      "source_sha256": "4974fe3a7fb928d3634b485d6b55c6151930bb2d8eea7640077634c6d4a65fa5",
+      "imports": [
+        "RhSupportedCompactEmbedding001",
+        "RhNativeGraphCoercivity001",
+        "Mathlib.Topology.MetricSpace.Cauchy",
+        "Mathlib.Analysis.Normed.Operator.BoundedLinearMaps"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPositiveGraphCauchy.positive_difference",
+        "RhPositiveGraphCauchy.graph_cauchy",
+        "RhPositiveGraphCauchy.graph_limit"
+      ],
+      "dependency_source_fingerprint": "fd6b3452f70569ac97773c909a3d433550001dad413c2fceb5baf706e488faa8"
+    },
+    {
+      "module": "RhCompactPositiveSequence001",
+      "filename": "../weil-form-domain/WeilForm/RhCompactPositiveSequence001.lean",
+      "source_sha256": "fc25a24241e9304b572244fbeef563af142d7b12a99b3eacaf2f63d8c04cdd9c",
+      "imports": [
+        "RhPositiveGraphCauchy001",
+        "Mathlib.Topology.Sequences"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCompactPositiveSequence.compact_zero_subsequence",
+        "RhCompactPositiveSequence.zero_diagonal_radical",
+        "RhCompactPositiveSequence.radical_iff_zero_diagonal"
+      ],
+      "dependency_source_fingerprint": "e6561dee6a05b4e7a6204a89afbe759a45148d4972b9f6fb65ef39becc339535"
+    },
+    {
+      "module": "RhCompactPhysicalGap001",
+      "filename": "../weil-form-domain/WeilForm/RhCompactPhysicalGap001.lean",
+      "source_sha256": "f4386eebb73b619a89f8c94a4d5895f6cb7f13fe4a9b35d0d35a4782743a229e",
+      "imports": [
+        "RhCompactPositiveSequence001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCompactPhysicalGap.physical_gap"
+      ],
+      "dependency_source_fingerprint": "45244df3aa8e94d05b85c14eca07102c18261a93b1e1fcec458da3a8240beb0a"
+    },
+    {
+      "module": "RhCompactPositiveKernel001",
+      "filename": "../weil-form-domain/WeilForm/RhCompactPositiveKernel001.lean",
+      "source_sha256": "68727432b6bfa213b61db1c63d6c8ca47d93f1c8ef5c266f51fe1847def15c52",
+      "imports": [
+        "RhCompactPositiveSequence001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCompactPositiveKernel.finite_nullspace"
+      ],
+      "dependency_source_fingerprint": "ffc02359be7663562dfe11e76aebf6be6ca135fc2b2a68114109ba79f60fb43f"
+    },
+    {
+      "module": "RhFlatSmoothCore001",
+      "filename": "../weil-form-domain/WeilForm/RhFlatSmoothCore001.lean",
+      "source_sha256": "5fadcdc7a35ebbceea1e1bb983dc694f1977f618c646a2a23515ca7824b30ea0",
+      "imports": [
+        "RhClosedSmoothCore001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFlatSmoothCore.flatCore_isClosed",
+        "RhFlatSmoothCore.flatCore_supported",
+        "RhFlatSmoothCore.flatCore_eq_nestedImage",
+        "RhFlatSmoothCore.actualPrimitiveLift_mem_flatCore"
+      ],
+      "dependency_source_fingerprint": "4b2cdcee9980a39efb91e981e92073b71b90d1b156c23d7dc528de2040e64f34"
+    },
+    {
+      "module": "RhNativeCompactGap001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeCompactGap001.lean",
+      "source_sha256": "d1f08fddd368e67a5aac6f563fa945b15aafdb9935fd1ac911fb8de6203a47bb",
+      "imports": [
+        "RhCompactPhysicalGap001",
+        "RhCompactPositiveKernel001",
+        "RhFlatSmoothCore001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeCompactGap.physical_compact",
+        "RhNativeCompactGap.finite_nullspace",
+        "RhNativeCompactGap.physical_complement_gap"
+      ],
+      "dependency_source_fingerprint": "66082ec20aa6298b92125914581df19803a987ced75089d4a1b978209ad29fd8"
+    },
+    {
+      "module": "RhSchurCovariance001",
+      "filename": "../weil-form-domain/WeilForm/RhSchurCovariance001.lean",
+      "source_sha256": "b2f090b07c5071a2c669b3cd532f6ce632d298c3ec1fee30ad3387968463e953",
+      "imports": [
+        "RhCoerciveSchurInverse001",
+        "Mathlib.Analysis.InnerProductSpace.PiL2"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSchurCovariance.covariance_symmetric",
+        "RhSchurCovariance.aggregate_covariance",
+        "RhSchurCovariance.regrouping_invariant",
+        "RhSchurCovariance.inverse_cross_strict",
+        "RhSchurCovariance.zero_diagonal_iff_total_coupling_zero",
+        "RhSchurCovariance.exact_negative_witness",
+        "RhSchurCovariance.finite_source_schur_iff"
+      ],
+      "dependency_source_fingerprint": "6a2138d60e009c768ff9a527e9bae4acde565c71018b63390e842c2d0f3ed02b"
+    },
+    {
+      "module": "RhPhysicalOrthogonalSchur001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalOrthogonalSchur001.lean",
+      "source_sha256": "25fad238a755997660ac302a630f9b43c3bb113d736324712c7ad3d8926fda3f",
+      "imports": [
+        "RhFlatSmoothCore001",
+        "RhNativeGraphCoercivity001",
+        "RhSchurCovariance001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPhysicalOrthogonalSchur.mem_complement_iff",
+        "RhPhysicalOrthogonalSchur.complement_isClosed",
+        "RhPhysicalOrthogonalSchur.form_isCoercive",
+        "RhPhysicalOrthogonalSchur.inverse_weak_equation",
+        "RhPhysicalOrthogonalSchur.crossSource_full_expansion",
+        "RhPhysicalOrthogonalSchur.actual_schur_iff",
+        "RhPhysicalOrthogonalSchur.cross_payment_nonnegative"
+      ],
+      "dependency_source_fingerprint": "9fb7e0e77a81e533402bf5f633dcc5900a61b8bb2166512e0076d9ba17393192"
+    },
+    {
+      "module": "RhNativeKernelFamily001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeKernelFamily001.lean",
+      "source_sha256": "7c414b9cc76177686bd8ea1887bba732a59be9ae68ec31ab2a706dc6c231cf50",
+      "imports": [
+        "RhNativeCompactGap001",
+        "RhPhysicalOrthogonalSchur001",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Basic",
+        "Mathlib.LinearAlgebra.Basis.VectorSpace"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeKernelFamily.family_mem_kernel",
+        "RhNativeKernelFamily.kernel_spanning",
+        "RhNativeKernelFamily.actual_physical_gap"
+      ],
+      "dependency_source_fingerprint": "51449b51ea634bd2ba2c0d9ba2a7678710a3b7c2a69da27598ffb8c9c9003077"
+    },
+    {
+      "module": "RhNativePhysicalKernelBasis001",
+      "filename": "../weil-form-domain/WeilForm/RhNativePhysicalKernelBasis001.lean",
+      "source_sha256": "16f193ca29d2de1f242607a53d626c7eadb1a17b13bb8bca19ae3e65a4ae7894",
+      "imports": [
+        "RhNativeKernelFamily001",
+        "Mathlib.Analysis.InnerProductSpace.PiL2"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativePhysicalKernelBasis.family_physical_orthonormal",
+        "RhNativePhysicalKernelBasis.kernel_spanning",
+        "RhNativePhysicalKernelBasis.actual_physical_gap"
+      ],
+      "dependency_source_fingerprint": "80c89e70204b13797c69ce9697a4d6618cdf6eb969a88a38880d4c7fd64f2684"
+    },
+    {
+      "module": "RhDilationFrequency001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationFrequency001.lean",
+      "source_sha256": "964bcbb2eff21fa70a6ea354d4a462df91f115056be1c058f654822de7e90a53",
+      "imports": [
+        "RhDilationFourier001",
+        "RhDilationScalar001",
+        "RhPhysicalTailLimit001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilation.rawDensity_ae",
+        "RhDilation.finite_energy_dilate",
+        "RhDilation.finite_energy_scaling",
+        "RhDilation.finite_energy_frequency"
+      ],
+      "dependency_source_fingerprint": "4c76ea40fbb118325b2194ee4c391d42cbea36ad5609a0fa318c30ef4f04aae4"
+    },
+    {
+      "module": "RhDilationEnergy001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationEnergy001.lean",
+      "source_sha256": "bd32817d6ac5947f25ace07a0e716a25a6539aef6d2065cafa3f0ca1904025d1",
+      "imports": [
+        "RhDilationFrequency001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilation.full_energy_scaling"
+      ],
+      "dependency_source_fingerprint": "1636f3ccc44baebf3473ad09db47a4f449ceb6c4822085a94c8cb20a2eccfabb"
+    },
+    {
+      "module": "RhDilationContraction001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationContraction001.lean",
+      "source_sha256": "328d0c0d1a7c3e8808f1b96a8b800c1b47dc73771aa5df19510eea465631a470",
+      "imports": [
+        "RhDilationEnergy001",
+        "RhWeightedEnergyIdentity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationContraction.full_energy_contraction",
+        "RhDilationContraction.complexDilate_L2_norm_square"
+      ],
+      "dependency_source_fingerprint": "ca91195f336dc1722cc73e9252781aabbefe5b28d73a2d13f906ded9b5736d01"
+    },
+    {
+      "module": "RhWeightedDilation001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedDilation001.lean",
+      "source_sha256": "ebc4b32383be3791af43e5f20b2066d2ef6c25336c373279f929ecdd74ac2c0c",
+      "imports": [
+        "RhDilationContraction001",
+        "RhPhysicalShiftFourier001",
+        "RhDilationPhysical001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedDilation.dilatedPhysical_supported",
+        "RhWeightedDilation.dilatedPhysical_energy_le",
+        "RhWeightedDilation.outwardLift_physical_ae",
+        "RhWeightedDilation.outwardLift_supported",
+        "RhWeightedDilation.outwardLift_norm_le"
+      ],
+      "dependency_source_fingerprint": "576cd238ee842624ddc37313ef430e8d11706738d4f3e7f0482ccd25036187b7"
+    },
+    {
+      "module": "RhWeightedDilationMap001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedDilationMap001.lean",
+      "source_sha256": "b5bb9bec5d7ee1a32ac439885f86a45728ae7edcf708875a4b4874c6b43286cd",
+      "imports": [
+        "RhWeightedDilation001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedDilationMap.outwardLift_add",
+        "RhWeightedDilationMap.outwardLift_real_smul",
+        "RhWeightedDilationMap.outwardMap_norm_le",
+        "RhWeightedDilationMap.outwardMap_physical_ae"
+      ],
+      "dependency_source_fingerprint": "29fded0a5dc201b95577b2bce3076245751a14798fdf63ccc96f30b9ca450e37"
+    },
+    {
+      "module": "RhClosedCoreDilation001",
+      "filename": "../weil-form-domain/WeilForm/RhClosedCoreDilation001.lean",
+      "source_sha256": "60823114620d8c0938d9f25d8b039526d3c7d6d485a8d295397b3d38d44f2d29",
+      "imports": [
+        "RhClosedSmoothCore001",
+        "RhWeightedDilationMap001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhClosedCoreDilation.dilate_strict_support",
+        "RhClosedCoreDilation.outward_smooth_generator",
+        "RhClosedCoreDilation.outward_preserves_core",
+        "RhClosedCoreDilation.outwardCoreMap_norm_le"
+      ],
+      "dependency_source_fingerprint": "b5c0e5ae78e505cc28174379ee5c456284e4383390913e43bd4d919d98efc492"
+    },
+    {
+      "module": "RhDilationInverseEnergy001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationInverseEnergy001.lean",
+      "source_sha256": "4ccfb4ef15dcf9ce39de4d8888a8da8d693d60a6f4efb7762ccd6649ff346467",
+      "imports": [
+        "RhDilationContraction001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationInverseEnergy.complexDilate_inverse_cancel",
+        "RhDilationInverseEnergy.complexDilate_inverse_cancel_left",
+        "RhDilationInverseEnergy.full_energy_inverse_bound"
+      ],
+      "dependency_source_fingerprint": "d7a6823d55814d4c54f333a2c4ff016877255ab39d98458b9217ff70687af75b"
+    },
+    {
+      "module": "RhWeightedDilationInverse001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedDilationInverse001.lean",
+      "source_sha256": "d08aaca6cea3aab510fd1efc851b766469135dc0dabaacf41d5a9605d08e81f1",
+      "imports": [
+        "RhWeightedDilation001",
+        "RhDilationInverseEnergy001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedDilationInverse.dilatedPhysical_inverse_energy_bound",
+        "RhWeightedDilationInverse.inwardLift_physical_ae",
+        "RhWeightedDilationInverse.inwardLift_supported",
+        "RhWeightedDilationInverse.inwardLift_norm_square_le",
+        "RhWeightedDilationInverse.inward_outward_cancel",
+        "RhWeightedDilationInverse.outward_inward_cancel"
+      ],
+      "dependency_source_fingerprint": "f701e6ff38f30d704115fe0ad97530e13de4aaed3a720ec8889b7d318b75425c"
+    },
+    {
+      "module": "RhWeightedInwardMap001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedInwardMap001.lean",
+      "source_sha256": "808e27c8004ba04cf30b214ddde57475a1f4cf25f392419fb208bb76e3f20ba1",
+      "imports": [
+        "RhWeightedDilationMap001",
+        "RhWeightedDilationInverse001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedInwardMap.inwardLift_add",
+        "RhWeightedInwardMap.inwardLift_real_smul",
+        "RhWeightedInwardMap.inwardMap_norm_le",
+        "RhWeightedInwardMap.inwardMap_physical_ae",
+        "RhWeightedInwardMap.inwardMap_outwardMap_cancel",
+        "RhWeightedInwardMap.outwardMap_inwardMap_cancel"
+      ],
+      "dependency_source_fingerprint": "c3339eac1937b8a38628a92dcf661ca86309df019c82fa3936f9c649b8f1dbb6"
+    },
+    {
+      "module": "RhClosedCoreDilationInverse001",
+      "filename": "../weil-form-domain/WeilForm/RhClosedCoreDilationInverse001.lean",
+      "source_sha256": "7c87a24ab868d1df46db49033c3d79156323b78e2e5d56c27c48c90c981cf228",
+      "imports": [
+        "RhClosedCoreDilation001",
+        "RhWeightedInwardMap001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhClosedCoreDilationInverse.inward_smooth_generator",
+        "RhClosedCoreDilationInverse.inward_preserves_core",
+        "RhClosedCoreDilationInverse.inwardCoreMap_norm_le",
+        "RhClosedCoreDilationInverse.inwardCoreMap_outwardCoreMap_cancel",
+        "RhClosedCoreDilationInverse.outwardCoreMap_inwardCoreMap_cancel"
+      ],
+      "dependency_source_fingerprint": "92f7017dc16a42689c136f6bb4cdc99a8f624d1820bc3669fbfda7e62bcc61cc"
+    },
+    {
+      "module": "RhFlatCoreDilation001",
+      "filename": "../weil-form-domain/WeilForm/RhFlatCoreDilation001.lean",
+      "source_sha256": "d712a6cd0efc8daf90e20fb19dbe0d0d8f87755b16e64f35bc2b38ba5f84ecd0",
+      "imports": [
+        "RhFlatSmoothCore001",
+        "RhClosedCoreDilationInverse001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFlatCoreDilation.outward_mem",
+        "RhFlatCoreDilation.inward_mem",
+        "RhFlatCoreDilation.outwardMap_norm_le",
+        "RhFlatCoreDilation.inwardMap_norm_le",
+        "RhFlatCoreDilation.return_outward_cancel",
+        "RhFlatCoreDilation.outward_return_cancel",
+        "RhFlatCoreDilation.dilationEquiv"
+      ],
+      "dependency_source_fingerprint": "bf19c54e7dd891bbefbc818ab4479333a67b55d2889d5c731b11efbace5ca526"
+    },
+    {
+      "module": "RhPulledCompleteForm001",
+      "filename": "../weil-form-domain/WeilForm/RhPulledCompleteForm001.lean",
+      "source_sha256": "9d085f411ef1101a7d8c095e2104e8cbe89bd2225a64e4c56c031df428be1e6e",
+      "imports": [
+        "RhFlatCoreDilation001",
+        "RhNativeGraphCoercivity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPulledCompleteForm.pulledForm_one",
+        "RhPulledCompleteForm.differenceForm_is_qr_sub_q1",
+        "RhPulledCompleteForm.pulledForm_symmetric",
+        "RhPulledCompleteForm.differenceForm_symmetric",
+        "RhPulledCompleteForm.differenceForm_native_expansion"
+      ],
+      "dependency_source_fingerprint": "5d0b7d6c65d80f6ea29dea636928d7df9f6118a4c882958d145d9c14104c06fa"
+    },
+    {
+      "module": "RhActualKernelData001",
+      "filename": "../weil-form-domain/WeilForm/RhActualKernelData001.lean",
+      "source_sha256": "f5dfa081cd450f6b4134bd2bad26d09db7770a49aa24984eb055aaa1964c0104",
+      "imports": [
+        "RhNativePhysicalKernelBasis001",
+        "RhPulledCompleteForm001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhActualKernelData.exists_actual_kernel_data"
+      ],
+      "dependency_source_fingerprint": "a9c55254dccf3110b9d9211ecff9d1718e7d11dc33a0a335311a8770b1a9c26d"
+    },
+    {
+      "module": "RhFixedPhysicalComplementGeometry001",
+      "filename": "../weil-form-domain/WeilForm/RhFixedPhysicalComplementGeometry001.lean",
+      "source_sha256": "3668acfbd81f37eab263615f54ee04bc852c43c9ffeeb51d73885f8270565cab",
+      "imports": [
+        "RhPulledCompleteForm001",
+        "RhPhysicalOrthogonalSchur001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFixedPhysicalPulledSchur.toCore_ambient",
+        "RhFixedPhysicalPulledSchur.toCore_norm"
+      ],
+      "dependency_source_fingerprint": "8dda6d9a6e44723cb1cc37a93b30887ad9401b05a0232cc264e6460453ede953"
+    },
+    {
+      "module": "RhFixedPhysicalComplementCoercivity001",
+      "filename": "../weil-form-domain/WeilForm/RhFixedPhysicalComplementCoercivity001.lean",
+      "source_sha256": "13b9b661b1538d18ec5ec9ce7ec2781040d065bc8913e45e4d9bdb0ec52f3f6b",
+      "imports": [
+        "RhFixedPhysicalComplementGeometry001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFixedPhysicalPulledSchur.pulled_equals_base_add_difference",
+        "RhFixedPhysicalPulledSchur.pulled_isCoercive",
+        "RhFixedPhysicalPulledSchur.outward_graph_gap"
+      ],
+      "dependency_source_fingerprint": "e422d720f3cab5c5b86e50e622f502ff8bd1d481e2df8a6113a71a4ebaa3f082"
+    },
+    {
+      "module": "RhFixedPhysicalPulledSchur001",
+      "filename": "../weil-form-domain/WeilForm/RhFixedPhysicalPulledSchur001.lean",
+      "source_sha256": "d0b1029543e4a457caea7eb00e8c8c06d71e0e8a1a520db25e81921283e78b4a",
+      "imports": [
+        "RhFixedPhysicalComplementCoercivity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFixedPhysicalPulledSchur.inverse_weak_equation",
+        "RhFixedPhysicalPulledSchur.actual_schur_iff",
+        "RhFixedPhysicalPulledSchur.payment_nonnegative",
+        "RhFixedPhysicalPulledSchur.payment_le"
+      ],
+      "dependency_source_fingerprint": "b6bfccd1e9ede97dd64b3f46d124a8aafcd19a1608bab110a47e1775f6977b17"
+    },
+    {
+      "module": "RhFixedPhysicalSchurMatrix001",
+      "filename": "../weil-form-domain/WeilForm/RhFixedPhysicalSchurMatrix001.lean",
+      "source_sha256": "7a54853854e670e2808aef7c755a2668fd7231a7773bab2bac0abe7b9f9db432",
+      "imports": [
+        "RhFixedPhysicalPulledSchur001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFixedPhysicalSchurMatrix.schurMatrix_symmetric",
+        "RhFixedPhysicalSchurMatrix.residual_combination",
+        "RhFixedPhysicalSchurMatrix.family_schur_iff"
+      ],
+      "dependency_source_fingerprint": "b245f9c98e3bac7044df1d67fffc4927a0d2aa22396ca8833d406db5903c89c5"
+    },
+    {
+      "module": "RhPhysicalProjectionSchur001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalProjectionSchur001.lean",
+      "source_sha256": "69db740877192c7b9ca2ed73eeb9fdc2869f37748221f30880a2852dbd60bfe7",
+      "imports": [
+        "RhFixedPhysicalSchurMatrix001",
+        "Mathlib.Analysis.InnerProductSpace.Orthonormal"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPhysicalProjectionSchur.projection_idempotent",
+        "RhPhysicalProjectionSchur.physical_decomposition",
+        "RhPhysicalProjectionSchur.full_core_schur_iff"
+      ],
+      "dependency_source_fingerprint": "448ef68e02dd772c370a655e792a16260d2b90147c436399de319b155dbf0b09"
+    },
+    {
+      "module": "RhRotatingPhysicalGap001",
+      "filename": "WeilNullCrossing/RhRotatingPhysicalGap001.lean",
+      "source_sha256": "2dea0c77b8fdab35d367c4bdd4fd2d0b4275733cc7a3687536d6e6155c319336",
+      "imports": [
+        "RhPhysicalProjectionSchur001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhRotatingPhysicalGap.projection_rotation_bound",
+        "RhRotatingPhysicalGap.remainder_form",
+        "RhRotatingPhysicalGap.rotated_physical_gap",
+        "RhRotatingPhysicalGap.rotatedControl"
+      ],
+      "dependency_source_fingerprint": "3766f5fbd1a36635ab0d6e6096618eac03b7f0e39d2273c5f8b176c243fb4253"
+    },
+    {
+      "module": "RhPhysicalOverlapFinite001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalOverlapFinite001.lean",
+      "source_sha256": "42ad73c74a84680337cfec479862ac073157766940e7047c50fbe9bef73a3da9",
+      "imports": [
+        "RhPhysicalProjectionSchur001",
+        "Mathlib.Topology.Instances.Matrix",
+        "Mathlib.LinearAlgebra.Matrix.NonsingularInverse"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPhysicalOverlapFinite.coefficients_combination",
+        "RhPhysicalOverlapFinite.surjective_coordinates_of_det_ne_zero",
+        "RhPhysicalOverlapFinite.overlap_tendsto_identity",
+        "RhPhysicalOverlapFinite.determinant_tendsto_one",
+        "RhPhysicalOverlapFinite.eventually_invertible_and_surjective"
+      ],
+      "dependency_source_fingerprint": "647950df0703e62073c522ac44fe2b8d9daa342e1ce51f1f2899a8c13307cee7"
+    },
+    {
+      "module": "RhNativeCompleteDictionary001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeCompleteDictionary001.lean",
+      "source_sha256": "a56d456804655d6a7a60483d91819ff0050d0d78421cfe52830edbabedd82621",
+      "imports": [
+        "RhNativeCompleteBilinear001",
+        "RhPhysicalShiftFourier001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeCompleteDictionary.physicalVector_inner",
+        "RhNativeCompleteDictionary.twoShift_spatial_dictionary",
+        "RhNativeCompleteDictionary.physicalVector_shift",
+        "RhNativeCompleteDictionary.boundedPart_actual",
+        "RhNativeCompleteDictionary.completeForm_actual"
+      ],
+      "dependency_source_fingerprint": "a153960c559f042a7ca22f5aa361457bbe9822b5b772c002cf26df45647874a2"
+    },
+    {
+      "module": "RhLiteralSupportForm001",
+      "filename": "../weil-form-domain/WeilForm/RhLiteralSupportForm001.lean",
+      "source_sha256": "87690abc44e7ac6144ab6570f9f48a21176bb21dddab61a968d93eeab7b1e707",
+      "imports": [
+        "RhFlatSmoothCore001",
+        "RhNativeCompleteDictionary001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhLiteralSupportForm.flatCore_mono",
+        "RhLiteralSupportForm.profileMoment_support_invariant",
+        "RhLiteralSupportForm.completeForm_support_invariant",
+        "RhLiteralSupportForm.old_null_diagonal_stays_zero"
+      ],
+      "dependency_source_fingerprint": "fea6bad8dc18d40b55242c1831a9a078fa4eedd39404c66b9aebc94f89f2b3da"
+    },
+    {
+      "module": "RhWeightedFrequencyDensity001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedFrequencyDensity001.lean",
+      "source_sha256": "62afbfae8ae5b63e5115c5bb7b46b84bba883a95cb9063993d4ba88c99039522",
+      "imports": [
+        "RhShiftFormMultiplier001",
+        "RhWeightedMeasureEmbedding001",
+        "Mathlib.Analysis.Normed.Lp.SmoothApprox",
+        "Mathlib.Topology.MetricSpace.Bounded"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedFrequencyDensity.weighted_interval_bound",
+        "RhWeightedFrequencyDensity.weightedMeasure_finiteOnCompacts",
+        "RhWeightedFrequencyDensity.frequency_smooth_dense",
+        "RhWeightedFrequencyDensity.frequency_smooth_approximation"
+      ],
+      "dependency_source_fingerprint": "decd525af2d2804f2646b2e50f28df0acf2b8bab58b4aa6109835d93f04cf5f7"
+    },
+    {
+      "module": "RhWeightedFrequencyDilation001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedFrequencyDilation001.lean",
+      "source_sha256": "c382eb6bcdf944f4a6ec341dc33af12cc1cc2b02f7e1f768169827c3356b9507",
+      "imports": [
+        "RhWeightedDilationInverse001",
+        "RhWeightedFrequencyDensity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedFrequencyDilation.archWeight_scale_bound",
+        "RhWeightedFrequencyDilation.weighted_scaled_square",
+        "RhWeightedFrequencyDilation.frequency_dilate_memLp",
+        "RhWeightedFrequencyDilation.frequencyDilate_norm_square_le"
+      ],
+      "dependency_source_fingerprint": "42b8cf3c18c53bb5a7611bf41d76a6cf212da9b733bf0d2f26dccd4b6e2582c3"
+    },
+    {
+      "module": "RhFrequencyDilationCompact001",
+      "filename": "../weil-form-domain/WeilForm/RhFrequencyDilationCompact001.lean",
+      "source_sha256": "eb6dade4c9ec06992c182d1b5547d777bcfb95bff9429f0c091e04e10c8fe082",
+      "imports": [
+        "RhWeightedFrequencyDensity001",
+        "RhDilationFourier001",
+        "RhDilationPhysical001",
+        "Mathlib.MeasureTheory.Integral.DominatedConvergence"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFrequencyDilationCompact.pointwise_dilate_tendsto",
+        "RhFrequencyDilationCompact.compact_square_error_tendsto"
+      ],
+      "dependency_source_fingerprint": "35c26224e473df9f440349eda7afaa451abe094e8e45944015c0dc5f5ba26a11"
+    },
+    {
+      "module": "RhFrequencyDilationStrong001",
+      "filename": "../weil-form-domain/WeilForm/RhFrequencyDilationStrong001.lean",
+      "source_sha256": "bf8c46a4e73bce47a36b09289797caea852d7d6c4e1500682caf742bc3ca8db5",
+      "imports": [
+        "RhWeightedFrequencyDilation001",
+        "RhFrequencyDilationCompact001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFrequencyDilationStrong.frequencyDilate_sub",
+        "RhFrequencyDilationStrong.compact_vector_norm_tendsto",
+        "RhFrequencyDilationStrong.frequencyDilate_norm_tendsto"
+      ],
+      "dependency_source_fingerprint": "8249aa8c87eddc3d9d84718e02071c477d45c8a279ea9675269c42fce4b93698"
+    },
+    {
+      "module": "RhInwardFrequencyDictionary001",
+      "filename": "../weil-form-domain/WeilForm/RhInwardFrequencyDictionary001.lean",
+      "source_sha256": "daf868ef610913638e3d248904e0ca342222b0f8c75f39c92130d301274a8c71",
+      "imports": [
+        "RhWeightedFrequencyDilation001",
+        "RhWeightedInwardMap001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhInwardFrequencyDictionary.inwardLift_eq_frequencyDilate"
+      ],
+      "dependency_source_fingerprint": "fd320742403de64d776e299f846679dae57e4be0eab5cbefacd305c549f818d6"
+    },
+    {
+      "module": "RhSupportedInwardStrong001",
+      "filename": "../weil-form-domain/WeilForm/RhSupportedInwardStrong001.lean",
+      "source_sha256": "22bebf3efcbf3f212ece74621e4a4f3399985ab65e67f7204b1dd2914aae994d",
+      "imports": [
+        "RhFrequencyDilationStrong001",
+        "RhInwardFrequencyDictionary001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSupportedInwardStrong.supported_inward_norm_tendsto",
+        "RhSupportedInwardStrong.inwardRadius_pos_lt",
+        "RhSupportedInwardStrong.canonical_supported_inward_norm_tendsto"
+      ],
+      "dependency_source_fingerprint": "aa47d902ce540dfc30a28a56ab93d9f1cb3792ff8bddb04dff43f09823e0c6aa"
+    },
+    {
+      "module": "RhInwardOldNullLift001",
+      "filename": "../weil-form-domain/WeilForm/RhInwardOldNullLift001.lean",
+      "source_sha256": "e56b5df6f3cb794449ec657803c40d66262b472467fe631064d56a765fa9b6f6",
+      "imports": [
+        "RhPhysicalProjectionSchur001",
+        "RhLiteralSupportForm001",
+        "RhSupportedInwardStrong001",
+        "Mathlib.Topology.Sequences"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhInwardOldNullLift.outward_oldNullLift_ambient",
+        "RhInwardOldNullLift.pulledForm_oldNullLift_pair",
+        "RhInwardOldNullLift.old_null_diagonal_zero",
+        "RhInwardOldNullLift.oldNullLift_norm_tendsto",
+        "RhInwardOldNullLift.oldNullLift_tendsto"
+      ],
+      "dependency_source_fingerprint": "180cfc90ad77bad4a4c0f3b43b131fbbdfb440ad90f69973d1822f00e1158bed"
+    },
+    {
+      "module": "RhPhysicalNullOverlap001",
+      "filename": "../weil-form-domain/WeilForm/RhPhysicalNullOverlap001.lean",
+      "source_sha256": "82301787bc30f3057d5af4f606de7ea413570d8ff36f9b0c30453cb64bcfca64",
+      "imports": [
+        "RhPhysicalOverlapFinite001",
+        "RhInwardOldNullLift001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPhysicalNullOverlap.actual_overlap_tendsto_identity",
+        "RhPhysicalNullOverlap.actual_determinant_tendsto_one",
+        "RhPhysicalNullOverlap.eventually_actual_span_surjective",
+        "RhPhysicalNullOverlap.eventually_actual_combination_surjective",
+        "RhPhysicalNullOverlap.exists_local_actual_coordinate_surjectivity"
+      ],
+      "dependency_source_fingerprint": "4f2b4c8cc6d1f8096c1c635cddabbb3f349791a2da7db8a9ad168e9e74ed8cf5"
+    },
+    {
+      "module": "RhNativeArchDilationControl001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeArchDilationControl001.lean",
+      "source_sha256": "04da088aa762c9dbe76c4e3c8d0796d833416273c11e711027baf6ce5adf2f44",
+      "imports": [
+        "RhFlatCoreDilation001",
+        "RhNativeCompleteBilinear001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeArchDilationControl.native_arch_dilation_budget",
+        "RhNativeArchDilationControl.flat_arch_graph_budget"
+      ],
+      "dependency_source_fingerprint": "db7e13c7168b1004bf509ed9440ac62ab0b44a9fe0352112f23597bef3773dfd"
+    },
+    {
+      "module": "RhFlatCoreReal001",
+      "filename": "../weil-form-domain/WeilForm/RhFlatCoreReal001.lean",
+      "source_sha256": "80a38a1367a447f813b391c6d34cda29c54762c5d1fd20f9d25735d9074e00aa",
+      "imports": [
+        "RhFlatSmoothCore001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFlatCoreReal.flatCore_imaginary_zero",
+        "RhFlatCoreReal.physical_im_zero",
+        "RhFlatCoreReal.physicalVector_realPhysical",
+        "RhFlatCoreReal.realPhysical_mass"
+      ],
+      "dependency_source_fingerprint": "e397fcb915ee576be836e568674feaf585cca022d49b344f04c29a45fd27a3dc"
+    },
+    {
+      "module": "RhDilationRankProfiles001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationRankProfiles001.lean",
+      "source_sha256": "72d8c51768ab0099e92522f1d8a6071777af0b8b002327ddd041d4f561eb9c8a",
+      "imports": [
+        "RhDilationRankL2001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationRank.exists_profile_bounds",
+        "RhDilationRank.exists_native_profile_bounds"
+      ],
+      "dependency_source_fingerprint": "b78053413136d11e947adc1cb31ab183b5fdbb0fc428574672f516cccc412c06"
+    },
+    {
+      "module": "RhDilationRankPerturbation001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationRankPerturbation001.lean",
+      "source_sha256": "df13a56ca204e862df97226c16f6b0c9d85a86145e9167dff12ccfbe115c0584",
+      "imports": [
+        "RhDilationRankProfiles001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationRank.moment_abs_le",
+        "RhDilationRank.exists_rank_perturbation_bound"
+      ],
+      "dependency_source_fingerprint": "978195ec866af857048548ebaee2c47992f94b18926497ffb60d092b2f510b30"
+    },
+    {
+      "module": "RhDilationRankPhysical001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationRankPhysical001.lean",
+      "source_sha256": "f3d1500608721ddb165fcea0b919d2a182cef6ba12149da30f2e17cbe88c2a5f",
+      "imports": [
+        "RhDilationRankPerturbation001",
+        "RhDilationPhysical001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationRank.moment_dilate",
+        "RhDilationRank.physical_rank_dilate",
+        "RhDilationRank.exists_physical_rank_perturbation_bound"
+      ],
+      "dependency_source_fingerprint": "5307e4b7d14b50f371c4a425678cd3544ac69b3403075edc4afcbc7e3c94b5a8"
+    },
+    {
+      "module": "RhCompleteDilationDictionary001",
+      "filename": "../weil-form-domain/WeilForm/RhCompleteDilationDictionary001.lean",
+      "source_sha256": "06304239f8df241cb24267ab065344b31d3cad25c795d8b5c1d999f34481b3db",
+      "imports": [
+        "RhCompleteFormBound001",
+        "RhDilationRankPhysical001",
+        "RhDilationShift001",
+        "RhAllPrimeCutoff001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCompleteDilationDictionary.complete_cutoff_dilation_dictionary",
+        "RhCompleteDilationDictionary.radius_quadratic_fixed_horizon",
+        "RhCompleteDilationDictionary.all_radius_fixed_horizon_dilation"
+      ],
+      "dependency_source_fingerprint": "27a7d0c6293229f54e2e693137a3ef1bd2bc391e1e80f2174f7e39606020ab95"
+    },
+    {
+      "module": "RhPulledPhysicalDictionary001",
+      "filename": "../weil-form-domain/WeilForm/RhPulledPhysicalDictionary001.lean",
+      "source_sha256": "149ed6200bacb8942fca40ef04c4cd11d01874cb35e224bd9fa633d98e08d87a",
+      "imports": [
+        "RhPulledCompleteForm001",
+        "RhNativeCompleteDictionary001",
+        "RhCompleteDilationDictionary001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPulledPhysicalDictionary.outward_actual_pullback",
+        "RhPulledPhysicalDictionary.pulledForm_actual",
+        "RhPulledPhysicalDictionary.pulledForm_actual_radius",
+        "RhPulledPhysicalDictionary.pulledForm_actual_native",
+        "RhPulledPhysicalDictionary.differenceForm_actual_native"
+      ],
+      "dependency_source_fingerprint": "c82ec44178d72b376012ba7f45aad39f21f74255129032da209f8f95e5c7efd7"
+    },
+    {
+      "module": "RhNativeRankDilationControl001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeRankDilationControl001.lean",
+      "source_sha256": "d9ee3f1241bfe7efc2c115a264d2e97d81fd81ea3380c86dfb9cd759fafaba4d",
+      "imports": [
+        "RhFlatCoreReal001",
+        "RhPulledPhysicalDictionary001",
+        "RhDilationRankPhysical001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeRankDilationControl.profilePair_realVector",
+        "RhNativeRankDilationControl.rankValue_realVector",
+        "RhNativeRankDilationControl.outward_realVector",
+        "RhNativeRankDilationControl.exists_flat_rank_graph_budget"
+      ],
+      "dependency_source_fingerprint": "941f199c39a5505398890457956ed36ecdb232941e56ae746a4b8fc126ecdd49"
+    },
+    {
+      "module": "RhComplexShiftDilation001",
+      "filename": "../weil-form-domain/WeilForm/RhComplexShiftDilation001.lean",
+      "source_sha256": "331dbf73c179fd4a3f936d974614be7a5c4e04603e6d6c93a6040b4dac31acc3",
+      "imports": [
+        "RhFlatCoreDilation001",
+        "RhPhysicalShiftFourier001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhComplexShiftDilation.rawPair_dilate",
+        "RhComplexShiftDilation.outward_spatialPair"
+      ],
+      "dependency_source_fingerprint": "b6f4a5119f7c9fbe999e1a119f1b6c8087386c924f89522fd4738c49777f49a1"
+    },
+    {
+      "module": "RhSupportedArithmeticContinuity001",
+      "filename": "../weil-form-domain/WeilForm/RhSupportedArithmeticContinuity001.lean",
+      "source_sha256": "b861fa2a216c64de991a7d6a82be2ef89516986049b1038941e1628bb6a1e4e7",
+      "imports": [
+        "RhPhysicalShiftFourier001",
+        "RhAllPrimeKernel001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSupportedArithmeticContinuity.spatialPair_zero_of_threshold",
+        "RhSupportedArithmeticContinuity.uniform_finite_arithmetic_continuity"
+      ],
+      "dependency_source_fingerprint": "9208af0ff1abf27eb942ef1baa432a3f5347525cd6b62ce10909c89fc47e86fa"
+    },
+    {
+      "module": "RhNativePrimeDilationControl001",
+      "filename": "../weil-form-domain/WeilForm/RhNativePrimeDilationControl001.lean",
+      "source_sha256": "a75dbd378a89ebaf46cab48daadc9305a7a82f4a6d9f2532d160cbca28f6e67d",
+      "imports": [
+        "RhPulledCompleteForm001",
+        "RhNativeCompleteDictionary001",
+        "RhComplexShiftDilation001",
+        "RhSupportedArithmeticContinuity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativePrimeDilationControl.outward_arithmetic_value",
+        "RhNativePrimeDilationControl.uniform_native_prime_graph_budget"
+      ],
+      "dependency_source_fingerprint": "8a7b739eb5f76e8f25daee22540c1a2c82b2be35db6e41ea8c9393c7ed32468b"
+    },
+    {
+      "module": "RhNativeDilationSmallness001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeDilationSmallness001.lean",
+      "source_sha256": "200128f1869580c761636e7bd6faab1f9631a90885a84f12e656f8011cd0fdaf",
+      "imports": [
+        "RhNativeArchDilationControl001",
+        "RhNativeRankDilationControl001",
+        "RhNativePrimeDilationControl001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeDilationSmallness.scalar_mass_invariant",
+        "RhNativeDilationSmallness.difference_diagonal_components",
+        "RhNativeDilationSmallness.uniform_actual_graph_form_smallness"
+      ],
+      "dependency_source_fingerprint": "7cacd1357f69403553d4b9e88cab0134a940001174e22a71a304be42bbfb654b"
+    },
+    {
+      "module": "RhActualRotatingLocalControl001",
+      "filename": "WeilNullCrossing/RhActualRotatingLocalControl001.lean",
+      "source_sha256": "d27290e78184b7c6a5c02d506870c7e8db2ca12ed62766779ad61eb14c9b55ae",
+      "imports": [
+        "RhRotatingPhysicalGap001",
+        "RhPhysicalNullOverlap001",
+        "RhNativeDilationSmallness001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhActualRotatingLocalControl.rotationError_tendsto",
+        "RhActualRotatingLocalControl.exists_actual_local_control"
+      ],
+      "dependency_source_fingerprint": "d9bc55a0ff83cabe6c83ee6f2d7ccb2b6e97bb1b54a00a749fc154097dadd578"
+    },
+    {
+      "module": "RhOldNullPhysicalIsometry001",
+      "filename": "WeilNullCrossing/RhOldNullPhysicalIsometry001.lean",
+      "source_sha256": "b1262d3308f918cabfa6a80731d05480a175ec614d69fcaa392deeb2e85ac68b",
+      "imports": [
+        "RhInwardOldNullLift001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhOldNullPhysicalIsometry.oldNullLift_add",
+        "RhOldNullPhysicalIsometry.oldNullLift_smul",
+        "RhOldNullPhysicalIsometry.physical_norm_square",
+        "RhOldNullPhysicalIsometry.physical_norm",
+        "RhOldNullPhysicalIsometry.physical_inner",
+        "RhOldNullPhysicalIsometry.physical_orthonormal"
+      ],
+      "dependency_source_fingerprint": "50a9825d10d105cc2e3cf4365df2c7532f535e92f1e05c24158458828474722d"
+    },
+    {
+      "module": "RhSchurMatrixZero001",
+      "filename": "../weil-form-domain/WeilForm/RhSchurMatrixZero001.lean",
+      "source_sha256": "ced1fea05411e9e40f6fa263dfc9ce144e571896070067cf42830f1e8827d1b2",
+      "imports": [
+        "RhFixedPhysicalSchurMatrix001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSchurMatrixZero.symmetric_matrix_zero_of_quadratics_zero",
+        "RhSchurMatrixZero.schurMatrix_zero_iff"
+      ],
+      "dependency_source_fingerprint": "428bc98a44b6f95739fc7c26aacfbd960724c3b10866f49487f8be914b451eee"
+    },
+    {
+      "module": "RhLiteralZeroBlockSchur001",
+      "filename": "WeilNullCrossing/RhLiteralZeroBlockSchur001.lean",
+      "source_sha256": "0d87bf8b5dc63ff2c16134de5c1e92ecc517f18bd5ee90ac4e3757a59157da60",
+      "imports": [
+        "RhPhysicalProjectionSchur001",
+        "RhSchurMatrixZero001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhLiteralZeroBlockSchur.payment_zero_iff",
+        "RhLiteralZeroBlockSchur.schur_entry",
+        "RhLiteralZeroBlockSchur.schur_quadratic_nonpositive",
+        "RhLiteralZeroBlockSchur.matrix_zero_iff_full_sources_zero",
+        "RhLiteralZeroBlockSchur.full_core_nonnegative_iff_full_sources_zero"
+      ],
+      "dependency_source_fingerprint": "dbc127d790961a3e185b2347bdb297839b00bd8df190d708403ced6fe392d109"
+    },
+    {
+      "module": "RhActualLiteralNullSchur001",
+      "filename": "WeilNullCrossing/RhActualLiteralNullSchur001.lean",
+      "source_sha256": "7402b039ef1a18bbfc844c9601c1b449ea685996e365573b50c0df63fe368361",
+      "imports": [
+        "RhActualKernelData001",
+        "RhActualRotatingLocalControl001",
+        "RhOldNullPhysicalIsometry001",
+        "RhLiteralZeroBlockSchur001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhActualLiteralNullSchur.local_literal_null_schur_target"
+      ],
+      "dependency_source_fingerprint": "d9977ef078e3098e8c6f4eecabeeb880a5e3d463d0175716e31c5875eb31f037"
+    },
+    {
+      "module": "RhInwardOldNullSubspace001",
+      "filename": "../weil-form-domain/WeilForm/RhInwardOldNullSubspace001.lean",
+      "source_sha256": "ad5cee0e265a6959e23379fb4e6b61fe6edfd1d5d4917e840673f8511b08e399",
+      "imports": [
+        "RhInwardOldNullLift001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhInwardOldNullSubspace.oldNullMap_injective",
+        "RhInwardOldNullSubspace.lift_mem_outwardOldNullSpace",
+        "RhInwardOldNullSubspace.outwardOldNullSpace_pair_zero",
+        "RhInwardOldNullSubspace.outwardOldNullSpace_diagonal_zero"
+      ],
+      "dependency_source_fingerprint": "b42724268c345aee49693fa1cd8670f35ee04253a5723ef209bf068694cb7f0c"
+    },
+    {
+      "module": "RhOldNullCoordinateSurjectivity001",
+      "filename": "../weil-form-domain/WeilForm/RhOldNullCoordinateSurjectivity001.lean",
+      "source_sha256": "0e7c16c76d908326fe40c5610c589874af59b42f127bc26b97f6647141f80129",
+      "imports": [
+        "RhPhysicalNullOverlap001",
+        "RhInwardOldNullSubspace001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhOldNullCoordinateSurjectivity.lifted_span_le_outward_null",
+        "RhOldNullCoordinateSurjectivity.eventually_physical_coordinates_surjective",
+        "RhOldNullCoordinateSurjectivity.exists_local_physical_coordinates_surjective"
+      ],
+      "dependency_source_fingerprint": "180f577171b73976f813c244fc54ead802d5c2841b61d9ecc9e739194c817e78"
+    },
+    {
+      "module": "RhIsotropicSchurObstruction001",
+      "filename": "../weil-form-domain/WeilForm/RhIsotropicSchurObstruction001.lean",
+      "source_sha256": "cdcc4705148d5368743312bd3413e9c1af62ac40c341697b84517159f2752720",
+      "imports": [
+        "RhPhysicalProjectionSchur001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhIsotropicSchurObstruction.residual_le_whole",
+        "RhIsotropicSchurObstruction.isotropic_surjection_residual_nonpositive",
+        "RhIsotropicSchurObstruction.isotropic_surjection_forces_zero_of_positive",
+        "RhIsotropicSchurObstruction.coordinate_isotropic_factorization",
+        "RhIsotropicSchurObstruction.isotropic_residual_zero_iff_completed_vector_zero"
+      ],
+      "dependency_source_fingerprint": "84f29ca55f0b45cb32a9a54e454594ef4b8363a9802bf025b69f3047038e318a"
+    },
+    {
+      "module": "RhFixedPhysicalLocalInverse001",
+      "filename": "../weil-form-domain/WeilForm/RhFixedPhysicalLocalInverse001.lean",
+      "source_sha256": "52cb0bc0b178de945942ec7e669517818313af8454643cefc6abeaf6f49319d8",
+      "imports": [
+        "RhFixedPhysicalPulledSchur001",
+        "RhNativeDilationSmallness001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFixedPhysicalLocalInverse.exists_local_control",
+        "RhFixedPhysicalLocalInverse.exists_actual_local_inverse"
+      ],
+      "dependency_source_fingerprint": "3e344a9a9ad0b4100273124f9077d4bda6de95a34d7b198b6600d2bae3ccfa43"
+    },
+    {
+      "module": "RhActualNullSchurTarget001",
+      "filename": "../weil-form-domain/WeilForm/RhActualNullSchurTarget001.lean",
+      "source_sha256": "3c13b5f6cc8661fbae45e46141631ed075257758f484835228c5a095d0d15ad4",
+      "imports": [
+        "RhOldNullCoordinateSurjectivity001",
+        "RhIsotropicSchurObstruction001",
+        "RhFixedPhysicalLocalInverse001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhActualNullSchurTarget.actual_null_schur_nonpositive",
+        "RhActualNullSchurTarget.positivity_iff_exact_compensation",
+        "RhActualNullSchurTarget.exists_local_actual_null_schur_target"
+      ],
+      "dependency_source_fingerprint": "215e874f9b1fe156ad1f7486941dc65284c98271c2ee8cf8b4c6289f63615161"
+    },
+    {
+      "module": "RhSymmetricFormPolarization001",
+      "filename": "../weil-form-domain/WeilForm/RhSymmetricFormPolarization001.lean",
+      "source_sha256": "5723b37de2ed4f319ec68f1619d72bae2e7beeb371c775c373d061d3b0ccf9d7",
+      "imports": [
+        "Mathlib.Analysis.InnerProductSpace.LinearMap",
+        "Mathlib.Analysis.Normed.Operator.NormedSpace"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSymmetricFormPolarization.bilinear_bound_of_diagonal"
+      ],
+      "dependency_source_fingerprint": "973b5324f80145d06b21de3fc84e421ce623527f71cf5b591d1d93b8502f0adb"
+    },
+    {
+      "module": "RhNativeBilinearSmallness001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeBilinearSmallness001.lean",
+      "source_sha256": "b27fcf1d03536ee93564df1b0ca1042540e91995abf969b8a8b78dd15d766f26",
+      "imports": [
+        "RhNativeDilationSmallness001",
+        "RhSymmetricFormPolarization001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeBilinearSmallness.uniform_actual_bilinear_smallness"
+      ],
+      "dependency_source_fingerprint": "d8c4ba6dd11f9a9d26118801b71708e7e93bbb84d2ebf11d23a85c63ee3ad510"
+    },
+    {
+      "module": "RhPerturbationSource001",
+      "filename": "../weil-form-domain/WeilForm/RhPerturbationSource001.lean",
+      "source_sha256": "f2a00bacc800e8df0fe1317921a988f7391e06c97307e81b8e6de630847c48ef",
+      "imports": [
+        "RhNativeBilinearSmallness001",
+        "RhFixedPhysicalComplementGeometry001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhPerturbationSource.source_weak",
+        "RhPerturbationSource.source_is_outward_on_zero_row",
+        "RhPerturbationSource.source_norm_bound",
+        "RhPerturbationSource.local_actual_source_norm"
+      ],
+      "dependency_source_fingerprint": "022c1a8640bd18383e737ea702259fad1eccf51d3290da2e943fd5e964423041"
+    },
+    {
+      "module": "RhInverseCovarianceBudget001",
+      "filename": "../weil-form-domain/WeilForm/RhInverseCovarianceBudget001.lean",
+      "source_sha256": "eee6fdadfa1c94931299f4cb687f6c448a17a9e3c96a857d88ccb668d44fbfc7",
+      "imports": [
+        "RhCoerciveSchurInverse001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhInverseCovarianceBudget.inverse_norm_le",
+        "RhInverseCovarianceBudget.mixed_inverse_bound",
+        "RhInverseCovarianceBudget.quadratic_covariance_bound"
+      ],
+      "dependency_source_fingerprint": "7d6f0d7caaa34db302ee1cf389a97d35198ab4051abe0668e58bd63eee2ba4c9"
+    },
+    {
+      "module": "RhActualSourceCovariance001",
+      "filename": "../weil-form-domain/WeilForm/RhActualSourceCovariance001.lean",
+      "source_sha256": "74210064f05d982e01759bacd56b94a7a8e7c15cad65207e76706a9d76e24c39",
+      "imports": [
+        "RhPerturbationSource001",
+        "RhInverseCovarianceBudget001",
+        "RhFixedPhysicalPulledSchur001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhActualSourceCovariance.crossSource_eq_perturbation",
+        "RhActualSourceCovariance.actual_mixed_covariance_bound",
+        "RhActualSourceCovariance.actual_residual_budget",
+        "RhActualSourceCovariance.local_actual_covariance_budget"
+      ],
+      "dependency_source_fingerprint": "bcbe2ec25c9fe15be7a277c087f0162b17a0276004b92ac53f775bcdd8b4ada6"
+    },
+    {
+      "module": "RhWeightedTranslation001",
+      "filename": "../weil-form-domain/WeilForm/RhWeightedTranslation001.lean",
+      "source_sha256": "ac207a64e72878ca131976e918a73a0beae6eaad4b95a2d91f5e599d5858faad",
+      "imports": [
+        "RhNativeCompleteDictionary001",
+        "RhNativeBoundedPartControl001",
+        "RhWeightedDilationInverse001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhWeightedTranslation.full_energy_translation",
+        "RhWeightedTranslation.translated_physical_ae",
+        "RhWeightedTranslation.translated_norm"
+      ],
+      "dependency_source_fingerprint": "6070d05b2f845e28daf49abb99ea01d3e47492a5e8241f1e753c31938741f97b"
+    },
+    {
+      "module": "RhNativeTranslationAlgebra001",
+      "filename": "WeilNullCrossing/RhNativeTranslationAlgebra001.lean",
+      "source_sha256": "23ee4437cf13e2e50895dc1ca1be6ec446cecad9d9b6107f0f990d289230bcde",
+      "imports": [
+        "RhWeightedTranslation001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhNativeTranslationAlgebra.translation_comp",
+        "RhNativeTranslationAlgebra.translation_inner",
+        "RhNativeTranslationAlgebra.translated_graph_inner",
+        "RhNativeTranslationAlgebra.archPair_joint",
+        "RhNativeTranslationAlgebra.shiftPair_joint"
+      ],
+      "dependency_source_fingerprint": "18b6267e6eed9a938bbd9a80dccb93ed56e465459ed4ba85239b67518df950b7"
+    },
+    {
+      "module": "RhNativeTranslationForm001",
+      "filename": "WeilNullCrossing/RhNativeTranslationForm001.lean",
+      "source_sha256": "2618a4cb4d8c736e557857cb6c1f92b4e5811955ff4338c999999f153f2d8a52",
+      "imports": [
+        "RhNativeTranslationAlgebra001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhNativeTranslationForm.profileMoment_integral",
+        "RhNativeTranslationForm.profileMoment_translated_integral",
+        "RhNativeTranslationForm.coshMoment_translated",
+        "RhNativeTranslationForm.sinhMoment_translated",
+        "RhNativeTranslationForm.signed_rank_joint",
+        "RhNativeTranslationForm.completeForm_joint"
+      ],
+      "dependency_source_fingerprint": "5653615ae4029732a64acbcc20ecb3e3c6e84d54c54d2d15d1a7027166f2ea23"
+    },
+    {
+      "module": "RhNativeTranslationAdjoint001",
+      "filename": "WeilNullCrossing/RhNativeTranslationAdjoint001.lean",
+      "source_sha256": "1744e3cb271fd211c0082d0fd33d5a97202404b48cefdc41693f7c4f619b7696",
+      "imports": [
+        "RhNativeTranslationForm001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhNativeTranslationAdjoint.translated_inverse",
+        "RhNativeTranslationAdjoint.completeForm_adjoint"
+      ],
+      "dependency_source_fingerprint": "c5a8f78147519d553f7d87c666697b1be0ab8b98dcdcf4562a90fbb6d7ad5ec9"
+    },
+    {
+      "module": "RhTranslationSupport001",
+      "filename": "WeilNullCrossing/RhTranslationSupport001.lean",
+      "source_sha256": "11989f983a1884deabd36909e766e275d8b44e54bed4b72a1d4fb65365fe1be3",
+      "imports": [
+        "RhWeightedTranslation001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhTranslationSupport.translation_supported",
+        "RhTranslationSupport.supported_translation_forces_zero",
+        "RhTranslationSupport.not_all_translates_supported",
+        "RhTranslationSupport.weighted_translated_supported",
+        "RhTranslationSupport.weighted_not_all_translates_supported"
+      ],
+      "dependency_source_fingerprint": "56dd69ad46b0cd8a7e4e99cbcf9cedbfe50d8e83b080430d5546978a81464331"
+    },
+    {
+      "module": "RhRealMollifier001",
+      "filename": "../weil-form-domain/WeilForm/RhRealMollifier001.lean",
+      "source_sha256": "43512a289a81ab5656253cfeb943678601993abb808e49a453170c3334dbfe9c",
+      "imports": [
+        "RhSupportedMollifier001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhRealMollifier.realRepresentative_complex_ae",
+        "RhRealMollifier.mollification_ofReal",
+        "RhRealMollifier.exists_real_smooth_across_gap"
+      ],
+      "dependency_source_fingerprint": "99aa7de08568295fed012abc41c10462370ddd85204b51b559abdf882edd5f0a"
+    },
+    {
+      "module": "RhRealSupportedDomain001",
+      "filename": "../weil-form-domain/WeilForm/RhRealSupportedDomain001.lean",
+      "source_sha256": "c0483d4ebba86684eb7203afb4d00a071c08715c18d86d8c70760dd3845ee942",
+      "imports": [
+        "RhRealMollifier001",
+        "RhFlatSmoothCore001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhRealSupportedDomain.imaginaryMap_ae",
+        "RhRealSupportedDomain.mem_realPhysical_iff",
+        "RhRealSupportedDomain.realSupported_isClosed",
+        "RhRealSupportedDomain.flatCore_le_realSupported"
+      ],
+      "dependency_source_fingerprint": "60c2a524d05bae019c950716f4209994da8736f1fb6dfeb189e181c8fa56a6e5"
+    },
+    {
+      "module": "RhRealSameWindowSmooth001",
+      "filename": "../weil-form-domain/WeilForm/RhRealSameWindowSmooth001.lean",
+      "source_sha256": "5d2496d86f50b69cc306069b1f684a85cfbbf8d3aa42f7c5bd51bf205b8aef39",
+      "imports": [
+        "RhRealSupportedDomain001",
+        "RhSupportedInwardStrong001",
+        "RhActualCoreBump001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhRealSameWindowSmooth.inwardMap_real",
+        "RhRealSameWindowSmooth.real_same_window_smooth_approximation",
+        "RhRealSameWindowSmooth.realSupported_mem_flatCore",
+        "RhRealSameWindowSmooth.flatCore_eq_realSupported"
+      ],
+      "dependency_source_fingerprint": "a83fe40428cb316406fd766c17ae455ef9d81a3a1a76da8f14d9e54fce458412"
+    },
+    {
+      "module": "RhTranslatedCoreRadical001",
+      "filename": "WeilNullCrossing/RhTranslatedCoreRadical001.lean",
+      "source_sha256": "bf7c9bc28c5f694ab4ca22b2a9eeb999e603296da4874b56a2338c3f0955b27d",
+      "imports": [
+        "RhNativeTranslationAdjoint001",
+        "RhTranslationSupport001",
+        "RhRealSameWindowSmooth001",
+        "RhLiteralSupportForm001",
+        "RhPulledCompleteForm001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhTranslatedCoreRadical.translated_real",
+        "RhTranslatedCoreRadical.translated_mem_flatCore",
+        "RhTranslatedCoreRadical.translatedCore_physical",
+        "RhTranslatedCoreRadical.local_radical_translation"
+      ],
+      "dependency_source_fingerprint": "616c2d5bf0f688358641ea8ded7c9d93bc57833f6627800d1b38dc285c1cca60"
+    },
+    {
+      "module": "RhNativeRadicalFinite001",
+      "filename": "WeilNullCrossing/RhNativeRadicalFinite001.lean",
+      "source_sha256": "4f1eabade12989eea227146b1879e1f3c39f41cad12e80f699a0da7ad60df078",
+      "imports": [
+        "RhNativeCompactGap001",
+        "RhPulledCompleteForm001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhCompactRadicalFinite.finite_radical",
+        "RhNativeRadicalFinite.finite_native_radical",
+        "RhNativeRadicalFinite.finite_base_radical"
+      ],
+      "dependency_source_fingerprint": "210b500d257a3b4eee98f1f89fe8f4c2d5d96e7a4e24dbcaefcf84b2d3c86dab"
+    },
+    {
+      "module": "RhLocalTranslationSpan001",
+      "filename": "WeilNullCrossing/RhLocalTranslationSpan001.lean",
+      "source_sha256": "3f5924acfc8c14b0ed63911d4af9c528d07acb35656c87ee75955259b89b076e",
+      "imports": [
+        "Mathlib.LinearAlgebra.Dimension.StrongRankCondition",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+        "Mathlib.Topology.MetricSpace.Pseudo.Defs",
+        "Mathlib.Topology.Algebra.Order.Field",
+        "Mathlib.Topology.Instances.Real.Lemmas"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhLocalTranslationSpan.orbit_mem_of_finite_local_span",
+        "RhLocalTranslationSpan.invariant_of_finite_local_span"
+      ],
+      "dependency_source_fingerprint": "7b977840274672f65f4b9b62bbcf08180e0249f788a48aacbb4fcd47643de946"
+    },
+    {
+      "module": "RhLocalPhysicalTranslation001",
+      "filename": "WeilNullCrossing/RhLocalPhysicalTranslation001.lean",
+      "source_sha256": "118dd84ee7401bb2ebec6b2e9dddba4e9c2655a5e40c4027571de62177c2b91a",
+      "imports": [
+        "RhLocalTranslationSpan001",
+        "RhTranslationSupport001",
+        "RhNativeTranslationAlgebra001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhLocalPhysicalTranslation.supported_mono",
+        "RhLocalPhysicalTranslation.not_finite_local_span"
+      ],
+      "dependency_source_fingerprint": "0721b3b95a5c981d6701f7a5e79064cbf48df5feb347d5f2b9d90c46b699c5b5"
+    },
+    {
+      "module": "RhZeroDiagonalPairing001",
+      "filename": "../weil-form-domain/WeilForm/RhZeroDiagonalPairing001.lean",
+      "source_sha256": "c09ab39548175308a0d41ac0866b5660b8d9ea16675802b2ec71454cbb274157",
+      "imports": [
+        "Mathlib.Analysis.Normed.Operator.Bilinear",
+        "Mathlib.Analysis.InnerProductSpace.Basic",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Ring"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhZeroDiagonalPairing.negative_witness_exact",
+        "RhZeroDiagonalPairing.positive_zero_forces_cross_zero"
+      ],
+      "dependency_source_fingerprint": "bf53de01330382a8907ba20684f88772af7eb2fd99564664f5278bac0d3b49a4"
+    },
+    {
+      "module": "RhNativeNullFlux001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeNullFlux001.lean",
+      "source_sha256": "3d86def09b6222b643ee42028030c8d644a7a3629665918b3d5bd46e4b103ae5",
+      "imports": [
+        "RhLiteralSupportForm001",
+        "RhZeroDiagonalPairing001",
+        "RhNativeGraphCoercivity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeNullFlux.outward_positive_requires_total_flux_zero",
+        "RhNativeNullFlux.nonzero_total_flux_negative_witness"
+      ],
+      "dependency_source_fingerprint": "bb61eebc539549ed82334b65dabd58afb4e69b3e1bdb2e4c0ebbdc75ce3c7c2a"
+    },
+    {
+      "module": "RhSmoothDerivativeDictionary001",
+      "filename": "../weil-form-domain/WeilForm/RhSmoothDerivativeDictionary001.lean",
+      "source_sha256": "55a82e1d8acfe855fa469bbb408ca4b8a8c3a64e9699a737065aee6c815b3975",
+      "imports": [
+        "RhNativeCompleteDictionary001",
+        "Mathlib.Analysis.Calculus.Deriv.Support",
+        "Mathlib.Analysis.Calculus.ContDiff.Deriv"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSmoothDerivativeDictionary.primitive_derivative_ae",
+        "RhSmoothDerivativeDictionary.smooth_weighted_equals_primitive_lift",
+        "RhSmoothDerivativeDictionary.native_smooth_derivative_dictionary"
+      ],
+      "dependency_source_fingerprint": "080cd33f89269c08b0a3be611b73f91788b6095d4c527d0682032df066847da9"
+    },
+    {
+      "module": "RhSmoothPhysicalTransfer001",
+      "filename": "../weil-form-domain/WeilForm/RhSmoothPhysicalTransfer001.lean",
+      "source_sha256": "bdda5bb8e68d43bbf471936b59a44efe37e09fd5736a8f824aa230182e815f24",
+      "imports": [
+        "RhSmoothDerivativeDictionary001",
+        "RhRealSameWindowSmooth001",
+        "RhFlatCoreReal001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSmoothPhysicalTransfer.negative_form_has_smooth_derivative",
+        "RhSmoothPhysicalTransfer.physical_positive_iff_complete_form_positive"
+      ],
+      "dependency_source_fingerprint": "034be7bb6f4e12433719164bbba6b18c440d11f0defdebee73b1986a29d63a9d"
+    },
+    {
+      "module": "RhNativeNullFluxPhysical001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeNullFluxPhysical001.lean",
+      "source_sha256": "1df570e76e8d7c3caab1ad2c40a69368672ac60878a8777effafdd1aef7562b2",
+      "imports": [
+        "RhNativeNullFlux001",
+        "RhSmoothPhysicalTransfer001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeNullFluxPhysical.complete_flux_nonzero_gives_physical_negative"
+      ],
+      "dependency_source_fingerprint": "216c63e4b1a52936f4fb41a20cf8db7739ac406fb56f7ec5e2e661c3d0275a16"
+    },
+    {
+      "module": "RhConditionalWeakNullUCP001",
+      "filename": "WeilNullCrossing/RhConditionalWeakNullUCP001.lean",
+      "source_sha256": "eaf4bf8ee3318b82e84559ae6620dbafb42fac1110af20b578bd68de0b19f4f0",
+      "imports": [
+        "RhNativeNullFluxPhysical001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhConditionalWeakNullUCP.nonzero_cross_of_combined_ucp",
+        "RhConditionalWeakNullUCP.combined_ucp_forces_outward_negative"
+      ],
+      "dependency_source_fingerprint": "0d992f850182580a9c29e92f0c1d2bc11f33ddcea44a86306cced7ff74f0d710"
+    },
+    {
+      "module": "RhNativeStrictInteriorUCP001",
+      "filename": "WeilNullCrossing/RhNativeStrictInteriorUCP001.lean",
+      "source_sha256": "f9671940780bbfa327f4175b958a84a11ac4efef8ffcf32812fe50bbaec29445",
+      "imports": [
+        "RhTranslatedCoreRadical001",
+        "RhNativeRadicalFinite001",
+        "RhLocalPhysicalTranslation001",
+        "RhConditionalWeakNullUCP001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhNativeStrictInteriorUCP.full_row_unique",
+        "RhNativeStrictInteriorUCP.full_row_of_smooth",
+        "RhNativeStrictInteriorUCP.combined_weak_ucp"
+      ],
+      "dependency_source_fingerprint": "2c9bc757ef830ec7374d0d0d46fed6415f593771c4bcf1353d894fe17523614b"
+    },
+    {
+      "module": "RhLiteralSchurStrictSign001",
+      "filename": "WeilNullCrossing/RhLiteralSchurStrictSign001.lean",
+      "source_sha256": "43bcb32720403f8cd153414ab11916c3cc642da5c8a553c42afd4e03341fe829",
+      "imports": [
+        "RhActualLiteralNullSchur001",
+        "RhNativeStrictInteriorUCP001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhLiteralSchurStrictSign.row_zero_of_zero_source",
+        "RhLiteralSchurStrictSign.outward_combination_literal",
+        "RhLiteralSchurStrictSign.source_combination_ne_zero",
+        "RhLiteralSchurStrictSign.schur_quadratic_strictly_negative"
+      ],
+      "dependency_source_fingerprint": "7f3aaecd6d6c854d910fada15c58bfbc63f35fafa31f8131473383bfbafffcfa"
+    },
+    {
+      "module": "RhActualStrictSchurAudit001",
+      "filename": "WeilNullCrossing/RhActualStrictSchurAudit001.lean",
+      "source_sha256": "a746efc3050cb1a8bf348ce822ca3240bd72252eec67846848016ee3b333b410",
+      "imports": [
+        "RhLiteralSchurStrictSign001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhActualStrictSchurAudit.local_strict_schur_audit"
+      ],
+      "dependency_source_fingerprint": "a6400dabf8a73ca84e7ef558862570d1254b8b88048eb6dee263c0afc3a6aa48"
+    },
+    {
+      "module": "RhBasePositiveSchurReduction001",
+      "filename": "../weil-form-domain/WeilForm/RhBasePositiveSchurReduction001.lean",
+      "source_sha256": "a3aaa2900ba28fae85cf62a8d6c60ac9430ef27ee5e7f499984f89ea07a859b2",
+      "imports": [
+        "RhActualNullSchurTarget001",
+        "RhActualKernelData001",
+        "RhSchurMatrixZero001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhBasePositiveSchurReduction.local_complete_schur_zero_target"
+      ],
+      "dependency_source_fingerprint": "5fc327238b516b815aef0e02dddd3865f299aba56f54cef9ca50b5db26b32847"
+    },
+    {
+      "module": "RhCompleteFormHorizon001",
+      "filename": "../weil-form-domain/WeilForm/RhCompleteFormHorizon001.lean",
+      "source_sha256": "10638ce3d9fa6740401e49a4102c2e1ad224b45727864a09a7a9b69feb6301fc",
+      "imports": [
+        "RhNativePrimeDilationControl001",
+        "RhCompleteDilationDictionary001",
+        "RhSmoothPhysicalTransfer001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCompleteFormHorizon.shiftPair_zero_of_threshold",
+        "RhCompleteFormHorizon.completeForm_horizon_eq",
+        "RhCompleteFormHorizon.bounded_radius_form_horizon",
+        "RhCompleteFormHorizon.pulledForm_horizon_eq",
+        "RhCompleteFormHorizon.radius_primitive_fixed_horizon",
+        "RhCompleteFormHorizon.radius_physical_positive_iff_fixed_form_positive",
+        "RhCompleteFormHorizon.pulledForm_radius_fixed_cap",
+        "RhCompleteFormHorizon.bounded_radius_physical_positive_iff_fixed_form_positive"
+      ],
+      "dependency_source_fingerprint": "414498d4ea0b92c4b1e28a5265ec1b5140ff4c95b71eecf39a5eb43d3068f311"
+    },
+    {
+      "module": "RhDilationComplex001",
+      "filename": "../weil-form-domain/WeilForm/RhDilationComplex001.lean",
+      "source_sha256": "be1f51babb9b350eb8631c25141c23932fb78ebd67ffcd03a323da66774892fe",
+      "imports": [
+        "RhSupportLocalization001",
+        "RhAllPrimeUnclosedTarget001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhDilationComplex.complex_joint_integrable",
+        "RhDilationComplex.complex_energy_eq_product",
+        "RhDilationComplex.complex_energy_re",
+        "RhDilationComplex.complex_energy_im",
+        "RhDilationComplex.complex_positive_of_real"
+      ],
+      "dependency_source_fingerprint": "398b9658cd30dcf1e1e2649c69e06db871b90f6d5bc81beb2fdc11daeeddbd30"
+    },
+    {
+      "module": "RhCompletePrimitiveComplex001",
+      "filename": "../weil-form-domain/WeilForm/RhCompletePrimitiveComplex001.lean",
+      "source_sha256": "78d5a0c26ca14b6bf1d891334e37b504ec9cf3e4b26cf140a0886a3ff5c66bee",
+      "imports": [
+        "RhCompletePrimitiveDictionary001",
+        "RhDilationComplex001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhCompletePrimitiveComplex.complex_cutoff_identity",
+        "RhCompletePrimitiveComplex.all_radius_complex_identity"
+      ],
+      "dependency_source_fingerprint": "4ac80ab80d9ac0fc6d2f3f6cf2b2b2cb3ca04e8f01701ef117b42d3cadce77c2"
+    },
+    {
+      "module": "RhComplexAnchoredIntegral001",
+      "filename": "../weil-form-domain/WeilForm/RhComplexAnchoredIntegral001.lean",
+      "source_sha256": "cfcdbc2a20ff2fb088dae82df6080af9b8119424f33a7cc910782f790f86ef65",
+      "imports": [
+        "RhActualComplexCore001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhComplexAnchoredIntegral.complexZeroExtension_components",
+        "RhComplexAnchoredIntegral.complexZeroExtension_integrable",
+        "RhComplexAnchoredIntegral.interval_integral_components",
+        "RhComplexAnchoredIntegral.complexPrimitive_eq_anchoredIntegral"
+      ],
+      "dependency_source_fingerprint": "62684a258ba3d5c5864c129990f96042209d106d6bec6c250f43158819f99313"
+    },
+    {
+      "module": "RhTranslatedJetCapacity001",
+      "filename": "../weil-form-domain/WeilForm/RhTranslatedJetCapacity001.lean",
+      "source_sha256": "43ef0f19370c3d17ad83f58691e24055fe8860c01985cab0893d9bd29e750c89",
+      "imports": [
+        "RhWeightedTranslation001",
+        "Mathlib.Analysis.SpecialFunctions.Log.Basic"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTranslatedJetCapacity.jetVector_norm_square_le",
+        "RhTranslatedJetCapacity.jetVector_norm_tendsto_zero",
+        "RhTranslatedJetCapacity.continuous_functional_constant_jet_zero"
+      ],
+      "dependency_source_fingerprint": "06a67953c82e64718b1d17f734c42f36155b379cb86693d6081d45379db96401"
+    },
+    {
+      "module": "RhTranslatedJetDictionary001",
+      "filename": "../weil-form-domain/WeilForm/RhTranslatedJetDictionary001.lean",
+      "source_sha256": "a1c9e163e2e0bab567ba3896e29361a46996fb3ee5bfd5d59390afcdd2fafd0b",
+      "imports": [
+        "RhTranslatedJetCapacity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhTranslatedJetDictionary.scalar_dilate_identity",
+        "RhTranslatedJetDictionary.jetVector_physical_ae"
+      ],
+      "dependency_source_fingerprint": "c23a6347225f910622d578fb785940010fb45c4c993dddba886bd8fb0d03dd95"
+    },
+    {
+      "module": "RhSmoothJetProfiles001",
+      "filename": "../weil-form-domain/WeilForm/RhSmoothJetProfiles001.lean",
+      "source_sha256": "984aec5a35f66c8ac2056fc15c2e7e72975ad55abcba48b382a4a87892a5146f",
+      "imports": [
+        "RhTranslatedJetDictionary001",
+        "Mathlib.Analysis.Calculus.BumpFunction.Basic",
+        "Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSmoothJetProfiles.scaledProfile_jet",
+        "RhSmoothJetProfiles.eventually_zero_germ",
+        "RhSmoothJetProfiles.eventually_finite_jets_zero"
+      ],
+      "dependency_source_fingerprint": "c0177605dee648d63302911ff1e349a21511a31a558c93bec07d4fba6a7600fc"
+    },
+    {
+      "module": "RhSmoothJetLifts001",
+      "filename": "../weil-form-domain/WeilForm/RhSmoothJetLifts001.lean",
+      "source_sha256": "2bdcf5acbd43e47e15ac383d9665780af65fab21c2073cfca3b1f9dacdee91b6",
+      "imports": [
+        "RhSmoothJetProfiles001",
+        "RhSmoothDerivativeDictionary001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSmoothJetLifts.smoothLift_physical",
+        "RhSmoothJetLifts.jetLift_physical",
+        "RhSmoothJetLifts.jetLift_norm_tendsto",
+        "RhSmoothJetLifts.scaledProfile_compact"
+      ],
+      "dependency_source_fingerprint": "a490ead714a19da943b10479b192c574c9069319a1632dd99ad5eed6ae6b67a6"
+    },
+    {
+      "module": "RhSmoothKernelGraphBound001",
+      "filename": "WeilNullCrossing/RhSmoothKernelGraphBound001.lean",
+      "source_sha256": "fa65f08978761a27472fffdb1b382d84b6342a128b1322e67e749641657d657c",
+      "imports": [
+        "RhSmoothJetLifts001",
+        "RhCenteredPrimitiveApproximation001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhSmoothKernelGraphBound.actualPrimitiveLift_norm_square_bound",
+        "RhSmoothKernelGraphBound.smoothLift_norm_square_bound",
+        "RhSmoothKernelGraphBound.variable_profile_capacity",
+        "RhSmoothKernelGraphBound.variable_smooth_capacity",
+        "RhSmoothKernelGraphBound.variable_smooth_physical_ae",
+        "RhSmoothKernelGraphBound.modulated_profile_identity"
+      ],
+      "dependency_source_fingerprint": "5442205b48e682a0093ab977e756f2470301f2a1f0c82f3518e4439c2a6b959d"
+    },
+    {
+      "module": "RhModulatedCutoffProfiles001",
+      "filename": "WeilNullCrossing/RhModulatedCutoffProfiles001.lean",
+      "source_sha256": "af891dd1d9e78ee6392c2de6d41d2739ad17b791e5acea9c879b5d8102e8dd33",
+      "imports": [
+        "RhSmoothKernelGraphBound001",
+        "Mathlib.Analysis.Normed.Group.Bounded"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhModulatedCutoffProfiles.profile_deriv",
+        "RhModulatedCutoffProfiles.exists_uniform_derivative_bound",
+        "RhModulatedCutoffProfiles.cutoffVector_norm_tendsto",
+        "RhModulatedCutoffProfiles.cutoffVector_physical_ae"
+      ],
+      "dependency_source_fingerprint": "83975d617681662a442dce4bb88d124b5a362cb3d8b4db7c51de2bdf7a6d7d33"
+    },
+    {
+      "module": "RhCutoffPointRemoval001",
+      "filename": "WeilNullCrossing/RhCutoffPointRemoval001.lean",
+      "source_sha256": "641c1080cbf92ace839d19e3c2df9422d4b5376c3ab0c1597f595e39a4c321e3",
+      "imports": [
+        "RhModulatedCutoffProfiles001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhCutoffPointRemoval.removed_contDiff",
+        "RhCutoffPointRemoval.removed_tsupport_subset",
+        "RhCutoffPointRemoval.removed_compact",
+        "RhCutoffPointRemoval.removed_zero_germ",
+        "RhCutoffPointRemoval.removed_not_mem_tsupport",
+        "RhCutoffPointRemoval.removedVector_physical_ae",
+        "RhCutoffPointRemoval.removedVector_tendsto"
+      ],
+      "dependency_source_fingerprint": "30eca00dd0b20a99d04bc32a174fc8300f66197b70a4f4314ce8fa5b245a496f"
+    },
+    {
+      "module": "RhPuncturedSmoothCore001",
+      "filename": "WeilNullCrossing/RhPuncturedSmoothCore001.lean",
+      "source_sha256": "7999977432e396ff0f074c8c138a0d5929386d96fcf418802f9a0c71f3367b0b",
+      "imports": [
+        "RhCutoffPointRemoval001",
+        "RhFlatSmoothCore001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhPuncturedSmoothCore.puncturedCore_le_insert",
+        "RhPuncturedSmoothCore.puncturedCore_eq_flat"
+      ],
+      "dependency_source_fingerprint": "c865b12186a90ed686f565bd2b454f54c2dc114db814e16e37a2b031ec1093a6"
+    },
+    {
+      "module": "RhPuncturedFunctional001",
+      "filename": "WeilNullCrossing/RhPuncturedFunctional001.lean",
+      "source_sha256": "29ed2355ef478afba00d879e671d28f313d74f4284bc7249b31ce2109b98fca5",
+      "imports": [
+        "RhPuncturedSmoothCore001",
+        "RhNativeCompleteBilinear001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhPuncturedFunctional.functional_zero_of_punctured",
+        "RhPuncturedFunctional.native_row_zero_of_punctured"
+      ],
+      "dependency_source_fingerprint": "670d6f4a371f5a6c88f83dc9565acc7538afb9f60befea9da8476158bdedf5cc"
+    },
+    {
+      "module": "RhThreePieceSmoothSplit001",
+      "filename": "WeilNullCrossing/RhThreePieceSmoothSplit001.lean",
+      "source_sha256": "8ec1bbd394be0338af33ba8b40917cb509103cebb7cc84c92b3dd743fa11b3dc",
+      "imports": [
+        "Mathlib.Analysis.Calculus.ContDiff.Basic",
+        "Mathlib.Topology.Algebra.Support"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhThreePieceSmoothSplit.leftCut_contDiff",
+        "RhThreePieceSmoothSplit.rightCut_contDiff",
+        "RhThreePieceSmoothSplit.leftCut_strict_support",
+        "RhThreePieceSmoothSplit.rightCut_strict_support",
+        "RhThreePieceSmoothSplit.pieces_sum",
+        "RhThreePieceSmoothSplit.three_piece_split"
+      ],
+      "dependency_source_fingerprint": "21afcc7d31e4c18d5fa05e3e00127ef1c180f4224d77de84f96f103ef87bbd8e"
+    },
+    {
+      "module": "RhEndpointWeakGluing001",
+      "filename": "WeilNullCrossing/RhEndpointWeakGluing001.lean",
+      "source_sha256": "0231f309a6dc46f5e12340d7d131a3a28cdae85e7279342b82898f4f24dae8d3",
+      "imports": [
+        "RhPuncturedFunctional001",
+        "RhThreePieceSmoothSplit001",
+        "RhSmoothJetLifts001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhEndpointWeakGluing.functional_zero_of_three_regions",
+        "RhEndpointWeakGluing.native_row_zero_of_three_regions"
+      ],
+      "dependency_source_fingerprint": "bc9d4d63a63f71f8981568c66452418917bfdc5b389843257bbbeb0126ce8a92"
+    },
+    {
+      "module": "RhFiniteJetFunctional001",
+      "filename": "../weil-form-domain/WeilForm/RhFiniteJetFunctional001.lean",
+      "source_sha256": "af74b1566cba3207a6074843abfeff811b02d64b8a8353f06f6beb42c4d9b7df",
+      "imports": [
+        "RhSmoothJetLifts001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhFiniteJetFunctional.coefficients_zero",
+        "RhFiniteJetFunctional.vanishes_on_smooth"
+      ],
+      "dependency_source_fingerprint": "31d9d24176e6e7e7c612b13bdccc0d97a6a09213fa16966fec6218dcc8e0c72d"
+    },
+    {
+      "module": "RhVariationalInfimum001",
+      "filename": "../weil-form-domain/WeilForm/RhVariationalInfimum001.lean",
+      "source_sha256": "e801c6bd7ceeffe8ebe0ee3cd6ed4229546ec264c70c67dcb47a200bf4e142e9",
+      "imports": [
+        "Mathlib.Order.ConditionallyCompleteLattice.Basic",
+        "Mathlib.Basic.Real.Basic",
+        "Mathlib.Tactic"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhVariationalInfimum.affine_infimum_bounds",
+        "RhVariationalInfimum.graph_perturbation_ground_bound"
+      ],
+      "dependency_source_fingerprint": "a3c031b55a934d6e7d062086699e0ffbeab1049ad2fd82ec49076d3ecd8952d4"
+    },
+    {
+      "module": "RhNativeRayleighDomain001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeRayleighDomain001.lean",
+      "source_sha256": "2b5179557d9abb9bf3571d000f08bed65a00e87d7484af08b4bb8f0a9a6331af",
+      "imports": [
+        "RhVariationalInfimum001",
+        "RhSmoothDerivativeDictionary001",
+        "RhActualCoreBump001",
+        "RhFlatSmoothCore001",
+        "RhNativeBoundedPartControl001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeRayleighDomain.physicalUnit_nonempty",
+        "RhNativeRayleighDomain.diagonal_bddBelow",
+        "RhNativeRayleighDomain.bottom_le_diagonal"
+      ],
+      "dependency_source_fingerprint": "c21a87645f781da0f408a3f1e48fa5b65ebe713fc50576189678ad371a22adb9"
+    },
+    {
+      "module": "RhNativeRayleighControl001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeRayleighControl001.lean",
+      "source_sha256": "d4783777940c6122b7816cc2ee784d060afe42e9fdef092a9ded61f0cc87542d",
+      "imports": [
+        "RhNativeRayleighDomain001",
+        "RhNativeDilationSmallness001",
+        "RhNativeGraphCoercivity001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeRayleighControl.local_ground_bound",
+        "RhNativeRayleighControl.local_ground_continuity"
+      ],
+      "dependency_source_fingerprint": "fca19c2b1bd8a80f9fbc7c9a4796f3a73d87a9ff34385a8c885df1fd80e70e9e"
+    },
+    {
+      "module": "RhNativeRayleighRadius001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeRayleighRadius001.lean",
+      "source_sha256": "d95d9ab917a93f2f9c6326663f8edfe8e33312e09f47d3ab76fadf74f13a4671",
+      "imports": [
+        "RhNativeRayleighControl001",
+        "RhLiteralSupportForm001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeRayleighRadius.pulledBottom_eq_bottom",
+        "RhNativeRayleighRadius.right_continuity",
+        "RhNativeRayleighRadius.bottom_antitone_support"
+      ],
+      "dependency_source_fingerprint": "f8fbf05f2d662e419e163d4ba364cd734efa6a7c9a549c40ceeb2bfa1502bcb5"
+    },
+    {
+      "module": "RhNativeRayleighPositivity001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeRayleighPositivity001.lean",
+      "source_sha256": "a0164321b4f549e48a893131297dc642de31685a32f4a652dd8de714fa6797b1",
+      "imports": [
+        "RhNativeRayleighRadius001",
+        "RhNativeCompactGap001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeRayleighPositivity.bottom_nonnegative_iff",
+        "RhNativeRayleighPositivity.zero_bottom_has_actual_null"
+      ],
+      "dependency_source_fingerprint": "2f62be82fc89f8d0f366c536b80643b96ea718f99f666f9c4969568a5a266eef"
+    },
+    {
+      "module": "RhNativeRayleighLeft001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeRayleighLeft001.lean",
+      "source_sha256": "7e848e9300ccc35e2656a5d03b6d723f05f3e78910128074101ed9bfd30a7d32",
+      "imports": [
+        "RhNativeRayleighPositivity001",
+        "RhInwardOldNullLift001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeRayleighLeft.near_minimum_on_smaller_radius",
+        "RhNativeRayleighLeft.left_continuity"
+      ],
+      "dependency_source_fingerprint": "d3c716a697a3bcd32b09fa59e4d1c2bbd991f3cb6c2d3109c5c5c7da9e9811db"
+    },
+    {
+      "module": "RhNativeRayleighContinuity001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeRayleighContinuity001.lean",
+      "source_sha256": "e7c0ee67eb9bfe5a4ad1ddb3ced9ece5a8f8e02216c49240d6b93f99078cd85d",
+      "imports": [
+        "RhNativeRayleighLeft001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeRayleighContinuity.radius_neighborhood",
+        "RhNativeRayleighContinuity.bottom_continuousAt",
+        "RhNativeRayleighContinuity.bottom_continuousOn"
+      ],
+      "dependency_source_fingerprint": "4a98c13981b770445102c6233baaa84e46e5f78bcd7374fe9a600d139c78071b"
+    },
+    {
+      "module": "RhNativeFirstZeroReduction001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeFirstZeroReduction001.lean",
+      "source_sha256": "590f1ec32bc58dfd4cb34f52ac6fb58ac34fc6709e4e1daa32db8290324085de",
+      "imports": [
+        "RhNativeRayleighContinuity001",
+        "Mathlib.Topology.Order.IntermediateValue"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeFirstZeroReduction.sign_change_has_actual_null",
+        "RhNativeFirstZeroReduction.positivity_of_no_null_nonnegative_states"
+      ],
+      "dependency_source_fingerprint": "864feb43c9a47b9e710f3d2e8ee8bf8626fe733c54855df185eecaeb25630018"
+    },
+    {
+      "module": "RhNativeNoNullOpenness001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeNoNullOpenness001.lean",
+      "source_sha256": "abe7d5959b92de86a0e037d334610db7c162dc33f9cc9858e7c4bf180b4b179e",
+      "imports": [
+        "RhNativeFirstZeroReduction001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeNoNullOpenness.positive_bottom_of_positive_no_null",
+        "RhNativeNoNullOpenness.local_positive_neighborhood"
+      ],
+      "dependency_source_fingerprint": "9b935b0d65599cdb3d7efdb9dfb5d3fa9b76706ff7b74e19d19887a0ea1ee7ea"
+    },
+    {
+      "module": "RhNativeRadiusFamily001",
+      "filename": "../weil-form-domain/WeilForm/RhNativeRadiusFamily001.lean",
+      "source_sha256": "01bb663c60604982058a8f5e2bc564e766d771b8e3cd2bdd8779312f625ed9f4",
+      "imports": [
+        "RhNativeNoNullOpenness001",
+        "RhCompleteFormHorizon001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhNativeRadiusFamily.nativeBottom_fixed_cap",
+        "RhNativeRadiusFamily.nativeBottom_continuousAt",
+        "RhNativeRadiusFamily.nativeBottom_antitone",
+        "RhNativeRadiusFamily.nativeBottom_nonnegative_iff_physical",
+        "RhNativeRadiusFamily.native_sign_change_has_null"
+      ],
+      "dependency_source_fingerprint": "e3980c44cd12519e5c1b0d00f585e4e99f7d41f9a7c7f5af84df6989e4f0b900"
+    },
+    {
+      "module": "RhGlobalNoNullCriterion001",
+      "filename": "../weil-form-domain/WeilForm/RhGlobalNoNullCriterion001.lean",
+      "source_sha256": "f311a659c573e601d0bf40a1ba01e1976cb758e847da9f5ceb77e470e80b8b8f",
+      "imports": [
+        "RhNativeRadiusFamily001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhGlobalNoNullCriterion.global_native_positive_of_no_null"
+      ],
+      "dependency_source_fingerprint": "aadc72af44e1dc672aebc35e1e802f7dceda39d4129b4ab7a4cb4f9bfc04c09f"
+    },
+    {
+      "module": "RhLocalFiniteJetFunctional001",
+      "filename": "../weil-form-domain/WeilForm/RhLocalFiniteJetFunctional001.lean",
+      "source_sha256": "1cc09898d25657395de2de15562e108f157b930f70e7e4de374c989459bd747b",
+      "imports": [
+        "RhFiniteJetFunctional001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhLocalFiniteJetFunctional.eventually_tsupport_subset_open",
+        "RhLocalFiniteJetFunctional.coefficients_zero",
+        "RhLocalFiniteJetFunctional.vanishes_on_smooth"
+      ],
+      "dependency_source_fingerprint": "ece5542dde688bb9c0441dd6597d7e83a8a8ea1ef5b1121a0bfe8bc0236d8235"
+    },
+    {
+      "module": "RhLocalSourceCovariance001",
+      "filename": "../weil-form-domain/WeilForm/RhLocalSourceCovariance001.lean",
+      "source_sha256": "09f9935e05d33f488a6bcac9924f1e0929b0247210df0895f45cfb84fe2f5004",
+      "imports": [
+        "RhActualSourceCovariance001",
+        "RhFixedPhysicalLocalInverse001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhLocalSourceCovariance.exists_local_covariance_budget",
+        "RhLocalSourceCovariance.exists_local_residual_budget"
+      ],
+      "dependency_source_fingerprint": "d1370563a26e40c5b5172c074b5f64cf4de7cf7dc0077486b693f79a816baab2"
+    },
+    {
+      "module": "RhNativeEndpointGluing001",
+      "filename": "WeilNullCrossing/RhNativeEndpointGluing001.lean",
+      "source_sha256": "a8abf69abbf6242ed77f45c0902eda8af20cca81814aaadd1e0519d7b8ae1403",
+      "imports": [
+        "RhEndpointWeakGluing001",
+        "RhLiteralSupportForm001",
+        "RhCompleteFormHorizon001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhNativeEndpointGluing.old_interior_row_vanishes",
+        "RhNativeEndpointGluing.old_null_and_collars_full_null",
+        "RhNativeEndpointGluing.native_old_null_and_collars_full_null"
+      ],
+      "dependency_source_fingerprint": "ac7bcf1933882f5e698b1f3d4bd53b5a7d72c94d28ef08b6e71a60078600a4b2"
+    },
+    {
+      "module": "RhNativeCollarNonvanishing001",
+      "filename": "WeilNullCrossing/RhNativeCollarNonvanishing001.lean",
+      "source_sha256": "dc568bfde2a6b3c18b4e44efb525dd9b4c0ae68735ca9c9cbf833942f79d397d",
+      "imports": [
+        "RhNativeEndpointGluing001",
+        "RhNativeStrictInteriorUCP001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhNativeCollarNonvanishing.not_both_collar_equations",
+        "RhNativeCollarNonvanishing.native_not_both_collar_equations"
+      ],
+      "dependency_source_fingerprint": "0971c19c7ac98faa5b52dfb71edf108c4db097eaf60607b8c1f500c1a36a072e"
+    },
+    {
+      "module": "RhNativeOutwardZeroNegative001",
+      "filename": "WeilNullCrossing/RhNativeOutwardZeroNegative001.lean",
+      "source_sha256": "e37d63815c74f3dda110695c3936d86e422b076ef1b0cfd015e20eb82b87c573",
+      "imports": [
+        "RhNativeStrictInteriorUCP001",
+        "RhCompleteFormHorizon001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhNativeOutwardZeroNegative.fixed_horizon_outward_negative",
+        "RhNativeOutwardZeroNegative.native_outward_negative"
+      ],
+      "dependency_source_fingerprint": "8eeab13dff66cc86a37c374712c57ecde930eea48223809daa35b204ea5261fe"
+    },
+    {
+      "module": "RhNativeRayleighStrict001",
+      "filename": "WeilNullCrossing/RhNativeRayleighStrict001.lean",
+      "source_sha256": "0655dc17b9bd54222ec7f5c038ab35d736c0d9b25cd1f3d86e79712765b10f1e",
+      "imports": [
+        "RhNativeRadiusFamily001",
+        "RhNativeStrictInteriorUCP001"
+      ],
+      "owner": "supplement",
+      "terminal_declarations": [
+        "RhNativeRayleighStrict.completeForm_scalar_shift",
+        "RhNativeRayleighStrict.bottom_scalar_shift",
+        "RhNativeRayleighStrict.bottom_has_shifted_null",
+        "RhNativeRayleighStrict.bottom_attained",
+        "RhNativeRayleighStrict.bottom_strict_antitone_support",
+        "RhNativeRayleighStrict.nativeBottom_strict_antitone"
+      ],
+      "dependency_source_fingerprint": "8518ed6645b38496adb968a921a0d7b1087558c331e7ac3bc5352a16934ae0bf"
+    },
+    {
+      "module": "RhSchurNegativeWitness001",
+      "filename": "../weil-form-domain/WeilForm/RhSchurNegativeWitness001.lean",
+      "source_sha256": "fdfea05477955e9d154504c242ef12d385d706143399ef2d2e958620723aae18",
+      "imports": [
+        "RhIsotropicSchurObstruction001",
+        "RhSchurMatrixZero001",
+        "RhSmoothPhysicalTransfer001"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSchurNegativeWitness.minimizing_energy",
+        "RhSchurNegativeWitness.nonzero_nonpositive_schur_negative_core",
+        "RhSchurNegativeWitness.nonzero_nonpositive_schur_negative_smooth"
+      ],
+      "dependency_source_fingerprint": "a566aaf4084aad8c402a737663b415ead41cfb128758c4d7dea7d9e5ae513671"
+    },
+    {
+      "module": "RhSobolevPrimitiveBridge001",
+      "filename": "../weil-form-domain/WeilForm/RhSobolevPrimitiveBridge001.lean",
+      "source_sha256": "b01b7dd0e358a78d0cecef18c45f506e97d7cbfb39501d5e9a6fb639ee482578",
+      "imports": [
+        "RhClosedSmoothCore001",
+        "Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun"
+      ],
+      "owner": "published_parent",
+      "terminal_declarations": [
+        "RhSobolevPrimitiveBridge.ac_zero_trace_primitive_ae",
+        "RhSobolevPrimitiveBridge.ac_l2_zero_trace_has_actual_core_lift"
+      ],
+      "dependency_source_fingerprint": "e2c2bf70b258ab26279ae03475e5bb172fe14f3033ae997a761899831f126039"
+    }
+  ],
+  "utility_excerpts": {
+    "count": 7,
+    "source": "../weil-form-domain/REPLAY-MANIFEST.json",
+    "unchanged_parent": true
+  },
+  "counts": {
+    "parent_modules": 199,
+    "supplement_modules": 28,
+    "combined_modules": 227,
+    "direct_package_import_boundaries": 80,
+    "parent_terminal_reports": 630,
+    "supplement_terminal_reports": 99,
+    "combined_terminal_reports": 729
+  },
+  "verification_status": {
+    "accepted_local_sources": "All28 source/snapshot/standard-axiom receipts authenticated during preparation.",
+    "private_incremental_replay": "PASS:199 authenticated previously fresh parent modules plus28 freshly compiled extensions,729 combined terminal reports. Not227 fresh modules from empty outputs.",
+    "fresh_combined_public_helper": "Prepared only; not executed or claimed passed.",
+    "incremental_receipt_filename": "INCREMENTAL-REPLAY-RECEIPT.json"
+  }
+}

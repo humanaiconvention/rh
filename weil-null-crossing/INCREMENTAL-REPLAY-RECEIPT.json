@@ -1,0 +1,1200 @@
+{
+  "schema": "weil-null-crossing-incremental-evidence-v1",
+  "passed": true,
+  "scope": "Internal isolated incremental source replay:199 authenticated previously fresh parent modules plus28 freshly compiled supplement modules. This is227-module coverage, NOT227 freshly compiled modules from empty outputs. No external independent review, imported-environment kernel replay, toolchain rebuild, numerical oracle, all-radius positivity or RH proof is claimed.",
+  "distribution_boundary": "Compiler objects and private logs are not distributed. Their hashes identify the checked internal evidence only. The supplied public helper is prepared to compile all227 local sources afresh but has not yet been executed.",
+  "base_commit": "46a969283f22775a7a064df297cf10f7d9caf578",
+  "base_receipt_sha256": "8aabb9ffd681839f4ca20de9728c7e7ca6bc3fc2845282e3b61a2cdffb2b192c",
+  "source_manifest_sha256": "b3afae98b999858794c623643b6553b7c150019930a2334bb2fb35cd44870104",
+  "internal_incremental_receipt_sha256": "64e5c5f259e58c6211070fec577299fd053b32fff998ef5ef4bcc7156fd6e99c",
+  "lean_sha256": "ec7a472d1c12a09b0c0c718f7427c2be527b3f5f07810fdbe076c2507c7a91ea",
+  "mathlib_revision": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+  "pinned_packages": {
+    "mathlib": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+    "plausible": "dfa4f38190d07c37e315953e08b90fe2d95b3c24",
+    "LeanSearchClient": "d6b4c7be5be75ec4917c873ac50c756dc1436372",
+    "importGraph": "a41f0e9a4dea23188ea9cc1c41ac9f8bbafe0b93",
+    "proofwidgets": "df72b022e558978a1c50264cfc4d7fec86fa8e04",
+    "aesop": "4a174c490d8707121c4a9290800489f105d85e07",
+    "Qq": "dce0ad79c486cb1fb504af04f953c3466b0c6db8",
+    "batteries": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+    "Cli": "c24fe6078c630e89b489bffe59b3e20ac30d12c8"
+  },
+  "counts": {
+    "parent_modules_previously_fresh_authenticated": 199,
+    "supplement_modules_fresh": 28,
+    "combined_coverage": 227,
+    "parent_terminal_reports": 630,
+    "supplement_terminal_reports": 99,
+    "combined_terminal_reports": 729,
+    "direct_package_binary_boundaries": 80
+  },
+  "resource_limits": {
+    "heap_limit_MiB": 3072,
+    "thread_limit": 2,
+    "per_module_timeout_seconds": 1800,
+    "proactive_working_set_bytes": 3113851289
+  },
+  "maximum_new_working_set_bytes": 2130042880,
+  "modules": [
+    {
+      "module": "RhRotatingPhysicalGap001",
+      "source_sha256": "2dea0c77b8fdab35d367c4bdd4fd2d0b4275733cc7a3687536d6e6155c319336",
+      "imports": [
+        "RhPhysicalProjectionSchur001"
+      ],
+      "dependency_source_fingerprint": "3766f5fbd1a36635ab0d6e6096618eac03b7f0e39d2273c5f8b176c243fb4253",
+      "object_sha256": "d08347cc73cf5c902f3d201a2a360f01e861ba5b579141f6af8d1cd588517a79",
+      "log_sha256": "d0125e90c74e96f6230530d61cdd7c8d1907755906f2495ffef496dea46a2afb",
+      "printed_terminals": [
+        "RhRotatingPhysicalGap.projection_rotation_bound",
+        "RhRotatingPhysicalGap.remainder_form",
+        "RhRotatingPhysicalGap.rotated_physical_gap",
+        "RhRotatingPhysicalGap.rotatedControl"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2118590464,
+      "elapsed_seconds": 20.406,
+      "passed": true
+    },
+    {
+      "module": "RhActualRotatingLocalControl001",
+      "source_sha256": "d27290e78184b7c6a5c02d506870c7e8db2ca12ed62766779ad61eb14c9b55ae",
+      "imports": [
+        "RhRotatingPhysicalGap001",
+        "RhPhysicalNullOverlap001",
+        "RhNativeDilationSmallness001"
+      ],
+      "dependency_source_fingerprint": "d9bc55a0ff83cabe6c83ee6f2d7ccb2b6e97bb1b54a00a749fc154097dadd578",
+      "object_sha256": "27259459492c71ce6659f30587eb8745b62d4b1b182e87366741b5b4c492c508",
+      "log_sha256": "1b9fe20676808c3c021beb6558d0af4bfb3d3d465ac534989b2de3648c8b65e2",
+      "printed_terminals": [
+        "RhActualRotatingLocalControl.rotationError_tendsto",
+        "RhActualRotatingLocalControl.exists_actual_local_control"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2102161408,
+      "elapsed_seconds": 18.39,
+      "passed": true
+    },
+    {
+      "module": "RhOldNullPhysicalIsometry001",
+      "source_sha256": "b1262d3308f918cabfa6a80731d05480a175ec614d69fcaa392deeb2e85ac68b",
+      "imports": [
+        "RhInwardOldNullLift001"
+      ],
+      "dependency_source_fingerprint": "50a9825d10d105cc2e3cf4365df2c7532f535e92f1e05c24158458828474722d",
+      "object_sha256": "6f78a92c453714b7f1657bba08436a18c132405e89a23cdaa49960474aecfb9c",
+      "log_sha256": "f20a11f9211f8fbbb6f198ab35d0b230e06be0df1d912f745ba0278933012a60",
+      "printed_terminals": [
+        "RhOldNullPhysicalIsometry.oldNullLift_add",
+        "RhOldNullPhysicalIsometry.oldNullLift_smul",
+        "RhOldNullPhysicalIsometry.physical_norm_square",
+        "RhOldNullPhysicalIsometry.physical_norm",
+        "RhOldNullPhysicalIsometry.physical_inner",
+        "RhOldNullPhysicalIsometry.physical_orthonormal"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2105282560,
+      "elapsed_seconds": 19.344,
+      "passed": true
+    },
+    {
+      "module": "RhLiteralZeroBlockSchur001",
+      "source_sha256": "0d87bf8b5dc63ff2c16134de5c1e92ecc517f18bd5ee90ac4e3757a59157da60",
+      "imports": [
+        "RhPhysicalProjectionSchur001",
+        "RhSchurMatrixZero001"
+      ],
+      "dependency_source_fingerprint": "dbc127d790961a3e185b2347bdb297839b00bd8df190d708403ced6fe392d109",
+      "object_sha256": "62a2d3c34bd339ac6217dc21b95c42e6952f6cb4fb6d8de6314173f4be90c1a1",
+      "log_sha256": "cb637f90f526523da1ff33fd83834cf95804a8b31a292194b0885ddfd860c28f",
+      "printed_terminals": [
+        "RhLiteralZeroBlockSchur.payment_zero_iff",
+        "RhLiteralZeroBlockSchur.schur_entry",
+        "RhLiteralZeroBlockSchur.schur_quadratic_nonpositive",
+        "RhLiteralZeroBlockSchur.matrix_zero_iff_full_sources_zero",
+        "RhLiteralZeroBlockSchur.full_core_nonnegative_iff_full_sources_zero"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2113896448,
+      "elapsed_seconds": 19.687,
+      "passed": true
+    },
+    {
+      "module": "RhActualLiteralNullSchur001",
+      "source_sha256": "7402b039ef1a18bbfc844c9601c1b449ea685996e365573b50c0df63fe368361",
+      "imports": [
+        "RhActualKernelData001",
+        "RhActualRotatingLocalControl001",
+        "RhOldNullPhysicalIsometry001",
+        "RhLiteralZeroBlockSchur001"
+      ],
+      "dependency_source_fingerprint": "d9977ef078e3098e8c6f4eecabeeb880a5e3d463d0175716e31c5875eb31f037",
+      "object_sha256": "805c6036d9f2dcda02742e907a444b458d73df19cd6131e2d3f239493cd73ce0",
+      "log_sha256": "c7cfef74211f991f62e54a122e3c15bee891d11e5015c92762c4e87831b3b191",
+      "printed_terminals": [
+        "RhActualLiteralNullSchur.local_literal_null_schur_target"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2115235840,
+      "elapsed_seconds": 18.453,
+      "passed": true
+    },
+    {
+      "module": "RhNativeTranslationAlgebra001",
+      "source_sha256": "23ee4437cf13e2e50895dc1ca1be6ec446cecad9d9b6107f0f990d289230bcde",
+      "imports": [
+        "RhWeightedTranslation001"
+      ],
+      "dependency_source_fingerprint": "18b6267e6eed9a938bbd9a80dccb93ed56e465459ed4ba85239b67518df950b7",
+      "object_sha256": "8928965fe0a0275e2f525bb12bd108073a181916e080bb2428304547bebce871",
+      "log_sha256": "474631b7366a19bf0cf3a53cf9555e93de94f33381869ea4f0977219a30144af",
+      "printed_terminals": [
+        "RhNativeTranslationAlgebra.translation_comp",
+        "RhNativeTranslationAlgebra.translation_inner",
+        "RhNativeTranslationAlgebra.translated_graph_inner",
+        "RhNativeTranslationAlgebra.archPair_joint",
+        "RhNativeTranslationAlgebra.shiftPair_joint"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2094125056,
+      "elapsed_seconds": 18.172,
+      "passed": true
+    },
+    {
+      "module": "RhNativeTranslationForm001",
+      "source_sha256": "2618a4cb4d8c736e557857cb6c1f92b4e5811955ff4338c999999f153f2d8a52",
+      "imports": [
+        "RhNativeTranslationAlgebra001"
+      ],
+      "dependency_source_fingerprint": "5653615ae4029732a64acbcc20ecb3e3c6e84d54c54d2d15d1a7027166f2ea23",
+      "object_sha256": "7baef8d275e47520c2155f8a280fa38e4ee9b33d41a6317f7ddfd398fa3270bc",
+      "log_sha256": "61da05b8f5ee62d185c07d05dee42da97dd71694ed269fa915145b520c384e6c",
+      "printed_terminals": [
+        "RhNativeTranslationForm.profileMoment_integral",
+        "RhNativeTranslationForm.profileMoment_translated_integral",
+        "RhNativeTranslationForm.coshMoment_translated",
+        "RhNativeTranslationForm.sinhMoment_translated",
+        "RhNativeTranslationForm.signed_rank_joint",
+        "RhNativeTranslationForm.completeForm_joint"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2106785792,
+      "elapsed_seconds": 18.687,
+      "passed": true
+    },
+    {
+      "module": "RhNativeTranslationAdjoint001",
+      "source_sha256": "1744e3cb271fd211c0082d0fd33d5a97202404b48cefdc41693f7c4f619b7696",
+      "imports": [
+        "RhNativeTranslationForm001"
+      ],
+      "dependency_source_fingerprint": "c5a8f78147519d553f7d87c666697b1be0ab8b98dcdcf4562a90fbb6d7ad5ec9",
+      "object_sha256": "bb9e9cf3c6e704711df53501ca664f811ab6a90894c9bb0386909a84b7753d26",
+      "log_sha256": "419418f4a1d4c79e70701d138b7c6aa2c4445172c71bbbf24ff820e73986c9b3",
+      "printed_terminals": [
+        "RhNativeTranslationAdjoint.translated_inverse",
+        "RhNativeTranslationAdjoint.completeForm_adjoint"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2083127296,
+      "elapsed_seconds": 17.172,
+      "passed": true
+    },
+    {
+      "module": "RhTranslationSupport001",
+      "source_sha256": "11989f983a1884deabd36909e766e275d8b44e54bed4b72a1d4fb65365fe1be3",
+      "imports": [
+        "RhWeightedTranslation001"
+      ],
+      "dependency_source_fingerprint": "56dd69ad46b0cd8a7e4e99cbcf9cedbfe50d8e83b080430d5546978a81464331",
+      "object_sha256": "72693bebe14f97245c0685964c735623193628fdc5bb8b6df5e4a3f3b8f43fd7",
+      "log_sha256": "725e757d6da9985efea4587ed0aa822accc03e667228baf7c0c184c0a2e33e32",
+      "printed_terminals": [
+        "RhTranslationSupport.translation_supported",
+        "RhTranslationSupport.supported_translation_forces_zero",
+        "RhTranslationSupport.not_all_translates_supported",
+        "RhTranslationSupport.weighted_translated_supported",
+        "RhTranslationSupport.weighted_not_all_translates_supported"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2097635328,
+      "elapsed_seconds": 18.234,
+      "passed": true
+    },
+    {
+      "module": "RhTranslatedCoreRadical001",
+      "source_sha256": "bf7c9bc28c5f694ab4ca22b2a9eeb999e603296da4874b56a2338c3f0955b27d",
+      "imports": [
+        "RhNativeTranslationAdjoint001",
+        "RhTranslationSupport001",
+        "RhRealSameWindowSmooth001",
+        "RhLiteralSupportForm001",
+        "RhPulledCompleteForm001"
+      ],
+      "dependency_source_fingerprint": "616c2d5bf0f688358641ea8ded7c9d93bc57833f6627800d1b38dc285c1cca60",
+      "object_sha256": "6701823a10078076f9c753a380ced170b34c7d1fc2d91be7c51f40a545dbe728",
+      "log_sha256": "6ed77e7eba4110ec25b39c07353c60ee379ec2d0f849125e4fbc5416b12531b1",
+      "printed_terminals": [
+        "RhTranslatedCoreRadical.translated_real",
+        "RhTranslatedCoreRadical.translated_mem_flatCore",
+        "RhTranslatedCoreRadical.translatedCore_physical",
+        "RhTranslatedCoreRadical.local_radical_translation"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2102730752,
+      "elapsed_seconds": 18.797,
+      "passed": true
+    },
+    {
+      "module": "RhNativeRadicalFinite001",
+      "source_sha256": "4f1eabade12989eea227146b1879e1f3c39f41cad12e80f699a0da7ad60df078",
+      "imports": [
+        "RhNativeCompactGap001",
+        "RhPulledCompleteForm001"
+      ],
+      "dependency_source_fingerprint": "210b500d257a3b4eee98f1f89fe8f4c2d5d96e7a4e24dbcaefcf84b2d3c86dab",
+      "object_sha256": "245179bda31d5c9a0c796192083e5f92b30066fe31108a67d79cee04f3e86b41",
+      "log_sha256": "ba9be72974cc0c10666e646d5475794ab5f90d7cef829d3b3e9bb5f317fd0c8f",
+      "printed_terminals": [
+        "RhCompactRadicalFinite.finite_radical",
+        "RhNativeRadicalFinite.finite_native_radical",
+        "RhNativeRadicalFinite.finite_base_radical"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2100178944,
+      "elapsed_seconds": 18.188,
+      "passed": true
+    },
+    {
+      "module": "RhLocalTranslationSpan001",
+      "source_sha256": "3f5924acfc8c14b0ed63911d4af9c528d07acb35656c87ee75955259b89b076e",
+      "imports": [
+        "Mathlib.LinearAlgebra.Dimension.StrongRankCondition",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Defs",
+        "Mathlib.Topology.MetricSpace.Pseudo.Defs",
+        "Mathlib.Topology.Algebra.Order.Field",
+        "Mathlib.Topology.Instances.Real.Lemmas"
+      ],
+      "dependency_source_fingerprint": "7b977840274672f65f4b9b62bbcf08180e0249f788a48aacbb4fcd47643de946",
+      "object_sha256": "e67c605e26894c3d7462c01e71dcf921bdb3155adc98005be2f1b8beb1e1dd86",
+      "log_sha256": "696b0b20e7814aa50dec1bd22c1a450f53bc29593db6ebbfdfc52cbbfb60937a",
+      "printed_terminals": [
+        "RhLocalTranslationSpan.orbit_mem_of_finite_local_span",
+        "RhLocalTranslationSpan.invariant_of_finite_local_span"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 1370968064,
+      "elapsed_seconds": 13.468,
+      "passed": true
+    },
+    {
+      "module": "RhLocalPhysicalTranslation001",
+      "source_sha256": "118dd84ee7401bb2ebec6b2e9dddba4e9c2655a5e40c4027571de62177c2b91a",
+      "imports": [
+        "RhLocalTranslationSpan001",
+        "RhTranslationSupport001",
+        "RhNativeTranslationAlgebra001"
+      ],
+      "dependency_source_fingerprint": "0721b3b95a5c981d6701f7a5e79064cbf48df5feb347d5f2b9d90c46b699c5b5",
+      "object_sha256": "842d05ce92be67740eb5c52adb192629d9bf77a813c5b8ea138d4a6943402ea0",
+      "log_sha256": "551defe2356a004d70cf4acffa57ab7976ad118516337a36a0786da97637ae3d",
+      "printed_terminals": [
+        "RhLocalPhysicalTranslation.supported_mono",
+        "RhLocalPhysicalTranslation.not_finite_local_span"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2095988736,
+      "elapsed_seconds": 17.797,
+      "passed": true
+    },
+    {
+      "module": "RhConditionalWeakNullUCP001",
+      "source_sha256": "eaf4bf8ee3318b82e84559ae6620dbafb42fac1110af20b578bd68de0b19f4f0",
+      "imports": [
+        "RhNativeNullFluxPhysical001"
+      ],
+      "dependency_source_fingerprint": "0d992f850182580a9c29e92f0c1d2bc11f33ddcea44a86306cced7ff74f0d710",
+      "object_sha256": "e3911d646e1a0e9629b6b1ad35151e53c30021963567919e95257a94f2a24491",
+      "log_sha256": "a87df9cafcdce68c6267975f41b6eb26c16da2301537044524fa7b1d68f23cb8",
+      "printed_terminals": [
+        "RhConditionalWeakNullUCP.nonzero_cross_of_combined_ucp",
+        "RhConditionalWeakNullUCP.combined_ucp_forces_outward_negative"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2091130880,
+      "elapsed_seconds": 17.672,
+      "passed": true
+    },
+    {
+      "module": "RhNativeStrictInteriorUCP001",
+      "source_sha256": "f9671940780bbfa327f4175b958a84a11ac4efef8ffcf32812fe50bbaec29445",
+      "imports": [
+        "RhTranslatedCoreRadical001",
+        "RhNativeRadicalFinite001",
+        "RhLocalPhysicalTranslation001",
+        "RhConditionalWeakNullUCP001"
+      ],
+      "dependency_source_fingerprint": "2c9bc757ef830ec7374d0d0d46fed6415f593771c4bcf1353d894fe17523614b",
+      "object_sha256": "2b73c3d6119aef4e92a3ee5d9a869bfbb8c4a5dfbb8e3aaf415e9ad5c1ab97b9",
+      "log_sha256": "66a7c6f5efd84da827ab08d232527552fa04c0744f10a3da06a9b2e36c40c1fb",
+      "printed_terminals": [
+        "RhNativeStrictInteriorUCP.full_row_unique",
+        "RhNativeStrictInteriorUCP.full_row_of_smooth",
+        "RhNativeStrictInteriorUCP.combined_weak_ucp"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2114813952,
+      "elapsed_seconds": 18.953,
+      "passed": true
+    },
+    {
+      "module": "RhLiteralSchurStrictSign001",
+      "source_sha256": "43bcb32720403f8cd153414ab11916c3cc642da5c8a553c42afd4e03341fe829",
+      "imports": [
+        "RhActualLiteralNullSchur001",
+        "RhNativeStrictInteriorUCP001"
+      ],
+      "dependency_source_fingerprint": "7f3aaecd6d6c854d910fada15c58bfbc63f35fafa31f8131473383bfbafffcfa",
+      "object_sha256": "0837e162bb624c20fc51619fb8efcf2c65c5b99da552c309224b847615165905",
+      "log_sha256": "07f15d5cf886f8aa65fbf1951e77c7cf46ce85c84fa54dcaa17a38235eebb2e4",
+      "printed_terminals": [
+        "RhLiteralSchurStrictSign.row_zero_of_zero_source",
+        "RhLiteralSchurStrictSign.outward_combination_literal",
+        "RhLiteralSchurStrictSign.source_combination_ne_zero",
+        "RhLiteralSchurStrictSign.schur_quadratic_strictly_negative"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2130042880,
+      "elapsed_seconds": 19.75,
+      "passed": true
+    },
+    {
+      "module": "RhActualStrictSchurAudit001",
+      "source_sha256": "a746efc3050cb1a8bf348ce822ca3240bd72252eec67846848016ee3b333b410",
+      "imports": [
+        "RhLiteralSchurStrictSign001"
+      ],
+      "dependency_source_fingerprint": "a6400dabf8a73ca84e7ef558862570d1254b8b88048eb6dee263c0afc3a6aa48",
+      "object_sha256": "a0f53064806eca2aa814cf7956c423b8f52c8da5b05a116f2f448c7b0b040cca",
+      "log_sha256": "6cc8eaa4c59e1315f89a4e63423141d0d61d3e33f5e42d9a8af754417fa2e21d",
+      "printed_terminals": [
+        "RhActualStrictSchurAudit.local_strict_schur_audit"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2116018176,
+      "elapsed_seconds": 18.578,
+      "passed": true
+    },
+    {
+      "module": "RhSmoothKernelGraphBound001",
+      "source_sha256": "fa65f08978761a27472fffdb1b382d84b6342a128b1322e67e749641657d657c",
+      "imports": [
+        "RhSmoothJetLifts001",
+        "RhCenteredPrimitiveApproximation001"
+      ],
+      "dependency_source_fingerprint": "5442205b48e682a0093ab977e756f2470301f2a1f0c82f3518e4439c2a6b959d",
+      "object_sha256": "2d30ce69696d53fb7d23b6ac6f63026e70ee16e26f85044f3665adcce9373534",
+      "log_sha256": "a197633400194e5f79a679d703574e05a6fdae9da2d5dfaff8eb83b47c3bd31c",
+      "printed_terminals": [
+        "RhSmoothKernelGraphBound.actualPrimitiveLift_norm_square_bound",
+        "RhSmoothKernelGraphBound.smoothLift_norm_square_bound",
+        "RhSmoothKernelGraphBound.variable_profile_capacity",
+        "RhSmoothKernelGraphBound.variable_smooth_capacity",
+        "RhSmoothKernelGraphBound.variable_smooth_physical_ae",
+        "RhSmoothKernelGraphBound.modulated_profile_identity"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2097086464,
+      "elapsed_seconds": 18.453,
+      "passed": true
+    },
+    {
+      "module": "RhModulatedCutoffProfiles001",
+      "source_sha256": "af891dd1d9e78ee6392c2de6d41d2739ad17b791e5acea9c879b5d8102e8dd33",
+      "imports": [
+        "RhSmoothKernelGraphBound001",
+        "Mathlib.Analysis.Normed.Group.Bounded"
+      ],
+      "dependency_source_fingerprint": "83975d617681662a442dce4bb88d124b5a362cb3d8b4db7c51de2bdf7a6d7d33",
+      "object_sha256": "82dd8c0608dc78dd626a78cda49031617f39535d0035313105c092abab1e3887",
+      "log_sha256": "c8a133540c59ee6de1bdc4beba80b09023d1ce5493ffe716d35e64599293f5b4",
+      "printed_terminals": [
+        "RhModulatedCutoffProfiles.profile_deriv",
+        "RhModulatedCutoffProfiles.exists_uniform_derivative_bound",
+        "RhModulatedCutoffProfiles.cutoffVector_norm_tendsto",
+        "RhModulatedCutoffProfiles.cutoffVector_physical_ae"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2103242752,
+      "elapsed_seconds": 18.828,
+      "passed": true
+    },
+    {
+      "module": "RhCutoffPointRemoval001",
+      "source_sha256": "641c1080cbf92ace839d19e3c2df9422d4b5376c3ab0c1597f595e39a4c321e3",
+      "imports": [
+        "RhModulatedCutoffProfiles001"
+      ],
+      "dependency_source_fingerprint": "30eca00dd0b20a99d04bc32a174fc8300f66197b70a4f4314ce8fa5b245a496f",
+      "object_sha256": "04669bfc33aabe9f9193da42b9d9ad8932312f33bc9fcad8529fc131d142e99c",
+      "log_sha256": "369233d3272410c3ed5e100e22d2980c5ce97703071be3c7778e35cbb43f78f8",
+      "printed_terminals": [
+        "RhCutoffPointRemoval.removed_contDiff",
+        "RhCutoffPointRemoval.removed_tsupport_subset",
+        "RhCutoffPointRemoval.removed_compact",
+        "RhCutoffPointRemoval.removed_zero_germ",
+        "RhCutoffPointRemoval.removed_not_mem_tsupport",
+        "RhCutoffPointRemoval.removedVector_physical_ae",
+        "RhCutoffPointRemoval.removedVector_tendsto"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2095185920,
+      "elapsed_seconds": 17.812,
+      "passed": true
+    },
+    {
+      "module": "RhPuncturedSmoothCore001",
+      "source_sha256": "7999977432e396ff0f074c8c138a0d5929386d96fcf418802f9a0c71f3367b0b",
+      "imports": [
+        "RhCutoffPointRemoval001",
+        "RhFlatSmoothCore001"
+      ],
+      "dependency_source_fingerprint": "c865b12186a90ed686f565bd2b454f54c2dc114db814e16e37a2b031ec1093a6",
+      "object_sha256": "9ec2bdafcc111c21153a99636d7a1465200c8adbaab8918f8b68d673f26a9b36",
+      "log_sha256": "0fcc776df8805f42d12164a506b698ea1bd280f9229982f64ccaedadce660c1f",
+      "printed_terminals": [
+        "RhPuncturedSmoothCore.puncturedCore_le_insert",
+        "RhPuncturedSmoothCore.puncturedCore_eq_flat"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2095808512,
+      "elapsed_seconds": 17.969,
+      "passed": true
+    },
+    {
+      "module": "RhPuncturedFunctional001",
+      "source_sha256": "29ed2355ef478afba00d879e671d28f313d74f4284bc7249b31ce2109b98fca5",
+      "imports": [
+        "RhPuncturedSmoothCore001",
+        "RhNativeCompleteBilinear001"
+      ],
+      "dependency_source_fingerprint": "670d6f4a371f5a6c88f83dc9565acc7538afb9f60befea9da8476158bdedf5cc",
+      "object_sha256": "19e184f0025c990bacbbfe25de0a7b714d5eab4267b2f4d294c71dd4c50c5ebb",
+      "log_sha256": "942dcb4f55eb6548e824c38fe9b2698b4d7677344730a811a2710aac182284d6",
+      "printed_terminals": [
+        "RhPuncturedFunctional.functional_zero_of_punctured",
+        "RhPuncturedFunctional.native_row_zero_of_punctured"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2093727744,
+      "elapsed_seconds": 17.781,
+      "passed": true
+    },
+    {
+      "module": "RhThreePieceSmoothSplit001",
+      "source_sha256": "8ec1bbd394be0338af33ba8b40917cb509103cebb7cc84c92b3dd743fa11b3dc",
+      "imports": [
+        "Mathlib.Analysis.Calculus.ContDiff.Basic",
+        "Mathlib.Topology.Algebra.Support"
+      ],
+      "dependency_source_fingerprint": "21afcc7d31e4c18d5fa05e3e00127ef1c180f4224d77de84f96f103ef87bbd8e",
+      "object_sha256": "27d2fc8e5ef69a3bc6598817d8b0ab2cda4c7c274447b11d8e4808a15b9bf0bf",
+      "log_sha256": "b951ba0ec60d28e85779aa190ed9e760db61369d8234e53018f90b4bd6ed0966",
+      "printed_terminals": [
+        "RhThreePieceSmoothSplit.leftCut_contDiff",
+        "RhThreePieceSmoothSplit.rightCut_contDiff",
+        "RhThreePieceSmoothSplit.leftCut_strict_support",
+        "RhThreePieceSmoothSplit.rightCut_strict_support",
+        "RhThreePieceSmoothSplit.pieces_sum",
+        "RhThreePieceSmoothSplit.three_piece_split"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 1497985024,
+      "elapsed_seconds": 13.531,
+      "passed": true
+    },
+    {
+      "module": "RhEndpointWeakGluing001",
+      "source_sha256": "0231f309a6dc46f5e12340d7d131a3a28cdae85e7279342b82898f4f24dae8d3",
+      "imports": [
+        "RhPuncturedFunctional001",
+        "RhThreePieceSmoothSplit001",
+        "RhSmoothJetLifts001"
+      ],
+      "dependency_source_fingerprint": "bc9d4d63a63f71f8981568c66452418917bfdc5b389843257bbbeb0126ce8a92",
+      "object_sha256": "9fad5367a2b1b2d8f852fe4eabc4a487fbe71b58e6b91848797be03e31dcee49",
+      "log_sha256": "a0d79ea92fb76b7151a3a9df4a1b6f321e03477b6da935d71b353687adabf378",
+      "printed_terminals": [
+        "RhEndpointWeakGluing.functional_zero_of_three_regions",
+        "RhEndpointWeakGluing.native_row_zero_of_three_regions"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2096500736,
+      "elapsed_seconds": 18.203,
+      "passed": true
+    },
+    {
+      "module": "RhNativeEndpointGluing001",
+      "source_sha256": "a8abf69abbf6242ed77f45c0902eda8af20cca81814aaadd1e0519d7b8ae1403",
+      "imports": [
+        "RhEndpointWeakGluing001",
+        "RhLiteralSupportForm001",
+        "RhCompleteFormHorizon001"
+      ],
+      "dependency_source_fingerprint": "ac7bcf1933882f5e698b1f3d4bd53b5a7d72c94d28ef08b6e71a60078600a4b2",
+      "object_sha256": "52f1e502a6e3e1202b8e4c92b7222415c6b678fc72a9662e95a821c3c716e838",
+      "log_sha256": "cb68ccb67394c1d596d2bb600b63583eb81a84569ab52c6230c64e623da8e850",
+      "printed_terminals": [
+        "RhNativeEndpointGluing.old_interior_row_vanishes",
+        "RhNativeEndpointGluing.old_null_and_collars_full_null",
+        "RhNativeEndpointGluing.native_old_null_and_collars_full_null"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2091069440,
+      "elapsed_seconds": 17.687,
+      "passed": true
+    },
+    {
+      "module": "RhNativeCollarNonvanishing001",
+      "source_sha256": "dc568bfde2a6b3c18b4e44efb525dd9b4c0ae68735ca9c9cbf833942f79d397d",
+      "imports": [
+        "RhNativeEndpointGluing001",
+        "RhNativeStrictInteriorUCP001"
+      ],
+      "dependency_source_fingerprint": "0971c19c7ac98faa5b52dfb71edf108c4db097eaf60607b8c1f500c1a36a072e",
+      "object_sha256": "97b059eeb277d2ab14be78accaf501bb739d216d32b99a877d4c84c6a7f6072a",
+      "log_sha256": "74dc7cae5f021ca2a3906a48d6582a5e3037b9205229157b273088f5c1200526",
+      "printed_terminals": [
+        "RhNativeCollarNonvanishing.not_both_collar_equations",
+        "RhNativeCollarNonvanishing.native_not_both_collar_equations"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2088767488,
+      "elapsed_seconds": 17.5,
+      "passed": true
+    },
+    {
+      "module": "RhNativeOutwardZeroNegative001",
+      "source_sha256": "e37d63815c74f3dda110695c3936d86e422b076ef1b0cfd015e20eb82b87c573",
+      "imports": [
+        "RhNativeStrictInteriorUCP001",
+        "RhCompleteFormHorizon001"
+      ],
+      "dependency_source_fingerprint": "8eeab13dff66cc86a37c374712c57ecde930eea48223809daa35b204ea5261fe",
+      "object_sha256": "633b599694668c9e52309bccfa29d53f24f84ab293d22fcec30fa6c3ff536a69",
+      "log_sha256": "2e267d13edbabb4301964cdf332fca104739badeaffbc146cf8b1e59eee719f1",
+      "printed_terminals": [
+        "RhNativeOutwardZeroNegative.fixed_horizon_outward_negative",
+        "RhNativeOutwardZeroNegative.native_outward_negative"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2084700160,
+      "elapsed_seconds": 17.516,
+      "passed": true
+    },
+    {
+      "module": "RhNativeRayleighStrict001",
+      "source_sha256": "0655dc17b9bd54222ec7f5c038ab35d736c0d9b25cd1f3d86e79712765b10f1e",
+      "imports": [
+        "RhNativeRadiusFamily001",
+        "RhNativeStrictInteriorUCP001"
+      ],
+      "dependency_source_fingerprint": "8518ed6645b38496adb968a921a0d7b1087558c331e7ac3bc5352a16934ae0bf",
+      "object_sha256": "46375b9a7f2e23443e7fc9d42380183bea0963999f7881f345b8c9f8fe9db6fc",
+      "log_sha256": "e3ef7a21f317ef597ba8d5d5dc0a3653cfd57cfb13de6129eb2df1754e793345",
+      "printed_terminals": [
+        "RhNativeRayleighStrict.completeForm_scalar_shift",
+        "RhNativeRayleighStrict.bottom_scalar_shift",
+        "RhNativeRayleighStrict.bottom_has_shifted_null",
+        "RhNativeRayleighStrict.bottom_attained",
+        "RhNativeRayleighStrict.bottom_strict_antitone_support",
+        "RhNativeRayleighStrict.nativeBottom_strict_antitone"
+      ],
+      "axiom_lists": [
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      ],
+      "exit_code": 0,
+      "fatal": null,
+      "peak_working_set_bytes": 2125385728,
+      "elapsed_seconds": 18.985,
+      "passed": true
+    }
+  ]
+}
