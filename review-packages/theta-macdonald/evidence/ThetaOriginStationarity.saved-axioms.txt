@@ -1,0 +1,8 @@
+'ThetaMacdonald.Symmetry.centeredTheta_eq_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.centeredTheta_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.raw_sum_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.referenceWeight_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.ratio_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.tsum_rawShellD1_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.deriv_ratio_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.hasDerivAt_ratio_origin' depends on axioms: [propext, Classical.choice, Quot.sound]

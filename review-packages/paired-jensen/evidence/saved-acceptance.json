@@ -1,0 +1,363 @@
+{
+  "scope": "Portable projections of five separate accepted pilot002 builds;full raw local evidence remains private",
+  "saved_evidence_only": true,
+  "fresh_portable_build": false,
+  "fresh_aggregate_import_build": false,
+  "entries": [
+    {
+      "module": "JensenEvenMoments",
+      "source_path": "JensenEvenMoments.lean",
+      "source_sha256": "df604f7d90e70c29e3b7987b44687e3fe45d96ca27925943587bf6c9c959485e",
+      "historical_object_sha256": "0ee597f786e74a86b77ae4b69986ec933ad17345a91dfe8f9beb7ac67b67a727",
+      "original_accepted_receipt_sha256": "8f2cf6b4b1c1a0e704def164a4ce91fba825bad26411fd94aee194df83f35df8",
+      "original_raw_build_record_sha256": "95227fd24dd9f20f247df3c3ce8880cf8c1e21ee724885199a633476485ff001",
+      "original_full_log_sha256": "4cb0d79488260dc22581368b9d7427812c7c88934c6e3a9ceff6d6c7789e647a",
+      "original_input_sha256": "7bcdefdae19132ed6c6afedbbea05554bd5f7bc18a3c0eccc41ffb5adc753f84",
+      "saved_ended_utc": "2026-10-26T05:31:14.346680+00:00",
+      "saved_elapsed_seconds": 15.25,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_A_FRESH_PORTABLE_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "SignedJensenMomentsPrep.evenPower_le_gaussian": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.integrable_evenPower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.integral_evenPower_nonneg": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.integral_evenPower_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.integrable_complex_evenPower": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.weighted_kernelTerm_eq": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.finiteNativeKernel_expansion": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.integrable_finiteNativeKernel_all_degrees": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.integral_finiteNativeKernel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.signedPair_finiteNativeKernel_eq": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.finiteMomentPolynomial_error": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMomentsPrep.finiteMomentPolynomial_error_gaussian": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "source_path": "JensenGaussianMeasure.lean",
+      "source_sha256": "4105a13d82d704ffcac39e1c989f7c5f50675d52811639991ee48b743536fa6e",
+      "historical_object_sha256": "6b04a5acccdb71e0a264b574745d7295d377617121175f6b01c000737352359e",
+      "original_accepted_receipt_sha256": "52aa7fe1fc79ba9d034fd4fef966f380ce289060e7676acb2ac97f2d531835b7",
+      "original_raw_build_record_sha256": "58b06d5f3732778c59a0a1a9b573fd712343e457004799fcd25c314a270dde3c",
+      "original_full_log_sha256": "678e210297fe357844ccc59f5d8ca051fe9849840a73086c97f924dae84a7356",
+      "original_input_sha256": "4594fc00ec463e37c2a3a9bbb30cfb7f5811ade3aca3da5d227732324d6591fb",
+      "saved_ended_utc": "2026-10-26T05:04:34.522685+00:00",
+      "saved_elapsed_seconds": 16.85899999999674,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_A_FRESH_PORTABLE_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "SignedJensenGaussianPrep.cosh_gaussian_half": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenGaussianPrep.fourth_gaussian_half": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenGaussianPrep.fourth_cosh_gaussian": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenGaussianPrep.cosh_gaussian_full": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenGaussianPrep.pointwise_error_gaussian": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.gaussian_mass_nonneg": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.measurable_nativeKernel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.nativeKernel_norm_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.integrable_nativeKernel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.integrable_fourthCosh": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.integrable_kernelError": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.integrable_finiteNativeKernel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.signedPair_difference_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.signedPair_kernel_error": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenMeasurePrep.signedPair_kernel_error_gaussian": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "JensenMomentEntire",
+      "source_path": "JensenMomentEntire.lean",
+      "source_sha256": "1c9148d78051d667a77532be854c4c9088d2371b63303ce62d647ee14677af1f",
+      "historical_object_sha256": "202f7748a2687d6d1761a7a57ba0a01cdc7e321a83db09dcf947e711f093492a",
+      "original_accepted_receipt_sha256": "41efb79708b025738a3a55d6c7ac340b0d758313fac1e393f4d4da905648c5b7",
+      "original_raw_build_record_sha256": "fab15df59a35d4e32236b2be7e55dbe1133e75fb34e4f2b8ae8b561b2792a4fe",
+      "original_full_log_sha256": "ae41f52743195415aaeab1713c77cb0f0458281b8f11b47f641e2bdaee9ecd20",
+      "original_input_sha256": "48615b3ed6f17e1f894111586737b9aea6c0faa5074f45691e475177e99f164d",
+      "saved_ended_utc": "2026-10-26T06:14:40.130283+00:00",
+      "saved_elapsed_seconds": 16.06300000000192,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_A_FRESH_PORTABLE_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "SignedJensenEntirePrep.factorial_square_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.seriesTerm_norm_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.summable_integral_norm_seriesTerm": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.tsum_integral_norm_seriesTerm_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.integral_nativeKernel_hasSum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.summable_coefficient_norm_radius": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.signedPair_nativeKernel_hasSum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.signedPair_nativeKernel_eq": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.differentiable_momentTransform": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.analyticAt_momentTransform": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.differentiable_signedPair_nativeKernel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenEntirePrep.analyticAt_signedPair_nativeKernel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "JensenPointwise",
+      "source_path": "JensenPointwise.lean",
+      "source_sha256": "4f2c3e8bcf31aaa70c0b12b55d18b499f0c68629070fec361af34cec2d3b5abd",
+      "historical_object_sha256": "55a93a543eddc582fbf1b3a9806735b068ee9db22777255fd30bf1ec90a57aba",
+      "original_accepted_receipt_sha256": "f3bd866c7dc68979c37001ad17dcbad2c7c331ea150f81d8a097d6d4f5318254",
+      "original_raw_build_record_sha256": "982bef0fc942239c182fa855b5dc7fd55826fc0cd26cd68a5b9729b3ab5686e5",
+      "original_full_log_sha256": "953f98edc28467a21aac1efc69b9648762d41f3655277672ab0f9f780616bd0d",
+      "original_input_sha256": "6d3ae97d3376c6ddc54cc06314ace7d5c5c2789ca7ca1d55c8c7cc2dea9adc8c",
+      "saved_ended_utc": "2026-10-26T04:21:16.657728+00:00",
+      "saved_elapsed_seconds": 14.656000000002678,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_A_FRESH_PORTABLE_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "SignedJensenKernelPrep.factorial_coefficient_shifted": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenKernelPrep.factorial_coefficient_at_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenKernelPrep.error_coefficient": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenKernelPrep.finite_prefix_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenKernelPrep.kernel_summable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenKernelPrep.finiteKernel_hasSum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenKernelPrep.kernel_error_hasSum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenKernelPrep.kernelTerm_native": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenKernelPrep.pointwise_kernel_aux": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenKernelPrep.pointwise_kernel_disk": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "JensenWeights",
+      "source_path": "JensenWeights.lean",
+      "source_sha256": "be3cfe72e80ed855b501012c9be8c2f4d81eafbb14da267b3e9f750c28f6101b",
+      "historical_object_sha256": "cfeb272abbc6ef2e232b69f9737d96d8341cdaed41b1e3b041da47b860c0396a",
+      "original_accepted_receipt_sha256": "8921a725d14a0a2ffd72f5bdc4095df4d9061915611cc70994e6b67e64ffbd55",
+      "original_raw_build_record_sha256": "ab22d3f7ee0bcd93f205bf240aab03e54047c7ab818fb966f10172d3986ceacd",
+      "original_full_log_sha256": "fde6a63d3a84b637204b152d787f8212370f11b1c794ac12818f4b62cedda6bd",
+      "original_input_sha256": "d59b4bcee9ad61dc1d1adb1c43e5ec42f5c6dbbfca248c184c2411f35434ce2d",
+      "saved_ended_utc": "2026-10-26T03:46:29.730367+00:00",
+      "saved_elapsed_seconds": 11.234000000004016,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_A_FRESH_PORTABLE_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "SignedJensenPrep.weight_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenPrep.weight_one": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenPrep.weight_eq_zero_of_lt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenPrep.weight_bounds": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SignedJensenPrep.weight_two": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    }
+  ]
+}

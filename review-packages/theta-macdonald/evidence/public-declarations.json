@@ -1,0 +1,2645 @@
+{
+  "scope": "Static complete source roster,not a fresh compiler export-table query",
+  "declarations": [
+    {
+      "module": "CumulativeSplit",
+      "namespace": "SingleCrossing",
+      "declaration": "SingleCrossing.integrable_tail",
+      "kind": "theorem",
+      "line": 11,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSplit",
+      "namespace": "SingleCrossing",
+      "declaration": "SingleCrossing.intervalIntegrable_head",
+      "kind": "theorem",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSplit",
+      "namespace": "SingleCrossing",
+      "declaration": "SingleCrossing.head_tail_split",
+      "kind": "theorem",
+      "line": 22,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeSplit",
+      "namespace": "SingleCrossing",
+      "declaration": "SingleCrossing.head_eq_Ioc",
+      "kind": "theorem",
+      "line": 28,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeSplit",
+      "namespace": "SingleCrossing",
+      "declaration": "SingleCrossing.head_eq_Ioo",
+      "kind": "theorem",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeSplit",
+      "namespace": "SingleCrossing",
+      "declaration": "SingleCrossing.head_eq_Icc",
+      "kind": "theorem",
+      "line": 36,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeSplit",
+      "namespace": "SingleCrossing",
+      "declaration": "SingleCrossing.integral_tail_pos",
+      "kind": "theorem",
+      "line": 40,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSplit",
+      "namespace": "SingleCrossing",
+      "declaration": "SingleCrossing.strict_prefix_of_single_crossing",
+      "kind": "theorem",
+      "line": 56,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "namespace": "ExponentialMoment",
+      "declaration": "ExponentialMoment.quadratic_exp_integrable",
+      "kind": "theorem",
+      "line": 10,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "namespace": "ExponentialMoment",
+      "declaration": "ExponentialMoment.weighted_integrable",
+      "kind": "theorem",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "namespace": "ExponentialMoment",
+      "declaration": "ExponentialMoment.tail_bound",
+      "kind": "theorem",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "namespace": "ExponentialMoment",
+      "declaration": "ExponentialMoment.quadratic_exp_half_bound",
+      "kind": "theorem",
+      "line": 44,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "namespace": "ExponentialMoment",
+      "declaration": "ExponentialMoment.weighted_tail_bound",
+      "kind": "theorem",
+      "line": 54,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "namespace": "ExponentialMoment",
+      "declaration": "ExponentialMoment.quadratic_boundary_vanishes",
+      "kind": "theorem",
+      "line": 76,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.macdonaldKernel",
+      "kind": "def",
+      "line": 14,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.macdonaldK0",
+      "kind": "def",
+      "line": 15,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.macdonaldDensity",
+      "kind": "def",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.cosh_lower_half",
+      "kind": "theorem",
+      "line": 19,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.integrable_macdonaldKernel",
+      "kind": "theorem",
+      "line": 26,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.macdonaldK0_pos",
+      "kind": "theorem",
+      "line": 40,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.integrable_macdonaldDensity",
+      "kind": "theorem",
+      "line": 52,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.macdonaldDensity_pos",
+      "kind": "theorem",
+      "line": 62,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.macdonaldDensity_mass",
+      "kind": "theorem",
+      "line": 66,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "MacdonaldMass",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.macdonaldDensity_mass_closed",
+      "kind": "theorem",
+      "line": 81,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "MonotoneMomentOrder",
+      "namespace": "SingleCrossing",
+      "declaration": "SingleCrossing.strict_integral_order_of_monotone_weight",
+      "kind": "theorem",
+      "line": 9,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "MonotoneMomentOrder",
+      "namespace": "ExponentialMoment",
+      "declaration": "ExponentialMoment.power_exp_integrable",
+      "kind": "theorem",
+      "line": 77,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "MonotoneMomentOrder",
+      "namespace": "ExponentialMoment",
+      "declaration": "ExponentialMoment.power_weighted_integrable",
+      "kind": "theorem",
+      "line": 83,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "namespace": "RhWeilCompletedGrowth",
+      "declaration": "RhWeilCompletedGrowth.gaussianMass",
+      "kind": "def",
+      "line": 14,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "namespace": "RhWeilCompletedGrowth",
+      "declaration": "RhWeilCompletedGrowth.gaussianMass_nonneg",
+      "kind": "lemma",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "namespace": "RhWeilCompletedGrowth",
+      "declaration": "RhWeilCompletedGrowth.weighted_integrable",
+      "kind": "lemma",
+      "line": 19,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "namespace": "RhWeilCompletedGrowth",
+      "declaration": "RhWeilCompletedGrowth.mellin_norm_bound",
+      "kind": "lemma",
+      "line": 27,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "namespace": "RhWeilCompletedGrowth",
+      "declaration": "RhWeilCompletedGrowth.completed_growth",
+      "kind": "theorem",
+      "line": 44,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilThetaBound001",
+      "namespace": "RhWeilTheta",
+      "declaration": "RhWeilTheta.evenKernel_head_bound",
+      "kind": "theorem",
+      "line": 14,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilThetaBound001",
+      "namespace": "RhWeilTheta",
+      "declaration": "RhWeilTheta.fePair_modif_head_bound",
+      "kind": "theorem",
+      "line": 56,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "namespace": "RhWeilThetaGeometry",
+      "declaration": "RhWeilThetaGeometry.modif",
+      "kind": "def",
+      "line": 14,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "namespace": "RhWeilThetaGeometry",
+      "declaration": "RhWeilThetaGeometry.modif_one",
+      "kind": "lemma",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "namespace": "RhWeilThetaGeometry",
+      "declaration": "RhWeilThetaGeometry.modif_inv",
+      "kind": "lemma",
+      "line": 19,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "namespace": "RhWeilThetaGeometry",
+      "declaration": "RhWeilThetaGeometry.modif_log_bound",
+      "kind": "lemma",
+      "line": 28,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "namespace": "RhWeilThetaGeometry",
+      "declaration": "RhWeilThetaGeometry.square_le_four_exp",
+      "kind": "lemma",
+      "line": 48,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "namespace": "RhWeilThetaGeometry",
+      "declaration": "RhWeilThetaGeometry.linear_double_exponential_le_gaussian",
+      "kind": "lemma",
+      "line": 57,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "namespace": "RhWeilThetaGeometry",
+      "declaration": "RhWeilThetaGeometry.twisted_gaussian_bound",
+      "kind": "lemma",
+      "line": 67,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilThetaMeasurable001",
+      "namespace": "RhWeilTheta",
+      "declaration": "RhWeilTheta.theta_exp_continuous",
+      "kind": "lemma",
+      "line": 12,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilThetaMeasurable001",
+      "namespace": "RhWeilTheta",
+      "declaration": "RhWeilTheta.modif_exp_stronglyMeasurable",
+      "kind": "theorem",
+      "line": 20,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilThetaMeasurable001",
+      "namespace": "RhWeilTheta",
+      "declaration": "RhWeilTheta.weighted_modif_stronglyMeasurable",
+      "kind": "theorem",
+      "line": 46,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "RhWeilThetaMeasurable001",
+      "namespace": "RhWeilTheta",
+      "declaration": "RhWeilTheta.weighted_modif_aestronglyMeasurable",
+      "kind": "theorem",
+      "line": 52,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.ratio",
+      "kind": "def",
+      "line": 21,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.ratioD1",
+      "kind": "def",
+      "line": 24,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.ratioD2",
+      "kind": "def",
+      "line": 29,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.ratio_eq_source_quotient",
+      "kind": "theorem",
+      "line": 37,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.hasSum_ratioRaw",
+      "kind": "theorem",
+      "line": 44,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.hasDerivAt_ratio",
+      "kind": "theorem",
+      "line": 49,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.hasDerivAt_ratioD1",
+      "kind": "theorem",
+      "line": 57,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.hasSum_ratioRawD2",
+      "kind": "theorem",
+      "line": 69,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.summable_ratioRawD2",
+      "kind": "theorem",
+      "line": 80,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.second_deriv_ratio_eq_tsum",
+      "kind": "theorem",
+      "line": 84,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.ratioRawD2_zero",
+      "kind": "theorem",
+      "line": 90,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "namespace": "ThetaMacdonald.Complete",
+      "declaration": "ThetaMacdonald.Complete.second_deriv_ratio_pos",
+      "kind": "theorem",
+      "line": 94,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.densityDifference",
+      "kind": "def",
+      "line": 12,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.cumulative",
+      "kind": "def",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.integrable_densityDifference",
+      "kind": "theorem",
+      "line": 15,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.integral_densityDifference_zero",
+      "kind": "theorem",
+      "line": 19,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.cumulative_zero",
+      "kind": "theorem",
+      "line": 25,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.actual_finite_integrable",
+      "kind": "theorem",
+      "line": 28,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.actual_tail_integrable",
+      "kind": "theorem",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.cumulative_eq_Ioc",
+      "kind": "theorem",
+      "line": 36,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.cumulative_eq_Ioo",
+      "kind": "theorem",
+      "line": 40,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.cumulative_eq_Icc",
+      "kind": "theorem",
+      "line": 44,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.actual_head_tail_balance",
+      "kind": "theorem",
+      "line": 48,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.cumulative_eq_neg_tail",
+      "kind": "theorem",
+      "line": 54,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.cumulative_eq_CDF_difference",
+      "kind": "theorem",
+      "line": 59,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.actual_cumulative_order",
+      "kind": "theorem",
+      "line": 69,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.actual_set_cumulative_order",
+      "kind": "theorem",
+      "line": 77,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "namespace": "ThetaMacdonald.Cumulative",
+      "declaration": "ThetaMacdonald.Cumulative.actual_CDF_strict_order",
+      "kind": "theorem",
+      "line": 82,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.integral_Ioi_pos_of_everywhere_pos",
+      "kind": "theorem",
+      "line": 12,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.ratio_origin_lt_one",
+      "kind": "theorem",
+      "line": 28,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.exists_ratio_gt_one",
+      "kind": "theorem",
+      "line": 43,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.exists_positive_ratio_one",
+      "kind": "theorem",
+      "line": 63,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.unique_density_crossing",
+      "kind": "theorem",
+      "line": 74,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.density_crossing_sides",
+      "kind": "theorem",
+      "line": 82,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.density_eq_iff_crossing",
+      "kind": "theorem",
+      "line": 97,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.actual_density_crossing",
+      "kind": "theorem",
+      "line": 108,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.ratioScale",
+      "kind": "def",
+      "line": 10,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.likelihoodRatio",
+      "kind": "def",
+      "line": 11,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.ratioScale_pos",
+      "kind": "theorem",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.likelihoodRatio_eq_density_div",
+      "kind": "theorem",
+      "line": 17,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.continuous_likelihoodRatio",
+      "kind": "theorem",
+      "line": 28,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.strictMonoOn_likelihoodRatio",
+      "kind": "theorem",
+      "line": 33,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.ratio_lt_one_iff",
+      "kind": "theorem",
+      "line": 39,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.one_lt_ratio_iff",
+      "kind": "theorem",
+      "line": 43,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "namespace": "ThetaMacdonald.Crossing",
+      "declaration": "ThetaMacdonald.Crossing.ratio_eq_one_iff",
+      "kind": "theorem",
+      "line": 47,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.gaussianSeed",
+      "kind": "def",
+      "line": 14,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.gaussianSeedD1",
+      "kind": "def",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.gaussianSeedD2",
+      "kind": "def",
+      "line": 18,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.seedCoefficient",
+      "kind": "def",
+      "line": 21,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.seedRow",
+      "kind": "def",
+      "line": 29,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.seedMajorant",
+      "kind": "def",
+      "line": 31,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.seedRow_zero",
+      "kind": "theorem",
+      "line": 34,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.seedRow_one",
+      "kind": "theorem",
+      "line": 38,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.seedRow_two",
+      "kind": "theorem",
+      "line": 43,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.summable_seedMajorant",
+      "kind": "theorem",
+      "line": 49,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.norm_seedRow_le",
+      "kind": "theorem",
+      "line": 52,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.summable_seedRow",
+      "kind": "theorem",
+      "line": 55,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.summable_gaussianSeed",
+      "kind": "theorem",
+      "line": 59,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.summable_gaussianSeedD1",
+      "kind": "theorem",
+      "line": 62,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.summable_gaussianSeedD2",
+      "kind": "theorem",
+      "line": 65,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.hasDerivAt_gaussianSeed",
+      "kind": "theorem",
+      "line": 69,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.hasDerivAt_gaussianSeedD1",
+      "kind": "theorem",
+      "line": 75,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.hasDerivAt_tsum_gaussianSeed",
+      "kind": "theorem",
+      "line": 83,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.hasDerivAt_tsum_gaussianSeedD1",
+      "kind": "theorem",
+      "line": 94,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.gaussianSum",
+      "kind": "def",
+      "line": 105,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.centeredTheta",
+      "kind": "def",
+      "line": 106,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.centeredThetaD1",
+      "kind": "def",
+      "line": 107,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.centeredThetaD2",
+      "kind": "def",
+      "line": 109,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.hasDerivAt_centeredTheta",
+      "kind": "theorem",
+      "line": 112,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.hasDerivAt_centeredThetaD1",
+      "kind": "theorem",
+      "line": 119,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.deriv_centeredTheta",
+      "kind": "theorem",
+      "line": 126,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.second_deriv_centeredTheta",
+      "kind": "theorem",
+      "line": 129,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.rawShell_eq_seed_derivatives",
+      "kind": "theorem",
+      "line": 134,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.raw_sum_eq_centeredTheta",
+      "kind": "theorem",
+      "line": 138,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.thetaProfile",
+      "kind": "def",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.thetaMass",
+      "kind": "def",
+      "line": 14,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.thetaTailWeight",
+      "kind": "def",
+      "line": 15,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.thetaTailConstant",
+      "kind": "def",
+      "line": 17,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.rawShell_nonneg",
+      "kind": "theorem",
+      "line": 19,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.rawShell_tail_bound",
+      "kind": "theorem",
+      "line": 26,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.summable_thetaTailWeight",
+      "kind": "theorem",
+      "line": 72,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.thetaProfile_tail_bound",
+      "kind": "theorem",
+      "line": 80,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.thetaProfile_pos",
+      "kind": "theorem",
+      "line": 92,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.integrable_thetaProfile",
+      "kind": "theorem",
+      "line": 97,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMassBounds",
+      "namespace": "ThetaMacdonald.Density",
+      "declaration": "ThetaMacdonald.Density.thetaMass_pos",
+      "kind": "theorem",
+      "line": 107,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.logTheta",
+      "kind": "def",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.integrable_logTheta",
+      "kind": "theorem",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.logTheta_even",
+      "kind": "theorem",
+      "line": 26,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTail_hurwitz",
+      "kind": "theorem",
+      "line": 38,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.logTheta_neg_of_pos",
+      "kind": "theorem",
+      "line": 62,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.logTheta_pos",
+      "kind": "theorem",
+      "line": 75,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.logTheta_half_integral_re",
+      "kind": "theorem",
+      "line": 79,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.completed_half_log",
+      "kind": "theorem",
+      "line": 105,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.completed_half_real",
+      "kind": "theorem",
+      "line": 120,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.gamma0",
+      "kind": "def",
+      "line": 140,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.thetaMass_eq_gamma0",
+      "kind": "theorem",
+      "line": 143,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMellinMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.gamma0_pos",
+      "kind": "theorem",
+      "line": 150,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "namespace": "ThetaMacdonald.Moment",
+      "declaration": "ThetaMacdonald.Moment.integrable_theta_power",
+      "kind": "theorem",
+      "line": 11,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "namespace": "ThetaMacdonald.Moment",
+      "declaration": "ThetaMacdonald.Moment.integrable_macdonald_power",
+      "kind": "theorem",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "namespace": "ThetaMacdonald.Moment",
+      "declaration": "ThetaMacdonald.Moment.integrable_difference_power",
+      "kind": "theorem",
+      "line": 21,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "namespace": "ThetaMacdonald.Moment",
+      "declaration": "ThetaMacdonald.Moment.actual_monotone_weight_order",
+      "kind": "theorem",
+      "line": 28,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "namespace": "ThetaMacdonald.Moment",
+      "declaration": "ThetaMacdonald.Moment.actual_power_moment_order",
+      "kind": "theorem",
+      "line": 42,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "namespace": "ThetaMacdonald.Moment",
+      "declaration": "ThetaMacdonald.Moment.actual_positive_even_moment_order",
+      "kind": "theorem",
+      "line": 52,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "namespace": "ThetaMacdonald.Moment",
+      "declaration": "ThetaMacdonald.Moment.actual_zeroth_moment_equal",
+      "kind": "theorem",
+      "line": 57,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.referenceWeight",
+      "kind": "def",
+      "line": 12,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.ratioRaw",
+      "kind": "def",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.ratioRawD1",
+      "kind": "def",
+      "line": 14,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.ratioRawD2",
+      "kind": "def",
+      "line": 17,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.hasDerivAt_shellT",
+      "kind": "theorem",
+      "line": 22,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.hasDerivAt_shellW",
+      "kind": "theorem",
+      "line": 29,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.hasDerivAt_referenceWeight",
+      "kind": "theorem",
+      "line": 38,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.hasDerivAt_ratioRaw",
+      "kind": "theorem",
+      "line": 46,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.hasDerivAt_ratioRawD1",
+      "kind": "theorem",
+      "line": 53,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.referenceWeight_eq_cosh",
+      "kind": "theorem",
+      "line": 64,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.rawShell_pos",
+      "kind": "theorem",
+      "line": 71,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.ratioRaw_pos",
+      "kind": "theorem",
+      "line": 85,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.ratioRawD2_eq_factor",
+      "kind": "theorem",
+      "line": 89,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.ratioRawD2_pos",
+      "kind": "theorem",
+      "line": 122,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.deriv_ratioRaw",
+      "kind": "theorem",
+      "line": 134,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOrderCore",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.second_derivative_ratioRaw_pos",
+      "kind": "theorem",
+      "line": 137,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.gaussianSeed_zero",
+      "kind": "theorem",
+      "line": 15,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.centeredTheta_eq_full",
+      "kind": "theorem",
+      "line": 19,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.centeredTheta_even",
+      "kind": "theorem",
+      "line": 59,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.raw_sum_even",
+      "kind": "theorem",
+      "line": 64,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.referenceWeight_even",
+      "kind": "theorem",
+      "line": 70,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.ratio_even",
+      "kind": "theorem",
+      "line": 75,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.tsum_rawShellD1_zero",
+      "kind": "theorem",
+      "line": 82,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.deriv_ratio_zero",
+      "kind": "theorem",
+      "line": 88,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "namespace": "ThetaMacdonald.Symmetry",
+      "declaration": "ThetaMacdonald.Symmetry.hasDerivAt_ratio_origin",
+      "kind": "theorem",
+      "line": 91,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.fullTheta",
+      "kind": "def",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.centeredFullTheta",
+      "kind": "def",
+      "line": 19,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.exp_half_rpow",
+      "kind": "theorem",
+      "line": 22,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.fullTheta_poisson",
+      "kind": "theorem",
+      "line": 28,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.centeredFullTheta_even",
+      "kind": "theorem",
+      "line": 42,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.deriv_odd_of_even",
+      "kind": "theorem",
+      "line": 52,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.second_deriv_even_of_even",
+      "kind": "theorem",
+      "line": 60,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.deriv_zero_of_even",
+      "kind": "theorem",
+      "line": 70,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.centeredFullTheta_second_deriv_even",
+      "kind": "theorem",
+      "line": 76,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "namespace": "ThetaMacdonald.Reflection",
+      "declaration": "ThetaMacdonald.Reflection.centeredFullTheta_deriv_zero",
+      "kind": "theorem",
+      "line": 81,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaPositiveSlope",
+      "namespace": "ThetaMacdonald.Slope",
+      "declaration": "ThetaMacdonald.Slope.hasDerivAt_deriv_ratio",
+      "kind": "theorem",
+      "line": 15,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaPositiveSlope",
+      "namespace": "ThetaMacdonald.Slope",
+      "declaration": "ThetaMacdonald.Slope.strictMonoOn_deriv_ratio",
+      "kind": "theorem",
+      "line": 23,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaPositiveSlope",
+      "namespace": "ThetaMacdonald.Slope",
+      "declaration": "ThetaMacdonald.Slope.deriv_ratio_pos",
+      "kind": "theorem",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.xiHalf",
+      "kind": "def",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.xiHalf_eq_entire",
+      "kind": "theorem",
+      "line": 17,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.logTheta_im_zero",
+      "kind": "theorem",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.completed_half_im_zero",
+      "kind": "theorem",
+      "line": 40,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.xiHalf_eq_gamma0",
+      "kind": "theorem",
+      "line": 48,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.thetaMass_eq_xiHalf",
+      "kind": "theorem",
+      "line": 55,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.thetaDensity",
+      "kind": "def",
+      "line": 58,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.integrable_thetaDensity",
+      "kind": "theorem",
+      "line": 60,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.thetaDensity_pos",
+      "kind": "theorem",
+      "line": 64,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.thetaDensity_mass",
+      "kind": "theorem",
+      "line": 68,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.thetaDensity_mass_closed",
+      "kind": "theorem",
+      "line": 76,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.actual_equal_probability_masses",
+      "kind": "theorem",
+      "line": 80,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.thetaMajorant",
+      "kind": "def",
+      "line": 12,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.macdonaldMajorant",
+      "kind": "def",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.differenceMajorant",
+      "kind": "def",
+      "line": 14,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.thetaMajorant_nonneg",
+      "kind": "theorem",
+      "line": 16,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.macdonaldMajorant_pos",
+      "kind": "theorem",
+      "line": 20,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.differenceMajorant_pos",
+      "kind": "theorem",
+      "line": 23,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.thetaDensity_bound",
+      "kind": "theorem",
+      "line": 26,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.macdonaldDensity_bound",
+      "kind": "theorem",
+      "line": 35,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.densityDifference_bound",
+      "kind": "theorem",
+      "line": 55,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.integrable_theta_secondMoment",
+      "kind": "theorem",
+      "line": 63,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.integrable_macdonald_secondMoment",
+      "kind": "theorem",
+      "line": 68,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.integrable_difference_secondMoment",
+      "kind": "theorem",
+      "line": 73,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.theta_secondMoment_tail",
+      "kind": "theorem",
+      "line": 78,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.macdonald_secondMoment_tail",
+      "kind": "theorem",
+      "line": 84,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.difference_secondMoment_tail",
+      "kind": "theorem",
+      "line": 90,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.cumulative_exponential_bound",
+      "kind": "theorem",
+      "line": 96,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.cumulative_secondMoment_boundary",
+      "kind": "theorem",
+      "line": 101,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.centered_weight_integrable",
+      "kind": "theorem",
+      "line": 106,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.actual_centered_secondMoment_pos",
+      "kind": "theorem",
+      "line": 113,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.actual_difference_secondMoment_pos",
+      "kind": "theorem",
+      "line": 140,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "namespace": "ThetaMacdonald.SecondMoment",
+      "declaration": "ThetaMacdonald.SecondMoment.actual_secondMoment_order",
+      "kind": "theorem",
+      "line": 156,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTail",
+      "kind": "def",
+      "line": 12,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTailD1",
+      "kind": "def",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTailD2",
+      "kind": "def",
+      "line": 15,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.tailC",
+      "kind": "def",
+      "line": 17,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTail_eq_tsum",
+      "kind": "theorem",
+      "line": 19,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTailD1_eq_tsum",
+      "kind": "theorem",
+      "line": 26,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.hasDerivAt_seedTail",
+      "kind": "theorem",
+      "line": 35,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.hasDerivAt_seedTailD1",
+      "kind": "theorem",
+      "line": 42,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.raw_eq_seedTail",
+      "kind": "theorem",
+      "line": 49,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTailD1_origin",
+      "kind": "theorem",
+      "line": 56,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seed_decay_data",
+      "kind": "theorem",
+      "line": 65,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seed_tail_bound",
+      "kind": "theorem",
+      "line": 82,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedD1_tail_bound",
+      "kind": "theorem",
+      "line": 96,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.shifted_sum_bound",
+      "kind": "theorem",
+      "line": 117,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTail_bound",
+      "kind": "theorem",
+      "line": 132,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTailD1_bound",
+      "kind": "theorem",
+      "line": 138,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.integrable_seedTail",
+      "kind": "theorem",
+      "line": 144,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.seedTailD1_tendsto_zero",
+      "kind": "theorem",
+      "line": 151,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.integrable_seedTailD2",
+      "kind": "theorem",
+      "line": 158,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.integral_seedTailD2",
+      "kind": "theorem",
+      "line": 166,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "namespace": "ThetaMacdonald.Mass",
+      "declaration": "ThetaMacdonald.Mass.thetaMass_improper_FTC",
+      "kind": "theorem",
+      "line": 172,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.gaussianMonomial",
+      "kind": "def",
+      "line": 24,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.gaussianMajorant",
+      "kind": "def",
+      "line": 28,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.zArg_nonneg",
+      "kind": "theorem",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.zArg_mono",
+      "kind": "theorem",
+      "line": 36,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_gaussianMajorant",
+      "kind": "theorem",
+      "line": 43,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.norm_gaussianMonomial_le",
+      "kind": "theorem",
+      "line": 49,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.polynomialShell",
+      "kind": "def",
+      "line": 78,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.polynomialMajorant",
+      "kind": "def",
+      "line": 81,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_polynomialMajorant",
+      "kind": "theorem",
+      "line": 85,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.norm_polynomialShell_le",
+      "kind": "theorem",
+      "line": 103,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.shellCoefficient",
+      "kind": "def",
+      "line": 116,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.shellRow",
+      "kind": "def",
+      "line": 128,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.rowMajorant",
+      "kind": "def",
+      "line": 131,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.shellRow_zero",
+      "kind": "theorem",
+      "line": 134,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.shellRow_one",
+      "kind": "theorem",
+      "line": 140,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.shellRow_two",
+      "kind": "theorem",
+      "line": 146,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_rowMajorant",
+      "kind": "theorem",
+      "line": 152,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.norm_shellRow_le",
+      "kind": "theorem",
+      "line": 156,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_shellRow",
+      "kind": "theorem",
+      "line": 160,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.uniformlyOn_shellRow",
+      "kind": "theorem",
+      "line": 165,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_rawShell",
+      "kind": "theorem",
+      "line": 172,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_rawShellD1",
+      "kind": "theorem",
+      "line": 176,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_rawShellD2",
+      "kind": "theorem",
+      "line": 180,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_norm_rawShell",
+      "kind": "theorem",
+      "line": 184,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_norm_rawShellD1",
+      "kind": "theorem",
+      "line": 188,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_norm_rawShellD2",
+      "kind": "theorem",
+      "line": 192,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.uniformlyOn_rawShell",
+      "kind": "theorem",
+      "line": 196,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.uniformlyOn_rawShellD1",
+      "kind": "theorem",
+      "line": 202,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.uniformlyOn_rawShellD2",
+      "kind": "theorem",
+      "line": 208,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.hasDerivAt_tsum_rawShell_Ioo",
+      "kind": "theorem",
+      "line": 216,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.hasDerivAt_tsum_rawShellD1_Ioo",
+      "kind": "theorem",
+      "line": 226,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.hasDerivAt_tsum_rawShell",
+      "kind": "theorem",
+      "line": 236,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.hasDerivAt_tsum_rawShellD1",
+      "kind": "theorem",
+      "line": 242,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.deriv_tsum_rawShell",
+      "kind": "theorem",
+      "line": 248,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.second_deriv_tsum_rawShell",
+      "kind": "theorem",
+      "line": 252,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.summable_rawShell_shifted",
+      "kind": "theorem",
+      "line": 258,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.source_phi_summable",
+      "kind": "theorem",
+      "line": 263,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.rawShell_zero",
+      "kind": "theorem",
+      "line": 270,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaSeries",
+      "namespace": "ThetaMacdonald.Series",
+      "declaration": "ThetaMacdonald.Series.tsum_rawShell_eq_shifted",
+      "kind": "theorem",
+      "line": 273,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.zArg",
+      "kind": "def",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.rawShell",
+      "kind": "def",
+      "line": 15,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.rawShellD1",
+      "kind": "def",
+      "line": 18,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.rawShellD2",
+      "kind": "def",
+      "line": 22,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.hasDerivAt_zArg",
+      "kind": "theorem",
+      "line": 26,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.hasDerivAt_rawShell",
+      "kind": "theorem",
+      "line": 35,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.hasDerivAt_rawShellD1",
+      "kind": "theorem",
+      "line": 45,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.deriv_rawShell",
+      "kind": "theorem",
+      "line": 56,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.deriv_rawShellD1",
+      "kind": "theorem",
+      "line": 60,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.rawShell_eq_expanded",
+      "kind": "theorem",
+      "line": 64,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellZ",
+      "kind": "def",
+      "line": 22,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellT",
+      "kind": "def",
+      "line": 25,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellW",
+      "kind": "def",
+      "line": 27,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.logSlope",
+      "kind": "def",
+      "line": 29,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.slopeDerivative",
+      "kind": "def",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellT_pos",
+      "kind": "theorem",
+      "line": 35,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellW_pos",
+      "kind": "theorem",
+      "line": 38,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellT_ge_pi",
+      "kind": "theorem",
+      "line": 41,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellT_le_shellZ_div_four",
+      "kind": "theorem",
+      "line": 47,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellW_le_shellT",
+      "kind": "theorem",
+      "line": 56,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellW_le_shellZ_div_four",
+      "kind": "theorem",
+      "line": 61,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellZ_gt_twelve",
+      "kind": "theorem",
+      "line": 65,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellT_mul_shellW",
+      "kind": "theorem",
+      "line": 72,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellW_eq_pi_sq_div_shellT",
+      "kind": "theorem",
+      "line": 80,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shellZ_one",
+      "kind": "theorem",
+      "line": 85,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.logSlope_lt_of_ge_twelve",
+      "kind": "theorem",
+      "line": 88,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.slopeDerivative_gt_of_ge_twelve",
+      "kind": "theorem",
+      "line": 98,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.curvature_factor_pos_of_ge_twelve",
+      "kind": "theorem",
+      "line": 118,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.higher_shell_logSlope_lt",
+      "kind": "theorem",
+      "line": 132,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.higher_shell_logSlope_neg",
+      "kind": "theorem",
+      "line": 138,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.higher_shell_slopeDerivative_gt",
+      "kind": "theorem",
+      "line": 144,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.higher_shell_curvature_factor_pos",
+      "kind": "theorem",
+      "line": 150,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.first_slopeDerivative_pos_of_ge_pi",
+      "kind": "theorem",
+      "line": 158,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.first_shell_slopeDerivative_pos",
+      "kind": "theorem",
+      "line": 178,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.first_shell_curvature_factor_pos",
+      "kind": "theorem",
+      "line": 183,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaShellShape",
+      "namespace": "ThetaMacdonald",
+      "declaration": "ThetaMacdonald.shell_curvature_factor_pos",
+      "kind": "theorem",
+      "line": 189,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "ThetaStrictIncrease",
+      "namespace": "ThetaMacdonald.Monotonicity",
+      "declaration": "ThetaMacdonald.Monotonicity.strictMonoOn_ratio",
+      "kind": "theorem",
+      "line": 13,
+      "separate_saved_terminal_axiom_report": true
+    }
+  ],
+  "public_propositions_without_separate_saved_terminal_report": [
+    "SingleCrossing.integrable_tail",
+    "SingleCrossing.intervalIntegrable_head",
+    "SingleCrossing.integral_tail_pos",
+    "ExponentialMoment.quadratic_exp_integrable",
+    "ExponentialMoment.quadratic_exp_half_bound",
+    "ThetaMacdonald.Density.cosh_lower_half",
+    "RhWeilCompletedGrowth.gaussianMass_nonneg",
+    "RhWeilThetaGeometry.modif_one",
+    "RhWeilThetaGeometry.square_le_four_exp",
+    "RhWeilThetaGeometry.linear_double_exponential_le_gaussian",
+    "ThetaMacdonald.Cumulative.integrable_densityDifference",
+    "ThetaMacdonald.Cumulative.actual_finite_integrable",
+    "ThetaMacdonald.Cumulative.actual_tail_integrable",
+    "ThetaMacdonald.Cumulative.cumulative_eq_Ioc",
+    "ThetaMacdonald.Cumulative.cumulative_eq_Ioo",
+    "ThetaMacdonald.Crossing.integral_Ioi_pos_of_everywhere_pos",
+    "ThetaMacdonald.Crossing.density_eq_iff_crossing",
+    "ThetaMacdonald.Crossing.ratio_lt_one_iff",
+    "ThetaMacdonald.Crossing.one_lt_ratio_iff",
+    "ThetaMacdonald.Symmetry.seedRow_zero",
+    "ThetaMacdonald.Symmetry.seedRow_one",
+    "ThetaMacdonald.Symmetry.seedRow_two",
+    "ThetaMacdonald.Symmetry.summable_seedMajorant",
+    "ThetaMacdonald.Symmetry.norm_seedRow_le",
+    "ThetaMacdonald.Symmetry.summable_seedRow",
+    "ThetaMacdonald.Symmetry.hasDerivAt_gaussianSeed",
+    "ThetaMacdonald.Symmetry.hasDerivAt_gaussianSeedD1",
+    "ThetaMacdonald.Symmetry.hasDerivAt_centeredTheta",
+    "ThetaMacdonald.Symmetry.hasDerivAt_centeredThetaD1",
+    "ThetaMacdonald.Symmetry.deriv_centeredTheta",
+    "ThetaMacdonald.Symmetry.rawShell_eq_seed_derivatives",
+    "ThetaMacdonald.Density.rawShell_nonneg",
+    "ThetaMacdonald.Mass.seedTail_hurwitz",
+    "ThetaMacdonald.Mass.logTheta_pos",
+    "ThetaMacdonald.Mass.logTheta_half_integral_re",
+    "ThetaMacdonald.hasDerivAt_shellT",
+    "ThetaMacdonald.hasDerivAt_shellW",
+    "ThetaMacdonald.hasDerivAt_referenceWeight",
+    "ThetaMacdonald.rawShell_pos",
+    "ThetaMacdonald.ratioRaw_pos",
+    "ThetaMacdonald.ratioRawD2_pos",
+    "ThetaMacdonald.deriv_ratioRaw",
+    "ThetaMacdonald.Symmetry.gaussianSeed_zero",
+    "ThetaMacdonald.Reflection.exp_half_rpow",
+    "ThetaMacdonald.Reflection.fullTheta_poisson",
+    "ThetaMacdonald.Reflection.deriv_odd_of_even",
+    "ThetaMacdonald.Reflection.second_deriv_even_of_even",
+    "ThetaMacdonald.Reflection.deriv_zero_of_even",
+    "ThetaMacdonald.Mass.logTheta_im_zero",
+    "ThetaMacdonald.SecondMoment.thetaMajorant_nonneg",
+    "ThetaMacdonald.SecondMoment.macdonaldMajorant_pos",
+    "ThetaMacdonald.SecondMoment.differenceMajorant_pos",
+    "ThetaMacdonald.SecondMoment.centered_weight_integrable",
+    "ThetaMacdonald.Mass.seedTail_eq_tsum",
+    "ThetaMacdonald.Mass.seedTailD1_eq_tsum",
+    "ThetaMacdonald.Mass.hasDerivAt_seedTail",
+    "ThetaMacdonald.Mass.hasDerivAt_seedTailD1",
+    "ThetaMacdonald.Mass.raw_eq_seedTail",
+    "ThetaMacdonald.Mass.seed_decay_data",
+    "ThetaMacdonald.Mass.seed_tail_bound",
+    "ThetaMacdonald.Mass.seedD1_tail_bound",
+    "ThetaMacdonald.Mass.shifted_sum_bound",
+    "ThetaMacdonald.Mass.seedTail_bound",
+    "ThetaMacdonald.Mass.seedTailD1_bound",
+    "ThetaMacdonald.Series.zArg_nonneg",
+    "ThetaMacdonald.Series.zArg_mono",
+    "ThetaMacdonald.Series.summable_polynomialMajorant",
+    "ThetaMacdonald.Series.shellRow_zero",
+    "ThetaMacdonald.Series.shellRow_one",
+    "ThetaMacdonald.Series.shellRow_two",
+    "ThetaMacdonald.Series.summable_rowMajorant",
+    "ThetaMacdonald.Series.norm_shellRow_le",
+    "ThetaMacdonald.Series.summable_shellRow",
+    "ThetaMacdonald.Series.uniformlyOn_shellRow",
+    "ThetaMacdonald.Series.summable_rawShell",
+    "ThetaMacdonald.Series.summable_rawShellD1",
+    "ThetaMacdonald.Series.summable_rawShellD2",
+    "ThetaMacdonald.Series.summable_norm_rawShell",
+    "ThetaMacdonald.Series.summable_norm_rawShellD1",
+    "ThetaMacdonald.Series.summable_norm_rawShellD2",
+    "ThetaMacdonald.Series.hasDerivAt_tsum_rawShell_Ioo",
+    "ThetaMacdonald.Series.hasDerivAt_tsum_rawShellD1_Ioo",
+    "ThetaMacdonald.Series.deriv_tsum_rawShell",
+    "ThetaMacdonald.Series.rawShell_zero",
+    "ThetaMacdonald.hasDerivAt_zArg",
+    "ThetaMacdonald.deriv_rawShell",
+    "ThetaMacdonald.deriv_rawShellD1",
+    "ThetaMacdonald.shellT_pos",
+    "ThetaMacdonald.shellW_pos",
+    "ThetaMacdonald.shellT_ge_pi",
+    "ThetaMacdonald.shellT_le_shellZ_div_four",
+    "ThetaMacdonald.shellW_le_shellT",
+    "ThetaMacdonald.shellW_le_shellZ_div_four",
+    "ThetaMacdonald.shellZ_gt_twelve",
+    "ThetaMacdonald.shellT_mul_shellW",
+    "ThetaMacdonald.shellW_eq_pi_sq_div_shellT",
+    "ThetaMacdonald.shellZ_one",
+    "ThetaMacdonald.logSlope_lt_of_ge_twelve",
+    "ThetaMacdonald.slopeDerivative_gt_of_ge_twelve",
+    "ThetaMacdonald.curvature_factor_pos_of_ge_twelve",
+    "ThetaMacdonald.first_slopeDerivative_pos_of_ge_pi"
+  ],
+  "private_helpers": []
+}

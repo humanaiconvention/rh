@@ -1,0 +1,406 @@
+{
+  "utc": "2026-10-27T07:30:30.278471+00:00",
+  "scope": "Candidate fingerprints only,not build or rights acceptance;excludes itself",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "c89f34bf322e2c1fe840b1ca492229825ad6b3016d349360573fc29bb2d1ea30",
+      "bytes": 36
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "f1a314383e3f6989e68921d1bfcb527388a2de955ef0983b6258dc3156fea777",
+      "bytes": 1932
+    },
+    {
+      "path": "BUILD.md",
+      "sha256": "92a286838b799fd3614e08cca665fa38c0a3301138c0f84ac204b5f624714e9f",
+      "bytes": 5388
+    },
+    {
+      "path": "CumulativeSplit.lean",
+      "sha256": "b58cd065c0fa2c11c17b34ec92c82cf633ea9904f638b3f141ef82e61127885e",
+      "bytes": 3302
+    },
+    {
+      "path": "DEPENDENCY-HANDOFF.md",
+      "sha256": "c805447b47a9b97072b433dc55e74baa7bc829934e488fa48f2378b0546fefdb",
+      "bytes": 4709
+    },
+    {
+      "path": "evidence/claim-map.json",
+      "sha256": "fe287e5406f72e0ef8c55657f5eabd63cad1d6fb84225dad614a7250e3055ce0",
+      "bytes": 8949
+    },
+    {
+      "path": "evidence/CumulativeSplit.saved-axioms.txt",
+      "sha256": "c5e1c7d3a86a4d6af2dcbee62dc76276230b4e4f98ffe7f0172de5795a15ed93",
+      "bytes": 465
+    },
+    {
+      "path": "evidence/dependency-pins.json",
+      "sha256": "83599a4aa44276a47fde5d3f13005d4793459bfd7577b7565be94fd160448c06",
+      "bytes": 2520
+    },
+    {
+      "path": "evidence/ExponentialMomentBounds.saved-axioms.txt",
+      "sha256": "384c39e7d51c74338eaa42843a46b73835f539d8fd6398c86cbf72c9096f4885",
+      "bytes": 395
+    },
+    {
+      "path": "evidence/lock-provenance.json",
+      "sha256": "de5c64267dac775a3c81e57a1296b464d3717d1bcb5d4ea10c39ee54e1d82eb4",
+      "bytes": 654
+    },
+    {
+      "path": "evidence/MacdonaldMass.saved-axioms.txt",
+      "sha256": "6d94558d1a27947118fc0ffdfeebd021d5d3d475643876fc2115a4842fdd26fc",
+      "bytes": 647
+    },
+    {
+      "path": "evidence/mathlib-upstream-lake-manifest.json",
+      "sha256": "ab0f956dfffc99f9c85298d2421047f53e4c9605f95b4ca67b2e087c218f313e",
+      "bytes": 2815
+    },
+    {
+      "path": "evidence/MonotoneMomentOrder.saved-axioms.txt",
+      "sha256": "8e6c395cab6be3702239f8df6a8010beb1b37a09494ed12893a1f25363bea93b",
+      "bytes": 322
+    },
+    {
+      "path": "evidence/public-declarations.json",
+      "sha256": "0ada867499753aa1d4140a1b8b82ff8014745e964e8dd0bef1719511c54dfb3a",
+      "bytes": 84955
+    },
+    {
+      "path": "evidence/RhWeilCompletedGrowth001.saved-axioms.txt",
+      "sha256": "3ac97baf266c5076ee872280d68a16cfe8f6748b927554f508418eb8a25f3a96",
+      "bytes": 304
+    },
+    {
+      "path": "evidence/RhWeilThetaBound001.saved-axioms.txt",
+      "sha256": "3014f405ee983db8efadf7fb9362140a8cc1b1a8b7b69003fa7cc05c76cf7df1",
+      "bytes": 192
+    },
+    {
+      "path": "evidence/RhWeilThetaGeometry001.saved-axioms.txt",
+      "sha256": "0aafc0caf6fbe495a0b62fb4d5dba8dcfa28cbf12dc20ca909d3b86940f32de3",
+      "bytes": 292
+    },
+    {
+      "path": "evidence/RhWeilThetaMeasurable001.saved-axioms.txt",
+      "sha256": "e8fe82df98143a8a00c4a6fa105c683f9cd50c7106dec6a87a320c0a52f73ad9",
+      "bytes": 412
+    },
+    {
+      "path": "evidence/saved-acceptance.json",
+      "sha256": "bf3663f41c1edb7a1977696fde8397c3ac7cbc4d8629b9bcbd0d28de3ed15ba5",
+      "bytes": 48380
+    },
+    {
+      "path": "evidence/source-closure.json",
+      "sha256": "b3d3311490e7e5101f3332464524a180aa084d0e36bba8e81f4cbfe3bfb8e35f",
+      "bytes": 9594
+    },
+    {
+      "path": "evidence/static-source-audit.json",
+      "sha256": "ee0a36bab7cf8eb7bb6aae0994fa410dab7b28f74b4887fc943fdd6274b66651",
+      "bytes": 8698
+    },
+    {
+      "path": "evidence/test-ledger.json",
+      "sha256": "c5e51c075bbc0a2f44b31cc8dc53da02e4940f9dc28892d65a77541d21378b08",
+      "bytes": 3298
+    },
+    {
+      "path": "evidence/ThetaCompleteRatio.saved-axioms.txt",
+      "sha256": "f1f31aa8e9c01e78456553e8d643b7958e1ae1e3b4bea2767a440e7e91d763d8",
+      "bytes": 946
+    },
+    {
+      "path": "evidence/ThetaCumulativeOrder.saved-axioms.txt",
+      "sha256": "9b5e0bfc3c935f141b6f133720a4bd3fbe596eedfa70bdf6541c151840881882",
+      "bytes": 1002
+    },
+    {
+      "path": "evidence/ThetaDensityCrossing.saved-axioms.txt",
+      "sha256": "860386a5a390e74e36f48f1d92b0e00c33e7ec3cfd8cc8ad07686ed0e0251798",
+      "bytes": 647
+    },
+    {
+      "path": "evidence/ThetaDensityRatio.saved-axioms.txt",
+      "sha256": "8311a79d869489775e2e05983fbe0fdcd1cd8e3e4513e5d28f25b316835079b3",
+      "bytes": 544
+    },
+    {
+      "path": "evidence/ThetaGaussianSeed.saved-axioms.txt",
+      "sha256": "66001da65a3b8552a11a275417eef10abee0d55d999bac5420fe628dd00a7cb8",
+      "bytes": 777
+    },
+    {
+      "path": "evidence/ThetaMassBounds.saved-axioms.txt",
+      "sha256": "123e6870c1c979469785328b9f1e0836ddb1cbfd8b550e5d26ba53993f672429",
+      "bytes": 628
+    },
+    {
+      "path": "evidence/ThetaMellinMass.saved-axioms.txt",
+      "sha256": "01e91e75ffbf24f195149569ac6a5acde4a300f455d15ea0ac9a502b9d67f280",
+      "bytes": 691
+    },
+    {
+      "path": "evidence/ThetaMomentOrder.saved-axioms.txt",
+      "sha256": "f86365c7bbc6333f5d5936ab8d31beb28cc8d64bf277a36d22444f6917c082a3",
+      "bytes": 775
+    },
+    {
+      "path": "evidence/ThetaOrderCore.saved-axioms.txt",
+      "sha256": "e77107d20c0c16d3640831a9774212049a73c50d645c6e5ab469ed4f3d6c941d",
+      "bytes": 498
+    },
+    {
+      "path": "evidence/ThetaOriginStationarity.saved-axioms.txt",
+      "sha256": "6d7f98a5e1afa41d39631b2dd46b6afeb8000ceb778c79295005b3a7695e4085",
+      "bytes": 828
+    },
+    {
+      "path": "evidence/ThetaPoissonReflection.saved-axioms.txt",
+      "sha256": "6a704bda5a012cc55e39d3e22ac8d40274819ce25bbb5756528a5ac5135fbf9a",
+      "bytes": 351
+    },
+    {
+      "path": "evidence/ThetaPositiveSlope.saved-axioms.txt",
+      "sha256": "d56252dffcbcca5ca43637c5e24d86e3c62cc8d2994be62413eb5ae3cc8cd668",
+      "bytes": 310
+    },
+    {
+      "path": "evidence/ThetaProbabilityMass.saved-axioms.txt",
+      "sha256": "eadf35e6d3b989114544f3cc4e61ba55afbe8e1af1a369b786095c8e5f78218a",
+      "bytes": 922
+    },
+    {
+      "path": "evidence/ThetaSecondMoment.saved-axioms.txt",
+      "sha256": "bf45a2e678d96271342ced36efef6c0131856d12975380360b95f924ea6a68dd",
+      "bytes": 1658
+    },
+    {
+      "path": "evidence/ThetaSeedFTC.saved-axioms.txt",
+      "sha256": "2d75ea6cc09e52d76ff08052c19662e42de99f21c71e5a3112c68214e2f18337",
+      "bytes": 613
+    },
+    {
+      "path": "evidence/ThetaSeries.saved-axioms.txt",
+      "sha256": "0cf639d593183063b4f1d5212e61db241e108e59398c3534a1477e2ee38eb2a2",
+      "bytes": 1288
+    },
+    {
+      "path": "evidence/ThetaShellDerivative.saved-axioms.txt",
+      "sha256": "d66028e0cdad3d769dd3962b5b489ce6912a0c58645d3fe43c38852dfb4f09f8",
+      "bytes": 291
+    },
+    {
+      "path": "evidence/ThetaShellShape.saved-axioms.txt",
+      "sha256": "25ca381e632dc3bd5c46fece647910fceceb1bdfdd4754ac3e61f422f1c656f4",
+      "bytes": 741
+    },
+    {
+      "path": "evidence/ThetaStrictIncrease.saved-axioms.txt",
+      "sha256": "f26f8bd675e789f964a36f4669d07cb692ff0072d9d7dd5f390a5246afaa5501",
+      "bytes": 108
+    },
+    {
+      "path": "evidence/verification-history.json",
+      "sha256": "cbc6fc063936bc8469ed7176998e7c6d073cf3e90ec1ccdf52c99f96bfe15d07",
+      "bytes": 3971
+    },
+    {
+      "path": "ExponentialMomentBounds.lean",
+      "sha256": "5547ecb9357e4ffbeed4a6f8f9c2e4e462513f29fa4dc118fdfdfa2f92511aeb",
+      "bytes": 4147
+    },
+    {
+      "path": "HUMAN-REVIEW.md",
+      "sha256": "3b48baff241513e99e03d43d74fcf7157fa2cb913b65c0869da860c491d4b814",
+      "bytes": 2103
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "0ea9a03047b4ea1f6bc1c5612a5dbeaa9773208d59b64a6f345f755a8b341467",
+      "bytes": 3560
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "9c1a1897869d8e8a0464497af76c14442ef5c73b7915c482d581dc9970f7c019",
+      "bytes": 1453
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29
+    },
+    {
+      "path": "LICENSE-STATUS.md",
+      "sha256": "ba6c02a463e90c9376c86c722c1f44f394d54e4e8d711cc0e8490bdead232185",
+      "bytes": 1498
+    },
+    {
+      "path": "MacdonaldMass.lean",
+      "sha256": "031dd2ed028bc6ff2f72907ff82a3eabd57e856f90f39a59c1df049ea932d0a0",
+      "bytes": 3884
+    },
+    {
+      "path": "MonotoneMomentOrder.lean",
+      "sha256": "d8f1a7f9511c724669fc093596fb95c65414011d53ebd5e79dbbd967a73836d9",
+      "bytes": 4525
+    },
+    {
+      "path": "notices/EXISTING-PROJECT-MIT-LICENSE.txt",
+      "sha256": "52d081ddbc2ec14fabc9ffbaaaa919ad003bfde5cf9b7f7d140243489a58d232",
+      "bytes": 1074
+    },
+    {
+      "path": "notices/MATHLIB-LICENSE.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "8619f03977dd3b5778f7afbea69c75b27649f0f5973f9ce43b0e0b62a30232d3",
+      "bytes": 2489
+    },
+    {
+      "path": "README.md",
+      "sha256": "39a0856b34441c1f061aff37ab787d8298110bc30d6bedeacfcfd606a84079ce",
+      "bytes": 3117
+    },
+    {
+      "path": "RhWeilCompletedGrowth001.lean",
+      "sha256": "998c72a91972eb3372af9061eea236c3f72b354956b2db9c1d254eb5228168de",
+      "bytes": 3985
+    },
+    {
+      "path": "RhWeilThetaBound001.lean",
+      "sha256": "e0389dd5a567806bed99af41e405d6d534ed2b7cfcc8aca5b1d43323129c4734",
+      "bytes": 3442
+    },
+    {
+      "path": "RhWeilThetaGeometry001.lean",
+      "sha256": "8804abe70a6b29060970d317312465c0a0c0c7dfcbdf12a5de8a29aa28d7f86d",
+      "bytes": 4443
+    },
+    {
+      "path": "RhWeilThetaMeasurable001.lean",
+      "sha256": "c31be1b224f08b7b97f642da20eed3e05f5f2906bcb60bcafe7959c5fc65bd0c",
+      "bytes": 2905
+    },
+    {
+      "path": "SOURCE-DEFINITIONS.md",
+      "sha256": "db5cbc1db595499b370bd092fc25c82b9d9e47e86ac7bc8fc4af01aa9c5d0e22",
+      "bytes": 3683
+    },
+    {
+      "path": "THEOREM-STATEMENTS.md",
+      "sha256": "a7079d1b0656b1df04d84315a37c1c6b4e49fc1735d6ec4f5d0fde3f094b31de",
+      "bytes": 73659
+    },
+    {
+      "path": "ThetaCompleteRatio.lean",
+      "sha256": "75d057f55026807fbbf367a353cd2bf518fc7a042826fc99d2aa2ac56170e266",
+      "bytes": 4529
+    },
+    {
+      "path": "ThetaCumulativeOrder.lean",
+      "sha256": "b29c97012298c701091b196831d53c1aa051f14a05935108a50c21c404e9bd5a",
+      "bytes": 4213
+    },
+    {
+      "path": "ThetaDensityCrossing.lean",
+      "sha256": "6115eeb340b95c13c4bd0647206654094152b068af231ad4512160cd6e6c6648",
+      "bytes": 5383
+    },
+    {
+      "path": "ThetaDensityRatio.lean",
+      "sha256": "bf7bf7bdbadc9015e8517e2f619d0281257f959ba51268b55f9707db6f6fc59b",
+      "bytes": 2332
+    },
+    {
+      "path": "ThetaGaussianSeed.lean",
+      "sha256": "d187d035c41ac1571a8d7427be42a9499d82ab44aeb811c22c79f4106bad1ef7",
+      "bytes": 6768
+    },
+    {
+      "path": "ThetaMassBounds.lean",
+      "sha256": "8579d4ab3e237520faea0590548af006b5165550aeb29ede925e6cd3354e0427",
+      "bytes": 5113
+    },
+    {
+      "path": "ThetaMellinMass.lean",
+      "sha256": "cdf5f47dce89f46b1c5ef3d48cbf06d797e05f18813724b5b3bf433d9e446a5e",
+      "bytes": 5699
+    },
+    {
+      "path": "ThetaMomentOrder.lean",
+      "sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc",
+      "bytes": 3408
+    },
+    {
+      "path": "ThetaOrderCore.lean",
+      "sha256": "cd3054c4e1ff573f95344870df6ca3502911c276b298552cf79c0502baf14fa7",
+      "bytes": 5353
+    },
+    {
+      "path": "ThetaOriginStationarity.lean",
+      "sha256": "fb7b8cfc8ce982f164e42bd743b82c0ad48845592c92c7b31544f62581fd07b3",
+      "bytes": 4072
+    },
+    {
+      "path": "ThetaPoissonReflection.lean",
+      "sha256": "20be42d9fad8f8b130a2a2590cf78282f665632a86fe7592808e9ef512f6c7eb",
+      "bytes": 3068
+    },
+    {
+      "path": "ThetaPositiveSlope.lean",
+      "sha256": "3850481b95cdc1722a0b8285d32504598f571956bb5a58b954fceaf4737894d5",
+      "bytes": 1705
+    },
+    {
+      "path": "ThetaProbabilityMass.lean",
+      "sha256": "4e456fe30a2827473fdaa399fc6d44d9acccb898b12911bd7b90c74cb5d9954a",
+      "bytes": 3483
+    },
+    {
+      "path": "ThetaSecondMoment.lean",
+      "sha256": "d17866a98ae7fffb293b6ecdb0b15112ef6ad53e1b57a0473c15c53319c70686",
+      "bytes": 8729
+    },
+    {
+      "path": "ThetaSeedFTC.lean",
+      "sha256": "490fa8bfbb9db858e47832787415c60dfd22cdd1596634878b30646c68208ab3",
+      "bytes": 8195
+    },
+    {
+      "path": "ThetaSeries.lean",
+      "sha256": "bafed20550dc99a3d8cde9eb6211bea786cd5ed041e74e542bddec8ba89efc66",
+      "bytes": 11489
+    },
+    {
+      "path": "ThetaShellDerivative.lean",
+      "sha256": "39503ba9c73eb2dac500423291519b5662ca02a1f592e04bcb54fb5ff1e79508",
+      "bytes": 3245
+    },
+    {
+      "path": "ThetaShellShape.lean",
+      "sha256": "0bdffdb8b984b5e9178b1cf34d461128bccd74a3d8aaff0845b388258b662cd6",
+      "bytes": 8349
+    },
+    {
+      "path": "ThetaStrictIncrease.lean",
+      "sha256": "d678b5b3cf8442dfefbaaac6cebe81b06e65012bb89d7a46bac8706ab17ef78e",
+      "bytes": 748
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "5fa6317fad48e9e3c86693e7cfb28575081daabbc183ff2bca16e7e7bf1cf468",
+      "bytes": 3248
+    }
+  ]
+}

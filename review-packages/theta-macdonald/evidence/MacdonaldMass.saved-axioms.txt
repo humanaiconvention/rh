@@ -1,0 +1,6 @@
+'ThetaMacdonald.Density.integrable_macdonaldKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.macdonaldK0_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.integrable_macdonaldDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.macdonaldDensity_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.macdonaldDensity_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.macdonaldDensity_mass_closed' depends on axioms: [propext, Classical.choice, Quot.sound]

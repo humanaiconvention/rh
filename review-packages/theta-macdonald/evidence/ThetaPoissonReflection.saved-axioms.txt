@@ -1,0 +1,5 @@
+'ThetaMacdonald.Reflection.centeredFullTheta_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Reflection.centeredFullTheta_second_deriv_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThetaMacdonald.Reflection.centeredFullTheta_deriv_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

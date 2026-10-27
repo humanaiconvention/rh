@@ -1,0 +1,3 @@
+'ThetaMacdonald.Slope.hasDerivAt_deriv_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Slope.strictMonoOn_deriv_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Slope.deriv_ratio_pos' depends on axioms: [propext, Classical.choice, Quot.sound]

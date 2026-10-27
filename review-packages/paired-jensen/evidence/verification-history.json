@@ -1,0 +1,67 @@
+{
+  "scope": "Historical rejected001 stages retained separately from accepted002 evidence;no first-attempt report is an acceptance premise",
+  "modules": [
+    {
+      "module": "JensenEvenMoments",
+      "first_attempt_status": "FAIL",
+      "rejected_source_sha256": "ba6b637b871eba41fd2f1614e49a93a03609ea362616f5e0128b85db2939edc6",
+      "rejected_result_sha256": "55c58d4d5c6e5d462bf7e62c872c94f8418c8b5e770762f597bb43d6efc2907d",
+      "accepted_source_sha256": "df604f7d90e70c29e3b7987b44687e3fe45d96ca27925943587bf6c9c959485e",
+      "accepted_receipt_sha256": "8f2cf6b4b1c1a0e704def164a4ce91fba825bad26411fd94aee194df83f35df8",
+      "accepted_status": "SAVED_PASS",
+      "accepted_ended_utc": "2026-10-26T05:31:14.346680+00:00",
+      "rejected_reports_not_used": true,
+      "historical_draft_comments_preserved": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "first_attempt_status": "FAIL",
+      "rejected_source_sha256": "90f975e716c572065cdcf42e83762c7ffcf73ea9103aaaee48e7b752e11bca8d",
+      "rejected_result_sha256": "cd31ae3985fdbad3f0053fc48a19e2e6e6ec3479c55c9b0895dac42b539f6c26",
+      "accepted_source_sha256": "4105a13d82d704ffcac39e1c989f7c5f50675d52811639991ee48b743536fa6e",
+      "accepted_receipt_sha256": "52aa7fe1fc79ba9d034fd4fef966f380ce289060e7676acb2ac97f2d531835b7",
+      "accepted_status": "SAVED_PASS",
+      "accepted_ended_utc": "2026-10-26T05:04:34.522685+00:00",
+      "rejected_reports_not_used": true,
+      "historical_draft_comments_preserved": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "first_attempt_status": "FAIL",
+      "rejected_source_sha256": "caedeb352baf0cd01af7c10fefb6bf956f536a069152c2099d872cd8512bf372",
+      "rejected_result_sha256": "6daeea3dfeb13aa34f5348ce34f3c22b2c2f088d727fb73eb8d56eee07baf446",
+      "accepted_source_sha256": "1c9148d78051d667a77532be854c4c9088d2371b63303ce62d647ee14677af1f",
+      "accepted_receipt_sha256": "41efb79708b025738a3a55d6c7ac340b0d758313fac1e393f4d4da905648c5b7",
+      "accepted_status": "SAVED_PASS",
+      "accepted_ended_utc": "2026-10-26T06:14:40.130283+00:00",
+      "rejected_reports_not_used": true,
+      "historical_draft_comments_preserved": true
+    },
+    {
+      "module": "JensenPointwise",
+      "first_attempt_status": "FAIL",
+      "rejected_source_sha256": "45b56e2c76477444aae4181682556a98baef8ac133175e188aa2e4d009166dc6",
+      "rejected_result_sha256": "3d13cb538744cfd69315a320b9a4d76807ffcc8903b89cf58695c18d70122eea",
+      "accepted_source_sha256": "4f2c3e8bcf31aaa70c0b12b55d18b499f0c68629070fec361af34cec2d3b5abd",
+      "accepted_receipt_sha256": "f3bd866c7dc68979c37001ad17dcbad2c7c331ea150f81d8a097d6d4f5318254",
+      "accepted_status": "SAVED_PASS",
+      "accepted_ended_utc": "2026-10-26T04:21:16.657728+00:00",
+      "rejected_reports_not_used": true,
+      "historical_draft_comments_preserved": true
+    },
+    {
+      "module": "JensenWeights",
+      "first_attempt_status": "FAIL",
+      "rejected_source_sha256": "1f8d4ec0025a968b5e12b5783d3e50fbdda02c6adc3d5a179a223d9be09425a5",
+      "rejected_result_sha256": "2ee7c6279c2d5475642036fc0e59dca0309ff1013c3eb0c44b194b1b974f1e79",
+      "accepted_source_sha256": "be3cfe72e80ed855b501012c9be8c2f4d81eafbb14da267b3e9f750c28f6101b",
+      "accepted_receipt_sha256": "8921a725d14a0a2ffd72f5bdc4095df4d9061915611cc70994e6b67e64ffbd55",
+      "accepted_status": "SAVED_PASS",
+      "accepted_ended_utc": "2026-10-26T03:46:29.730367+00:00",
+      "rejected_reports_not_used": true,
+      "historical_draft_comments_preserved": true
+    }
+  ],
+  "new_aggregate_replay": "BLOCKED_NOT_RUN",
+  "stale_headers": "Preparation-stage UNCOMPILED/no-acceptance/provider comments retained verbatim;later exact-byte acceptance governs historical source status only"
+}

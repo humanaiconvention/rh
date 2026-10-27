@@ -1,0 +1,24 @@
+{
+  "scope": "Complete package-local source closure; external dependencies pinned, not vendored or replayed",
+  "root": "DigammaGauss",
+  "files": [
+    {
+      "module": "DigammaGauss",
+      "path": "DigammaGauss.lean",
+      "sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d"
+    }
+  ],
+  "local_edges": [],
+  "direct_mathlib_imports": [
+    "Mathlib.Analysis.Calculus.DSlope",
+    "Mathlib.Analysis.Calculus.Deriv.Slope",
+    "Mathlib.Analysis.SpecialFunctions.Gamma.Beta",
+    "Mathlib.Analysis.SpecialFunctions.Gamma.Digamma",
+    "Mathlib.Analysis.SpecialFunctions.Integrability.Basic",
+    "Mathlib.Analysis.SpecialFunctions.Pow.Deriv",
+    "Mathlib.MeasureTheory.Integral.DominatedConvergence",
+    "Mathlib.MeasureTheory.Integral.IntegralEqImproper",
+    "Mathlib.Tactic"
+  ],
+  "no_RH_module_import": true
+}

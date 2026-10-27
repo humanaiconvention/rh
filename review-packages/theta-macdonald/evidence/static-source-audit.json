@@ -1,0 +1,331 @@
+{
+  "utc": "2026-10-27T07:19:35.467394+00:00",
+  "scope": "Selected27 unchanged sources only;length-preserving comment mask and token scan,not Lean parsing or full dependency audit",
+  "results": [
+    {
+      "module": "CumulativeSplit",
+      "source_sha256": "b58cd065c0fa2c11c17b34ec92c82cf633ea9904f638b3f141ef82e61127885e",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "source_sha256": "5547ecb9357e4ffbeed4a6f8f9c2e4e462513f29fa4dc118fdfdfa2f92511aeb",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "MacdonaldMass",
+      "source_sha256": "031dd2ed028bc6ff2f72907ff82a3eabd57e856f90f39a59c1df049ea932d0a0",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "MonotoneMomentOrder",
+      "source_sha256": "d8f1a7f9511c724669fc093596fb95c65414011d53ebd5e79dbbd967a73836d9",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "source_sha256": "998c72a91972eb3372af9061eea236c3f72b354956b2db9c1d254eb5228168de",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "RhWeilThetaBound001",
+      "source_sha256": "e0389dd5a567806bed99af41e405d6d534ed2b7cfcc8aca5b1d43323129c4734",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "source_sha256": "8804abe70a6b29060970d317312465c0a0c0c7dfcbdf12a5de8a29aa28d7f86d",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "RhWeilThetaMeasurable001",
+      "source_sha256": "c31be1b224f08b7b97f642da20eed3e05f5f2906bcb60bcafe7959c5fc65bd0c",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "source_sha256": "75d057f55026807fbbf367a353cd2bf518fc7a042826fc99d2aa2ac56170e266",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "source_sha256": "b29c97012298c701091b196831d53c1aa051f14a05935108a50c21c404e9bd5a",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "source_sha256": "6115eeb340b95c13c4bd0647206654094152b068af231ad4512160cd6e6c6648",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "source_sha256": "bf7bf7bdbadc9015e8517e2f619d0281257f959ba51268b55f9707db6f6fc59b",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "source_sha256": "d187d035c41ac1571a8d7427be42a9499d82ab44aeb811c22c79f4106bad1ef7",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaMassBounds",
+      "source_sha256": "8579d4ab3e237520faea0590548af006b5165550aeb29ede925e6cd3354e0427",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaMellinMass",
+      "source_sha256": "cdf5f47dce89f46b1c5ef3d48cbf06d797e05f18813724b5b3bf433d9e446a5e",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "source_sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaOrderCore",
+      "source_sha256": "cd3054c4e1ff573f95344870df6ca3502911c276b298552cf79c0502baf14fa7",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "source_sha256": "fb7b8cfc8ce982f164e42bd743b82c0ad48845592c92c7b31544f62581fd07b3",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "source_sha256": "20be42d9fad8f8b130a2a2590cf78282f665632a86fe7592808e9ef512f6c7eb",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaPositiveSlope",
+      "source_sha256": "3850481b95cdc1722a0b8285d32504598f571956bb5a58b954fceaf4737894d5",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "source_sha256": "4e456fe30a2827473fdaa399fc6d44d9acccb898b12911bd7b90c74cb5d9954a",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "source_sha256": "d17866a98ae7fffb293b6ecdb0b15112ef6ad53e1b57a0473c15c53319c70686",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "source_sha256": "490fa8bfbb9db858e47832787415c60dfd22cdd1596634878b30646c68208ab3",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaSeries",
+      "source_sha256": "bafed20550dc99a3d8cde9eb6211bea786cd5ed041e74e542bddec8ba89efc66",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "source_sha256": "39503ba9c73eb2dac500423291519b5662ca02a1f592e04bcb54fb5ff1e79508",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaShellShape",
+      "source_sha256": "0bdffdb8b984b5e9178b1cf34d461128bccd74a3d8aaff0845b388258b662cd6",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "ThetaStrictIncrease",
+      "source_sha256": "d678b5b3cf8442dfefbaaac6cebe81b06e65012bb89d7a46bac8706ab17ef78e",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    }
+  ],
+  "compiler_or_axiom_command_run": false
+}

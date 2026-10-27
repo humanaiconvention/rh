@@ -1,0 +1,89 @@
+{
+  "snapshot_utc": "2026-10-27T07:42:07.604643+00:00",
+  "status": "PUBLISHED_REVIEW_CANDIDATES_SAVED_SOURCE_ACCEPTANCE_FRESH_REPLAY_NOT_RUN",
+  "publication_does_not_establish_mathematical_review_or_rights_clearance": true,
+  "packages": [
+    {
+      "directory": "finite-boundary-gauge",
+      "title": "Finite mixed differences and boundary values",
+      "Lean_sources": 2,
+      "saved_terminal_reports": 10,
+      "candidate_manifest_sha256": "e883a75869dcf33ef39dd135613b5a1b76b4ea72f438f61c6040a59759ce42a6",
+      "source_assembly_status": "SEALED_FIRST_RELEASE_ASSEMBLY_STATIC_PASS_REPLAY_BLOCKED",
+      "candidate_assembly_utc": "2026-10-27T05:54:43.602275+00:00",
+      "fresh_standalone_replay": "NOT_RUN",
+      "human_mathematical_API_editorial_and_rights_review": "PENDING",
+      "Lean_pin": "4.36.0-rc1",
+      "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533"
+    },
+    {
+      "directory": "cumulative-prefix-energy",
+      "title": "Finite cumulative-prefix energy",
+      "Lean_sources": 2,
+      "saved_terminal_reports": 10,
+      "candidate_manifest_sha256": "46700bee5f7c2dd869cd2673738a35d73a3819f51e12e1b04de911c14725f1a9",
+      "source_assembly_status": "SEALED_PREFIX_ENERGY_ASSEMBLY_STATIC_PASS_REPLAY_BLOCKED",
+      "candidate_assembly_utc": "2026-10-27T06:03:46.023338+00:00",
+      "fresh_standalone_replay": "NOT_RUN",
+      "human_mathematical_API_editorial_and_rights_review": "PENDING",
+      "Lean_pin": "4.36.0-rc1",
+      "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533"
+    },
+    {
+      "directory": "gauss-digamma",
+      "title": "Gauss digamma difference integral",
+      "Lean_sources": 1,
+      "saved_terminal_reports": 23,
+      "candidate_manifest_sha256": "1405473faf28bf2479caea8c6e4de4eb1cf43b58ba4072b50ed7cdbaed11be62",
+      "source_assembly_status": "SEALED_DIGAMMA_ASSEMBLY_STATIC_PASS_REPLAY_BLOCKED",
+      "candidate_assembly_utc": "2026-10-27T06:12:40.787714+00:00",
+      "fresh_standalone_replay": "NOT_RUN",
+      "human_mathematical_API_editorial_and_rights_review": "PENDING",
+      "Lean_pin": "4.36.0-rc1",
+      "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533"
+    },
+    {
+      "directory": "scalar-egf",
+      "title": "Derivatives of scalar exponential generating functions",
+      "Lean_sources": 1,
+      "saved_terminal_reports": 1,
+      "candidate_manifest_sha256": "4789c12405a716c27ed2efca552f914a921f4d520c9945c5981ebb14da803c5d",
+      "source_assembly_status": "SEALED_SCALAR_EGF_ASSEMBLY_STATIC_PASS_REPLAY_BLOCKED",
+      "candidate_assembly_utc": "2026-10-27T06:24:11.317900+00:00",
+      "fresh_standalone_replay": "NOT_RUN",
+      "human_mathematical_API_editorial_and_rights_review": "PENDING",
+      "Lean_pin": "4.36.0-rc1",
+      "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533"
+    },
+    {
+      "directory": "paired-jensen",
+      "title": "Jensen approximation of a paired-measure transform",
+      "Lean_sources": 5,
+      "saved_terminal_reports": 54,
+      "candidate_manifest_sha256": "c4805c79bdde9e850ada2ff1693c6ba2878cca0e7d9b2a5bc7156af4a5aa1ad4",
+      "source_assembly_status": "SEALED_PAIRED_JENSEN_ASSEMBLY_STATIC_PASS_REPLAY_BLOCKED",
+      "candidate_assembly_utc": "2026-10-27T06:59:46.913301+00:00",
+      "fresh_standalone_replay": "NOT_RUN",
+      "human_mathematical_API_editorial_and_rights_review": "PENDING",
+      "Lean_pin": "4.36.0-rc1",
+      "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533"
+    },
+    {
+      "directory": "theta-macdonald",
+      "title": "Theta and Macdonald density order",
+      "Lean_sources": 27,
+      "saved_terminal_reports": 157,
+      "candidate_manifest_sha256": "b386983582604650345c2a39e37dd45c4483941199e8cbb66b0ca4b5732d37b9",
+      "source_assembly_status": "SEALED_THETA_MACDONALD_ASSEMBLY_STATIC_PASS_REPLAY_BLOCKED",
+      "candidate_assembly_utc": "2026-10-27T07:30:53.818770+00:00",
+      "fresh_standalone_replay": "NOT_RUN",
+      "human_mathematical_API_editorial_and_rights_review": "PENDING",
+      "Lean_pin": "4.36.0-rc1",
+      "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533"
+    }
+  ],
+  "unchanged_Lean_sources": 38,
+  "saved_terminal_axiom_reports": 255,
+  "new_compiler_or_dependency_runs": 0,
+  "scope": "Six separate roots;no unified build or RH claim;existing repository and notices preserved"
+}

@@ -1,0 +1,97 @@
+{
+  "scope": "Exact-source claim mapping; no new theorem or novelty determination",
+  "claims": [
+    {
+      "claim": "Exact Gauss difference integral",
+      "declaration": "DigammaGauss.digamma_difference_exp",
+      "source": "DigammaGauss.lean",
+      "line": 481,
+      "hypotheses": "Real a>0, complex Re(z)>0; full positive half-line and displayed exponential integrand",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Genuine explicit-integrand integrability",
+      "declaration": "DigammaGauss.gauss_integrable_exp",
+      "source": "DigammaGauss.lean",
+      "line": 495,
+      "hypotheses": "Only positive parameter hypotheses; IntegrableOn is proved",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Constructed cancellation constant",
+      "declaration": "DigammaGauss.BetaDomination.exists_right_cancel_bound",
+      "source": "DigammaGauss.lean",
+      "line": 53,
+      "hypotheses": "Constant depends on a,z; constructed from compact divided difference",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Cancelled dominated limit",
+      "declaration": "DigammaGauss.BetaLimit.cancelled_integral_limit",
+      "source": "DigammaGauss.lean",
+      "line": 188,
+      "hypotheses": "Real h tends to0+; domination fixed in h, not uniform in a,z",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Integrability under logarithmic substitution",
+      "declaration": "DigammaGauss.Substitution.integrable_exp_neg",
+      "source": "DigammaGauss.lean",
+      "line": 271,
+      "hypotheses": "Arbitrary complex integrand; integrability equivalence with absolute Jacobian",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Exact transformed kernel",
+      "declaration": "DigammaGauss.Substitution.jacobian_kernel",
+      "source": "DigammaGauss.lean",
+      "line": 298,
+      "hypotheses": "Positive exp(-x) Jacobian retained",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Gamma-ratio limit",
+      "declaration": "DigammaGauss.GammaRatio.beta_difference_limit_complex",
+      "source": "DigammaGauss.lean",
+      "line": 427,
+      "hypotheses": "Complex positive-real-part parameters for this intermediate result only",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "endpoint_quotient_limit": "Essay explanatory mathematics only; no separately exported Lean endpoint-limit theorem"
+}

@@ -1,0 +1,138 @@
+{
+  "scope": "Portable projection of selected historical 4.36 migration/record/log evidence; raw originals remain private",
+  "saved_evidence_only": true,
+  "fresh_portable_build": false,
+  "entries": [
+    {
+      "module": "DigammaGauss",
+      "source_path": "DigammaGauss.lean",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "historical_object_sha256": "cc3bb3c9c59e00f9c7d105da6b0588aedf484e58899551438e284af5e9f4beee",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "f1b52b98b28990c68ee8c7be8a1e977e57249521be30c3fc4fe026d76a98afa9",
+      "original_full_log_sha256": "2004115aaf6234750b6720a9beaa66839dd726defe0621dd0f87fc9c6f9566f1",
+      "saved_ended_utc": "2026-10-23T15:09:05.843844+00:00",
+      "saved_elapsed_seconds": 20.5,
+      "status": "SAVED_PASS_NOT_A_FRESH_PORTABLE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "DigammaGauss.BetaDomination.exists_right_cancel_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.BetaDomination.dominated": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.BetaDomination.dominator_integrable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.BetaLimit.limitKernel_integrable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.BetaLimit.cancelled_integral_limit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.BetaLimit.beta_difference_eq_integral": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.BetaLimit.beta_difference_integral_limit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.Substitution.integral_exp_neg": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.Substitution.integrable_exp_neg": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.Substitution.jacobian_kernel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.Substitution.limitKernel_integral": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.GammaRatio.gamma_ratio_hasDerivAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.GammaRatio.ratioDifference_hasDerivAt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.GammaRatio.ratioDifference_slope_limit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.GammaRatio.gamma_times_ratio_limit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.GammaRatio.beta_difference_identity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.GammaRatio.beta_difference_limit_complex": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.GammaRatio.beta_difference_limit": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.beta_domain_digamma": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.gauss_integrable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.digamma_difference": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.digamma_difference_exp": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "DigammaGauss.gauss_integrable_exp": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    }
+  ]
+}

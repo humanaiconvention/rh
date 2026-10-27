@@ -1,0 +1,20 @@
+{
+  "scope": "Complete package-local source closure; external libraries pinned,not vendored or newly replayed",
+  "root": "IteratedDerivOfScalars",
+  "files": [
+    {
+      "module": "IteratedDerivOfScalars",
+      "path": "IteratedDerivOfScalars.lean",
+      "sha256": "a0165f5341dfad3d9710e67f1c46056fbe8410f31e9975a04e49ea8de180a503"
+    }
+  ],
+  "local_edges": [],
+  "direct_mathlib_imports": [
+    "Mathlib.Analysis.Analytic.OfScalars",
+    "Mathlib.Analysis.Calculus.FDeriv.Analytic",
+    "Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas",
+    "Mathlib.Analysis.Complex.Basic"
+  ],
+  "public_imports_preserved": true,
+  "no_RH_module_import": true
+}

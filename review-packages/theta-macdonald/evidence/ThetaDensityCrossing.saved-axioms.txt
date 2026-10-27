@@ -1,0 +1,6 @@
+'ThetaMacdonald.Crossing.ratio_origin_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Crossing.exists_ratio_gt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Crossing.exists_positive_ratio_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Crossing.unique_density_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Crossing.density_crossing_sides' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Crossing.actual_density_crossing' depends on axioms: [propext, Classical.choice, Quot.sound]

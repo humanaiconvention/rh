@@ -1,0 +1,3 @@
+'SingleCrossing.strict_integral_order_of_monotone_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExponentialMoment.power_exp_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExponentialMoment.power_weighted_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]

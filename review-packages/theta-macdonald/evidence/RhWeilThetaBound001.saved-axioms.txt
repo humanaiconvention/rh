@@ -1,0 +1,2 @@
+'RhWeilTheta.evenKernel_head_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RhWeilTheta.fePair_modif_head_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

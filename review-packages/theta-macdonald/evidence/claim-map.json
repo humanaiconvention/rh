@@ -1,0 +1,207 @@
+{
+  "scope": "Actual accepted-source/dictionary mapping,not new proof or novelty finding",
+  "claims": [
+    {
+      "claim": "Actual complete source summability",
+      "declaration": "ThetaMacdonald.Series.source_phi_summable",
+      "source": "ThetaSeries.lean",
+      "line": 263,
+      "source_sha256": "bafed20550dc99a3d8cde9eb6211bea786cd5ed041e74e542bddec8ba89efc66",
+      "exact_header": "theorem source_phi_summable (u : ℝ) :\n    Summable (fun n : ℕ =>\n      (8 * Real.pi ^ 2 * ((n + 1 : ℕ) : ℝ) ^ 4 * Real.exp (9 * u / 2) -\n        12 * Real.pi * ((n + 1 : ℕ) : ℝ) ^ 2 * Real.exp (5 * u / 2)) *\n      Real.exp (-Real.pi * ((n + 1 : ℕ) : ℝ) ^ 2 * Real.exp (2 * u)))",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Actual theta mass normalizer",
+      "declaration": "ThetaMacdonald.Mass.thetaMass_eq_gamma0",
+      "source": "ThetaMellinMass.lean",
+      "line": 143,
+      "source_sha256": "cdf5f47dce89f46b1c5ef3d48cbf06d797e05f18813724b5b3bf433d9e446a5e",
+      "exact_header": "theorem thetaMass_eq_gamma0 : thetaMass = gamma0",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Positive theta normalizer",
+      "declaration": "ThetaMacdonald.Mass.gamma0_pos",
+      "source": "ThetaMellinMass.lean",
+      "line": 150,
+      "source_sha256": "cdf5f47dce89f46b1c5ef3d48cbf06d797e05f18813724b5b3bf433d9e446a5e",
+      "exact_header": "theorem gamma0_pos : 0 < gamma0",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Standard zeta xiHalf identification",
+      "declaration": "ThetaMacdonald.Mass.xiHalf_eq_gamma0",
+      "source": "ThetaProbabilityMass.lean",
+      "line": 48,
+      "source_sha256": "4e456fe30a2827473fdaa399fc6d44d9acccb898b12911bd7b90c74cb5d9954a",
+      "exact_header": "theorem xiHalf_eq_gamma0 : xiHalf = (gamma0 : ℂ)",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Actual theta unit mass",
+      "declaration": "ThetaMacdonald.Mass.thetaDensity_mass",
+      "source": "ThetaProbabilityMass.lean",
+      "line": 68,
+      "source_sha256": "4e456fe30a2827473fdaa399fc6d44d9acccb898b12911bd7b90c74cb5d9954a",
+      "exact_header": "theorem thetaDensity_mass :\n    (∫ u in Ioi (0 : ℝ), thetaDensity u) = 1",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Actual Macdonald unit mass",
+      "declaration": "ThetaMacdonald.Density.macdonaldDensity_mass",
+      "source": "MacdonaldMass.lean",
+      "line": 66,
+      "source_sha256": "031dd2ed028bc6ff2f72907ff82a3eabd57e856f90f39a59c1df049ea932d0a0",
+      "exact_header": "theorem macdonaldDensity_mass :\n    (∫ u in Ioi (0 : ℝ), macdonaldDensity u) = 1",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Unique positive density crossing",
+      "declaration": "ThetaMacdonald.Crossing.unique_density_crossing",
+      "source": "ThetaDensityCrossing.lean",
+      "line": 74,
+      "source_sha256": "6115eeb340b95c13c4bd0647206654094152b068af231ad4512160cd6e6c6648",
+      "exact_header": "theorem unique_density_crossing :\n    ∃! c : ℝ, 0 < c ∧ thetaDensity c = macdonaldDensity c",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Actual crossing with strict sides",
+      "declaration": "ThetaMacdonald.Crossing.actual_density_crossing",
+      "source": "ThetaDensityCrossing.lean",
+      "line": 108,
+      "source_sha256": "6115eeb340b95c13c4bd0647206654094152b068af231ad4512160cd6e6c6648",
+      "exact_header": "theorem actual_density_crossing :\n    ∃ c : ℝ, 0 < c ∧ thetaDensity c = macdonaldDensity c ∧\n      (∀ u : ℝ, 0 ≤ u → u < c → thetaDensity u < macdonaldDensity u) ∧\n      (∀ u : ℝ, c < u → macdonaldDensity u < thetaDensity u) ∧\n      (∀ u : ℝ, 0 ≤ u →\n        (thetaDensity u = macdonaldDensity u ↔ u = c))",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Actual cumulative order",
+      "declaration": "ThetaMacdonald.Cumulative.actual_CDF_strict_order",
+      "source": "ThetaCumulativeOrder.lean",
+      "line": 82,
+      "source_sha256": "b29c97012298c701091b196831d53c1aa051f14a05935108a50c21c404e9bd5a",
+      "exact_header": "theorem actual_CDF_strict_order {u : ℝ} (hu : 0 < u) :\n    (∫ t in (0 : ℝ)..u, thetaDensity t) <\n      ∫ t in (0 : ℝ)..u, macdonaldDensity t",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Actual theta power integrability",
+      "declaration": "ThetaMacdonald.Moment.integrable_theta_power",
+      "source": "ThetaMomentOrder.lean",
+      "line": 11,
+      "source_sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc",
+      "exact_header": "theorem integrable_theta_power (n : ℕ) :\n    IntegrableOn (fun u : ℝ => u^n*thetaDensity u) (Ioi (0 : ℝ))",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Actual Macdonald power integrability",
+      "declaration": "ThetaMacdonald.Moment.integrable_macdonald_power",
+      "source": "ThetaMomentOrder.lean",
+      "line": 16,
+      "source_sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc",
+      "exact_header": "theorem integrable_macdonald_power (n : ℕ) :\n    IntegrableOn (fun u : ℝ => u^n*macdonaldDensity u) (Ioi (0 : ℝ))",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Every positive natural power moment",
+      "declaration": "ThetaMacdonald.Moment.actual_power_moment_order",
+      "source": "ThetaMomentOrder.lean",
+      "line": 42,
+      "source_sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc",
+      "exact_header": "theorem actual_power_moment_order (n : ℕ) (hn : 0 < n) :\n    (∫ u in Ioi (0 : ℝ), u^n*macdonaldDensity u) <\n      ∫ u in Ioi (0 : ℝ), u^n*thetaDensity u",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "Equal zeroth moments",
+      "declaration": "ThetaMacdonald.Moment.actual_zeroth_moment_equal",
+      "source": "ThetaMomentOrder.lean",
+      "line": 57,
+      "source_sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc",
+      "exact_header": "theorem actual_zeroth_moment_equal :\n    (∫ u in Ioi (0 : ℝ), u^0*macdonaldDensity u) =\n      ∫ u in Ioi (0 : ℝ), u^0*thetaDensity u",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    },
+    {
+      "claim": "General integrable monotone weight with exact strict growth",
+      "declaration": "ThetaMacdonald.Moment.actual_monotone_weight_order",
+      "source": "ThetaMomentOrder.lean",
+      "line": 28,
+      "source_sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc",
+      "exact_header": "theorem actual_monotone_weight_order {w : ℝ → ℝ}\n    (hwm : IntegrableOn (fun u => w u*thetaDensity u) (Ioi (0 : ℝ)))\n    (hwn : IntegrableOn (fun u => w u*macdonaldDensity u) (Ioi (0 : ℝ)))\n    (hw : MonotoneOn w (Ioi (0 : ℝ)))\n    (hstrict : ∀ c : ℝ, 0 < c → ∃ b : ℝ, c < b ∧ w c < w b) :\n    (∫ u in Ioi (0 : ℝ), w u*macdonaldDensity u) <\n      ∫ u in Ioi (0 : ℝ), w u*thetaDensity u",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "separate_saved_terminal_report": true
+    }
+  ],
+  "not_claimed": [
+    "RH/global positivity",
+    "arbitrary real-power or uniform exponent bound",
+    "oscillatory/Jensen/Peano implication",
+    "free normalizer or finite shell surrogate"
+  ]
+}

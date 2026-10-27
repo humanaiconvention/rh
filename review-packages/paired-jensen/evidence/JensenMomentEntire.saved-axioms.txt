@@ -1,0 +1,14 @@
+'SignedJensenEntirePrep.factorial_square_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.seriesTerm_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.summable_integral_norm_seriesTerm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.tsum_integral_norm_seriesTerm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.integral_nativeKernel_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.summable_coefficient_norm_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.signedPair_nativeKernel_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.signedPair_nativeKernel_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.differentiable_momentTransform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.analyticAt_momentTransform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenEntirePrep.differentiable_signedPair_nativeKernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SignedJensenEntirePrep.analyticAt_signedPair_nativeKernel' depends on axioms: [propext, Classical.choice, Quot.sound]

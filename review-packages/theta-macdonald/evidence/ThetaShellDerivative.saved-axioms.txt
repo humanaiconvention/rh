@@ -1,0 +1,3 @@
+'ThetaMacdonald.hasDerivAt_rawShell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.hasDerivAt_rawShellD1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.rawShell_eq_expanded' depends on axioms: [propext, Classical.choice, Quot.sound]

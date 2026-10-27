@@ -1,0 +1,93 @@
+{
+  "scope": "Portable projection of the historical extraction map; original absolute-path map retained privately",
+  "sources": [
+    {
+      "source_sha256": "3c8aac0764ecb9e15ea11c28e268aeaf44390eb77874caf43ee78a612c753a8d",
+      "accepted_receipt_sha256": "9b2b3bd92bb085b798e4df1c0c7dd8f8dfbfd435410ee81cf41a765809e563cb",
+      "original_lines": 122,
+      "extracted_namespace": "DigammaGauss.BetaDomination",
+      "local_imports": [],
+      "extracted_start_line": 22,
+      "extracted_end_line": 137,
+      "source": "RhWeilBetaDomination001.lean",
+      "accepted_receipt": "BUILD-WEIL-BETA-DOMINATION-003.json",
+      "historical_branch": "WEIL-GLOBAL-001",
+      "historical_predecessor_not_a_build_dependency": true
+    },
+    {
+      "source_sha256": "d3f7fef6fbf7d6d64bc39378b34bcf3dafa03c06656e01d1168bb94bb73c133a",
+      "accepted_receipt_sha256": "055f57872e1830ffc499e9425c91e8760afd4706654754db445e5f065a9a320a",
+      "original_lines": 92,
+      "extracted_namespace": "DigammaGauss.BetaLimit",
+      "local_imports": [
+        "RhWeilBetaDomination001"
+      ],
+      "extracted_start_line": 140,
+      "extracted_end_line": 230,
+      "source": "RhWeilBetaLimit001.lean",
+      "accepted_receipt": "BUILD-WEIL-BETA-LIMIT-003.json",
+      "historical_branch": "WEIL-GLOBAL-001",
+      "historical_predecessor_not_a_build_dependency": true
+    },
+    {
+      "source_sha256": "4736878eace820ab5f172e29193f1b2515306f2dcaad9dc3e58aae9832453fbe",
+      "accepted_receipt_sha256": "3fa11ca6c08b2f14bbf6b4d3f300bece8099d772cb7d3653efe259368cdbd1c2",
+      "original_lines": 87,
+      "extracted_namespace": "DigammaGauss.Substitution",
+      "local_imports": [
+        "RhWeilBetaDomination001"
+      ],
+      "extracted_start_line": 233,
+      "extracted_end_line": 317,
+      "source": "RhWeilGaussSubstitution001.lean",
+      "accepted_receipt": "BUILD-WEIL-GAUSS-SUBSTITUTION-002.json",
+      "historical_branch": "WEIL-GLOBAL-001",
+      "historical_predecessor_not_a_build_dependency": true
+    },
+    {
+      "source_sha256": "2fab20023bf2134888c8f779b46a2ea507b964e17027b823d0e2595fb5f24dba",
+      "accepted_receipt_sha256": "cc529f9e7b7d03697d54f772095f9d0801aa2060fea7326c7867be935dc144ed",
+      "original_lines": 131,
+      "extracted_namespace": "DigammaGauss.GammaRatio",
+      "local_imports": [],
+      "extracted_start_line": 320,
+      "extracted_end_line": 447,
+      "source": "RhWeilGaussRatio001.lean",
+      "accepted_receipt": "BUILD-WEIL-GAUSS-RATIO-004.json",
+      "historical_branch": "WEIL-GLOBAL-001",
+      "historical_predecessor_not_a_build_dependency": true
+    },
+    {
+      "source_sha256": "7cd6ebca45d4c945c0d7aa2b890b14237eded8a79ffb81e222f4618c9d90b52b",
+      "accepted_receipt_sha256": "6ed33e3d187905cdf5866203a1607302232b3719736283f2c1dc90bbbd9a2e59",
+      "original_lines": 60,
+      "extracted_namespace": "DigammaGauss",
+      "local_imports": [
+        "RhWeilBetaLimit001",
+        "RhWeilGaussSubstitution001",
+        "RhWeilGaussRatio001"
+      ],
+      "extracted_start_line": 450,
+      "extracted_end_line": 514,
+      "source": "RhWeilGaussDifference001.lean",
+      "accepted_receipt": "BUILD-WEIL-GAUSS-DIFFERENCE-001.json",
+      "historical_branch": "WEIL-GLOBAL-001",
+      "historical_predecessor_not_a_build_dependency": true
+    }
+  ],
+  "transformation": "Concatenate generic helper namespace bodies; deduplicate imports; rename namespaces; close implicit sections; omit quarter corollary; add explicit integrability corollary",
+  "upstream_imports": [
+    "Mathlib.Analysis.SpecialFunctions.Gamma.Beta",
+    "Mathlib.Analysis.SpecialFunctions.Pow.Deriv",
+    "Mathlib.Analysis.Calculus.DSlope",
+    "Mathlib.Analysis.SpecialFunctions.Integrability.Basic",
+    "Mathlib.MeasureTheory.Integral.DominatedConvergence",
+    "Mathlib.Tactic",
+    "Mathlib.MeasureTheory.Integral.IntegralEqImproper",
+    "Mathlib.Analysis.SpecialFunctions.Gamma.Digamma",
+    "Mathlib.Analysis.Calculus.Deriv.Slope"
+  ],
+  "current_source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+  "current_migration_unchanged": true,
+  "no_frozen_edits": true
+}

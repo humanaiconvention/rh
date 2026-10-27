@@ -1,0 +1,90 @@
+name = "theta_macdonald_review"
+version = "0.1.0"
+defaultTargets = ["ThetaDensityCrossing", "ThetaCumulativeOrder", "ThetaMomentOrder"]
+moreLeanArgs = ["-j", "2", "-M", "3072"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "c85646e3ac7d3ca39468f114b2d95d62e1611533"
+
+[[lean_lib]]
+name = "CumulativeSplit"
+
+[[lean_lib]]
+name = "ExponentialMomentBounds"
+
+[[lean_lib]]
+name = "MacdonaldMass"
+
+[[lean_lib]]
+name = "MonotoneMomentOrder"
+
+[[lean_lib]]
+name = "RhWeilCompletedGrowth001"
+
+[[lean_lib]]
+name = "RhWeilThetaBound001"
+
+[[lean_lib]]
+name = "RhWeilThetaGeometry001"
+
+[[lean_lib]]
+name = "RhWeilThetaMeasurable001"
+
+[[lean_lib]]
+name = "ThetaCompleteRatio"
+
+[[lean_lib]]
+name = "ThetaCumulativeOrder"
+
+[[lean_lib]]
+name = "ThetaDensityCrossing"
+
+[[lean_lib]]
+name = "ThetaDensityRatio"
+
+[[lean_lib]]
+name = "ThetaGaussianSeed"
+
+[[lean_lib]]
+name = "ThetaMassBounds"
+
+[[lean_lib]]
+name = "ThetaMellinMass"
+
+[[lean_lib]]
+name = "ThetaMomentOrder"
+
+[[lean_lib]]
+name = "ThetaOrderCore"
+
+[[lean_lib]]
+name = "ThetaOriginStationarity"
+
+[[lean_lib]]
+name = "ThetaPoissonReflection"
+
+[[lean_lib]]
+name = "ThetaPositiveSlope"
+
+[[lean_lib]]
+name = "ThetaProbabilityMass"
+
+[[lean_lib]]
+name = "ThetaSecondMoment"
+
+[[lean_lib]]
+name = "ThetaSeedFTC"
+
+[[lean_lib]]
+name = "ThetaSeries"
+
+[[lean_lib]]
+name = "ThetaShellDerivative"
+
+[[lean_lib]]
+name = "ThetaShellShape"
+
+[[lean_lib]]
+name = "ThetaStrictIncrease"

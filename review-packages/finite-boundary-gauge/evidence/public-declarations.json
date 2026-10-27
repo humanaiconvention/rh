@@ -1,0 +1,96 @@
+{
+  "scope": "Static package-owned public roster, not a fresh export-table query",
+  "declarations": [
+    {
+      "module": "CumulativeBoundary",
+      "declaration": "CumulativeQuadratic.eq_row_add_column_sub_of_mixedDifference_eq_zero",
+      "kind": "theorem",
+      "line": 52,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeBoundary",
+      "declaration": "CumulativeQuadratic.mixedDifference_eq_zero_iff_boundary_decomposition",
+      "kind": "theorem",
+      "line": 65,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeBoundary",
+      "declaration": "CumulativeQuadratic.mixedDifference_eq_iff_boundary_difference",
+      "kind": "theorem",
+      "line": 86,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeBoundary",
+      "declaration": "CumulativeQuadratic.eq_of_mixedDifference_eq_of_boundary_eq",
+      "kind": "theorem",
+      "line": 113,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeBoundary",
+      "declaration": "CumulativeQuadratic.mixedDifference_add_row_column",
+      "kind": "theorem",
+      "line": 128,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeBoundary",
+      "declaration": "CumulativeQuadratic.bilinear_cumulative_of_mixedDifference_eq_zero",
+      "kind": "theorem",
+      "line": 138,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeBoundary",
+      "declaration": "CumulativeQuadratic.bilinear_eq_of_mixedDifference_eq_of_mass_zero",
+      "kind": "theorem",
+      "line": 160,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeQuadratic",
+      "declaration": "CumulativeQuadratic.prefixSum",
+      "kind": "def",
+      "line": 21,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeQuadratic",
+      "declaration": "CumulativeQuadratic.mixedDifference",
+      "kind": "def",
+      "line": 24,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeQuadratic",
+      "declaration": "CumulativeQuadratic.mixedDifference_eq",
+      "kind": "theorem",
+      "line": 27,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeQuadratic",
+      "declaration": "CumulativeQuadratic.bilinear_cumulative",
+      "kind": "theorem",
+      "line": 35,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeQuadratic",
+      "declaration": "CumulativeQuadratic.quadratic_cumulative",
+      "kind": "theorem",
+      "line": 103,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeQuadratic",
+      "declaration": "CumulativeQuadratic.quadratic_cumulative_of_mass_zero",
+      "kind": "theorem",
+      "line": 126,
+      "separate_saved_terminal_axiom_report": true
+    }
+  ]
+}

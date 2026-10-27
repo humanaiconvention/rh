@@ -1,0 +1,7 @@
+'ThetaMacdonald.higher_shell_logSlope_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.higher_shell_logSlope_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.higher_shell_slopeDerivative_gt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.higher_shell_curvature_factor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.first_shell_slopeDerivative_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.first_shell_curvature_factor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.shell_curvature_factor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]

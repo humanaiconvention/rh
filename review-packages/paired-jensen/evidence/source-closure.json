@@ -1,0 +1,77 @@
+{
+  "scope": "Complete package-local source closure;external dependencies pinned,not vendored or newly replayed",
+  "root": "JensenMomentEntire",
+  "files": [
+    {
+      "module": "JensenEvenMoments",
+      "path": "JensenEvenMoments.lean",
+      "sha256": "df604f7d90e70c29e3b7987b44687e3fe45d96ca27925943587bf6c9c959485e"
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "path": "JensenGaussianMeasure.lean",
+      "sha256": "4105a13d82d704ffcac39e1c989f7c5f50675d52811639991ee48b743536fa6e"
+    },
+    {
+      "module": "JensenMomentEntire",
+      "path": "JensenMomentEntire.lean",
+      "sha256": "1c9148d78051d667a77532be854c4c9088d2371b63303ce62d647ee14677af1f"
+    },
+    {
+      "module": "JensenPointwise",
+      "path": "JensenPointwise.lean",
+      "sha256": "4f2c3e8bcf31aaa70c0b12b55d18b499f0c68629070fec361af34cec2d3b5abd"
+    },
+    {
+      "module": "JensenWeights",
+      "path": "JensenWeights.lean",
+      "sha256": "be3cfe72e80ed855b501012c9be8c2f4d81eafbb14da267b3e9f750c28f6101b"
+    }
+  ],
+  "local_edges": [
+    {
+      "module": "JensenEvenMoments",
+      "imports": "JensenGaussianMeasure"
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "imports": "JensenPointwise"
+    },
+    {
+      "module": "JensenMomentEntire",
+      "imports": "JensenEvenMoments"
+    },
+    {
+      "module": "JensenPointwise",
+      "imports": "JensenWeights"
+    }
+  ],
+  "direct_mathlib_imports": [
+    "Mathlib.Algebra.Order.BigOperators.GroupWithZero.Finset",
+    "Mathlib.Algebra.Order.Field.Basic",
+    "Mathlib.Analysis.Complex.LocallyUniformLimit",
+    "Mathlib.Analysis.Complex.Norm",
+    "Mathlib.Analysis.Complex.Trigonometric",
+    "Mathlib.Analysis.Normed.Group.InfiniteSum",
+    "Mathlib.Analysis.Real.Sqrt",
+    "Mathlib.Analysis.SpecialFunctions.Exponential",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.Series",
+    "Mathlib.Basic.Real.Basic",
+    "Mathlib.Data.Nat.Cast.Order.Basic",
+    "Mathlib.Data.Nat.Choose.Basic",
+    "Mathlib.Data.Nat.Factorial.Basic",
+    "Mathlib.MeasureTheory.Constructions.BorelSpace.Complex",
+    "Mathlib.MeasureTheory.Integral.Bochner.Basic",
+    "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap",
+    "Mathlib.MeasureTheory.Integral.DominatedConvergence",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.FunProp",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Positivity",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Topology.Algebra.InfiniteSum.NatInt"
+  ],
+  "no_extra_RH_provider": true,
+  "canonical_equivalent_inspection": "Earlier validated editorial and readiness records are not a standalone copied five-source package"
+}

@@ -1,0 +1,11 @@
+'CumulativeQuadratic.eq_row_add_column_sub_of_mixedDifference_eq_zero' depends on axioms: [propext]
+'CumulativeQuadratic.mixedDifference_eq_zero_iff_boundary_decomposition' depends on axioms: [propext]
+'CumulativeQuadratic.mixedDifference_eq_iff_boundary_difference' depends on axioms: [propext]
+'CumulativeQuadratic.eq_of_mixedDifference_eq_of_boundary_eq' depends on axioms: [propext]
+'CumulativeQuadratic.mixedDifference_add_row_column' depends on axioms: [propext]
+'CumulativeQuadratic.bilinear_cumulative_of_mixedDifference_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'CumulativeQuadratic.bilinear_eq_of_mixedDifference_eq_of_mass_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

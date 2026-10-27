@@ -1,0 +1,3 @@
+'RhWeilThetaGeometry.modif_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RhWeilThetaGeometry.modif_log_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RhWeilThetaGeometry.twisted_gaussian_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

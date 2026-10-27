@@ -1,0 +1,13 @@
+# Saved acceptance and present assembly status
+
+[DigammaGauss.lean](DigammaGauss.lean) is byte-identical to the accepted 4.36 migration source and historical collection source. Its complete package-local closure is one file with nine direct Mathlib imports, no RH import and no extra local provider. [Source closure](evidence/source-closure.json). External libraries are pinned, not vendored or newly replayed.
+
+The saved migration check used **Lean 4.36.0-rc1**, **Mathlib c85646e3ac7d3ca39468f114b2d95d62e1611533**, and exited zero in approximately 20.5 seconds. That historical time does not estimate clean dependency/bootstrap work. [Saved acceptance](evidence/saved-acceptance.json) is a curated portable projection preserving source/object/record/log fingerprints; full native records stay private. It is not a new compiler receipt.
+
+All 23 expected terminal reports are present and use only `propext`, `Classical.choice`, and `Quot.sound`. [Saved output](evidence/DigammaGauss.saved-axioms.txt). The source contains 14 declarations spelled `theorem`, 25 spelled `lemma`, and six definitions. Sixteen compiled public propositions lack a separate saved terminal print; their names and namespace/line/coverage are explicit in the [roster](evidence/public-declarations.json). Attribute-prefixed simp lemmas are included. No private declarations were found.
+
+The earlier 4.35 extraction build and older collection source-admission audit are distinct historical evidence. The old source-audit flag matches these bytes. The new static local token scan found no `sorry`, `admit`, custom `axiom`, `native_decide`, `unsafe` or `opaque` declaration token after comment removal. This is not a Lean parser, transitive library audit or compiler replay. [Earlier audit](evidence/saved-source-audit.json), [static scan](evidence/static-source-audit.json).
+
+This round checks exact source/header/claim/report identities, configuration/pin consistency and portable links. Internal reviews are same-system checks, not external independent review. No new proof, compiler/import/export/axiom command, prerequisite acquisition/build, process/admission/diagnostic query, numerical experiment or fresh upstream query ran.
+
+The root lock is a manually assembled 1.3.0 proposal with nine fixed Git revisions. **Lake has not accepted it in a fresh root.** [Lock provenance](evidence/lock-provenance.json). No cached object is bundled as a substitute. Fresh dependency/bootstrap/artifact closure, guarded scheduling, standalone build/import/type/axiom replay and human API/editorial/rights/release approval remain NOT RUN or pending. [Test ledger](evidence/test-ledger.json), [build recipe](BUILD.md), [human review](HUMAN-REVIEW.md).

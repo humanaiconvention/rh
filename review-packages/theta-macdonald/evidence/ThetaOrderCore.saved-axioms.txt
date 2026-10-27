@@ -1,0 +1,5 @@
+'ThetaMacdonald.hasDerivAt_ratioRaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.hasDerivAt_ratioRawD1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.referenceWeight_eq_cosh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.ratioRawD2_eq_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.second_derivative_ratioRaw_pos' depends on axioms: [propext, Classical.choice, Quot.sound]

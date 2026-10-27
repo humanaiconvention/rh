@@ -1,0 +1,19 @@
+{
+  "scope": "Exact accepted-source statement mapping;no new theorem or novelty decision",
+  "claims": [
+    {
+      "claim": "Finite-order scalar factorial coefficient shift on original representation ball",
+      "declaration": "HasFPowerSeriesOnBall.iteratedDeriv_ofScalars",
+      "source": "IteratedDerivOfScalars.lean",
+      "line": 51,
+      "source_sha256": "a0165f5341dfad3d9710e67f1c46056fbe8410f31e9975a04e49ea8de180a503",
+      "hypotheses": "Complex f and c;existing HasFPowerSeriesOnBall at0 with c_n/n! and r:ENNReal;natural k",
+      "conclusion": "Same0,r;coefficients c(n+k)/n!;k0included;no extra convergence or maximal-radius assertion",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ]
+}

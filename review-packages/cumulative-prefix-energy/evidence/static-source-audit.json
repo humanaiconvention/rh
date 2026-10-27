@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-27T06:00:36.102549+00:00",
+  "scope": "Only two unchanged local sources; nested comments removed by small static scanner, not a Lean parser or whole-library audit",
+  "results": [
+    {
+      "module": "CumulativeSquareEnergy",
+      "source_sha256": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "FinitePrefixBilinear",
+      "source_sha256": "15e36b8c4e0d8ade31ffdfb82998dea6e1fdb9f227c7eb403cd4daaa7a99323a",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    }
+  ],
+  "compiler_or_axiom_command_run": false
+}

@@ -1,0 +1,181 @@
+{
+  "utc": "2026-10-27T06:58:20.302327+00:00",
+  "scope": "Candidate fingerprints only,not build or rights acceptance;excludes itself",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "c89f34bf322e2c1fe840b1ca492229825ad6b3016d349360573fc29bb2d1ea30",
+      "bytes": 36
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "c1d3f138bfff3a8a9c8ff2af771416a98e9565a7ff2bc53ac022cc6d68e6b83c",
+      "bytes": 1879
+    },
+    {
+      "path": "BUILD.md",
+      "sha256": "bd86ba00baa8bc7008ebf41d1697b5f18c89fa61238281066bcee50cfbf21ae6",
+      "bytes": 5251
+    },
+    {
+      "path": "evidence/claim-map.json",
+      "sha256": "8b21ae4fc5435e3bc1b50ff0ce96d3527a7a650832993c49f398078891735f71",
+      "bytes": 4800
+    },
+    {
+      "path": "evidence/dependency-pins.json",
+      "sha256": "83599a4aa44276a47fde5d3f13005d4793459bfd7577b7565be94fd160448c06",
+      "bytes": 2520
+    },
+    {
+      "path": "evidence/JensenEvenMoments.saved-axioms.txt",
+      "sha256": "4cb0d79488260dc22581368b9d7427812c7c88934c6e3a9ceff6d6c7789e647a",
+      "bytes": 1366
+    },
+    {
+      "path": "evidence/JensenGaussianMeasure.saved-axioms.txt",
+      "sha256": "c69c2370f428a274e686ba291802025f23cbb89a066b902d7ec5954ee7c13f04",
+      "bytes": 1635
+    },
+    {
+      "path": "evidence/JensenMomentEntire.saved-axioms.txt",
+      "sha256": "6595b14da475e4751a7b4285cb6d8d1dad9c71574baab853d02f75d57826b080",
+      "bytes": 1368
+    },
+    {
+      "path": "evidence/JensenPointwise.saved-axioms.txt",
+      "sha256": "72765ffce0a68ca2b0b2251e6ec69451aaa5c7ed5ec168e2e8cf8fbe43b749e2",
+      "bytes": 1055
+    },
+    {
+      "path": "evidence/JensenWeights.saved-axioms.txt",
+      "sha256": "b7c5fda7607b89dbcfbed396c13e25c5007b5e12350f3613f500434d7e80329b",
+      "bytes": 459
+    },
+    {
+      "path": "evidence/lock-provenance.json",
+      "sha256": "2d11b22abe77d89dfcb87fca759c26823cf21fc01b8aa454faa8eef531d35999",
+      "bytes": 669
+    },
+    {
+      "path": "evidence/mathlib-upstream-lake-manifest.json",
+      "sha256": "ab0f956dfffc99f9c85298d2421047f53e4c9605f95b4ca67b2e087c218f313e",
+      "bytes": 2815
+    },
+    {
+      "path": "evidence/public-declarations.json",
+      "sha256": "b239c3f35cc10008086457f90f09d058e66a9d0403b1c073593c7ff63f285feb",
+      "bytes": 27642
+    },
+    {
+      "path": "evidence/saved-acceptance.json",
+      "sha256": "4b2ca64a151e6e0ab0d38da8515898c8af99559b67563b813255e8a100338d20",
+      "bytes": 13267
+    },
+    {
+      "path": "evidence/source-closure.json",
+      "sha256": "21c7a4413109f8595512ddff4da5bea475087557f22c2fbd89e38514228fed9b",
+      "bytes": 2663
+    },
+    {
+      "path": "evidence/static-source-audit.json",
+      "sha256": "e7b72b27a84040e8341d088cf6187979a77ee9e6103c9dd279e68403b30e76d0",
+      "bytes": 1783
+    },
+    {
+      "path": "evidence/test-ledger.json",
+      "sha256": "a586138751e5a254daf6bd41f0d874d4c882518a4ab377017904f53175f49946",
+      "bytes": 3252
+    },
+    {
+      "path": "evidence/verification-history.json",
+      "sha256": "47b44cb07fddd10a8cd34e33059e9962912ad84c646510730d45f10518e8953f",
+      "bytes": 3787
+    },
+    {
+      "path": "HUMAN-REVIEW.md",
+      "sha256": "1416e06cf0b0c6124d90789959e206ba7e4c2bf284d67f93c35a9be129be9cb1",
+      "bytes": 2225
+    },
+    {
+      "path": "JensenEvenMoments.lean",
+      "sha256": "df604f7d90e70c29e3b7987b44687e3fe45d96ca27925943587bf6c9c959485e",
+      "bytes": 11162
+    },
+    {
+      "path": "JensenGaussianMeasure.lean",
+      "sha256": "4105a13d82d704ffcac39e1c989f7c5f50675d52811639991ee48b743536fa6e",
+      "bytes": 16292
+    },
+    {
+      "path": "JensenMomentEntire.lean",
+      "sha256": "1c9148d78051d667a77532be854c4c9088d2371b63303ce62d647ee14677af1f",
+      "bytes": 15737
+    },
+    {
+      "path": "JensenPointwise.lean",
+      "sha256": "4f2c3e8bcf31aaa70c0b12b55d18b499f0c68629070fec361af34cec2d3b5abd",
+      "bytes": 13118
+    },
+    {
+      "path": "JensenWeights.lean",
+      "sha256": "be3cfe72e80ed855b501012c9be8c2f4d81eafbb14da267b3e9f750c28f6101b",
+      "bytes": 5839
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "afd1ceed2e50a0f3b6251f5b5e8ce32771f231dc1f00bfee2a8b85d9caf45d78",
+      "bytes": 3558
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "82be367808bac4a55bd7c5a6a20b8dc7fbd1cbbf311e2ec6e1e31ed4cc189810",
+      "bytes": 473
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29
+    },
+    {
+      "path": "LICENSE-STATUS.md",
+      "sha256": "ba6c02a463e90c9376c86c722c1f44f394d54e4e8d711cc0e8490bdead232185",
+      "bytes": 1498
+    },
+    {
+      "path": "notices/EXISTING-PROJECT-MIT-LICENSE.txt",
+      "sha256": "52d081ddbc2ec14fabc9ffbaaaa919ad003bfde5cf9b7f7d140243489a58d232",
+      "bytes": 1074
+    },
+    {
+      "path": "notices/MATHLIB-LICENSE.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "564c986bcbd3201deebd5642bce632b7ca440dfef5e5e4a984efd0465c53e1a3",
+      "bytes": 2185
+    },
+    {
+      "path": "README.md",
+      "sha256": "cfb7071ae598c4a36a180edf0c231c7d603cd4319fb8e8362e431b46933f32c5",
+      "bytes": 3573
+    },
+    {
+      "path": "SOURCE-HANDOFF.md",
+      "sha256": "0defd5d8420ea400cb4a20e3937ec9af90ba38bced11abc74b6b46e174f4b5e6",
+      "bytes": 1583
+    },
+    {
+      "path": "THEOREM-STATEMENTS.md",
+      "sha256": "e6b80b72392b87923ccc7fd31c9396eb950da67775cd8ba272ef4c4e6c42df0b",
+      "bytes": 31611
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "c82a6f787a79579066f2d78e175d917e7bcf26e52eb17533980c967c2fdbe9fa",
+      "bytes": 3155
+    }
+  ]
+}

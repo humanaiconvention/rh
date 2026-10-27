@@ -1,0 +1,4 @@
+'RhWeilTheta.theta_exp_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RhWeilTheta.modif_exp_stronglyMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RhWeilTheta.weighted_modif_stronglyMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RhWeilTheta.weighted_modif_aestronglyMeasurable' depends on axioms: [propext, Classical.choice, Quot.sound]

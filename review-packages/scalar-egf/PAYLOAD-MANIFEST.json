@@ -1,0 +1,141 @@
+{
+  "utc": "2026-10-27T06:23:48.126842+00:00",
+  "scope": "Candidate fingerprints only,not build or rights acceptance;excludes itself",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "c89f34bf322e2c1fe840b1ca492229825ad6b3016d349360573fc29bb2d1ea30",
+      "bytes": 36
+    },
+    {
+      "path": "API-NOTES.md",
+      "sha256": "68e4cc1eadfd2108d90bda01361837a048ee662fe349e6349d153a0d582541d5",
+      "bytes": 1616
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "6962f9430a8b07ee24b7ed3ddf9a59cae536cffd074eb485d8f5fbc85d970bf4",
+      "bytes": 2131
+    },
+    {
+      "path": "BUILD.md",
+      "sha256": "fc0a9463012dad594beca7c3e4a227f8ba85931e2bedfd9fdb8fbf3392554bcf",
+      "bytes": 5189
+    },
+    {
+      "path": "evidence/claim-map.json",
+      "sha256": "13f372cac4cdb1c43314bf6e479acae365a0c678f8b1d9e360aa53160a568584",
+      "bytes": 780
+    },
+    {
+      "path": "evidence/dependency-pins.json",
+      "sha256": "83599a4aa44276a47fde5d3f13005d4793459bfd7577b7565be94fd160448c06",
+      "bytes": 2520
+    },
+    {
+      "path": "evidence/IteratedDerivOfScalars.saved-axioms.txt",
+      "sha256": "c312fde50f6678dc7ca54c413d2ecce3090bb68ad16328d331976ba12c41095a",
+      "bytes": 107
+    },
+    {
+      "path": "evidence/lock-provenance.json",
+      "sha256": "18bb979a7f4877f5ad229a3b2fdef2abd5fd354a142fbaded010120a48e367df",
+      "bytes": 667
+    },
+    {
+      "path": "evidence/mathlib-upstream-lake-manifest.json",
+      "sha256": "ab0f956dfffc99f9c85298d2421047f53e4c9605f95b4ca67b2e087c218f313e",
+      "bytes": 2815
+    },
+    {
+      "path": "evidence/public-declarations.json",
+      "sha256": "d02db0bb94d2c793b5fd213b3c1a5aab6b2c13b18cd8ac929205a2d1c4da41ed",
+      "bytes": 715
+    },
+    {
+      "path": "evidence/saved-acceptance.json",
+      "sha256": "036c1e79a996e93ccc112245c8d0575585a24a1d57b82581057b21dabd62aca1",
+      "bytes": 1263
+    },
+    {
+      "path": "evidence/source-closure.json",
+      "sha256": "f9a6ec77a0511385a6918f3c147df804be2ca08f7303681f6470d3b67cae1185",
+      "bytes": 655
+    },
+    {
+      "path": "evidence/static-source-audit.json",
+      "sha256": "71b68995ab8c39a8aa807891d406e174167a1c644a256dfe5e1364d6188014d1",
+      "bytes": 553
+    },
+    {
+      "path": "evidence/test-ledger.json",
+      "sha256": "6c17222353a2f9021d707fb78d4c14fc7c9acd58b9d0046326b2e9c4bbe4194d",
+      "bytes": 3283
+    },
+    {
+      "path": "evidence/verification-history.json",
+      "sha256": "008af093ab483d4c460a517ae63709d6f67b040415c567b2af9e608a6165e3d4",
+      "bytes": 1515
+    },
+    {
+      "path": "HUMAN-REVIEW.md",
+      "sha256": "ddb551833a45ea680d51b2e1b316de4d413e25c045981214e5c3e825b9e88ab2",
+      "bytes": 1922
+    },
+    {
+      "path": "IteratedDerivOfScalars.lean",
+      "sha256": "a0165f5341dfad3d9710e67f1c46056fbe8410f31e9975a04e49ea8de180a503",
+      "bytes": 3039
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "43de919350fcbcb5516f1d0a29e8194f6c6699219dad4dd9023a1c557b3c5ad4",
+      "bytes": 3555
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "c2c8e3efc88648e73d55b6f8e110499ed7952fd0c45e03acf4ab54a4fcd2dcd3",
+      "bytes": 316
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29
+    },
+    {
+      "path": "LICENSE-STATUS.md",
+      "sha256": "ba6c02a463e90c9376c86c722c1f44f394d54e4e8d711cc0e8490bdead232185",
+      "bytes": 1498
+    },
+    {
+      "path": "notices/EXISTING-PROJECT-MIT-LICENSE.txt",
+      "sha256": "52d081ddbc2ec14fabc9ffbaaaa919ad003bfde5cf9b7f7d140243489a58d232",
+      "bytes": 1074
+    },
+    {
+      "path": "notices/MATHLIB-LICENSE.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "18455416f7e9d345991513a36d6460464b82194fc04e89834e72151449a53235",
+      "bytes": 1975
+    },
+    {
+      "path": "README.md",
+      "sha256": "9de54e066471c5995dfc64ec0e124c3a0d0eee5dd67e802b22d942acbedf1adb",
+      "bytes": 2527
+    },
+    {
+      "path": "THEOREM-STATEMENTS.md",
+      "sha256": "35cccf862108d9e2e47e6de3da5c173691ba029b29dd7d959b5ba5a8603aba4e",
+      "bytes": 1643
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "cd54cf231246a52e069db01ca5a8ecefa3058f51202124d019831c57e2bb0071",
+      "bytes": 2546
+    }
+  ]
+}

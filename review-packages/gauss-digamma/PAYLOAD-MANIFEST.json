@@ -1,0 +1,146 @@
+{
+  "utc": "2026-10-27T06:12:22.484019+00:00",
+  "scope": "Candidate fingerprints only, not build or rights acceptance; excludes itself",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "c89f34bf322e2c1fe840b1ca492229825ad6b3016d349360573fc29bb2d1ea30",
+      "bytes": 36
+    },
+    {
+      "path": "API-NOTES.md",
+      "sha256": "b8bc5ac1ba7e9b97a814a07fb43116445c6a4e62964a2f5babb4c7df90c5912d",
+      "bytes": 2190
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "d3a42af418d33a5a11fac21fbf02861d2315f0129cf29945bd804427e4fd3a1f",
+      "bytes": 2084
+    },
+    {
+      "path": "BUILD.md",
+      "sha256": "7a89cca79c5c22ecd560ea9a904c1d3dcde686ae2dc0a06a601fff2b41fba4d8",
+      "bytes": 5302
+    },
+    {
+      "path": "DigammaGauss.lean",
+      "sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "bytes": 24387
+    },
+    {
+      "path": "evidence/claim-map.json",
+      "sha256": "79bd0e6d31516e0d27687094e3d6856ff24b6872429c15d045bb02bae6414c00",
+      "bytes": 3554
+    },
+    {
+      "path": "evidence/dependency-pins.json",
+      "sha256": "83599a4aa44276a47fde5d3f13005d4793459bfd7577b7565be94fd160448c06",
+      "bytes": 2520
+    },
+    {
+      "path": "evidence/DigammaGauss.saved-axioms.txt",
+      "sha256": "bc87db4116cab79610ce3fe38abbe89a8f734e5279e7e14a9a73697fa3844d87",
+      "bytes": 2432
+    },
+    {
+      "path": "evidence/lock-provenance.json",
+      "sha256": "44a1cdca57e324aa947c8ca11ade45e56e694de22d6ef33ff2054f92332f2313",
+      "bytes": 691
+    },
+    {
+      "path": "evidence/mathlib-upstream-lake-manifest.json",
+      "sha256": "ab0f956dfffc99f9c85298d2421047f53e4c9605f95b4ca67b2e087c218f313e",
+      "bytes": 2815
+    },
+    {
+      "path": "evidence/public-declarations.json",
+      "sha256": "e8440e2cd14d3468c17255429d7df96c72627bacaa8d16c1d1ac801e5b874a14",
+      "bytes": 12384
+    },
+    {
+      "path": "evidence/saved-acceptance.json",
+      "sha256": "c1fdcc6f2d25504a82042a57cdc61fef96a5f5f030330a06c1812513e82435c4",
+      "bytes": 4376
+    },
+    {
+      "path": "evidence/saved-source-audit.json",
+      "sha256": "26422c07103383619c115933965732187892e99e6c191a765f5709c7258774cb",
+      "bytes": 524
+    },
+    {
+      "path": "evidence/source-closure.json",
+      "sha256": "3d91e61b256e181b436b951ffdf9201d6fc13af826685356e729053adfe15db5",
+      "bytes": 845
+    },
+    {
+      "path": "evidence/static-source-audit.json",
+      "sha256": "ede4032432d708e088eddb1f7fdd2e850b6239826cb12507762e171d92bcf69f",
+      "bytes": 535
+    },
+    {
+      "path": "evidence/test-ledger.json",
+      "sha256": "5ea5dccaf5a64879292b8b1238f3ff0bf5bd23f18061f521afda6607febaad28",
+      "bytes": 3255
+    },
+    {
+      "path": "HUMAN-REVIEW.md",
+      "sha256": "c6e38c548ba2cc8004aa4b22ac3598ebd1951724a723112f92eba5fda11961ea",
+      "bytes": 1913
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "6f3cd11ec84d5bc5c60ddd7164ef3ab673c6d818cc0f170a674b94ece54ae54c",
+      "bytes": 3552
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "0a41dec615d710a0701715fb787645f9cf7d979b1ef85ab36d2c7471ea805805",
+      "bytes": 293
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "bytes": 29
+    },
+    {
+      "path": "LICENSE-STATUS.md",
+      "sha256": "ba6c02a463e90c9376c86c722c1f44f394d54e4e8d711cc0e8490bdead232185",
+      "bytes": 1498
+    },
+    {
+      "path": "notices/EXISTING-PROJECT-MIT-LICENSE.txt",
+      "sha256": "52d081ddbc2ec14fabc9ffbaaaa919ad003bfde5cf9b7f7d140243489a58d232",
+      "bytes": 1074
+    },
+    {
+      "path": "notices/MATHLIB-LICENSE.txt",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "bytes": 11357
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "e2979938199f77243b0689734c405a5debaf42e844ad96593d914567707dcb4a",
+      "bytes": 1829
+    },
+    {
+      "path": "README.md",
+      "sha256": "18ede04903fd02157687b781ebae11843967b327179274c3c015590fd5308a5c",
+      "bytes": 2685
+    },
+    {
+      "path": "SOURCE-MAP.json",
+      "sha256": "8a34106fe91603fcb30cc8ee50935bcd05a9c5b797764e667b27ce69cd467bb2",
+      "bytes": 4148
+    },
+    {
+      "path": "THEOREM-STATEMENTS.md",
+      "sha256": "35596bec5004d76166665682552fe6ea48b86ae8f97d7b1ccde5560a4e28facc",
+      "bytes": 13318
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "d9768f72288c0014e5f3a55379e21c163439d8849a2ac5af8702db2ae7668fdd",
+      "bytes": 2714
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "Static source roster,not fresh export query;private names not advertised as public API",
+  "declarations": [
+    {
+      "module": "IteratedDerivOfScalars",
+      "declaration": "HasFPowerSeriesOnBall.iteratedDeriv_ofScalars",
+      "kind": "theorem",
+      "line": 51,
+      "separate_saved_terminal_axiom_report": true
+    }
+  ],
+  "private_helpers": [
+    {
+      "module": "IteratedDerivOfScalars",
+      "declaration": "egfRow",
+      "kind": "def",
+      "line": 21
+    },
+    {
+      "module": "IteratedDerivOfScalars",
+      "declaration": "egfStep",
+      "kind": "theorem",
+      "line": 24
+    }
+  ],
+  "public_definitions": 0,
+  "private_helpers_without_separate_terminal_reports": true
+}

@@ -1,0 +1,89 @@
+{
+  "scope": "Portable projection of selected saved migration/source/log records; full native originals remain private",
+  "saved_evidence_only": true,
+  "fresh_portable_build": false,
+  "entries": [
+    {
+      "module": "CumulativeSquareEnergy",
+      "source_path": "CumulativeSquareEnergy.lean",
+      "source_sha256": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54",
+      "historical_object_sha256": "5eb1167ffdd7395c9ec17551b387df1c04db94fda6b241e4670bf8d286fcee29",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "3bcf154593e6361465725eaed7759d4ca5dd4afe70ab7958c660513b83c925bf",
+      "original_full_log_sha256": "8aff2ce624f595461914ce25ead0fab7b47cb326bd1fba711fa797995c64a84d",
+      "saved_ended_utc": "2026-10-23T15:08:24.629380+00:00",
+      "saved_elapsed_seconds": 16.65700000000652,
+      "status": "SAVED_PASS_NOT_A_FRESH_PORTABLE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "CumulativeSquareEnergy.compensated_continuousOn": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativeSquareEnergy.compensated_hasDeriv_right": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativeSquareEnergy.square_energy_of_right_derivative": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativeSquareEnergy.finite_prefix_square_energy": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativeSquareEnergy.nat_prefix_square_energy": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativeSquareEnergy.single_atom_left_endpoint": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "FinitePrefixBilinear",
+      "source_path": "FinitePrefixBilinear.lean",
+      "source_sha256": "15e36b8c4e0d8ade31ffdfb82998dea6e1fdb9f227c7eb403cd4daaa7a99323a",
+      "historical_object_sha256": "a57c2e7b4834fb91496762067123ecfd96ea017de3968e3feb1cdf292c6fa0f5",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "6c7838aea349f2270827467483eecfcb2f3da65bd1de69d597c3c185a382801d",
+      "original_full_log_sha256": "3bc50050cef642a036056d138471cc8f121546dd1ed0b10caa3e01f9118fdeff",
+      "saved_ended_utc": "2026-10-23T15:08:45.322711+00:00",
+      "saved_elapsed_seconds": 20.67200000002049,
+      "status": "SAVED_PASS_NOT_A_FRESH_PORTABLE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "CumulativePrefixBilinear.prefixMass_add": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativePrefixBilinear.compensated_add": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativePrefixBilinear.prefixMass_mul_intervalIntegrable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativePrefixBilinear.finite_prefix_bilinear_energy": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    }
+  ]
+}

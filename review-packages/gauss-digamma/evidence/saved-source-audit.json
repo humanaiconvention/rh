@@ -1,0 +1,9 @@
+{
+  "scope": "Earlier collection source-admission audit, separate from the later 4.36 migration and new assembly",
+  "original_audit_receipt_sha256": "25f175a27133005264d8549837d06bb357e8370df48e9bc9fb147ae55f494c43",
+  "original_payload_manifest_sha256": "b4232af57d3e9b8196c6dd2d70006cac4157935653ce9230843fa0a1cfe5b1c2",
+  "saved_source_admissions_native_decide_custom_axioms_opaque": false,
+  "selected_exact_source_hashes": {
+    "DigammaGauss": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d"
+  }
+}

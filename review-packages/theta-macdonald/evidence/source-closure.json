@@ -1,0 +1,320 @@
+{
+  "scope": "Complete package-local closure reached from the three actual-density roots;external dependencies pinned,not vendored or replayed",
+  "roots": [
+    "ThetaDensityCrossing",
+    "ThetaCumulativeOrder",
+    "ThetaMomentOrder"
+  ],
+  "files": [
+    {
+      "module": "CumulativeSplit",
+      "path": "CumulativeSplit.lean",
+      "sha256": "b58cd065c0fa2c11c17b34ec92c82cf633ea9904f638b3f141ef82e61127885e"
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "path": "ExponentialMomentBounds.lean",
+      "sha256": "5547ecb9357e4ffbeed4a6f8f9c2e4e462513f29fa4dc118fdfdfa2f92511aeb"
+    },
+    {
+      "module": "MacdonaldMass",
+      "path": "MacdonaldMass.lean",
+      "sha256": "031dd2ed028bc6ff2f72907ff82a3eabd57e856f90f39a59c1df049ea932d0a0"
+    },
+    {
+      "module": "MonotoneMomentOrder",
+      "path": "MonotoneMomentOrder.lean",
+      "sha256": "d8f1a7f9511c724669fc093596fb95c65414011d53ebd5e79dbbd967a73836d9"
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "path": "RhWeilCompletedGrowth001.lean",
+      "sha256": "998c72a91972eb3372af9061eea236c3f72b354956b2db9c1d254eb5228168de"
+    },
+    {
+      "module": "RhWeilThetaBound001",
+      "path": "RhWeilThetaBound001.lean",
+      "sha256": "e0389dd5a567806bed99af41e405d6d534ed2b7cfcc8aca5b1d43323129c4734"
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "path": "RhWeilThetaGeometry001.lean",
+      "sha256": "8804abe70a6b29060970d317312465c0a0c0c7dfcbdf12a5de8a29aa28d7f86d"
+    },
+    {
+      "module": "RhWeilThetaMeasurable001",
+      "path": "RhWeilThetaMeasurable001.lean",
+      "sha256": "c31be1b224f08b7b97f642da20eed3e05f5f2906bcb60bcafe7959c5fc65bd0c"
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "path": "ThetaCompleteRatio.lean",
+      "sha256": "75d057f55026807fbbf367a353cd2bf518fc7a042826fc99d2aa2ac56170e266"
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "path": "ThetaCumulativeOrder.lean",
+      "sha256": "b29c97012298c701091b196831d53c1aa051f14a05935108a50c21c404e9bd5a"
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "path": "ThetaDensityCrossing.lean",
+      "sha256": "6115eeb340b95c13c4bd0647206654094152b068af231ad4512160cd6e6c6648"
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "path": "ThetaDensityRatio.lean",
+      "sha256": "bf7bf7bdbadc9015e8517e2f619d0281257f959ba51268b55f9707db6f6fc59b"
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "path": "ThetaGaussianSeed.lean",
+      "sha256": "d187d035c41ac1571a8d7427be42a9499d82ab44aeb811c22c79f4106bad1ef7"
+    },
+    {
+      "module": "ThetaMassBounds",
+      "path": "ThetaMassBounds.lean",
+      "sha256": "8579d4ab3e237520faea0590548af006b5165550aeb29ede925e6cd3354e0427"
+    },
+    {
+      "module": "ThetaMellinMass",
+      "path": "ThetaMellinMass.lean",
+      "sha256": "cdf5f47dce89f46b1c5ef3d48cbf06d797e05f18813724b5b3bf433d9e446a5e"
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "path": "ThetaMomentOrder.lean",
+      "sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc"
+    },
+    {
+      "module": "ThetaOrderCore",
+      "path": "ThetaOrderCore.lean",
+      "sha256": "cd3054c4e1ff573f95344870df6ca3502911c276b298552cf79c0502baf14fa7"
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "path": "ThetaOriginStationarity.lean",
+      "sha256": "fb7b8cfc8ce982f164e42bd743b82c0ad48845592c92c7b31544f62581fd07b3"
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "path": "ThetaPoissonReflection.lean",
+      "sha256": "20be42d9fad8f8b130a2a2590cf78282f665632a86fe7592808e9ef512f6c7eb"
+    },
+    {
+      "module": "ThetaPositiveSlope",
+      "path": "ThetaPositiveSlope.lean",
+      "sha256": "3850481b95cdc1722a0b8285d32504598f571956bb5a58b954fceaf4737894d5"
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "path": "ThetaProbabilityMass.lean",
+      "sha256": "4e456fe30a2827473fdaa399fc6d44d9acccb898b12911bd7b90c74cb5d9954a"
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "path": "ThetaSecondMoment.lean",
+      "sha256": "d17866a98ae7fffb293b6ecdb0b15112ef6ad53e1b57a0473c15c53319c70686"
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "path": "ThetaSeedFTC.lean",
+      "sha256": "490fa8bfbb9db858e47832787415c60dfd22cdd1596634878b30646c68208ab3"
+    },
+    {
+      "module": "ThetaSeries",
+      "path": "ThetaSeries.lean",
+      "sha256": "bafed20550dc99a3d8cde9eb6211bea786cd5ed041e74e542bddec8ba89efc66"
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "path": "ThetaShellDerivative.lean",
+      "sha256": "39503ba9c73eb2dac500423291519b5662ca02a1f592e04bcb54fb5ff1e79508"
+    },
+    {
+      "module": "ThetaShellShape",
+      "path": "ThetaShellShape.lean",
+      "sha256": "0bdffdb8b984b5e9178b1cf34d461128bccd74a3d8aaff0845b388258b662cd6"
+    },
+    {
+      "module": "ThetaStrictIncrease",
+      "path": "ThetaStrictIncrease.lean",
+      "sha256": "d678b5b3cf8442dfefbaaac6cebe81b06e65012bb89d7a46bac8706ab17ef78e"
+    }
+  ],
+  "local_edges": [
+    {
+      "module": "MonotoneMomentOrder",
+      "imports": "ExponentialMomentBounds"
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "imports": "RhWeilThetaGeometry001"
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "imports": "RhWeilThetaMeasurable001"
+    },
+    {
+      "module": "RhWeilThetaMeasurable001",
+      "imports": "RhWeilThetaBound001"
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "imports": "ThetaOrderCore"
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "imports": "CumulativeSplit"
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "imports": "ThetaDensityCrossing"
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "imports": "ThetaDensityRatio"
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "imports": "ThetaProbabilityMass"
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "imports": "ThetaSeries"
+    },
+    {
+      "module": "ThetaMassBounds",
+      "imports": "ThetaStrictIncrease"
+    },
+    {
+      "module": "ThetaMassBounds",
+      "imports": "MacdonaldMass"
+    },
+    {
+      "module": "ThetaMellinMass",
+      "imports": "ThetaSeedFTC"
+    },
+    {
+      "module": "ThetaMellinMass",
+      "imports": "RhWeilCompletedGrowth001"
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "imports": "MonotoneMomentOrder"
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "imports": "ThetaSecondMoment"
+    },
+    {
+      "module": "ThetaOrderCore",
+      "imports": "ThetaShellShape"
+    },
+    {
+      "module": "ThetaOrderCore",
+      "imports": "ThetaShellDerivative"
+    },
+    {
+      "module": "ThetaOrderCore",
+      "imports": "ThetaSeries"
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "imports": "ThetaGaussianSeed"
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "imports": "ThetaPoissonReflection"
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "imports": "ThetaCompleteRatio"
+    },
+    {
+      "module": "ThetaPositiveSlope",
+      "imports": "ThetaOriginStationarity"
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "imports": "ThetaMellinMass"
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "imports": "ExponentialMomentBounds"
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "imports": "ThetaCumulativeOrder"
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "imports": "ThetaMassBounds"
+    },
+    {
+      "module": "ThetaSeries",
+      "imports": "ThetaShellDerivative"
+    },
+    {
+      "module": "ThetaStrictIncrease",
+      "imports": "ThetaPositiveSlope"
+    }
+  ],
+  "direct_mathlib_imports": [
+    "Mathlib.Analysis.Calculus.Deriv.MeanValue",
+    "Mathlib.Analysis.Calculus.Deriv.Shift",
+    "Mathlib.Analysis.Calculus.SmoothSeries",
+    "Mathlib.Analysis.MellinInversion",
+    "Mathlib.Analysis.Normed.Group.FunctionSeries",
+    "Mathlib.Analysis.Real.Pi.Bounds",
+    "Mathlib.Analysis.SpecialFunctions.Exp",
+    "Mathlib.Analysis.SpecialFunctions.ExpDeriv",
+    "Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral",
+    "Mathlib.Analysis.SpecialFunctions.Gaussian.PoissonSummation",
+    "Mathlib.Analysis.SpecialFunctions.ImproperIntegrals",
+    "Mathlib.Analysis.SpecialFunctions.Pow.Continuity",
+    "Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp",
+    "Mathlib.MeasureTheory.Integral.IntegralEqImproper",
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic",
+    "Mathlib.NumberTheory.LSeries.HurwitzZetaEven",
+    "Mathlib.NumberTheory.LSeries.RiemannZeta",
+    "Mathlib.NumberTheory.ModularForms.JacobiTheta.Bounds",
+    "Mathlib.Tactic",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "Mathlib.Tactic.Ring",
+    "Mathlib.Topology.Order.IntermediateValue"
+  ],
+  "topological_local_order": [
+    "ThetaShellDerivative",
+    "ThetaSeries",
+    "ThetaGaussianSeed",
+    "ThetaPoissonReflection",
+    "ThetaShellShape",
+    "ThetaOrderCore",
+    "ThetaCompleteRatio",
+    "ThetaOriginStationarity",
+    "ThetaPositiveSlope",
+    "ThetaStrictIncrease",
+    "MacdonaldMass",
+    "ThetaMassBounds",
+    "ThetaSeedFTC",
+    "RhWeilThetaGeometry001",
+    "RhWeilThetaBound001",
+    "RhWeilThetaMeasurable001",
+    "RhWeilCompletedGrowth001",
+    "ThetaMellinMass",
+    "ThetaProbabilityMass",
+    "ThetaDensityRatio",
+    "ThetaDensityCrossing",
+    "CumulativeSplit",
+    "ThetaCumulativeOrder",
+    "ExponentialMomentBounds",
+    "MonotoneMomentOrder",
+    "ThetaSecondMoment",
+    "ThetaMomentOrder"
+  ],
+  "acyclic_and_every_file_reachable": true,
+  "no_extra_local_provider": true
+}

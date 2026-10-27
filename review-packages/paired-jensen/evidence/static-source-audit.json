@@ -1,0 +1,67 @@
+{
+  "utc": "2026-10-27T06:53:31.572024+00:00",
+  "scope": "Five unchanged local sources;comment-stripped token scanner,not a Lean parser or whole-library audit",
+  "results": [
+    {
+      "module": "JensenEvenMoments",
+      "source_sha256": "df604f7d90e70c29e3b7987b44687e3fe45d96ca27925943587bf6c9c959485e",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "source_sha256": "4105a13d82d704ffcac39e1c989f7c5f50675d52811639991ee48b743536fa6e",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "JensenMomentEntire",
+      "source_sha256": "1c9148d78051d667a77532be854c4c9088d2371b63303ce62d647ee14677af1f",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "JensenPointwise",
+      "source_sha256": "4f2c3e8bcf31aaa70c0b12b55d18b499f0c68629070fec361af34cec2d3b5abd",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "JensenWeights",
+      "source_sha256": "be3cfe72e80ed855b501012c9be8c2f4d81eafbb14da267b3e9f750c28f6101b",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    }
+  ],
+  "compiler_or_axiom_command_run": false
+}

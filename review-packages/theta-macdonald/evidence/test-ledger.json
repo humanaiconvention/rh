@@ -1,0 +1,96 @@
+{
+  "utc": "2026-10-27T07:19:35.467394+00:00",
+  "tests": [
+    {
+      "id": "T01",
+      "check": "Exact27-source identity",
+      "status": "PASS_STATIC",
+      "evidence_or_reason": "All accepted migration and original-source hashes match"
+    },
+    {
+      "id": "T02",
+      "check": "Complete package-local import closure",
+      "status": "PASS_STATIC",
+      "evidence_or_reason": "27reachable local files,29acycliclocal edges,24unique direct Mathlib roots"
+    },
+    {
+      "id": "T03",
+      "check": "Exact public headers and hypotheses",
+      "status": "PASS_STATIC",
+      "evidence_or_reason": "258publicpropositions,59definitions;full namespaces and section contexts retained"
+    },
+    {
+      "id": "T04",
+      "check": "Historical Lean builds",
+      "status": "SAVED_PASS",
+      "evidence_or_reason": "27selected individual PASS records backed by two saved migration receipts;not aggregate replay"
+    },
+    {
+      "id": "T05",
+      "check": "Historical terminal axiom reports",
+      "status": "SAVED_PASS",
+      "evidence_or_reason": "157actual expected reports,permitted axioms;101other propositions without separate prints"
+    },
+    {
+      "id": "T06",
+      "check": "Staged source and original-warning history",
+      "status": "SAVED_HISTORY_STATIC_CHECK",
+      "evidence_or_reason": "Original warnings/stage comments retained;earlier failures not exhaustively inventoried"
+    },
+    {
+      "id": "T07",
+      "check": "Current local source-token scan",
+      "status": "PASS_STATIC",
+      "evidence_or_reason": "No admissions/native_decide/custom axioms/opaque/unsafe tokens; local scope only"
+    },
+    {
+      "id": "T08",
+      "check": "Root TOML and JSON/pin consistency",
+      "status": "PASS_STATIC_PROPOSAL",
+      "evidence_or_reason": "Not a Lake execution or acceptance"
+    },
+    {
+      "id": "T09",
+      "check": "Fresh Lake root-lock semantics",
+      "status": "NOT_RUN",
+      "evidence_or_reason": "Compiler/config/dependency work excluded"
+    },
+    {
+      "id": "T10",
+      "check": "Clean external dependency/artifact closure",
+      "status": "NOT_RUN",
+      "evidence_or_reason": "No bootstrap, cache retrieval or external library replay"
+    },
+    {
+      "id": "T11",
+      "check": "Guarded scheduler/actual process accounting",
+      "status": "UNASSEMBLED_NOT_RUN",
+      "evidence_or_reason": "No verified serialization flag; caps not enforced by TOML alone"
+    },
+    {
+      "id": "T12",
+      "check": "Fresh clean build and target inclusion",
+      "status": "NOT_RUN_BLOCKED",
+      "evidence_or_reason": "Existing admission gate unresolved; not retried"
+    },
+    {
+      "id": "T13",
+      "check": "Fresh imports, terminal types and axioms",
+      "status": "NOT_RUN_BLOCKED",
+      "evidence_or_reason": "No fresh compiler/export/axiom invocation"
+    },
+    {
+      "id": "T14",
+      "check": "Human mathematical/API review",
+      "status": "PENDING",
+      "evidence_or_reason": "Independent human understanding not inferred"
+    },
+    {
+      "id": "T15",
+      "check": "Rights/notices/attribution and release approval",
+      "status": "PENDING",
+      "evidence_or_reason": "Existing notices do not complete asset-level review"
+    }
+  ],
+  "new_compiler_dependency_or_admission_commands": 0
+}

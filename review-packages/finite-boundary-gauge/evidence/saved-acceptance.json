@@ -1,0 +1,79 @@
+{
+  "scope": "Portable projection of selected saved migration/source/log records; originals and native paths retained privately",
+  "saved_evidence_only": true,
+  "fresh_portable_build": false,
+  "entries": [
+    {
+      "module": "CumulativeBoundary",
+      "source_path": "CumulativeBoundary.lean",
+      "source_sha256": "5ceed9be814caae136d4bd263e9346763ddcd86a5933d2ded51db0eebb546735",
+      "historical_object_sha256": "9c8a956878ec54d42fb65aa1fe4f815cd295f738c0ba989048953cc7d25a118f",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "a3e916ef4b57615c6e34c6649891fb52761c2d554e5f51138060529b411b336b",
+      "original_full_log_sha256": "965864d73e93c53fd8055dcae1aa703f342e526559986c446979d3719bb86ae4",
+      "saved_ended_utc": "2026-10-23T15:09:16.711335+00:00",
+      "saved_elapsed_seconds": 10.843999999924563,
+      "status": "SAVED_PASS_NOT_A_FRESH_PORTABLE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "CumulativeQuadratic.eq_row_add_column_sub_of_mixedDifference_eq_zero": [
+          "propext"
+        ],
+        "CumulativeQuadratic.mixedDifference_eq_zero_iff_boundary_decomposition": [
+          "propext"
+        ],
+        "CumulativeQuadratic.mixedDifference_eq_iff_boundary_difference": [
+          "propext"
+        ],
+        "CumulativeQuadratic.eq_of_mixedDifference_eq_of_boundary_eq": [
+          "propext"
+        ],
+        "CumulativeQuadratic.mixedDifference_add_row_column": [
+          "propext"
+        ],
+        "CumulativeQuadratic.bilinear_cumulative_of_mixedDifference_eq_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativeQuadratic.bilinear_eq_of_mixedDifference_eq_of_mass_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "CumulativeQuadratic",
+      "source_path": "CumulativeQuadratic.lean",
+      "source_sha256": "0ce3782669f66dde6650fa39a81cc46124d2efac2795534357f7a418f233cb10",
+      "historical_object_sha256": "f446a4f295846ce60ca073f5b516fe7c2f2a1f1a3ace49df6c2dee69fd48e3bf",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "6a9918c2082488e4c4aaed5d2398f95c7cbe1540ea3848b5adea171606a97f63",
+      "original_full_log_sha256": "25fc8abb59f6b97ba03d604746b654ba7706ee03ea997dc9c1134bb3509c4e21",
+      "saved_ended_utc": "2026-10-23T15:08:07.949714+00:00",
+      "saved_elapsed_seconds": 10.437000000034459,
+      "status": "SAVED_PASS_NOT_A_FRESH_PORTABLE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "CumulativeQuadratic.bilinear_cumulative": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativeQuadratic.quadratic_cumulative": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "CumulativeQuadratic.quadratic_cumulative_of_mass_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    }
+  ]
+}

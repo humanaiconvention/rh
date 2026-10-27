@@ -1,0 +1,32 @@
+{
+  "scope": "Complete package-local closure; public external dependencies pinned separately, not vendored or replayed",
+  "root": "FinitePrefixBilinear",
+  "files": [
+    {
+      "module": "CumulativeSquareEnergy",
+      "path": "CumulativeSquareEnergy.lean",
+      "sha256": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54"
+    },
+    {
+      "module": "FinitePrefixBilinear",
+      "path": "FinitePrefixBilinear.lean",
+      "sha256": "15e36b8c4e0d8ade31ffdfb82998dea6e1fdb9f227c7eb403cd4daaa7a99323a"
+    }
+  ],
+  "local_edges": [
+    {
+      "module": "FinitePrefixBilinear",
+      "imports": "CumulativeSquareEnergy"
+    }
+  ],
+  "direct_mathlib_imports": [
+    "Mathlib.Analysis.Calculus.Deriv.Inv",
+    "Mathlib.Analysis.Calculus.Deriv.Pow",
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus",
+    "Mathlib.Tactic",
+    "Mathlib.Tactic.FieldSimp",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.Ring"
+  ],
+  "no_extra_local_provider": true
+}

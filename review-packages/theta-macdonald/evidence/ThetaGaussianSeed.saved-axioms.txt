@@ -1,0 +1,7 @@
+'ThetaMacdonald.Symmetry.summable_gaussianSeed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.summable_gaussianSeedD1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.summable_gaussianSeedD2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.hasDerivAt_tsum_gaussianSeed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.hasDerivAt_tsum_gaussianSeedD1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.second_deriv_centeredTheta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Symmetry.raw_sum_eq_centeredTheta' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'CumulativePrefixBilinear.prefixMass_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativePrefixBilinear.compensated_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativePrefixBilinear.prefixMass_mul_intervalIntegrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativePrefixBilinear.finite_prefix_bilinear_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

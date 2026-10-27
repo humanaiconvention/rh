@@ -1,0 +1,383 @@
+{
+  "scope": "Static public source roster, not a fresh export query; attribute-prefixed simp lemmas included",
+  "declarations": [
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.powerDiff",
+      "kind": "def",
+      "line": 31,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.betaDifferenceIntegrand",
+      "kind": "def",
+      "line": 34,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.limitKernel",
+      "kind": "def",
+      "line": 37,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.powerDiff_one",
+      "kind": "lemma",
+      "line": 40,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.powerDiff_differentiableAt",
+      "kind": "lemma",
+      "line": 43,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.exists_right_cancel_bound",
+      "kind": "theorem",
+      "line": 53,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.powerDiff_norm_le",
+      "kind": "lemma",
+      "line": 80,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.betaFactor_norm_le",
+      "kind": "lemma",
+      "line": 86,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.dominator",
+      "kind": "def",
+      "line": 97,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.dominated",
+      "kind": "lemma",
+      "line": 100,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaDomination",
+      "declaration": "DigammaGauss.BetaDomination.dominator_integrable",
+      "kind": "lemma",
+      "line": 122,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaLimit",
+      "declaration": "DigammaGauss.BetaLimit.integrand_continuousOn",
+      "kind": "lemma",
+      "line": 149,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaLimit",
+      "declaration": "DigammaGauss.BetaLimit.integrand_zero",
+      "kind": "lemma",
+      "line": 161,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaLimit",
+      "declaration": "DigammaGauss.BetaLimit.integrand_tendsto",
+      "kind": "lemma",
+      "line": 165,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaLimit",
+      "declaration": "DigammaGauss.BetaLimit.limitKernel_integrable",
+      "kind": "theorem",
+      "line": 175,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaLimit",
+      "declaration": "DigammaGauss.BetaLimit.cancelled_integral_limit",
+      "kind": "theorem",
+      "line": 188,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaLimit",
+      "declaration": "DigammaGauss.BetaLimit.beta_difference_eq_integral",
+      "kind": "lemma",
+      "line": 200,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.BetaLimit",
+      "declaration": "DigammaGauss.BetaLimit.beta_difference_integral_limit",
+      "kind": "theorem",
+      "line": 218,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.image_exp_neg",
+      "kind": "lemma",
+      "line": 242,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.exp_neg_deriv",
+      "kind": "lemma",
+      "line": 253,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.exp_neg_injective",
+      "kind": "lemma",
+      "line": 257,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.integral_exp_neg",
+      "kind": "theorem",
+      "line": 262,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.integrable_exp_neg",
+      "kind": "theorem",
+      "line": 271,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.exp_neg_cpow",
+      "kind": "lemma",
+      "line": 279,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.jacobian_power",
+      "kind": "lemma",
+      "line": 285,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.gaussKernel",
+      "kind": "def",
+      "line": 293,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.jacobian_kernel",
+      "kind": "lemma",
+      "line": 298,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.Substitution",
+      "declaration": "DigammaGauss.Substitution.limitKernel_integral",
+      "kind": "theorem",
+      "line": 305,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.ratioDifference",
+      "kind": "def",
+      "line": 330,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.positive_not_pole",
+      "kind": "lemma",
+      "line": 333,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.gamma_ratio_zero",
+      "kind": "lemma",
+      "line": 340,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.gamma_ratio_hasDerivAt",
+      "kind": "lemma",
+      "line": 343,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.ratioDifference_zero",
+      "kind": "lemma",
+      "line": 358,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.ratioDifference_hasDerivAt",
+      "kind": "lemma",
+      "line": 362,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.ratioDifference_slope_limit",
+      "kind": "lemma",
+      "line": 368,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.ofReal_tendsto_zero_right_ne",
+      "kind": "lemma",
+      "line": 383,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.gamma_times_ratio_limit",
+      "kind": "lemma",
+      "line": 392,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.beta_difference_identity",
+      "kind": "lemma",
+      "line": 405,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.beta_difference_limit_complex",
+      "kind": "theorem",
+      "line": 427,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss.GammaRatio",
+      "declaration": "DigammaGauss.GammaRatio.beta_difference_limit",
+      "kind": "theorem",
+      "line": 434,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss",
+      "declaration": "DigammaGauss.beta_domain_digamma",
+      "kind": "theorem",
+      "line": 461,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss",
+      "declaration": "DigammaGauss.gauss_integrable",
+      "kind": "theorem",
+      "line": 468,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss",
+      "declaration": "DigammaGauss.digamma_difference",
+      "kind": "theorem",
+      "line": 475,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss",
+      "declaration": "DigammaGauss.digamma_difference_exp",
+      "kind": "theorem",
+      "line": 481,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "DigammaGauss",
+      "namespace": "DigammaGauss",
+      "declaration": "DigammaGauss.gauss_integrable_exp",
+      "kind": "theorem",
+      "line": 495,
+      "separate_saved_terminal_axiom_report": true
+    }
+  ],
+  "public_propositions_without_separate_saved_terminal_report": [
+    "DigammaGauss.BetaDomination.powerDiff_one",
+    "DigammaGauss.BetaDomination.powerDiff_differentiableAt",
+    "DigammaGauss.BetaDomination.powerDiff_norm_le",
+    "DigammaGauss.BetaDomination.betaFactor_norm_le",
+    "DigammaGauss.BetaLimit.integrand_continuousOn",
+    "DigammaGauss.BetaLimit.integrand_zero",
+    "DigammaGauss.BetaLimit.integrand_tendsto",
+    "DigammaGauss.Substitution.image_exp_neg",
+    "DigammaGauss.Substitution.exp_neg_deriv",
+    "DigammaGauss.Substitution.exp_neg_injective",
+    "DigammaGauss.Substitution.exp_neg_cpow",
+    "DigammaGauss.Substitution.jacobian_power",
+    "DigammaGauss.GammaRatio.positive_not_pole",
+    "DigammaGauss.GammaRatio.gamma_ratio_zero",
+    "DigammaGauss.GammaRatio.ratioDifference_zero",
+    "DigammaGauss.GammaRatio.ofReal_tendsto_zero_right_ne"
+  ]
+}

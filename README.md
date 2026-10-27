@@ -4,6 +4,12 @@ Exact finite-arithmetic identities, reproducible checks, and two Lean 4 certific
 
 **No RH proof, resolution of the open arithmetic bound, determinant-nonvanishing result, or research novelty is claimed.** The mathematical statements and their limits are identified below.
 
+## Additional Lean review packages
+
+The [six-package review collection](review-packages/README.md) adds finite boundary and prefix identities, a classical digamma integral, scalar EGF differentiation, paired-measure Jensen approximation, and theta–Macdonald cumulative order.
+
+These are unchanged sources with saved individual acceptance on Lean 4.36.0-rc1, **not freshly replayed standalone releases**. Each separate project retains exact statements, evidence, build prerequisites, notices and pending-review status. The older certificates below retain their original pins and verification scope.
+
 ## Start here
 
 | Question | Read |

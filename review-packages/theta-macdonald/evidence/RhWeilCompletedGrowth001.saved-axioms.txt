@@ -1,0 +1,3 @@
+'RhWeilCompletedGrowth.weighted_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RhWeilCompletedGrowth.mellin_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RhWeilCompletedGrowth.completed_growth' depends on axioms: [propext, Classical.choice, Quot.sound]

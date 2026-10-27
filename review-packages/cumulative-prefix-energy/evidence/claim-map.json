@@ -1,0 +1,109 @@
+{
+  "scope": "Accepted exact-source/API mapping; no new theorem or novelty claim",
+  "claims": [
+    {
+      "claim": "Finite square identity with both endpoints",
+      "declaration": "CumulativeSquareEnergy.finite_prefix_square_energy",
+      "source": "CumulativeSquareEnergy.lean",
+      "line": 167,
+      "hypotheses": "Positive selected sites; 0<a<=b; arbitrary real coefficients; integrability discharged",
+      "source_sha256": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Bilinear identity with full cross products",
+      "declaration": "CumulativePrefixBilinear.finite_prefix_bilinear_energy",
+      "source": "FinitePrefixBilinear.lean",
+      "line": 97,
+      "hypotheses": "One common finite family; arbitrary two real coefficient maps; no balance or zero-boundary hypothesis",
+      "source_sha256": "15e36b8c4e0d8ade31ffdfb82998dea6e1fdb9f227c7eb403cd4daaa7a99323a",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Compensated continuity",
+      "declaration": "CumulativeSquareEnergy.compensated_continuousOn",
+      "source": "CumulativeSquareEnergy.lean",
+      "line": 86,
+      "hypotheses": "Positive selected sites, positive t-domain",
+      "source_sha256": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Right derivative at and between sites",
+      "declaration": "CumulativeSquareEnergy.compensated_hasDeriv_right",
+      "source": "CumulativeSquareEnergy.lean",
+      "line": 92,
+      "hypotheses": "0<t; inclusive prefix; HasDerivWithinAt on Ioi t, not ordinary differentiability",
+      "source_sha256": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Generic right-sided FTC interface",
+      "declaration": "CumulativeSquareEnergy.square_energy_of_right_derivative",
+      "source": "CumulativeSquareEnergy.lean",
+      "line": 137,
+      "hypotheses": "Requires all displayed integrability/continuity/right-derivative hypotheses",
+      "source_sha256": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Actual mixed prefix integrability",
+      "declaration": "CumulativePrefixBilinear.prefixMass_mul_intervalIntegrable",
+      "source": "FinitePrefixBilinear.lean",
+      "line": 45,
+      "hypotheses": "a<=b; weighted products constructed in terminal proof",
+      "source_sha256": "15e36b8c4e0d8ade31ffdfb82998dea6e1fdb9f227c7eb403cd4daaa7a99323a",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Positive-integer specialization",
+      "declaration": "CumulativeSquareEnergy.nat_prefix_square_energy",
+      "source": "CumulativeSquareEnergy.lean",
+      "line": 190,
+      "hypotheses": "Index zero explicitly excluded by Finset.Icc 1 N",
+      "source_sha256": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Jump at left endpoint",
+      "declaration": "CumulativeSquareEnergy.single_atom_left_endpoint",
+      "source": "CumulativeSquareEnergy.lean",
+      "line": 202,
+      "hypotheses": "0<q<=b; left compensated value exactly zero",
+      "source_sha256": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+'ThetaMacdonald.SecondMoment.thetaDensity_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.SecondMoment.macdonaldDensity_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.SecondMoment.densityDifference_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.SecondMoment.integrable_theta_secondMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.SecondMoment.integrable_macdonald_secondMoment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThetaMacdonald.SecondMoment.integrable_difference_secondMoment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThetaMacdonald.SecondMoment.theta_secondMoment_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.SecondMoment.macdonald_secondMoment_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.SecondMoment.difference_secondMoment_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.SecondMoment.cumulative_exponential_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.SecondMoment.cumulative_secondMoment_boundary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThetaMacdonald.SecondMoment.actual_centered_secondMoment_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThetaMacdonald.SecondMoment.actual_difference_secondMoment_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ThetaMacdonald.SecondMoment.actual_secondMoment_order' depends on axioms: [propext, Classical.choice, Quot.sound]

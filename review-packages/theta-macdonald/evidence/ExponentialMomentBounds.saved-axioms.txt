@@ -1,0 +1,4 @@
+'ExponentialMoment.weighted_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExponentialMoment.tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExponentialMoment.weighted_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ExponentialMoment.quadratic_boundary_vanishes' depends on axioms: [propext, Classical.choice, Quot.sound]

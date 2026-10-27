@@ -1,0 +1,29 @@
+{
+  "scope": "Complete package-local closure; external libraries pinned separately, not vendored or newly replayed",
+  "root": "CumulativeBoundary",
+  "files": [
+    {
+      "module": "CumulativeBoundary",
+      "path": "CumulativeBoundary.lean",
+      "sha256": "5ceed9be814caae136d4bd263e9346763ddcd86a5933d2ded51db0eebb546735"
+    },
+    {
+      "module": "CumulativeQuadratic",
+      "path": "CumulativeQuadratic.lean",
+      "sha256": "0ce3782669f66dde6650fa39a81cc46124d2efac2795534357f7a418f233cb10"
+    }
+  ],
+  "local_edges": [
+    {
+      "module": "CumulativeBoundary",
+      "imports": "CumulativeQuadratic"
+    }
+  ],
+  "direct_mathlib_imports": [
+    "Mathlib.Algebra.BigOperators.Module",
+    "Mathlib.Algebra.BigOperators.Ring.Finset",
+    "Mathlib.Tactic.LinearCombination",
+    "Mathlib.Tactic.Ring"
+  ],
+  "no_extra_local_provider": true
+}

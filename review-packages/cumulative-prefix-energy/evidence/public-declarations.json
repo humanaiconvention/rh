@@ -1,0 +1,169 @@
+{
+  "scope": "Static public source roster, not a fresh export-table query; two private bilinear helpers excluded",
+  "declarations": [
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.prefixMass",
+      "kind": "def",
+      "line": 26,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.weightedPrefix",
+      "kind": "def",
+      "line": 29,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.compensated",
+      "kind": "def",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.atomCompensated",
+      "kind": "def",
+      "line": 35,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.compensated_eq_sum",
+      "kind": "theorem",
+      "line": 38,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.atomCompensated_eq_max",
+      "kind": "theorem",
+      "line": 46,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.atomCompensated_continuousOn",
+      "kind": "theorem",
+      "line": 54,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.atomCompensated_hasDeriv_right",
+      "kind": "theorem",
+      "line": 65,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.compensated_continuousOn",
+      "kind": "theorem",
+      "line": 86,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.compensated_hasDeriv_right",
+      "kind": "theorem",
+      "line": 92,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.prefixMass_measurable",
+      "kind": "theorem",
+      "line": 107,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.prefixMass_norm_le",
+      "kind": "theorem",
+      "line": 115,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.prefixMass_sq_intervalIntegrable",
+      "kind": "theorem",
+      "line": 125,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.square_energy_of_right_derivative",
+      "kind": "theorem",
+      "line": 137,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.finite_prefix_square_energy",
+      "kind": "theorem",
+      "line": 167,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.nat_prefix_square_energy",
+      "kind": "theorem",
+      "line": 190,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "CumulativeSquareEnergy",
+      "declaration": "CumulativeSquareEnergy.single_atom_left_endpoint",
+      "kind": "theorem",
+      "line": 202,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "FinitePrefixBilinear",
+      "declaration": "CumulativePrefixBilinear.prefixMass_add",
+      "kind": "theorem",
+      "line": 20,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "FinitePrefixBilinear",
+      "declaration": "CumulativePrefixBilinear.weightedPrefix_add",
+      "kind": "theorem",
+      "line": 29,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "FinitePrefixBilinear",
+      "declaration": "CumulativePrefixBilinear.compensated_add",
+      "kind": "theorem",
+      "line": 36,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "FinitePrefixBilinear",
+      "declaration": "CumulativePrefixBilinear.prefixMass_mul_intervalIntegrable",
+      "kind": "theorem",
+      "line": 45,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "FinitePrefixBilinear",
+      "declaration": "CumulativePrefixBilinear.finite_prefix_bilinear_energy",
+      "kind": "theorem",
+      "line": 97,
+      "separate_saved_terminal_axiom_report": true
+    }
+  ],
+  "public_theorems_without_separate_saved_terminal_report": [
+    "CumulativeSquareEnergy.compensated_eq_sum",
+    "CumulativeSquareEnergy.atomCompensated_eq_max",
+    "CumulativeSquareEnergy.atomCompensated_continuousOn",
+    "CumulativeSquareEnergy.atomCompensated_hasDeriv_right",
+    "CumulativeSquareEnergy.prefixMass_measurable",
+    "CumulativeSquareEnergy.prefixMass_norm_le",
+    "CumulativeSquareEnergy.prefixMass_sq_intervalIntegrable",
+    "CumulativePrefixBilinear.weightedPrefix_add"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "Earlier collection source-admission audit, not a new build or the later 4.36 migration run",
+  "original_audit_receipt_sha256": "25f175a27133005264d8549837d06bb357e8370df48e9bc9fb147ae55f494c43",
+  "original_payload_manifest_sha256": "b4232af57d3e9b8196c6dd2d70006cac4157935653ce9230843fa0a1cfe5b1c2",
+  "saved_source_admissions_native_decide_custom_axioms_opaque": false,
+  "selected_exact_source_hashes": {
+    "CumulativeSquareEnergy": "284cb90b6ed501e1cb7ec74da430953b339e459d55022a441c87831b8eb90e54",
+    "FinitePrefixBilinear": "15e36b8c4e0d8ade31ffdfb82998dea6e1fdb9f227c7eb403cd4daaa7a99323a"
+  }
+}

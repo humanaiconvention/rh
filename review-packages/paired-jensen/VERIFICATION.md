@@ -1,0 +1,15 @@
+# Saved acceptance and present assembly status
+
+All five Lean files are byte-identical to their individually accepted pilot002 sources. Their complete local import chain is included,with24unique direct Mathlib roots and no extra RH provider. [Source boundary](SOURCE-HANDOFF.md), [closure](evidence/source-closure.json).
+
+[Saved acceptance](evidence/saved-acceptance.json) is a portable projection of five separate passing Lean4.36.0-rc1 checks with Mathlib c85646e3ac7d3ca39468f114b2d95d62e1611533. It preserves source/object/accepted-receipt/raw-record/log/input fingerprints. Original native-path records remain private. These are not new compiler receipts or a unified public-checkout replay.
+
+There are81publictheorems,19definitions and one abbreviation,with no private helper. Fifty-four expected actual terminal reports match their original logs and use only `propext`, `Classical.choice` and `Quot.sound`. Twenty-seven other compiled public theorems lack separate historical terminal prints. All names,full namespaces and report coverage are explicit in the [roster](evidence/public-declarations.json).
+
+The rejected pilot001 stages remain separate from accepted002 evidence. A failing stage may contain error-related or unsupported reports;none is used for acceptance. Historical UNCOMPILED/provider comments remain unchanged and are explained by [history](evidence/verification-history.json),not silently edited. Old local search-path inputs and inspected environment metadata are not a portable dependency recipe.
+
+Current static checks compare selected frozen inputs/copied source bytes,literal headers,actual report output,claim map,all local imports,configuration/fixed pins and portable links. The source token scanner found no `sorry`, `admit`, custom `axiom`, `native_decide`, `unsafe` or `opaque` declaration token after comments were stripped from accepted sources. This is not a Lean parser or transitive Mathlib audit. [Static scan](evidence/static-source-audit.json). Internal review is same-system review,not outside independent verification.
+
+The actual main assumptions remain `b>0` and genuine `Integrable (gaussian b) (μp+μm)` on the subtype U. Integrability and interchange are proved from that premise. No finite assigned integral replaces it,and no Jordan/actual-source/zero-location theorem is imported. The polynomial error constant is exactly1/3,with pointwise1/24 retained. A disk supremum is the elementary mathematical consequence of the pointwise common bound,not a separately exported Sup theorem.
+
+No compiler/import/type/axiom invocation,dependency setup,process/admission/diagnostic query,external source query,numerical work or new research ran in this assembly. No cached proof object is bundled. The root lock is only a manually assembled static proposal;**Lake has not accepted it in a fresh root**. Clean external/bootstrap artifact closure,guarded scheduling,fresh aggregate standalone build/import/type/axiom replay and human mathematical/API/editorial/rights/release approval remain NOT RUN or pending. [Test ledger](evidence/test-ledger.json), [build recipe](BUILD.md), [human review](HUMAN-REVIEW.md).

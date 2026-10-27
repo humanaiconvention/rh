@@ -1,0 +1,6 @@
+'ThetaMacdonald.Density.rawShell_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.summable_thetaTailWeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.thetaProfile_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.thetaProfile_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.integrable_thetaProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Density.thetaMass_pos' depends on axioms: [propext, Classical.choice, Quot.sound]

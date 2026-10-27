@@ -1,0 +1,28 @@
+{
+  "scope": "Portable projection of selected saved migration/record/log evidence;native originals remain private",
+  "saved_evidence_only": true,
+  "fresh_portable_build": false,
+  "entries": [
+    {
+      "module": "IteratedDerivOfScalars",
+      "source_path": "IteratedDerivOfScalars.lean",
+      "source_sha256": "a0165f5341dfad3d9710e67f1c46056fbe8410f31e9975a04e49ea8de180a503",
+      "historical_object_sha256": "ca4fd27bd30289de447bb3b70f140079a8dfd249d084b9f6c0b3aba7c370772a",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "e34c4396b5dfa3049fd4359d65e20cdb20e6827a3703a31ff486c95b84bf437f",
+      "original_full_log_sha256": "d85fc68c08efaabe52f486329900d3f7bcc718479e4e4f16d47168aeb7ffe744",
+      "saved_ended_utc": "2026-10-23T15:07:57.487710+00:00",
+      "saved_elapsed_seconds": 13.469000000040978,
+      "status": "SAVED_PASS_NOT_A_FRESH_PORTABLE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "HasFPowerSeriesOnBall.iteratedDeriv_ofScalars": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    }
+  ]
+}

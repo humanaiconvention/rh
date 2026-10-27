@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-27T05:44:30.876851+00:00",
+  "scope": "Only the two byte-identical local sources, comments removed by a small static scanner; not a Lean parser or transitive Mathlib audit",
+  "results": [
+    {
+      "module": "CumulativeBoundary",
+      "source_sha256": "5ceed9be814caae136d4bd263e9346763ddcd86a5933d2ded51db0eebb546735",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    },
+    {
+      "module": "CumulativeQuadratic",
+      "source_sha256": "0ce3782669f66dde6650fa39a81cc46124d2efac2795534357f7a418f233cb10",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    }
+  ],
+  "compiler_or_axiom_command_run": false
+}

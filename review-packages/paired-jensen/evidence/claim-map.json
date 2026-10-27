@@ -1,0 +1,132 @@
+{
+  "scope": "Exact accepted-source/API mapping,not new proof or novelty determination",
+  "claims": [
+    {
+      "claim": "Finite Jensen weight control",
+      "declaration": "SignedJensenPrep.weight_bounds",
+      "source": "JensenWeights.lean",
+      "line": 100,
+      "source_sha256": "be3cfe72e80ed855b501012c9be8c2f4d81eafbb14da267b3e9f750c28f6101b",
+      "hypotheses": "d>=1;zero extension above degree;exact j(j-1)/(2d) bound",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Pointwise kernel error",
+      "declaration": "SignedJensenKernelPrep.pointwise_kernel_disk",
+      "source": "JensenPointwise.lean",
+      "line": 271,
+      "source_sha256": "4f2c3e8bcf31aaa70c0b12b55d18b499f0c68629070fec361af34cec2d3b5abd",
+      "hypotheses": "d>=1,u>=0,r>=0,normz<=r;exact1/24",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Actual integrated Gaussian error",
+      "declaration": "SignedJensenMeasurePrep.signedPair_kernel_error_gaussian",
+      "source": "JensenGaussianMeasure.lean",
+      "line": 328,
+      "source_sha256": "4105a13d82d704ffcac39e1c989f7c5f50675d52811639991ee48b743536fa6e",
+      "hypotheses": "Positive pair;Integrable on sum measure;b>0,r>=0,normz<=r,d>=1;exact1/3,no factor2",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Actual finite moment dictionary",
+      "declaration": "SignedJensenMomentsPrep.signedPair_finiteNativeKernel_eq",
+      "source": "JensenEvenMoments.lean",
+      "line": 194,
+      "source_sha256": "df604f7d90e70c29e3b7987b44687e3fe45d96ca27925943587bf6c9c959485e",
+      "hypotheses": "Positive pair;actual Gaussian premise;b>0;all natural d including0",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Actual finite Jensen polynomial error",
+      "declaration": "SignedJensenMomentsPrep.finiteMomentPolynomial_error_gaussian",
+      "source": "JensenEvenMoments.lean",
+      "line": 222,
+      "source_sha256": "df604f7d90e70c29e3b7987b44687e3fe45d96ca27925943587bf6c9c959485e",
+      "hypotheses": "Same exact1/3 budget,not a changed or separately normalized polynomial",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Genuine norm summability before interchange",
+      "declaration": "SignedJensenEntirePrep.summable_integral_norm_seriesTerm",
+      "source": "JensenMomentEntire.lean",
+      "line": 137,
+      "source_sha256": "1c9148d78051d667a77532be854c4c9088d2371b63303ce62d647ee14677af1f",
+      "hypotheses": "Single positive measure;actual Gaussian input;disk hypotheses",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Infinite actual integral/moment series",
+      "declaration": "SignedJensenEntirePrep.signedPair_nativeKernel_hasSum",
+      "source": "JensenMomentEntire.lean",
+      "line": 215,
+      "source_sha256": "1c9148d78051d667a77532be854c4c9088d2371b63303ce62d647ee14677af1f",
+      "hypotheses": "Actual Gaussian input on sum measure;b>0;every complex z",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Infinite dictionary",
+      "declaration": "SignedJensenEntirePrep.signedPair_nativeKernel_eq",
+      "source": "JensenMomentEntire.lean",
+      "line": 226,
+      "source_sha256": "1c9148d78051d667a77532be854c4c9088d2371b63303ce62d647ee14677af1f",
+      "hypotheses": "Same actual Gaussian premise,not entire-transform assumption",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Entire actual paired transform",
+      "declaration": "SignedJensenEntirePrep.analyticAt_signedPair_nativeKernel",
+      "source": "JensenMomentEntire.lean",
+      "line": 323,
+      "source_sha256": "1c9148d78051d667a77532be854c4c9088d2371b63303ce62d647ee14677af1f",
+      "hypotheses": "Actual sum-measure Gaussian input;b>0;every complex point",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "explanatory_only": [
+    "Cosine/square-root identity on nonnegative real kernel argument",
+    "Disk supremum consequence of the all-z bound"
+  ],
+  "not_assumed": [
+    "Jordan/total-variation identification",
+    "actual arithmetic/theta Gaussian input",
+    "probability/equal mass",
+    "sharpness or zero-location"
+  ]
+}

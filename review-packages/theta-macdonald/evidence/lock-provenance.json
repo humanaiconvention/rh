@@ -1,0 +1,11 @@
+{
+  "status": "STATIC_PROPOSAL_ONLY_NOT_RUN",
+  "root_name": "theta_macdonald_review",
+  "schema_version": "1.3.0",
+  "prototype_manifest_sha256": "403729b3129a3c288db910c500b1d98822f7ae7fc7097982f3a9ed81fc43e6ea",
+  "pinned_upstream_manifest_sha256": "ab0f956dfffc99f9c85298d2421047f53e4c9605f95b4ca67b2e087c218f313e",
+  "root_manifest_sha256": "0ea9a03047b4ea1f6bc1c5612a5dbeaa9773208d59b64a6f345f755a8b341467",
+  "method": "Retain known root schema;exact Mathlib plus eight pinned inherited Git dependencies",
+  "unperformed": "Lake acceptance,clean external/bootstrap artifact closure and guarded aggregate replay",
+  "private_path_entries": false
+}

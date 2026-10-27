@@ -1,0 +1,7 @@
+'ThetaMacdonald.Mass.integrable_logTheta' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.logTheta_even' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.logTheta_neg_of_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.completed_half_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.completed_half_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.thetaMass_eq_gamma0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.gamma0_pos' depends on axioms: [propext, Classical.choice, Quot.sound]

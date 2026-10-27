@@ -1,0 +1,1252 @@
+{
+  "scope": "Portable projections of selected existing WAVE001/WAVE002 source acceptance,not a new aggregate root replay",
+  "saved_evidence_only": true,
+  "fresh_portable_build": false,
+  "fresh_aggregate_import_build": false,
+  "entries": [
+    {
+      "module": "CumulativeSplit",
+      "source_path": "CumulativeSplit.lean",
+      "source_sha256": "b58cd065c0fa2c11c17b34ec92c82cf633ea9904f638b3f141ef82e61127885e",
+      "historical_object_sha256": "4e717d53b45afd175141dd3d0711e12ee42a878dca8eea26c2f3a944f0c47ef7",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "3f2d2671633bc2698ca9f175efbc9e2b906d0718bd7c5d6109e9582796e157c4",
+      "original_full_log_sha256": "c5e1c7d3a86a4d6af2dcbee62dc76276230b4e4f98ffe7f0172de5795a15ed93",
+      "saved_ended_utc": "2026-10-23T15:24:10.945151+00:00",
+      "saved_elapsed_seconds": 17.891000000061467,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "SingleCrossing.head_tail_split": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SingleCrossing.head_eq_Ioc": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SingleCrossing.head_eq_Ioo": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SingleCrossing.head_eq_Icc": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "SingleCrossing.strict_prefix_of_single_crossing": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "source_path": "ExponentialMomentBounds.lean",
+      "source_sha256": "5547ecb9357e4ffbeed4a6f8f9c2e4e462513f29fa4dc118fdfdfa2f92511aeb",
+      "historical_object_sha256": "b30e9a9156dc763e691e3dce63ae52d887ac60f762417d4bf3c59ecb9bf897ce",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "3a3e583625f19f31f8915dc80932d034ffcf8a46d938f518663a8e85b75588b8",
+      "original_full_log_sha256": "d3dc4e35cbd35ad3cb94ae16815b0eb0a40733432bfa0acb288b5e270121c1b7",
+      "saved_ended_utc": "2026-10-23T15:23:34.749060+00:00",
+      "saved_elapsed_seconds": 18.28200000000652,
+      "saved_warning_lines": 2,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ExponentialMoment.weighted_integrable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ExponentialMoment.tail_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ExponentialMoment.weighted_tail_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ExponentialMoment.quadratic_boundary_vanishes": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "MacdonaldMass",
+      "source_path": "MacdonaldMass.lean",
+      "source_sha256": "031dd2ed028bc6ff2f72907ff82a3eabd57e856f90f39a59c1df049ea932d0a0",
+      "historical_object_sha256": "8d984948726c3adf1111a2d43e225de4dbb624f01fea2a45caddde73db9d51fd",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "566a9625d63cd9a8e7b769153f15f8f2a37af99c1eb0fb9672a7318104ef1f8a",
+      "original_full_log_sha256": "1c610c0f2ce74ea474775d44e44cdd5bc4dd5057017a26de721fe2cc2859819d",
+      "saved_ended_utc": "2026-10-23T15:26:21.784580+00:00",
+      "saved_elapsed_seconds": 18.671999999904074,
+      "saved_warning_lines": 5,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Density.integrable_macdonaldKernel": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.macdonaldK0_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.integrable_macdonaldDensity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.macdonaldDensity_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.macdonaldDensity_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.macdonaldDensity_mass_closed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "MonotoneMomentOrder",
+      "source_path": "MonotoneMomentOrder.lean",
+      "source_sha256": "d8f1a7f9511c724669fc093596fb95c65414011d53ebd5e79dbbd967a73836d9",
+      "historical_object_sha256": "5d148b6ea22a1697d9333763988179301afa1e1a87fe3886a0709855b71085ec",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "f9a8088c508e4c9c2267d0d3f4036929f39da377187df392f3f48d535548741b",
+      "original_full_log_sha256": "8e6c395cab6be3702239f8df6a8010beb1b37a09494ed12893a1f25363bea93b",
+      "saved_ended_utc": "2026-10-23T15:23:53.040766+00:00",
+      "saved_elapsed_seconds": 18.265999999945052,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "SingleCrossing.strict_integral_order_of_monotone_weight": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ExponentialMoment.power_exp_integrable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ExponentialMoment.power_weighted_integrable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "source_path": "RhWeilCompletedGrowth001.lean",
+      "source_sha256": "998c72a91972eb3372af9061eea236c3f72b354956b2db9c1d254eb5228168de",
+      "historical_object_sha256": "ff6a6eb04b7c1864b6eb5b81f2cb2ed80d394072e966e9342a9eb2e12753e227",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "0631d1183b35ade3ab448489b0e34752f87dd891d9ac2f57de66ab61243a6f0d",
+      "original_full_log_sha256": "5d32853f673449bec5a66f39e3959519c078843f4dc1d542e6a3a4d1a70c94e6",
+      "saved_ended_utc": "2026-10-23T15:28:23.807583+00:00",
+      "saved_elapsed_seconds": 21.155999999959022,
+      "saved_warning_lines": 4,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "RhWeilCompletedGrowth.weighted_integrable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "RhWeilCompletedGrowth.mellin_norm_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "RhWeilCompletedGrowth.completed_growth": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "RhWeilThetaBound001",
+      "source_path": "RhWeilThetaBound001.lean",
+      "source_sha256": "e0389dd5a567806bed99af41e405d6d534ed2b7cfcc8aca5b1d43323129c4734",
+      "historical_object_sha256": "59ae9638758823bca0719289bb3a32d3bd06d5b4c5ea2a3bb58c3727f29fc14f",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "be63f3ae47467197a4ae2967ae3b41b98e6bca8deae13f61cac936a8dfd0fff1",
+      "original_full_log_sha256": "3014f405ee983db8efadf7fb9362140a8cc1b1a8b7b69003fa7cc05c76cf7df1",
+      "saved_ended_utc": "2026-10-23T15:27:43.938027+00:00",
+      "saved_elapsed_seconds": 19.281000000075437,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "RhWeilTheta.evenKernel_head_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "RhWeilTheta.fePair_modif_head_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "source_path": "RhWeilThetaGeometry001.lean",
+      "source_sha256": "8804abe70a6b29060970d317312465c0a0c0c7dfcbdf12a5de8a29aa28d7f86d",
+      "historical_object_sha256": "a65d29dcb34009b8a4acee866c0c93adafd2a2a79f23bdb221190c311893785d",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "044d1ad193b20d0341c4da6daa374f4316f23ef50fc96f0b5d1a882a711d4e05",
+      "original_full_log_sha256": "0aafc0caf6fbe495a0b62fb4d5dba8dcfa28cbf12dc20ca909d3b86940f32de3",
+      "saved_ended_utc": "2026-10-23T15:27:24.638091+00:00",
+      "saved_elapsed_seconds": 20.094000000040978,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "RhWeilThetaGeometry.modif_inv": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "RhWeilThetaGeometry.modif_log_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "RhWeilThetaGeometry.twisted_gaussian_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "RhWeilThetaMeasurable001",
+      "source_path": "RhWeilThetaMeasurable001.lean",
+      "source_sha256": "c31be1b224f08b7b97f642da20eed3e05f5f2906bcb60bcafe7959c5fc65bd0c",
+      "historical_object_sha256": "060363f6f6330b1e7ac9c92c77f3402373b73ad0a93ae65e477591b9e71a6bb1",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "16bf8428b8cd83a8a626ffb3e8cfe4820658e1b2dc3008b8d5edc86d1a309b28",
+      "original_full_log_sha256": "e8fe82df98143a8a00c4a6fa105c683f9cd50c7106dec6a87a320c0a52f73ad9",
+      "saved_ended_utc": "2026-10-23T15:28:02.630457+00:00",
+      "saved_elapsed_seconds": 18.67200000002049,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "RhWeilTheta.theta_exp_continuous": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "RhWeilTheta.modif_exp_stronglyMeasurable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "RhWeilTheta.weighted_modif_stronglyMeasurable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "RhWeilTheta.weighted_modif_aestronglyMeasurable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "source_path": "ThetaCompleteRatio.lean",
+      "source_sha256": "75d057f55026807fbbf367a353cd2bf518fc7a042826fc99d2aa2ac56170e266",
+      "historical_object_sha256": "674a9f86b156cdd01267add9f14b9e6cd769ed97fda388dccf26424dbbb491ef",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "7890e508ac1aed226244d23fa8f1427982a9216c96a96f06708de983793091a2",
+      "original_full_log_sha256": "f1f31aa8e9c01e78456553e8d643b7958e1ae1e3b4bea2767a440e7e91d763d8",
+      "saved_ended_utc": "2026-10-23T15:25:07.603850+00:00",
+      "saved_elapsed_seconds": 18.655999999959022,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Complete.ratio_eq_source_quotient": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Complete.hasSum_ratioRaw": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Complete.hasDerivAt_ratio": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Complete.hasDerivAt_ratioD1": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Complete.hasSum_ratioRawD2": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Complete.summable_ratioRawD2": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Complete.second_deriv_ratio_eq_tsum": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Complete.ratioRawD2_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Complete.second_deriv_ratio_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "source_path": "ThetaCumulativeOrder.lean",
+      "source_sha256": "b29c97012298c701091b196831d53c1aa051f14a05935108a50c21c404e9bd5a",
+      "historical_object_sha256": "03b4a9b880be13538ca0f696e95085cd3b2b8208a3d366b90a7b6494efa59530",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "98030989ac9243a6f770d3391a11a337e569e42d2413d4f8ba6c975f57ed7de1",
+      "original_full_log_sha256": "9b5e0bfc3c935f141b6f133720a4bd3fbe596eedfa70bdf6541c151840881882",
+      "saved_ended_utc": "2026-10-23T15:29:57.689605+00:00",
+      "saved_elapsed_seconds": 18.469000000040978,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Cumulative.integral_densityDifference_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Cumulative.cumulative_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Cumulative.cumulative_eq_Icc": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Cumulative.actual_head_tail_balance": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Cumulative.cumulative_eq_neg_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Cumulative.cumulative_eq_CDF_difference": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Cumulative.actual_cumulative_order": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Cumulative.actual_set_cumulative_order": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Cumulative.actual_CDF_strict_order": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "source_path": "ThetaDensityCrossing.lean",
+      "source_sha256": "6115eeb340b95c13c4bd0647206654094152b068af231ad4512160cd6e6c6648",
+      "historical_object_sha256": "907af9f95ea1ca8ab0e8cbc07f8f403229e2adb393b7e0be77561ac4fcdaf0a9",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "6c1172e9b4c1911587ea71da4aae2d350be7f663f05763e5e127575ebd911598",
+      "original_full_log_sha256": "860386a5a390e74e36f48f1d92b0e00c33e7ec3cfd8cc8ad07686ed0e0251798",
+      "saved_ended_utc": "2026-10-23T15:29:39.205834+00:00",
+      "saved_elapsed_seconds": 18.265999999945052,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Crossing.ratio_origin_lt_one": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Crossing.exists_ratio_gt_one": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Crossing.exists_positive_ratio_one": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Crossing.unique_density_crossing": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Crossing.density_crossing_sides": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Crossing.actual_density_crossing": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "source_path": "ThetaDensityRatio.lean",
+      "source_sha256": "bf7bf7bdbadc9015e8517e2f619d0281257f959ba51268b55f9707db6f6fc59b",
+      "historical_object_sha256": "8f04cacdc4c0d2d812291ee61fffd4498d00aca02ffc09a2bda556b62935dd73",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "2f6cdc2e9d3cf44cda4b501770dada7f601e2062dcd0a8a87fc4663701b83aaa",
+      "original_full_log_sha256": "a868b14c8b567ca1c445345c34f86b4ca3d78344bfe60a61346848cd9f62a32a",
+      "saved_ended_utc": "2026-10-23T15:29:20.920127+00:00",
+      "saved_elapsed_seconds": 18.25,
+      "saved_warning_lines": 3,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Crossing.ratioScale_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Crossing.likelihoodRatio_eq_density_div": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Crossing.continuous_likelihoodRatio": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Crossing.strictMonoOn_likelihoodRatio": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Crossing.ratio_eq_one_iff": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "source_path": "ThetaGaussianSeed.lean",
+      "source_sha256": "d187d035c41ac1571a8d7427be42a9499d82ab44aeb811c22c79f4106bad1ef7",
+      "historical_object_sha256": "13f448f3ba79d917236ccabb6c88f88bc345efcfe9d7957ab70e6928e176e7ae",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "472028ea42a1ce04f2f9f75548a7f3ce897af44d70fb123a8ad9f08f63dfa596",
+      "original_full_log_sha256": "66001da65a3b8552a11a275417eef10abee0d55d999bac5420fe628dd00a7cb8",
+      "saved_ended_utc": "2026-10-23T15:24:30.435445+00:00",
+      "saved_elapsed_seconds": 19.46799999999348,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Symmetry.summable_gaussianSeed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.summable_gaussianSeedD1": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.summable_gaussianSeedD2": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.hasDerivAt_tsum_gaussianSeed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.hasDerivAt_tsum_gaussianSeedD1": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.second_deriv_centeredTheta": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.raw_sum_eq_centeredTheta": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaMassBounds",
+      "source_path": "ThetaMassBounds.lean",
+      "source_sha256": "8579d4ab3e237520faea0590548af006b5165550aeb29ede925e6cd3354e0427",
+      "historical_object_sha256": "33de6c0638de53e0887efd644b9e905af3a34043eec441143ecafad57ad12f24",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "d826f9c9c16f578e75c6d58e1343f4f8ed49658ffdb6ece67fceb0a0769c2598",
+      "original_full_log_sha256": "d12a1a6ef4595409870303e6833e75e23c0b271cdcb5003fd20d3dd7d10a9271",
+      "saved_ended_utc": "2026-10-23T15:26:43.619620+00:00",
+      "saved_elapsed_seconds": 21.813000000081956,
+      "saved_warning_lines": 4,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Density.rawShell_tail_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.summable_thetaTailWeight": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.thetaProfile_tail_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.thetaProfile_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.integrable_thetaProfile": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Density.thetaMass_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaMellinMass",
+      "source_path": "ThetaMellinMass.lean",
+      "source_sha256": "cdf5f47dce89f46b1c5ef3d48cbf06d797e05f18813724b5b3bf433d9e446a5e",
+      "historical_object_sha256": "6c7cfffd8236a6cb76d5d54522cc57c668ad164e6269345db400971dd2a0415c",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "023b47ff802fe658733d803828e58a408f267f6e8d6924859be9d208e338001d",
+      "original_full_log_sha256": "b1879443abc340295c41450aef53e6f7b2b20c30ea1065f583aef391f061cdf5",
+      "saved_ended_utc": "2026-10-23T15:28:43.509316+00:00",
+      "saved_elapsed_seconds": 19.67200000002049,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Mass.integrable_logTheta": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.logTheta_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.logTheta_neg_of_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.completed_half_log": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.completed_half_real": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.thetaMass_eq_gamma0": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.gamma0_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "source_path": "ThetaMomentOrder.lean",
+      "source_sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc",
+      "historical_object_sha256": "5904dbb50bb9addc134fb8c50a1d7696bf2d0548573a626cd708ec9c155a26fc",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "d6b4ce05b7ef846df79d36b030936acb4a0b8dc85f4550f0a261cd1b4d03da15",
+      "original_full_log_sha256": "f86365c7bbc6333f5d5936ab8d31beb28cc8d64bf277a36d22444f6917c082a3",
+      "saved_ended_utc": "2026-10-23T15:30:35.466030+00:00",
+      "saved_elapsed_seconds": 18.25,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Moment.integrable_theta_power": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Moment.integrable_macdonald_power": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Moment.integrable_difference_power": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Moment.actual_monotone_weight_order": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Moment.actual_power_moment_order": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Moment.actual_positive_even_moment_order": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Moment.actual_zeroth_moment_equal": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaOrderCore",
+      "source_path": "ThetaOrderCore.lean",
+      "source_sha256": "cd3054c4e1ff573f95344870df6ca3502911c276b298552cf79c0502baf14fa7",
+      "historical_object_sha256": "f1bf1750ab7bb856451c88929681676fc2d7d7cebbf9bb92b40e1e6ac6b6f7ae",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "a0343545b77b5337d2cbd562261df7c2ed86bea766d9c54a0280742218a10b53",
+      "original_full_log_sha256": "2e986eecda007ff51b6007c77fbe902f451f6e48b14f4a78fb2e06a7a735c124",
+      "saved_ended_utc": "2026-10-23T15:10:26.685348+00:00",
+      "saved_elapsed_seconds": 19.483999999938533,
+      "saved_warning_lines": 3,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.hasDerivAt_ratioRaw": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.hasDerivAt_ratioRawD1": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.referenceWeight_eq_cosh": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.ratioRawD2_eq_factor": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.second_derivative_ratioRaw_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "source_path": "ThetaOriginStationarity.lean",
+      "source_sha256": "fb7b8cfc8ce982f164e42bd743b82c0ad48845592c92c7b31544f62581fd07b3",
+      "historical_object_sha256": "e76e18ea133a56ff3cefece251de1bd003a436e712089660ee9e8c05905e1806",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "c372ded3d27076e0b3b99bb911a589efba8d763bd485fe22f58636bcd596b388",
+      "original_full_log_sha256": "9d76f93446141668c200dcead57bc41bc262ff539ab8c7684aaa49f623ffc38a",
+      "saved_ended_utc": "2026-10-23T15:25:26.730801+00:00",
+      "saved_elapsed_seconds": 19.108999999938533,
+      "saved_warning_lines": 2,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Symmetry.centeredTheta_eq_full": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.centeredTheta_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.raw_sum_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.referenceWeight_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.ratio_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.tsum_rawShellD1_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.deriv_ratio_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Symmetry.hasDerivAt_ratio_origin": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "source_path": "ThetaPoissonReflection.lean",
+      "source_sha256": "20be42d9fad8f8b130a2a2590cf78282f665632a86fe7592808e9ef512f6c7eb",
+      "historical_object_sha256": "3ed6aa6c3bbb61674647f59918f2d0660783ac01eb7f6d59ee1a1b0c0e765e39",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "42dc1911d853a4b938f7d6a5b2eb472d2675c2ad103985f69788acfd2099f742",
+      "original_full_log_sha256": "6a704bda5a012cc55e39d3e22ac8d40274819ce25bbb5756528a5ac5135fbf9a",
+      "saved_ended_utc": "2026-10-23T15:24:48.917626+00:00",
+      "saved_elapsed_seconds": 18.45299999997951,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Reflection.centeredFullTheta_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Reflection.centeredFullTheta_second_deriv_even": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Reflection.centeredFullTheta_deriv_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaPositiveSlope",
+      "source_path": "ThetaPositiveSlope.lean",
+      "source_sha256": "3850481b95cdc1722a0b8285d32504598f571956bb5a58b954fceaf4737894d5",
+      "historical_object_sha256": "39a821032109ba63b66c37181fa700d0fdc79429bd688561476b7d640313ce1b",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "57be914068ba70ad61403d5b2efbbacdf44e1959b187714d0664197cedef789c",
+      "original_full_log_sha256": "d56252dffcbcca5ca43637c5e24d86e3c62cc8d2994be62413eb5ae3cc8cd668",
+      "saved_ended_utc": "2026-10-23T15:25:45.016557+00:00",
+      "saved_elapsed_seconds": 18.26500000001397,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Slope.hasDerivAt_deriv_ratio": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Slope.strictMonoOn_deriv_ratio": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Slope.deriv_ratio_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "source_path": "ThetaProbabilityMass.lean",
+      "source_sha256": "4e456fe30a2827473fdaa399fc6d44d9acccb898b12911bd7b90c74cb5d9954a",
+      "historical_object_sha256": "56ba404c37000f80817765daae3b07320ba5e4d55d228c860f99f40cdced9d80",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "52b39720795842941343b65a36bde99b4ec3e1a2afe5d83e9da8a1fe979373e0",
+      "original_full_log_sha256": "9675d56ec57452a4d80a9ebacd950d4f94e2961716093d8351e180c6cf46d3a4",
+      "saved_ended_utc": "2026-10-23T15:29:02.636070+00:00",
+      "saved_elapsed_seconds": 19.094000000040978,
+      "saved_warning_lines": 2,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Mass.xiHalf_eq_entire": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.completed_half_im_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.xiHalf_eq_gamma0": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.thetaMass_eq_xiHalf": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.integrable_thetaDensity": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.thetaDensity_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.thetaDensity_mass": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.thetaDensity_mass_closed": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.actual_equal_probability_masses": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "source_path": "ThetaSecondMoment.lean",
+      "source_sha256": "d17866a98ae7fffb293b6ecdb0b15112ef6ad53e1b57a0473c15c53319c70686",
+      "historical_object_sha256": "6d95757b26bfba2a18d1137aab40f2859167cc36d860d2dff6a315fa9cbb3cc7",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "286f350dd71a98c08d16c6a0ef2337be7f36ba2f09dfe1b39be180d3ec0583ae",
+      "original_full_log_sha256": "bf45a2e678d96271342ced36efef6c0131856d12975380360b95f924ea6a68dd",
+      "saved_ended_utc": "2026-10-23T15:30:17.180516+00:00",
+      "saved_elapsed_seconds": 19.46799999999348,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.SecondMoment.thetaDensity_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.macdonaldDensity_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.densityDifference_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.integrable_theta_secondMoment": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.integrable_macdonald_secondMoment": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.integrable_difference_secondMoment": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.theta_secondMoment_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.macdonald_secondMoment_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.difference_secondMoment_tail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.cumulative_exponential_bound": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.cumulative_secondMoment_boundary": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.actual_centered_secondMoment_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.actual_difference_secondMoment_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.SecondMoment.actual_secondMoment_order": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "source_path": "ThetaSeedFTC.lean",
+      "source_sha256": "490fa8bfbb9db858e47832787415c60dfd22cdd1596634878b30646c68208ab3",
+      "historical_object_sha256": "9e048609fd0330d1ead4a18297f6a741ed57ef96b7dbf7bcfbc778af2f8dec83",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "27b7697593ba9e8f977b68a8cc141f779d75ef5ba28f4ef75306dd43a8e62294",
+      "original_full_log_sha256": "c8cff94e7849154b83d43ff4d3556d1eaf32510737ad8d405c81fc071434e677",
+      "saved_ended_utc": "2026-10-23T15:27:04.519846+00:00",
+      "saved_elapsed_seconds": 20.875,
+      "saved_warning_lines": 2,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Mass.seedTailD1_origin": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.integrable_seedTail": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.seedTailD1_tendsto_zero": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.integrable_seedTailD2": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.integral_seedTailD2": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Mass.thetaMass_improper_FTC": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaSeries",
+      "source_path": "ThetaSeries.lean",
+      "source_sha256": "bafed20550dc99a3d8cde9eb6211bea786cd5ed041e74e542bddec8ba89efc66",
+      "historical_object_sha256": "39000c1caadf77fa07f7fbca190a4a397c2d91f252e82753a818119065f9c3b5",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "a9d24dfd225f4053193b8f00000d5ca140767febe845d58f56cf5fef2e3151d1",
+      "original_full_log_sha256": "c2c2be95d036db0092ece5f71c7c60420955b8105e2705283a3d862cfc7c7b93",
+      "saved_ended_utc": "2026-10-23T15:10:07.170767+00:00",
+      "saved_elapsed_seconds": 20.06299999996554,
+      "saved_warning_lines": 8,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Series.summable_gaussianMajorant": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.norm_gaussianMonomial_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.norm_polynomialShell_le": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.uniformlyOn_rawShell": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.uniformlyOn_rawShellD1": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.uniformlyOn_rawShellD2": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.hasDerivAt_tsum_rawShell": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.hasDerivAt_tsum_rawShellD1": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.second_deriv_tsum_rawShell": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.summable_rawShell_shifted": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.source_phi_summable": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.Series.tsum_rawShell_eq_shifted": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "source_path": "ThetaShellDerivative.lean",
+      "source_sha256": "39503ba9c73eb2dac500423291519b5662ca02a1f592e04bcb54fb5ff1e79508",
+      "historical_object_sha256": "856be0150f86bae3ea952d2c44588e0b98b2a335bb50f859e374477d4c4e3a2b",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "0a6cdbba79e1b980d81e6b67b0ce42346c29ce8574c03798b422e80f157c7bbd",
+      "original_full_log_sha256": "3e76fd560fcc99839b40efa45405b2ae2dc8ef3e0399e6dab51979456fa6c311",
+      "saved_ended_utc": "2026-10-23T15:09:30.996536+00:00",
+      "saved_elapsed_seconds": 14.266000000061467,
+      "saved_warning_lines": 2,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.hasDerivAt_rawShell": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.hasDerivAt_rawShellD1": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.rawShell_eq_expanded": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaShellShape",
+      "source_path": "ThetaShellShape.lean",
+      "source_sha256": "0bdffdb8b984b5e9178b1cf34d461128bccd74a3d8aaff0845b388258b662cd6",
+      "historical_object_sha256": "013cc1f6d1d037eb5b33707536b499b87fd4a7d3a6b7cf2721f49318acd08098",
+      "original_4_36_receipt_sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0",
+      "original_raw_build_record_sha256": "d577863801ca0b3da2c3161b58127333bbd2610e9aa791f6d2aadac12e78e2da",
+      "original_full_log_sha256": "67ae87c31d6b3bcb503f079bc84e00e1e5702fdba04ed0f2eb0d03435e62d6d8",
+      "saved_ended_utc": "2026-10-23T15:09:47.076373+00:00",
+      "saved_elapsed_seconds": 16.04700000002049,
+      "saved_warning_lines": 2,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.higher_shell_logSlope_lt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.higher_shell_logSlope_neg": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.higher_shell_slopeDerivative_gt": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.higher_shell_curvature_factor_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.first_shell_slopeDerivative_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.first_shell_curvature_factor_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "ThetaMacdonald.shell_curvature_factor_pos": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "module": "ThetaStrictIncrease",
+      "source_path": "ThetaStrictIncrease.lean",
+      "source_sha256": "d678b5b3cf8442dfefbaaac6cebe81b06e65012bb89d7a46bac8706ab17ef78e",
+      "historical_object_sha256": "33e6f5629f3af353ff6c8d74aa7cfdf86ff0c89f83e34e6bc51902d6260c5f68",
+      "original_4_36_receipt_sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8",
+      "original_raw_build_record_sha256": "84d6dae24de8990d61c00b3b1e5302449dc91cd6f2185f4d210cafbd32237e8c",
+      "original_full_log_sha256": "f26f8bd675e789f964a36f4669d07cb692ff0072d9d7dd5f390a5246afaa5501",
+      "saved_ended_utc": "2026-10-23T15:26:03.101275+00:00",
+      "saved_elapsed_seconds": 18.06200000003446,
+      "saved_warning_lines": 0,
+      "status": "SAVED_INDIVIDUAL_PASS_NOT_FRESH_AGGREGATE_REPLAY",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "actual_terminal_reports": {
+        "ThetaMacdonald.Monotonicity.strictMonoOn_ratio": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "STATIC_PROPOSAL_ONLY_NOT_RUN",
+  "root_name": "prefix_energy_review",
+  "schema_version": "1.3.0",
+  "prototype_manifest_sha256": "403729b3129a3c288db910c500b1d98822f7ae7fc7097982f3a9ed81fc43e6ea",
+  "pinned_upstream_manifest_sha256": "ab0f956dfffc99f9c85298d2421047f53e4c9605f95b4ca67b2e087c218f313e",
+  "root_manifest_sha256": "da085e42cfe06d59c73a408aea79d8b93d45a77c33a4af28c476968a298a8bbd",
+  "method": "Retain known root schema; add exact Mathlib commit and pinned eight upstream entries marked inherited",
+  "unperformed": "Lake root-lock acceptance, clean dependency/bootstrap closure and guarded standalone replay",
+  "absolute_path_or_private_cache_entries": false
+}

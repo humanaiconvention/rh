@@ -1,0 +1,90 @@
+{
+  "scope": "Selected passing migration evidence with original warnings;not a complete earlier-attempt inventory",
+  "backing_receipts": [
+    {
+      "sha256": "5bf7fd97ab72214932a0124118c06338b12c1058ad59b83f3a36575fe93110f0"
+    },
+    {
+      "sha256": "71f2c4be7853a06d8bf2ed900f8aa4009f85d0c37d183723697115512f18bea8"
+    }
+  ],
+  "warning_modules": [
+    {
+      "module": "ExponentialMomentBounds",
+      "saved_warning_lines": 2,
+      "original_full_log_sha256": "d3dc4e35cbd35ad3cb94ae16815b0eb0a40733432bfa0acb288b5e270121c1b7",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "MacdonaldMass",
+      "saved_warning_lines": 5,
+      "original_full_log_sha256": "1c610c0f2ce74ea474775d44e44cdd5bc4dd5057017a26de721fe2cc2859819d",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "saved_warning_lines": 4,
+      "original_full_log_sha256": "5d32853f673449bec5a66f39e3959519c078843f4dc1d542e6a3a4d1a70c94e6",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "saved_warning_lines": 3,
+      "original_full_log_sha256": "a868b14c8b567ca1c445345c34f86b4ca3d78344bfe60a61346848cd9f62a32a",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "ThetaMassBounds",
+      "saved_warning_lines": 4,
+      "original_full_log_sha256": "d12a1a6ef4595409870303e6833e75e23c0b271cdcb5003fd20d3dd7d10a9271",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "ThetaOrderCore",
+      "saved_warning_lines": 3,
+      "original_full_log_sha256": "2e986eecda007ff51b6007c77fbe902f451f6e48b14f4a78fb2e06a7a735c124",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "saved_warning_lines": 2,
+      "original_full_log_sha256": "9d76f93446141668c200dcead57bc41bc262ff539ab8c7684aaa49f623ffc38a",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "saved_warning_lines": 2,
+      "original_full_log_sha256": "9675d56ec57452a4d80a9ebacd950d4f94e2961716093d8351e180c6cf46d3a4",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "saved_warning_lines": 2,
+      "original_full_log_sha256": "c8cff94e7849154b83d43ff4d3556d1eaf32510737ad8d405c81fc071434e677",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "ThetaSeries",
+      "saved_warning_lines": 8,
+      "original_full_log_sha256": "c2c2be95d036db0092ece5f71c7c60420955b8105e2705283a3d862cfc7c7b93",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "saved_warning_lines": 2,
+      "original_full_log_sha256": "3e76fd560fcc99839b40efa45405b2ae2dc8ef3e0399e6dab51979456fa6c311",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    },
+    {
+      "module": "ThetaShellShape",
+      "saved_warning_lines": 2,
+      "original_full_log_sha256": "67ae87c31d6b3bcb503f079bc84e00e1e5702fdba04ed0f2eb0d03435e62d6d8",
+      "scope": "Nonfatal original warnings retained privately,not a new linter run"
+    }
+  ],
+  "saved_warning_free_claim": false,
+  "old_staged_comments": "Retained unchanged;later mass and normalization modules discharge earlier staged limitations",
+  "earlier_failed_or_deferred_assets": "Original files preserved in place;no absent guessed receipt is evidence that no earlier failure exists",
+  "new_aggregate_replay": "BLOCKED_NOT_RUN",
+  "new_proof_or_source_changes": false
+}

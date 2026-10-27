@@ -1,0 +1,843 @@
+{
+  "scope": "Static all-source public roster,not a fresh exported-symbol query",
+  "declarations": [
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.evenPower",
+      "kind": "def",
+      "line": 30,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.evenPower_nonneg",
+      "kind": "theorem",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.evenPower_le_gaussian",
+      "kind": "theorem",
+      "line": 37,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.integrable_evenPower",
+      "kind": "theorem",
+      "line": 60,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.integral_evenPower_nonneg",
+      "kind": "theorem",
+      "line": 71,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.integral_evenPower_le",
+      "kind": "theorem",
+      "line": 77,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.signedMoment",
+      "kind": "def",
+      "line": 120,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.finiteMomentPolynomial",
+      "kind": "def",
+      "line": 125,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.momentCoefficient",
+      "kind": "def",
+      "line": 132,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.integrable_complex_evenPower",
+      "kind": "theorem",
+      "line": 136,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.weighted_kernelTerm_eq",
+      "kind": "theorem",
+      "line": 143,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.finiteNativeKernel_expansion",
+      "kind": "theorem",
+      "line": 151,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.integrable_finiteNativeKernel_all_degrees",
+      "kind": "theorem",
+      "line": 162,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.integral_finiteNativeKernel",
+      "kind": "theorem",
+      "line": 178,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.signedPair_finiteNativeKernel_eq",
+      "kind": "theorem",
+      "line": 194,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.finiteMomentPolynomial_error",
+      "kind": "theorem",
+      "line": 211,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenEvenMoments",
+      "namespace": "SignedJensenMomentsPrep",
+      "declaration": "SignedJensenMomentsPrep.finiteMomentPolynomial_error_gaussian",
+      "kind": "theorem",
+      "line": 222,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenGaussianPrep",
+      "declaration": "SignedJensenGaussianPrep.cosh_le_exp_nonneg",
+      "kind": "theorem",
+      "line": 35,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenGaussianPrep",
+      "declaration": "SignedJensenGaussianPrep.sqrt_mul_le_gaussian_split",
+      "kind": "theorem",
+      "line": 44,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenGaussianPrep",
+      "declaration": "SignedJensenGaussianPrep.cosh_gaussian_half",
+      "kind": "theorem",
+      "line": 59,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenGaussianPrep",
+      "declaration": "SignedJensenGaussianPrep.fourth_gaussian_half",
+      "kind": "theorem",
+      "line": 73,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenGaussianPrep",
+      "declaration": "SignedJensenGaussianPrep.fourth_cosh_gaussian",
+      "kind": "theorem",
+      "line": 88,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenGaussianPrep",
+      "declaration": "SignedJensenGaussianPrep.cosh_gaussian_full",
+      "kind": "theorem",
+      "line": 111,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenGaussianPrep",
+      "declaration": "SignedJensenGaussianPrep.pointwise_error_gaussian",
+      "kind": "theorem",
+      "line": 123,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.U",
+      "kind": "abbrev",
+      "line": 161,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.gaussian",
+      "kind": "def",
+      "line": 163,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.nativeKernel",
+      "kind": "def",
+      "line": 165,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.finiteNativeKernel",
+      "kind": "def",
+      "line": 168,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.fourthCosh",
+      "kind": "def",
+      "line": 171,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.signedPair",
+      "kind": "def",
+      "line": 174,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.gaussian_mass_nonneg",
+      "kind": "theorem",
+      "line": 178,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.measurable_kernelTerm",
+      "kind": "theorem",
+      "line": 181,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.stronglyMeasurable_nativeKernel",
+      "kind": "theorem",
+      "line": 189,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.measurable_nativeKernel",
+      "kind": "theorem",
+      "line": 206,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.stronglyMeasurable_finiteNativeKernel",
+      "kind": "theorem",
+      "line": 209,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.measurable_finiteNativeKernel",
+      "kind": "theorem",
+      "line": 216,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.nativeKernel_norm_le",
+      "kind": "theorem",
+      "line": 220,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.integrable_nativeKernel",
+      "kind": "theorem",
+      "line": 234,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.integrable_fourthCosh",
+      "kind": "theorem",
+      "line": 243,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.integrable_kernelError",
+      "kind": "theorem",
+      "line": 255,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.integrable_finiteNativeKernel",
+      "kind": "theorem",
+      "line": 270,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.signedPair_difference_bound",
+      "kind": "theorem",
+      "line": 282,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.signedPair_kernel_error",
+      "kind": "theorem",
+      "line": 308,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenGaussianMeasure",
+      "namespace": "SignedJensenMeasurePrep",
+      "declaration": "SignedJensenMeasurePrep.signedPair_kernel_error_gaussian",
+      "kind": "theorem",
+      "line": 328,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.seriesTerm",
+      "kind": "def",
+      "line": 30,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.momentCoefficient",
+      "kind": "def",
+      "line": 33,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.momentTransform",
+      "kind": "def",
+      "line": 36,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.majorant",
+      "kind": "def",
+      "line": 40,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.factorial_square_le",
+      "kind": "theorem",
+      "line": 43,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.factorial_ratio_le",
+      "kind": "theorem",
+      "line": 51,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.majorant_nonneg",
+      "kind": "theorem",
+      "line": 58,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.majorant_hasSum",
+      "kind": "theorem",
+      "line": 64,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.seriesTerm_eq",
+      "kind": "theorem",
+      "line": 70,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.seriesTerm_norm",
+      "kind": "theorem",
+      "line": 78,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.seriesTerm_norm_le",
+      "kind": "theorem",
+      "line": 87,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.integrable_seriesTerm",
+      "kind": "theorem",
+      "line": 117,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.integral_norm_seriesTerm_le",
+      "kind": "theorem",
+      "line": 123,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.summable_integral_norm_seriesTerm",
+      "kind": "theorem",
+      "line": 137,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.tsum_integral_norm_seriesTerm_le",
+      "kind": "theorem",
+      "line": 147,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.integral_seriesTerm",
+      "kind": "theorem",
+      "line": 157,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.integral_nativeKernel_hasSum",
+      "kind": "theorem",
+      "line": 167,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.integral_seriesTerm_difference",
+      "kind": "theorem",
+      "line": 175,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.norm_momentTerm_le",
+      "kind": "theorem",
+      "line": 185,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.summable_coefficient_norm_radius",
+      "kind": "theorem",
+      "line": 203,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.signedPair_nativeKernel_hasSum",
+      "kind": "theorem",
+      "line": 215,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.signedPair_nativeKernel_eq",
+      "kind": "theorem",
+      "line": 226,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.differentiable_momentTransform",
+      "kind": "theorem",
+      "line": 269,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.analyticAt_momentTransform",
+      "kind": "theorem",
+      "line": 303,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.differentiable_signedPair_nativeKernel",
+      "kind": "theorem",
+      "line": 311,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenMomentEntire",
+      "namespace": "SignedJensenEntirePrep",
+      "declaration": "SignedJensenEntirePrep.analyticAt_signedPair_nativeKernel",
+      "kind": "theorem",
+      "line": 323,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.factorial_four_real",
+      "kind": "theorem",
+      "line": 34,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.fourth_factor_lower",
+      "kind": "theorem",
+      "line": 45,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.factorial_coefficient_shifted",
+      "kind": "theorem",
+      "line": 65,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.factorial_coefficient_scaled",
+      "kind": "theorem",
+      "line": 98,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.factorial_coefficient_at_zero",
+      "kind": "theorem",
+      "line": 116,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.kernelTerm",
+      "kind": "def",
+      "line": 130,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.completeKernel",
+      "kind": "def",
+      "line": 133,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.finiteKernel",
+      "kind": "def",
+      "line": 135,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.errorTerm",
+      "kind": "def",
+      "line": 138,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.kernelTerm_norm",
+      "kind": "theorem",
+      "line": 141,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.kernelTerm_norm_le",
+      "kind": "theorem",
+      "line": 145,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.kernel_summable",
+      "kind": "theorem",
+      "line": 155,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.finiteKernel_hasSum",
+      "kind": "theorem",
+      "line": 159,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.errorTerm_norm",
+      "kind": "theorem",
+      "line": 171,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.error_coefficient",
+      "kind": "theorem",
+      "line": 181,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.shifted_error_bound",
+      "kind": "theorem",
+      "line": 201,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.finite_prefix_bound",
+      "kind": "theorem",
+      "line": 223,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.kernel_error_hasSum",
+      "kind": "theorem",
+      "line": 235,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.pointwise_kernel_aux",
+      "kind": "theorem",
+      "line": 255,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.kernelTerm_native",
+      "kind": "theorem",
+      "line": 263,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenPointwise",
+      "namespace": "SignedJensenKernelPrep",
+      "declaration": "SignedJensenKernelPrep.pointwise_kernel_disk",
+      "kind": "theorem",
+      "line": 271,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.rawWeight",
+      "kind": "def",
+      "line": 25,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.weight",
+      "kind": "def",
+      "line": 29,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.rawWeight_zero",
+      "kind": "theorem",
+      "line": 32,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.rawWeight_succ",
+      "kind": "theorem",
+      "line": 35,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.rawWeight_bounds",
+      "kind": "theorem",
+      "line": 40,
+      "separate_saved_terminal_axiom_report": false
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.weight_zero",
+      "kind": "theorem",
+      "line": 90,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.weight_one",
+      "kind": "theorem",
+      "line": 93,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.weight_eq_zero_of_lt",
+      "kind": "theorem",
+      "line": 96,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.weight_bounds",
+      "kind": "theorem",
+      "line": 100,
+      "separate_saved_terminal_axiom_report": true
+    },
+    {
+      "module": "JensenWeights",
+      "namespace": "SignedJensenPrep",
+      "declaration": "SignedJensenPrep.weight_two",
+      "kind": "theorem",
+      "line": 125,
+      "separate_saved_terminal_axiom_report": true
+    }
+  ],
+  "public_propositions_without_separate_saved_terminal_report": [
+    "SignedJensenMomentsPrep.evenPower_nonneg",
+    "SignedJensenGaussianPrep.cosh_le_exp_nonneg",
+    "SignedJensenGaussianPrep.sqrt_mul_le_gaussian_split",
+    "SignedJensenMeasurePrep.measurable_kernelTerm",
+    "SignedJensenMeasurePrep.stronglyMeasurable_nativeKernel",
+    "SignedJensenMeasurePrep.stronglyMeasurable_finiteNativeKernel",
+    "SignedJensenMeasurePrep.measurable_finiteNativeKernel",
+    "SignedJensenEntirePrep.factorial_ratio_le",
+    "SignedJensenEntirePrep.majorant_nonneg",
+    "SignedJensenEntirePrep.majorant_hasSum",
+    "SignedJensenEntirePrep.seriesTerm_eq",
+    "SignedJensenEntirePrep.seriesTerm_norm",
+    "SignedJensenEntirePrep.integrable_seriesTerm",
+    "SignedJensenEntirePrep.integral_norm_seriesTerm_le",
+    "SignedJensenEntirePrep.integral_seriesTerm",
+    "SignedJensenEntirePrep.integral_seriesTerm_difference",
+    "SignedJensenEntirePrep.norm_momentTerm_le",
+    "SignedJensenKernelPrep.factorial_four_real",
+    "SignedJensenKernelPrep.fourth_factor_lower",
+    "SignedJensenKernelPrep.factorial_coefficient_scaled",
+    "SignedJensenKernelPrep.kernelTerm_norm",
+    "SignedJensenKernelPrep.kernelTerm_norm_le",
+    "SignedJensenKernelPrep.errorTerm_norm",
+    "SignedJensenKernelPrep.shifted_error_bound",
+    "SignedJensenPrep.rawWeight_zero",
+    "SignedJensenPrep.rawWeight_succ",
+    "SignedJensenPrep.rawWeight_bounds"
+  ],
+  "private_helpers": []
+}

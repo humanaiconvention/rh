@@ -1,0 +1,7 @@
+'ThetaMacdonald.Moment.integrable_theta_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Moment.integrable_macdonald_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Moment.integrable_difference_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Moment.actual_monotone_weight_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Moment.actual_power_moment_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Moment.actual_positive_even_moment_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Moment.actual_zeroth_moment_equal' depends on axioms: [propext, Classical.choice, Quot.sound]

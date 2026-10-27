@@ -1,0 +1,6 @@
+'CumulativeSquareEnergy.compensated_continuousOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativeSquareEnergy.compensated_hasDeriv_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativeSquareEnergy.square_energy_of_right_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativeSquareEnergy.finite_prefix_square_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativeSquareEnergy.nat_prefix_square_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativeSquareEnergy.single_atom_left_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]

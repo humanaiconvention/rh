@@ -1,0 +1,6 @@
+'ThetaMacdonald.Mass.seedTailD1_origin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.integrable_seedTail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.seedTailD1_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.integrable_seedTailD2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.integral_seedTailD2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Mass.thetaMass_improper_FTC' depends on axioms: [propext, Classical.choice, Quot.sound]

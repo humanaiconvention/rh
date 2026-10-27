@@ -1,0 +1,37 @@
+{
+  "scope": "Preserved old deferral,followed by exact-byte later acceptance;neither is a fresh standalone replay",
+  "source_sha256": "a0165f5341dfad3d9710e67f1c46056fbe8410f31e9975a04e49ea8de180a503",
+  "events": [
+    {
+      "utc": "2026-10-23T14:30:38.170732+00:00",
+      "stage": "Original API-port attempt",
+      "status": "NOT_ATTEMPTED_CURRENT_ENVIRONMENT_UNAVAILABLE",
+      "compiler_attempts": 0,
+      "reason": "Matching target environment unavailable in that earlier round;not a mathematical failure",
+      "record_sha256": "fc48a1635cb0946608a342b1826cd0c831310e660345e367c27be647ef430066"
+    },
+    {
+      "utc": "2026-10-23T15:07:57.487710+00:00",
+      "stage": "Later migration acceptance",
+      "status": "SAVED_PASS",
+      "Lean": "4.36.0-rc1",
+      "Mathlib": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "record_sha256": "e34c4396b5dfa3049fd4359d65e20cdb20e6827a3703a31ff486c95b84bf437f",
+      "actual_terminal_reports": {
+        "HasFPowerSeriesOnBall.iteratedDeriv_ofScalars": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    },
+    {
+      "utc": "2026-10-27T06:21:15.766393+00:00",
+      "stage": "New standalone package assembly",
+      "status": "STATIC_ONLY_FRESH_REPLAY_NOT_RUN",
+      "compiler_attempts": 0
+    }
+  ],
+  "old_header_comment_retained": true,
+  "relative_header_attribution_pointer": "Historical ../ATTRIBUTION.md;current portable attribution is ATTRIBUTION.md in package root,not a build dependency"
+}

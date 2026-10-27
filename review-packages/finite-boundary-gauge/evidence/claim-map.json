@@ -1,0 +1,64 @@
+{
+  "scope": "Accepted source/API mapping, not a new theorem or novelty determination",
+  "claims": [
+    {
+      "claim": "Mixed differences and exact final-boundary gauge",
+      "declaration": "CumulativeQuadratic.mixedDifference_eq_iff_boundary_difference",
+      "source": "CumulativeBoundary.lean",
+      "line": 86,
+      "hypotheses": "CommRing; equal mixed cells iff full closed-node boundary difference",
+      "source_sha256": "5ceed9be814caae136d4bd263e9346763ddcd86a5933d2ded51db0eebb546735",
+      "saved_terminal_axioms": [
+        "propext"
+      ]
+    },
+    {
+      "claim": "Both final boundaries give uniqueness",
+      "declaration": "CumulativeQuadratic.eq_of_mixedDifference_eq_of_boundary_eq",
+      "source": "CumulativeBoundary.lean",
+      "line": 113,
+      "hypotheses": "Equal mixed differences; hrow AND hcolumn; both closed ranges",
+      "source_sha256": "5ceed9be814caae136d4bd263e9346763ddcd86a5933d2ded51db0eebb546735",
+      "saved_terminal_axioms": [
+        "propext"
+      ]
+    },
+    {
+      "claim": "Both zero totals give bilinear invariance",
+      "declaration": "CumulativeQuadratic.bilinear_eq_of_mixedDifference_eq_of_mass_zero",
+      "source": "CumulativeBoundary.lean",
+      "line": 160,
+      "hypotheses": "hu AND hv AND hD; sufficient implication, not necessity",
+      "source_sha256": "5ceed9be814caae136d4bd263e9346763ddcd86a5933d2ded51db0eebb546735",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Full edge and corner bookkeeping",
+      "declaration": "CumulativeQuadratic.bilinear_cumulative",
+      "source": "CumulativeQuadratic.lean",
+      "line": 35,
+      "hypotheses": "Any two coefficient lists and kernel; no zero mass or symmetry",
+      "source_sha256": "0ce3782669f66dde6650fa39a81cc46124d2efac2795534357f7a418f233cb10",
+      "saved_terminal_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "claim": "Gauge invariance",
+      "declaration": "CumulativeQuadratic.mixedDifference_add_row_column",
+      "source": "CumulativeBoundary.lean",
+      "line": 128,
+      "hypotheses": "Any row/column terms and constant, all natural indices",
+      "source_sha256": "5ceed9be814caae136d4bd263e9346763ddcd86a5933d2ded51db0eebb546735",
+      "saved_terminal_axioms": [
+        "propext"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+'CumulativeQuadratic.bilinear_cumulative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativeQuadratic.quadratic_cumulative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'CumulativeQuadratic.quadratic_cumulative_of_mass_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

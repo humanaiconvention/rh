@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-27T06:10:08.375832+00:00",
+  "scope": "Only unchanged local module; comments removed by small scanner, not a Lean parser or whole-library audit",
+  "results": [
+    {
+      "module": "DigammaGauss",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "forbidden_token_counts": {
+        "sorry": 0,
+        "admit": 0,
+        "axiom": 0,
+        "native_decide": 0,
+        "unsafe": 0,
+        "opaque": 0
+      }
+    }
+  ],
+  "compiler_or_axiom_command_run": false
+}

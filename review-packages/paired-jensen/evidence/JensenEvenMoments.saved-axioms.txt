@@ -1,0 +1,16 @@
+'SignedJensenMomentsPrep.evenPower_le_gaussian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.integrable_evenPower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.integral_evenPower_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.integral_evenPower_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.integrable_complex_evenPower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.weighted_kernelTerm_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.finiteNativeKernel_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.integrable_finiteNativeKernel_all_degrees' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'SignedJensenMomentsPrep.integral_finiteNativeKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.signedPair_finiteNativeKernel_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.finiteMomentPolynomial_error' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SignedJensenMomentsPrep.finiteMomentPolynomial_error_gaussian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

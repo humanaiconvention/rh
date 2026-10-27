@@ -1,0 +1,5 @@
+'ThetaMacdonald.Crossing.ratioScale_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Crossing.likelihoodRatio_eq_density_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Crossing.continuous_likelihoodRatio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Crossing.strictMonoOn_likelihoodRatio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ThetaMacdonald.Crossing.ratio_eq_one_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
