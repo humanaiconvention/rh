@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "package": "qrh-obstructions-lean",
+  "guide": "PrimeIdealDivergence.md",
+  "scope": "API/evidence map for already-public source, not a new Lean package, extraction or theorem",
+  "source_identity": {
+    "original_sha256": "f8255264e049f39706786d6b549db81b2fb20c5d58ba9200c29003b7deef63ac",
+    "existing_public_sha256": "314ca529810b8b517592e1b502711b5abf65c32e2bbe928b8298def3f07e9046",
+    "existing_public_git_blob_sha1": "79e0a98d997eed7205c546ae1c3b00085f034797",
+    "file": "Obstructions.lean",
+    "same_full_file_bytes": false,
+    "generic_namespace_literal_equal": true,
+    "difference_boundary": "Public comments and module/public-import/public-section wrapper; canonical receipt is not silently assigned to different public bytes",
+    "existing_public_imports": [
+      "Mathlib"
+    ],
+    "upstream_boundary": "Umbrella import retained; no minimal per-module or binary artifact closure claim"
+  },
+  "historical_original_record": {
+    "file": "provenance/VERIFICATION.original.json",
+    "sha256": "8ffc07b73844870fc2775a616521f1059f286aaa61a06f1071a29444eb1918e9",
+    "verified_at_utc": "2026-10-15T17:00:17.735540+00:00",
+    "result": "pass",
+    "source_sha256": "f8255264e049f39706786d6b549db81b2fb20c5d58ba9200c29003b7deef63ac"
+  },
+  "historical_public_wrapper_record": {
+    "file": "VERIFICATION.json",
+    "sha256": "79a5aa692c2d1505865d5a4ac1a9f657570d7d222cb6a5769db250e3dd85a198",
+    "verified_at_utc": "2026-10-15T18:43:31.010019+00:00",
+    "result": "pass",
+    "source_sha256": "314ca529810b8b517592e1b502711b5abf65c32e2bbe928b8298def3f07e9046",
+    "compiler_exit_code": 0,
+    "build_exit_code": 0,
+    "proof_admissions": 0,
+    "extra_mathematical_axioms": [],
+    "recorded_proof_code_hash_not_newly_recomputed": "888238a940a04c275a3ff5396b6ce5366197fc8f5cf8a983cb1e1a05befb3507"
+  },
+  "environment": {
+    "lean": "4.35.0",
+    "mathlib": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+    "retained_lake_manifest_sha256": "987f2338182bfd8e0c136e3e57ab327667fcad7982648d3974958d3dcfb2ea34"
+  },
+  "selected_generic_contracts": [
+    {
+      "name": "PrimeIdealDivergence.ideal_reciprocals_not_summable",
+      "role": "All nonzero ideal reciprocals; contradiction with nonzero ideal-count asymptotic",
+      "dedicated_saved_terminal_report": false
+    },
+    {
+      "name": "PrimeIdealDivergence.prime_reciprocals_not_summable",
+      "role": "Generic every-number-field prime-ideal harmonic divergence",
+      "dedicated_saved_terminal_report": false
+    },
+    {
+      "name": "PrimeIdealDivergence.prime_tail_reciprocals_not_summable",
+      "role": "Finite exclusion S and actual absolute norm at least64",
+      "dedicated_saved_terminal_report": false
+    },
+    {
+      "name": "PrimeIdealDivergence.prime_tail_reciprocals_unbounded",
+      "role": "For every real B, a finite tail-subset sum exceeds B",
+      "dedicated_saved_terminal_report": false
+    }
+  ],
+  "direct_terminal_audits": [
+    {
+      "declaration": "RHArchitectureObstructions.physical_deficit_at_half",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "generic_reachability": "No generic-helper use; supplied scalar exponent arithmetic",
+      "observed_log_occurrences": 2,
+      "accepted_transcript_blocks": [
+        "info: Obstructions.lean:708:0: 'RHArchitectureObstructions.physical_deficit_at_half' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "'RHArchitectureObstructions.physical_deficit_at_half' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    },
+    {
+      "declaration": "RHArchitectureObstructions.eisenstein_prime_reciprocal_unbounded",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "generic_reachability": "Direct specialization of generic tail-unbounded theorem",
+      "observed_log_occurrences": 2,
+      "accepted_transcript_blocks": [
+        "info: Obstructions.lean:709:0: 'RHArchitectureObstructions.eisenstein_prime_reciprocal_unbounded' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+        "'RHArchitectureObstructions.eisenstein_prime_reciprocal_unbounded' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+      ]
+    },
+    {
+      "declaration": "RHArchitectureObstructions.half_outside_proved_moment_range",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "generic_reachability": "No generic-helper use; stipulated scalar parameter interval",
+      "observed_log_occurrences": 2,
+      "accepted_transcript_blocks": [
+        "info: Obstructions.lean:710:0: 'RHArchitectureObstructions.half_outside_proved_moment_range' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "'RHArchitectureObstructions.half_outside_proved_moment_range' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    },
+    {
+      "declaration": "RHArchitectureObstructions.principal_euler_defect_lower_bound",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "generic_reachability": "No generic-helper use; local complex-factor inequality",
+      "observed_log_occurrences": 2,
+      "accepted_transcript_blocks": [
+        "info: Obstructions.lean:711:0: 'RHArchitectureObstructions.principal_euler_defect_lower_bound' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+        "'RHArchitectureObstructions.principal_euler_defect_lower_bound' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+      ]
+    },
+    {
+      "declaration": "RHArchitectureObstructions.principal_defects_unbounded_of_prime_reciprocals",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "generic_reachability": "Conditional local-to-prime transfer; prime divergence is an explicit premise",
+      "observed_log_occurrences": 2,
+      "accepted_transcript_blocks": [
+        "info: Obstructions.lean:712:0: 'RHArchitectureObstructions.principal_defects_unbounded_of_prime_reciprocals' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+        "'RHArchitectureObstructions.principal_defects_unbounded_of_prime_reciprocals' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+      ]
+    },
+    {
+      "declaration": "RHArchitectureObstructions.principal_prime_defects_unbounded",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "generic_reachability": "Combines local transfer with unconditional Eisenstein specialization",
+      "observed_log_occurrences": 2,
+      "accepted_transcript_blocks": [
+        "info: Obstructions.lean:713:0: 'RHArchitectureObstructions.principal_prime_defects_unbounded' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+        "'RHArchitectureObstructions.principal_prime_defects_unbounded' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+      ]
+    },
+    {
+      "declaration": "RHArchitectureObstructions.principal_all_prime_defects_not_summable",
+      "reported_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "generic_reachability": "Uses unconditional tail result and restriction to full prime family",
+      "observed_log_occurrences": 2,
+      "accepted_transcript_blocks": [
+        "info: Obstructions.lean:714:0: 'RHArchitectureObstructions.principal_all_prime_defects_not_summable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+        "'RHArchitectureObstructions.principal_all_prime_defects_not_summable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+      ]
+    }
+  ],
+  "historical_log": {
+    "file": "VERIFICATION.log",
+    "sha256": "e8d6459da9d2d35206151243fb88cc7b5ee9d79392e958560df787585869acda",
+    "distinct_audited_declarations": 7,
+    "report_block_occurrences": 14,
+    "meaning": "Existing build and standalone sections repeat the same seven declarations; no dedicated generic-helper terminal audit"
+  },
+  "fresh_Lean_Lake_or_importer_replay": "NOT_RUN",
+  "new_generic_helper_axiom_report": "NOT_RUN_NOT_INVENTED",
+  "source_or_configuration_or_pin_changes": 0,
+  "mathematical_priority_or_current_upstream_absence_claim": false,
+  "attribution": {
+    "classical_mathematics_and_Mathlib_infrastructure": "Existing source reuse, not new theorem",
+    "historical_generating_modifying_checking_model_identities": "UNKNOWN",
+    "new_preparation": "AI-assisted; internal review is not external independent review",
+    "notices": "Existing package notices retained; no new license or rights assignment"
+  },
+  "preserved_boundaries": "Finite exclusion, norm threshold64 and unordered finite-subsum quantifiers retained; architecture Euler strip1/2<Re(x)<=2/3 and unit phases are separate application hypotheses",
+  "proof_dependency_names_in_existing_source": [
+    "NumberField.Ideal.tendsto_norm_le_div_atTop₀",
+    "NumberField.dedekindZeta_residue_ne_zero",
+    "Ideal.finite_setOfPred_absNorm_le₀",
+    "Ideal.finite_setOfPred_absNorm_le",
+    "tendsto_tsum_of_dominated_convergence",
+    "summable_finsetProd_of_summable_nonneg",
+    "normalizedFactors",
+    "prod_normalizedFactors_eq",
+    "Ideal.absNorm"
+  ],
+  "dependency_scope": "Named Mathlib results/definitions used by existing accepted proofs; not a new minimal-import or binary artifact-producer closure"
+}

@@ -15,6 +15,7 @@ These are unchanged sources with saved individual acceptance, **not freshly repl
 | Question | Read |
 |---|---|
 | What has Lean verified, and how can I reproduce it? | [Lean certificates](qrh-obstructions-lean/README.md) |
+| Can I reuse prime-ideal harmonic divergence for any number field? | [Generic prime-ideal API](qrh-obstructions-lean/PrimeIdealDivergence.md) |
 | Why is the norm-157 conjugate phase nonzero? | [Local phase survival](qrh-obstructions-lean/MetaplecticDictionary.md) |
 | What cancels, and what remains unbounded? | [Quarter-mask sum](docs/quarter-mask-ledger.md) |
 | Why does the anchored prefix-envelope certificate miss fourth-root precision? | [Envelope obstruction](docs/LEMMA-002-ENVELOPE-OBSTRUCTION.md) |

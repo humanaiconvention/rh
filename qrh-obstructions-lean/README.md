@@ -157,6 +157,15 @@ exclusions are present in the formal theorem statements.
 In particular, `PrimeIdealDivergence.prime_reciprocals_not_summable` can
 be reused independently of the architecture-specific definitions.
 
+For a focused reusable interface, read the [number-field divergence guide](PrimeIdealDivergence.md),
+[exact selected API](PrimeIdealDivergenceAPI.md), and
+[source/axiom evidence map](PRIME-IDEAL-EVIDENCE.json). They spell out the ideal
+norms, finite-exclusion quantifiers and proof dependencies without copying the
+source into a new project. The generic helper has historical whole-module
+acceptance and downstream audit reachability, rather than a dedicated saved
+helper axiom report. Public-wrapper acceptance is tied to its own matching
+source-hash record; no fresh verification was run for these documents.
+
 The local phase declarations are in the namespace
 `MetaplecticDictionary`:
 
