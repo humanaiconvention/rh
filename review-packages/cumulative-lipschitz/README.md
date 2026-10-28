@@ -17,7 +17,7 @@ The weighted test is integrable under these hypotheses. A 1-Lipschitz test attai
 
 The proof constructs an attaining test as the anchored primitive of minus the sign of C. Zero total mass removes the additive constant in a Lipschitz test. A finite positive carrier is used internally for the signed Fubini argument; no finiteness or sigma-finiteness assumption is imposed on the original measure μ.
 
-This is classical one-dimensional cumulative/Lipschitz duality. The useful contribution here is a formal API that includes test integrability, a genuine attainer, and the original-measure hypotheses. It does not establish an arithmetic estimate or a result about the Riemann Hypothesis.
+This is classical one-dimensional cumulative/Lipschitz duality. The useful contribution here is a formal API that includes test integrability, a genuine attainer, and the original-measure hypotheses.
 
 ## Verification boundary
 

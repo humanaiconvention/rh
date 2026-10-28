@@ -14,9 +14,7 @@ and the denominator is handled on the eventual set `x > 1`.
 
 [API.md](API.md) gives the exact two exports and their hypotheses.
 [PolynomialLogDegree.lean](PolynomialLogDegree.lean) is the unchanged accepted
-source. It imports one Mathlib module and no local provider. The result is
-generic polynomial growth rigidity; no particular analytic source, multiplier
-classification or RH application is certified here.
+source. It imports one Mathlib module and no local provider. The result describes generic polynomial growth.
 
 [Verification](VERIFICATION.md) records historical Lean 4.35.0 acceptance.
 Standalone, Lean 4.36 and downstream replays have not run. See also the

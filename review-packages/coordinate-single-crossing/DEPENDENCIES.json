@@ -1,0 +1,110 @@
+{
+  "package_local_source_closure": [
+    {
+      "direct_imports": [
+        "Mathlib.MeasureTheory.Integral.Bochner.Basic",
+        "Mathlib.Topology.MetricSpace.Lipschitz",
+        "Mathlib.Tactic.Ring"
+      ],
+      "sha256": "787b8a61607d1735517e09390cdad4dc1e05847abd262fcc595fa78d75e8c19a",
+      "file": "CoordinateSingleCrossing.lean",
+      "local_provider_imports": []
+    }
+  ],
+  "full_declared_package_set": [
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "rev": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "rev": "c2d7840c65673533e15b499f25beecdc6227f7d8",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "rev": "9d39f9bb0c30aa2f6200808805ff16e6ce950890",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "rev": "19a8e822bfeace1ae4e090045aad81e0c930e6cf",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "rev": "eef6bb95363c38103535ac2df08b6bb141f0a764",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "rev": "29c64c56cc38211d39b306db2df11701e3d3de11",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "rev": "6d26f8bb4b2bb78f929ad160feac508866821316",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "rev": "8e746d768c73b716c7d4bc07bd8e73f2a75bdb60",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "rev": "34d2efffcb6dc8d5f3537cf6a7f88bfaa999ec49",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    }
+  ],
+  "derivation": {
+    "status": "Static metadata from retained pinned Mathlib manifest; no fresh source checkout or binary artifact qualification",
+    "mathlib_revision": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+    "upstream_manifest_sha256": "ab0f956dfffc99f9c85298d2421047f53e4c9605f95b4ca67b2e087c218f313e"
+  },
+  "ambient_variables": "variable {α : Type*} [MeasurableSpace α] {μ : Measure α} {d ψ : α → ℝ} {φ : ℝ → ℝ} {a : ℝ} {K : ℝ≥0}",
+  "declarations": [
+    {
+      "name": "CoordinateSingleCrossing.lipschitz_comp_mul_integrable",
+      "signature": "theorem lipschitz_comp_mul_integrable\n    (hψ : AEMeasurable ψ μ) (hd : Integrable d μ)\n    (hm : Integrable (fun x => ψ x * d x) μ) (hφ : LipschitzWith K φ) :\n    Integrable (fun x => φ (ψ x) * d x) μ"
+    },
+    {
+      "name": "CoordinateSingleCrossing.centered_coordinate_moment_eq",
+      "signature": "theorem centered_coordinate_moment_eq\n    (hd : Integrable d μ) (hm : Integrable (fun x => ψ x * d x) μ)\n    (hzero : (∫ x, d x ∂μ) = 0) :\n    (∫ x, (ψ x - a) * d x ∂μ) = ∫ x, ψ x * d x ∂μ"
+    },
+    {
+      "name": "CoordinateSingleCrossing.coordinate_moment_nonneg",
+      "signature": "theorem coordinate_moment_nonneg\n    (hd : Integrable d μ) (hm : Integrable (fun x => ψ x * d x) μ)\n    (hzero : (∫ x, d x ∂μ) = 0)\n    (hsign : ∀ᵐ x ∂μ, 0 ≤ (ψ x - a) * d x) :\n    0 ≤ ∫ x, ψ x * d x ∂μ"
+    },
+    {
+      "name": "CoordinateSingleCrossing.abs_integral_comp_le_coordinate_moment",
+      "signature": "theorem abs_integral_comp_le_coordinate_moment\n    (hψ : AEMeasurable ψ μ) (hd : Integrable d μ)\n    (hm : Integrable (fun x => ψ x * d x) μ)\n    (hzero : (∫ x, d x ∂μ) = 0)\n    (hsign : ∀ᵐ x ∂μ, 0 ≤ (ψ x - a) * d x)\n    (hφ : LipschitzWith K φ) :\n    |∫ x, φ (ψ x) * d x ∂μ| ≤ (K : ℝ) * ∫ x, ψ x * d x ∂μ"
+    },
+    {
+      "name": "CoordinateSingleCrossing.universal_coordinate_budget_iff",
+      "signature": "theorem universal_coordinate_budget_iff\n    (hψ : AEMeasurable ψ μ) (hd : Integrable d μ)\n    (hm : Integrable (fun x => ψ x * d x) μ)\n    (hzero : (∫ x, d x ∂μ) = 0)\n    (hsign : ∀ᵐ x ∂μ, 0 ≤ (ψ x - a) * d x) {B : ℝ} :\n    (∀ φ : ℝ → ℝ, LipschitzWith 1 φ → |∫ x, φ (ψ x) * d x ∂μ| ≤ B) ↔\n      (∫ x, ψ x * d x ∂μ) ≤ B"
+    }
+  ],
+  "hypothesis_note": "P2 and P3 have no AE-measurability premise; P1/P4/P5 retain it. P1 has no zero-mass/crossing premise. P5 uses unit Lipschitz tests and every real B.",
+  "scope": "One local source and the complete declared pinned project package set. Fixed commits identify source trees, not a newly enumerated per-module graph or authenticated binary-producer closure.",
+  "root_configuration": "New extracted project and lock are uncompiled proposals; no private provider adapters"
+}

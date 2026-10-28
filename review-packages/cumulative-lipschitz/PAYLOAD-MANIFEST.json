@@ -76,9 +76,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2051,
-      "sha256": "ffa5d6069508cb8f4b5eef66e773a8740738b72db99684de75897b9cd7091a52",
-      "git_blob_sha1": "87e671a4017751303fe825535e7993f820771176"
+      "bytes": 1964,
+      "sha256": "013864793bcbd3606c79b0dd4d7413e7670acf6e3b91fb270c1b684d109053d6",
+      "git_blob_sha1": "667ada07aba8954205dc73943bee1f0d049e70cc"
     },
     {
       "path": "THEOREM-STATEMENTS.md",

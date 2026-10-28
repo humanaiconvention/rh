@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-27T21:53:11.5893253-07:00",
+  "snapshot_utc": "2026-10-28T05:27:07.000Z",
   "status": "REVIEW_SNAPSHOTS_SAVED_SOURCE_ACCEPTANCE_FRESH_REPLAY_NOT_RUN",
   "publication_does_not_establish_mathematical_review_or_rights_clearance": true,
   "packages": [
@@ -94,7 +94,7 @@
       "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
       "title": "Cumulative/Lipschitz duality",
       "human_mathematical_API_editorial_and_rights_review": "PENDING",
-      "candidate_manifest_sha256": "48d0ba4b2cad604e5c17485deab8d456a9f1372eef5bdb09f4e3a2e3ea6a6387"
+      "candidate_manifest_sha256": "2c05bb9e9355eaac46473313e28e78db0ee0e0d89c258ca979d5e480a01c4580"
     },
     {
       "Lean_sources": 1,
@@ -124,13 +124,28 @@
       "Mathlib_pin": "6015dbbfc399f4548bafd46f9560ff61595fd328",
       "title": "Polynomial logarithmic degree",
       "human_mathematical_API_editorial_and_rights_review": "PENDING",
-      "candidate_manifest_sha256": "cb90ca2479cb774e47fd8a3335cc3e91ae9b470b870dea712d5806d3f5de24f7"
+      "candidate_manifest_sha256": "57e43c8e2f8aa8e80bae597d4bc78bd6d1b12aa16405140ba1cf6e745a988b24"
+    },
+    {
+      "directory": "coordinate-single-crossing",
+      "title": "Signed single-crossing bounds along a coordinate",
+      "Lean_sources": 1,
+      "saved_terminal_reports": 5,
+      "source_sha256": "787b8a61607d1735517e09390cdad4dc1e05847abd262fcc595fa78d75e8c19a",
+      "source_assembly_status": "CURATED_ACCEPTED_SOURCE_REVIEW_SNAPSHOT",
+      "fresh_standalone_replay": "NOT_RUN",
+      "fresh_importing_consumer": "NOT_RUN",
+      "root_lock_lake_acceptance": "NOT_RUN",
+      "human_mathematical_API_editorial_and_rights_review": "PENDING",
+      "Lean_pin": "4.36.0-rc1",
+      "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "candidate_manifest_sha256": "c94cf01d4569ba58341ef453c1c19dfee36c80013f98a3faae60951cc722d17d"
     }
   ],
-  "unchanged_Lean_sources": 41,
-  "saved_terminal_axiom_reports": 264,
+  "unchanged_Lean_sources": 42,
+  "saved_terminal_axiom_reports": 269,
   "new_compiler_or_dependency_runs": 0,
-  "scope": "Nine separate roots; seven recorded4.36/c856 baselines and two historical4.35/6015 baselines; no unified build; existing six-package payloads and repository history retained",
-  "previous_snapshot_utc": "2026-10-27T00:42:07.604643-07:00",
-  "base_review_commit": "475a9d9639f347bb1b72ae30a129d5d330275454"
+  "scope": "Ten separate roots; eight recorded4.36/c856 baselines and two historical4.35/6015 baselines; no unified build. Previous sources retained; two README essays and their manifests have documented doc-only changes.",
+  "previous_snapshot_utc": "2026-10-27T21:53:11.5893253-07:00",
+  "base_review_commit": "735cc4bf3d9741fc086da1bfef1da72addda1ba3"
 }

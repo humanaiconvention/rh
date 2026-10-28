@@ -1,0 +1,102 @@
+{
+  "scope": "Self-excluding U19 review snapshot; historical accepted source; new Lake/standalone/consumer replay NOT RUN",
+  "source_sha256": "787b8a61607d1735517e09390cdad4dc1e05847abd262fcc595fa78d75e8c19a",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 31,
+      "sha256": "83d18a9c6795e38ed6dffc3828ce126d7ba72e7e0dcb2a6e32d1e45a2e9981c7",
+      "git_blob_sha1": "c5083ac15cd8cbcb47571ea78c0e957c3e55f74c"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 1692,
+      "sha256": "b8fa901a36f7aa2341f709f909f592b2a13ad9499bd5c571506e430151a85db5",
+      "git_blob_sha1": "c05a25779d55af002728ae8e0c67f7adabab3059"
+    },
+    {
+      "path": "BUILD.md",
+      "bytes": 3799,
+      "sha256": "df1e0a5c2c3427bd5cfb0484e4209353affff3aad360fa4d3b8f2734fd007270",
+      "git_blob_sha1": "4d2072aa9b7744806ac8712839cb4d19a9e6e6cb"
+    },
+    {
+      "path": "COMPARISON.md",
+      "bytes": 2387,
+      "sha256": "1bb4deb5bd8bb056b2b47fd8a4894426dd85691962e6f8c5d810988d59c03b13",
+      "git_blob_sha1": "d30c2fd27137f867f6e2a1fe9f2eb545211d64e6"
+    },
+    {
+      "path": "CoordinateSingleCrossing.lean",
+      "bytes": 5242,
+      "sha256": "787b8a61607d1735517e09390cdad4dc1e05847abd262fcc595fa78d75e8c19a",
+      "git_blob_sha1": "14ee291fcc602c2905b8c91612d698b4f15af082"
+    },
+    {
+      "path": "DEPENDENCIES.json",
+      "bytes": 5631,
+      "sha256": "5f191f881a32a510d531cd37f4c5af740d22bc719bcbdcdb70d49a8c56b550cb",
+      "git_blob_sha1": "5057796c7f7d64c0252be70c47090aa3ba110e05"
+    },
+    {
+      "path": "EVIDENCE.json",
+      "bytes": 3219,
+      "sha256": "f9109b92ec12aa49ec48dab5337be4d9756d750a99e4364278240a65709674f5",
+      "git_blob_sha1": "f1190ddcbb86b9002cd680fcf66dfa0f849150a3"
+    },
+    {
+      "path": "lake-manifest.json",
+      "bytes": 3687,
+      "sha256": "f313d9a8e004c92c17e16e0bd842d208c6cfc4378ea2ab2a385f7ac1100f696e",
+      "git_blob_sha1": "afac67ec0857207c7dd2be7a88868002fa480399"
+    },
+    {
+      "path": "lakefile.toml",
+      "bytes": 336,
+      "sha256": "e4282b82ea8f8f253703dcdc622139dbed601c7df3b57bfaab8484aa1f5cdf25",
+      "git_blob_sha1": "26d84c1fe5ded447aaed82228f62ca6a313ff7c7"
+    },
+    {
+      "path": "lean-toolchain",
+      "bytes": 29,
+      "sha256": "d581a24b57a4ae9e0b2132ca8ac7cc3ac336a9fc2751fe6b29414e2d434d54c4",
+      "git_blob_sha1": "2afd38716ad6182657562d3dac3c98461c1385f2"
+    },
+    {
+      "path": "LICENSE-STATUS.md",
+      "bytes": 785,
+      "sha256": "a1e7f9acf11cbd69a1f6bdd967a68f3e21792c8d80dd8610ba6ac717b7b3468b",
+      "git_blob_sha1": "2c93b673cf15c255f00ede18b69c1ec6b0f6e938"
+    },
+    {
+      "path": "notices/EXISTING-PROJECT-MIT-LICENSE.txt",
+      "bytes": 1074,
+      "sha256": "52d081ddbc2ec14fabc9ffbaaaa919ad003bfde5cf9b7f7d140243489a58d232",
+      "git_blob_sha1": "308ea8b0b77c5001ee772a754d67eb3cb24a7ac4"
+    },
+    {
+      "path": "notices/MATHLIB-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "git_blob_sha1": "8dada3edaf50dbc082c9a125058f25def75e625a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2488,
+      "sha256": "fe248f3fa1f2e62880e9d30ccb816623ec6473aebf00046fd9c0d6057720ec38",
+      "git_blob_sha1": "8989addcf944fe816ba23dbe3ca1f8ccc65c1321"
+    },
+    {
+      "path": "THEOREM-STATEMENTS.md",
+      "bytes": 2500,
+      "sha256": "a4d55e8a7e8ed4eeb1aa11fd56b02212a31e51cb514f5739001787e18fe4f03e",
+      "git_blob_sha1": "4f44ae37a136a34b3a49c610906112d66af7e4a2"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 2011,
+      "sha256": "9b69555bf7812b267cccd653169a9673fd279b91574279d6ba1b2da309bb279f",
+      "git_blob_sha1": "0bee0568396dedfec75139f7f9a32ac137334046"
+    }
+  ]
+}

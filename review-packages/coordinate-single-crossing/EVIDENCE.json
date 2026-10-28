@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "package": "coordinate-single-crossing",
+  "verification_level": "HISTORICAL_ACCEPTED_SOURCE_WITH_CURATED_SAVED_REPORTS",
+  "source": {
+    "unchanged": true,
+    "sha256": "787b8a61607d1735517e09390cdad4dc1e05847abd262fcc595fa78d75e8c19a",
+    "file": "CoordinateSingleCrossing.lean"
+  },
+  "environment": {
+    "mathlib_revision": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+    "lean": "4.36.0-rc1"
+  },
+  "historical_run": {
+    "ended_utc": "2026-10-23T21:25:50.8089310+00:00",
+    "status": "PASS",
+    "exit_code": 0,
+    "started_utc": "2026-10-23T21:25:35.9439690+00:00",
+    "nonfatal_warning_lines": 0
+  },
+  "private_record_identities": {
+    "acceptance_sha256": "bd0425bd84f6b1636542456185f7a471bb6fc9b0f998167fc0af9f30afb1cebf",
+    "compiler_log_sha256": "4aa3e32e3f0b9c26cba40175973f0f803f8b565775ab9c8cd5842c0f14bd2ded",
+    "execution_receipt_sha256": "e439f2f6c19876523fa1ee68a3d17a44b53f9955e4eda9f5a3deac732c5e6587"
+  },
+  "saved_terminal_axiom_reports": [
+    {
+      "declaration": "CoordinateSingleCrossing.lipschitz_comp_mul_integrable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CoordinateSingleCrossing.centered_coordinate_moment_eq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CoordinateSingleCrossing.coordinate_moment_nonneg",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CoordinateSingleCrossing.abs_integral_comp_le_coordinate_moment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "CoordinateSingleCrossing.universal_coordinate_budget_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "accepted_axiom_transcript": [
+    "'CoordinateSingleCrossing.lipschitz_comp_mul_integrable' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'CoordinateSingleCrossing.centered_coordinate_moment_eq' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'CoordinateSingleCrossing.coordinate_moment_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'CoordinateSingleCrossing.abs_integral_comp_le_coordinate_moment' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'CoordinateSingleCrossing.universal_coordinate_budget_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "provenance": "Selected successful report text and fields from retained historical records. Wrapped report lines are preserved. Raw logs, paths, runtime data and development provenance are not exported; hashes identify retained originals. This is not a fresh compiler transcript.",
+  "fresh_standalone_replay": "NOT_RUN",
+  "fresh_importing_consumer": "NOT_RUN",
+  "root_lock_lake_acceptance": "NOT_RUN",
+  "historical_model_identities": "UNKNOWN_WHERE_UNAUTHENTICATED",
+  "human_mathematical_API_and_rights_review": "PENDING"
+}

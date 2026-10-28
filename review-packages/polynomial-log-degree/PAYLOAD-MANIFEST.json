@@ -82,9 +82,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 1683,
-      "sha256": "5ba519eba340a88dcd7cad5004df227b566fd991261c72ec17f2e2a993fe405f",
-      "git_blob_sha1": "43645bd6b82d3372883bd8e710261ab29bd28bbf"
+      "bytes": 1587,
+      "sha256": "46751724d1e02a25bea2f9f795a5d1319d0d42c43a6937e8b3fb4468f0075b89",
+      "git_blob_sha1": "301cf5e1227465d88cbd760074556ce67db118fd"
     },
     {
       "path": "VERIFICATION.md",
