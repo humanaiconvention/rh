@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "package": "theta-power-transport",
+  "verification_level": "HISTORICAL_ACCEPTED_ACTUAL004_WITH_SOURCE_PROVIDER_AUTHENTICATION",
+  "source": {
+    "sha256": "a5e85b183a811014614980446012fb7b0bbb178b8333a28a3c2de739b9b7fee1",
+    "file": "ThetaPowerCoordinate.lean",
+    "unchanged": true
+  },
+  "environment": {
+    "lean": "4.36.0-rc1",
+    "mathlib_revision": "c85646e3ac7d3ca39468f114b2d95d62e1611533"
+  },
+  "historical_run": {
+    "exit_code": 0,
+    "status": "PASS",
+    "nonfatal_warning_lines": 0,
+    "ended_utc": "2026-10-25T18:37:08.2034810+00:00",
+    "attempt": "004",
+    "started_utc": "2026-10-25T18:34:05.0695260+00:00"
+  },
+  "retained_record_identities": {
+    "acceptance_sha256": "d892e2c21b31deb25bf5d07d1d542d76511c29b91d7908c157225dde4ae9019a",
+    "provider_profile_sha256": "1d89bff11e7df6f5dac21591e522569d0fca0ab3d09cf99cd963a6ca95e9a555",
+    "execution_receipt_sha256": "106522ff1968a2f3fa4211c85d9e48629a368e58cbc68ee3b4ff22bfac56b847",
+    "compiler_log_sha256": "fd119697185d223accaaf66191a1dc37c795314ee1488b94e77f9e8fec199054"
+  },
+  "actual_terminal_reports": [
+    {
+      "declaration": "ThetaMacdonald.PowerCoordinate.powerMomentGap_pos",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ThetaMacdonald.PowerCoordinate.powerMomentGap_eq_signed",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ThetaMacdonald.PowerCoordinate.actual_power_coordinate_measurable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ThetaMacdonald.PowerCoordinate.actual_power_crossing_ae",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ThetaMacdonald.PowerCoordinate.actual_power_weighted_integrable",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ThetaMacdonald.PowerCoordinate.actual_power_lipschitz_gap_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "ThetaMacdonald.PowerCoordinate.actual_positive_power_budget_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "accepted_axiom_transcript": [
+    "'ThetaMacdonald.PowerCoordinate.powerMomentGap_pos' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'ThetaMacdonald.PowerCoordinate.powerMomentGap_eq_signed' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'ThetaMacdonald.PowerCoordinate.actual_power_coordinate_measurable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'ThetaMacdonald.PowerCoordinate.actual_power_crossing_ae' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'ThetaMacdonald.PowerCoordinate.actual_power_weighted_integrable' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'ThetaMacdonald.PowerCoordinate.actual_power_lipschitz_gap_le' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]",
+    "'ThetaMacdonald.PowerCoordinate.actual_positive_power_budget_iff' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]"
+  ],
+  "supporting_evidence": [
+    "evidence/theta-provider-acceptance.json",
+    "evidence/coordinate-provider-acceptance.json"
+  ],
+  "supporting_report_count_reused": 162,
+  "scope": "Seven actual-module reports, plus reused provider evidence. Retained record hashes identify private originals; no raw logs, runtime commands or machine paths are exported. This is not a new compiler transcript.",
+  "excluded": "Rejected or unlaunched attempts supply no acceptance premise.",
+  "fresh_standalone_replay": "NOT_RUN",
+  "fresh_importing_consumer": "NOT_RUN",
+  "new_root_lock_Lake_acceptance": "NOT_RUN",
+  "historical_model_identities": "UNKNOWN_WHERE_UNAUTHENTICATED",
+  "human_math_API_rights_review": "PENDING"
+}

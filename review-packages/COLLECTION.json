@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-28T05:27:07.000Z",
+  "snapshot_utc": "2026-10-28T06:22:55.9114947Z",
   "status": "REVIEW_SNAPSHOTS_SAVED_SOURCE_ACCEPTANCE_FRESH_REPLAY_NOT_RUN",
   "publication_does_not_establish_mathematical_review_or_rights_clearance": true,
   "packages": [
@@ -140,12 +140,28 @@
       "Lean_pin": "4.36.0-rc1",
       "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
       "candidate_manifest_sha256": "c94cf01d4569ba58341ef453c1c19dfee36c80013f98a3faae60951cc722d17d"
+    },
+    {
+      "directory": "theta-power-transport",
+      "title": "Sharp power-coordinate budgets for theta and Macdonald densities",
+      "Lean_sources": 29,
+      "saved_terminal_reports": 7,
+      "reused_supporting_terminal_reports": 162,
+      "source_sha256": "a5e85b183a811014614980446012fb7b0bbb178b8333a28a3c2de739b9b7fee1",
+      "source_assembly_status": "CURATED_ACCEPTED_ACTUAL004_WITH_AUTHENTICATED_PROVIDER_SOURCES",
+      "fresh_standalone_replay": "NOT_RUN",
+      "fresh_importing_consumer": "NOT_RUN",
+      "root_lock_lake_acceptance": "NOT_RUN",
+      "human_mathematical_API_editorial_and_rights_review": "PENDING",
+      "Lean_pin": "4.36.0-rc1",
+      "Mathlib_pin": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "candidate_manifest_sha256": "f7dca0697bc2f4fbfbce9eb0632ea1f59d3110e56273961622ca2fa149ab360e"
     }
   ],
-  "unchanged_Lean_sources": 42,
-  "saved_terminal_axiom_reports": 269,
+  "unchanged_Lean_sources": 71,
+  "saved_terminal_axiom_reports": 276,
   "new_compiler_or_dependency_runs": 0,
-  "scope": "Ten separate roots; eight recorded4.36/c856 baselines and two historical4.35/6015 baselines; no unified build. Previous sources retained; two README essays and their manifests have documented doc-only changes.",
-  "previous_snapshot_utc": "2026-10-27T21:53:11.5893253-07:00",
-  "base_review_commit": "735cc4bf3d9741fc086da1bfef1da72addda1ba3"
+  "scope": "Eleven separate roots; nine recorded 4.36/c856 baselines and two historical 4.35/6015 baselines; no unified build. Counts describe source-file copies and primary saved terminal reports, not unique modules or newly proved results. The 29-source power package includes 28 byte-identical providers already hosted elsewhere; its 162 reused supporting reports are excluded from the total. All ten prior package subtrees remain unchanged.",
+  "previous_snapshot_utc": "2026-10-28T05:27:07.000Z",
+  "base_review_commit": "da62ae636f23189a83998214d0af7d972c22bd7c"
 }

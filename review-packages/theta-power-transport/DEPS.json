@@ -1,0 +1,712 @@
+{
+  "local_source_closure": [
+    {
+      "module": "ThetaPowerCoordinate",
+      "file": "ThetaPowerCoordinate.lean",
+      "sha256": "a5e85b183a811014614980446012fb7b0bbb178b8333a28a3c2de739b9b7fee1",
+      "git_blob_sha1": "d736c92f61468d05a2a69870fadc7f644593e794",
+      "local_imports": [
+        "CoordinateSingleCrossing",
+        "ThetaMomentOrder"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "d892e2c21b31deb25bf5d07d1d542d76511c29b91d7908c157225dde4ae9019a",
+      "historical_status": "ACTUAL004_PASS",
+      "previous_public_path": null,
+      "previous_public_commit": null,
+      "previous_public_bytes_match": null
+    },
+    {
+      "module": "CoordinateSingleCrossing",
+      "file": "CoordinateSingleCrossing.lean",
+      "sha256": "787b8a61607d1735517e09390cdad4dc1e05847abd262fcc595fa78d75e8c19a",
+      "git_blob_sha1": "14ee291fcc602c2905b8c91612d698b4f15af082",
+      "local_imports": [],
+      "Mathlib_imports": [
+        "Mathlib.MeasureTheory.Integral.Bochner.Basic",
+        "Mathlib.Topology.MetricSpace.Lipschitz",
+        "Mathlib.Tactic.Ring"
+      ],
+      "historical_record_sha256": "bd0425bd84f6b1636542456185f7a471bb6fc9b0f998167fc0af9f30afb1cebf",
+      "historical_status": "GENERIC_PASS",
+      "previous_public_path": "review-packages/coordinate-single-crossing/CoordinateSingleCrossing.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaMomentOrder",
+      "file": "ThetaMomentOrder.lean",
+      "sha256": "1d9e692f9cbd08b72edda08dd590263184c407a6f18953e61523adf77653b9bc",
+      "git_blob_sha1": "904114fd65554d0c9b698316c050704659b87275",
+      "local_imports": [
+        "MonotoneMomentOrder",
+        "ThetaSecondMoment"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "d6b4ce05b7ef846df79d36b030936acb4a0b8dc85f4550f0a261cd1b4d03da15",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaMomentOrder.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "MonotoneMomentOrder",
+      "file": "MonotoneMomentOrder.lean",
+      "sha256": "d8f1a7f9511c724669fc093596fb95c65414011d53ebd5e79dbbd967a73836d9",
+      "git_blob_sha1": "9618aa1be7efa8f0594334691a5872693311e3ff",
+      "local_imports": [
+        "ExponentialMomentBounds"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "f9a8088c508e4c9c2267d0d3f4036929f39da377187df392f3f48d535548741b",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/MonotoneMomentOrder.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaSecondMoment",
+      "file": "ThetaSecondMoment.lean",
+      "sha256": "d17866a98ae7fffb293b6ecdb0b15112ef6ad53e1b57a0473c15c53319c70686",
+      "git_blob_sha1": "ac91f0a47a4dd04f8e705f4040a1a04a8799fbac",
+      "local_imports": [
+        "ExponentialMomentBounds",
+        "ThetaCumulativeOrder"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "286f350dd71a98c08d16c6a0ef2337be7f36ba2f09dfe1b39be180d3ec0583ae",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaSecondMoment.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ExponentialMomentBounds",
+      "file": "ExponentialMomentBounds.lean",
+      "sha256": "5547ecb9357e4ffbeed4a6f8f9c2e4e462513f29fa4dc118fdfdfa2f92511aeb",
+      "git_blob_sha1": "24694b3feebd3b5a1d17b2a24e58a6a655d473b3",
+      "local_imports": [],
+      "Mathlib_imports": [
+        "Mathlib.Analysis.SpecialFunctions.ImproperIntegrals",
+        "Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral",
+        "Mathlib.Tactic"
+      ],
+      "historical_record_sha256": "3a3e583625f19f31f8915dc80932d034ffcf8a46d938f518663a8e85b75588b8",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ExponentialMomentBounds.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaCumulativeOrder",
+      "file": "ThetaCumulativeOrder.lean",
+      "sha256": "b29c97012298c701091b196831d53c1aa051f14a05935108a50c21c404e9bd5a",
+      "git_blob_sha1": "80cb207a67a32803acb3ac91baefaf9ac8a1d3a3",
+      "local_imports": [
+        "CumulativeSplit",
+        "ThetaDensityCrossing"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "98030989ac9243a6f770d3391a11a337e569e42d2413d4f8ba6c975f57ed7de1",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaCumulativeOrder.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "CumulativeSplit",
+      "file": "CumulativeSplit.lean",
+      "sha256": "b58cd065c0fa2c11c17b34ec92c82cf633ea9904f638b3f141ef82e61127885e",
+      "git_blob_sha1": "ab303da04027e1f2e0d5ba7929df35b5c6c306b8",
+      "local_imports": [],
+      "Mathlib_imports": [
+        "Mathlib.MeasureTheory.Integral.IntervalIntegral.Basic",
+        "Mathlib.Tactic"
+      ],
+      "historical_record_sha256": "3f2d2671633bc2698ca9f175efbc9e2b906d0718bd7c5d6109e9582796e157c4",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/CumulativeSplit.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaDensityCrossing",
+      "file": "ThetaDensityCrossing.lean",
+      "sha256": "6115eeb340b95c13c4bd0647206654094152b068af231ad4512160cd6e6c6648",
+      "git_blob_sha1": "2928441746ab56223bf7c2bbef799724a637e9c2",
+      "local_imports": [
+        "ThetaDensityRatio"
+      ],
+      "Mathlib_imports": [
+        "Mathlib.Topology.Order.IntermediateValue"
+      ],
+      "historical_record_sha256": "6c1172e9b4c1911587ea71da4aae2d350be7f663f05763e5e127575ebd911598",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaDensityCrossing.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaDensityRatio",
+      "file": "ThetaDensityRatio.lean",
+      "sha256": "bf7bf7bdbadc9015e8517e2f619d0281257f959ba51268b55f9707db6f6fc59b",
+      "git_blob_sha1": "0bb4eb42bb4cafc4904db0c1e08d9651be84f5e0",
+      "local_imports": [
+        "ThetaProbabilityMass"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "2f6cdc2e9d3cf44cda4b501770dada7f601e2062dcd0a8a87fc4663701b83aaa",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaDensityRatio.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaProbabilityMass",
+      "file": "ThetaProbabilityMass.lean",
+      "sha256": "4e456fe30a2827473fdaa399fc6d44d9acccb898b12911bd7b90c74cb5d9954a",
+      "git_blob_sha1": "e316826089c70884e2f6bbdf5151cffce3a9c898",
+      "local_imports": [
+        "ThetaMellinMass"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "52b39720795842941343b65a36bde99b4ec3e1a2afe5d83e9da8a1fe979373e0",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaProbabilityMass.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaMellinMass",
+      "file": "ThetaMellinMass.lean",
+      "sha256": "cdf5f47dce89f46b1c5ef3d48cbf06d797e05f18813724b5b3bf433d9e446a5e",
+      "git_blob_sha1": "9e3962306af0a711d3c453d368a34c9bc829d805",
+      "local_imports": [
+        "ThetaSeedFTC",
+        "RhWeilCompletedGrowth001"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "023b47ff802fe658733d803828e58a408f267f6e8d6924859be9d208e338001d",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaMellinMass.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaSeedFTC",
+      "file": "ThetaSeedFTC.lean",
+      "sha256": "490fa8bfbb9db858e47832787415c60dfd22cdd1596634878b30646c68208ab3",
+      "git_blob_sha1": "a5fe8aaa7a352cba3196b6ed3d89f9a3f806d6b0",
+      "local_imports": [
+        "ThetaMassBounds"
+      ],
+      "Mathlib_imports": [
+        "Mathlib.MeasureTheory.Integral.IntegralEqImproper"
+      ],
+      "historical_record_sha256": "27b7697593ba9e8f977b68a8cc141f779d75ef5ba28f4ef75306dd43a8e62294",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaSeedFTC.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "RhWeilCompletedGrowth001",
+      "file": "RhWeilCompletedGrowth001.lean",
+      "sha256": "998c72a91972eb3372af9061eea236c3f72b354956b2db9c1d254eb5228168de",
+      "git_blob_sha1": "3f0007a51b90511cb4dcd637da84fa6b23efc87a",
+      "local_imports": [
+        "RhWeilThetaGeometry001",
+        "RhWeilThetaMeasurable001"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "0631d1183b35ade3ab448489b0e34752f87dd891d9ac2f57de66ab61243a6f0d",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/RhWeilCompletedGrowth001.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaMassBounds",
+      "file": "ThetaMassBounds.lean",
+      "sha256": "8579d4ab3e237520faea0590548af006b5165550aeb29ede925e6cd3354e0427",
+      "git_blob_sha1": "be2c7ad0c8bcd5ad3a014f5768818cc8f99c22a7",
+      "local_imports": [
+        "ThetaStrictIncrease",
+        "MacdonaldMass"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "d826f9c9c16f578e75c6d58e1343f4f8ed49658ffdb6ece67fceb0a0769c2598",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaMassBounds.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "RhWeilThetaGeometry001",
+      "file": "RhWeilThetaGeometry001.lean",
+      "sha256": "8804abe70a6b29060970d317312465c0a0c0c7dfcbdf12a5de8a29aa28d7f86d",
+      "git_blob_sha1": "edb92ad750ae1be1c92b088d702fec1ea9c3f776",
+      "local_imports": [],
+      "Mathlib_imports": [
+        "Mathlib.NumberTheory.LSeries.RiemannZeta",
+        "Mathlib.Analysis.MellinInversion",
+        "Mathlib.Analysis.SpecialFunctions.Gaussian.GaussianIntegral",
+        "Mathlib.Tactic"
+      ],
+      "historical_record_sha256": "044d1ad193b20d0341c4da6daa374f4316f23ef50fc96f0b5d1a882a711d4e05",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/RhWeilThetaGeometry001.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "RhWeilThetaMeasurable001",
+      "file": "RhWeilThetaMeasurable001.lean",
+      "sha256": "c31be1b224f08b7b97f642da20eed3e05f5f2906bcb60bcafe7959c5fc65bd0c",
+      "git_blob_sha1": "784e52224a8fc0c27d52c0a7c6a07251e8efb4b7",
+      "local_imports": [
+        "RhWeilThetaBound001"
+      ],
+      "Mathlib_imports": [
+        "Mathlib.Analysis.SpecialFunctions.Pow.Continuity"
+      ],
+      "historical_record_sha256": "16bf8428b8cd83a8a626ffb3e8cfe4820658e1b2dc3008b8d5edc86d1a309b28",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/RhWeilThetaMeasurable001.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaStrictIncrease",
+      "file": "ThetaStrictIncrease.lean",
+      "sha256": "d678b5b3cf8442dfefbaaac6cebe81b06e65012bb89d7a46bac8706ab17ef78e",
+      "git_blob_sha1": "53861b1fd7dbec7dba99693fe8f24c512bc97572",
+      "local_imports": [
+        "ThetaPositiveSlope"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "84d6dae24de8990d61c00b3b1e5302449dc91cd6f2185f4d210cafbd32237e8c",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaStrictIncrease.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "MacdonaldMass",
+      "file": "MacdonaldMass.lean",
+      "sha256": "031dd2ed028bc6ff2f72907ff82a3eabd57e856f90f39a59c1df049ea932d0a0",
+      "git_blob_sha1": "1168bdcf2fb2190d188b8e362efa441214a51619",
+      "local_imports": [],
+      "Mathlib_imports": [
+        "Mathlib.Analysis.SpecialFunctions.ImproperIntegrals",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp",
+        "Mathlib.Tactic"
+      ],
+      "historical_record_sha256": "566a9625d63cd9a8e7b769153f15f8f2a37af99c1eb0fb9672a7318104ef1f8a",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/MacdonaldMass.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "RhWeilThetaBound001",
+      "file": "RhWeilThetaBound001.lean",
+      "sha256": "e0389dd5a567806bed99af41e405d6d534ed2b7cfcc8aca5b1d43323129c4734",
+      "git_blob_sha1": "56a502a5a6c348b6ef0ca847e7096d90be0967eb",
+      "local_imports": [],
+      "Mathlib_imports": [
+        "Mathlib.NumberTheory.LSeries.HurwitzZetaEven",
+        "Mathlib.Tactic"
+      ],
+      "historical_record_sha256": "be63f3ae47467197a4ae2967ae3b41b98e6bca8deae13f61cac936a8dfd0fff1",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/RhWeilThetaBound001.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaPositiveSlope",
+      "file": "ThetaPositiveSlope.lean",
+      "sha256": "3850481b95cdc1722a0b8285d32504598f571956bb5a58b954fceaf4737894d5",
+      "git_blob_sha1": "957065af4a4c2bfa2ab91c581858d94b3b1ed05d",
+      "local_imports": [
+        "ThetaOriginStationarity"
+      ],
+      "Mathlib_imports": [
+        "Mathlib.Analysis.Calculus.Deriv.MeanValue"
+      ],
+      "historical_record_sha256": "57be914068ba70ad61403d5b2efbbacdf44e1959b187714d0664197cedef789c",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaPositiveSlope.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaOriginStationarity",
+      "file": "ThetaOriginStationarity.lean",
+      "sha256": "fb7b8cfc8ce982f164e42bd743b82c0ad48845592c92c7b31544f62581fd07b3",
+      "git_blob_sha1": "5f36b01cf461b485d0f4a20f9756d17f43b1f9dd",
+      "local_imports": [
+        "ThetaGaussianSeed",
+        "ThetaPoissonReflection",
+        "ThetaCompleteRatio"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "c372ded3d27076e0b3b99bb911a589efba8d763bd485fe22f58636bcd596b388",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaOriginStationarity.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaGaussianSeed",
+      "file": "ThetaGaussianSeed.lean",
+      "sha256": "d187d035c41ac1571a8d7427be42a9499d82ab44aeb811c22c79f4106bad1ef7",
+      "git_blob_sha1": "8d8dbe6123b686aa360a7803574e050e95f33ecf",
+      "local_imports": [
+        "ThetaSeries"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "472028ea42a1ce04f2f9f75548a7f3ce897af44d70fb123a8ad9f08f63dfa596",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaGaussianSeed.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaPoissonReflection",
+      "file": "ThetaPoissonReflection.lean",
+      "sha256": "20be42d9fad8f8b130a2a2590cf78282f665632a86fe7592808e9ef512f6c7eb",
+      "git_blob_sha1": "7b6b3dbf866c6621ed4c49dc7ec277918a2172e9",
+      "local_imports": [],
+      "Mathlib_imports": [
+        "Mathlib.Analysis.SpecialFunctions.Gaussian.PoissonSummation",
+        "Mathlib.Analysis.Calculus.Deriv.Shift",
+        "Mathlib.Tactic"
+      ],
+      "historical_record_sha256": "42dc1911d853a4b938f7d6a5b2eb472d2675c2ad103985f69788acfd2099f742",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaPoissonReflection.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaCompleteRatio",
+      "file": "ThetaCompleteRatio.lean",
+      "sha256": "75d057f55026807fbbf367a353cd2bf518fc7a042826fc99d2aa2ac56170e266",
+      "git_blob_sha1": "a8f4809d0bb675463acb5fc71a2cc74070b3a933",
+      "local_imports": [
+        "ThetaOrderCore"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "7890e508ac1aed226244d23fa8f1427982a9216c96a96f06708de983793091a2",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaCompleteRatio.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaSeries",
+      "file": "ThetaSeries.lean",
+      "sha256": "bafed20550dc99a3d8cde9eb6211bea786cd5ed041e74e542bddec8ba89efc66",
+      "git_blob_sha1": "81e3a8f22c1d8fd8d53298e8cbf1b30f35709c9b",
+      "local_imports": [
+        "ThetaShellDerivative"
+      ],
+      "Mathlib_imports": [
+        "Mathlib.NumberTheory.ModularForms.JacobiTheta.Bounds",
+        "Mathlib.Analysis.Calculus.SmoothSeries",
+        "Mathlib.Analysis.Normed.Group.FunctionSeries",
+        "Mathlib.Tactic"
+      ],
+      "historical_record_sha256": "a9d24dfd225f4053193b8f00000d5ca140767febe845d58f56cf5fef2e3151d1",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaSeries.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaOrderCore",
+      "file": "ThetaOrderCore.lean",
+      "sha256": "cd3054c4e1ff573f95344870df6ca3502911c276b298552cf79c0502baf14fa7",
+      "git_blob_sha1": "2009f61b7c4a207c1ac8dabd85b189bfea7f9d44",
+      "local_imports": [
+        "ThetaShellShape",
+        "ThetaShellDerivative",
+        "ThetaSeries"
+      ],
+      "Mathlib_imports": [],
+      "historical_record_sha256": "a0343545b77b5337d2cbd562261df7c2ed86bea766d9c54a0280742218a10b53",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaOrderCore.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaShellDerivative",
+      "file": "ThetaShellDerivative.lean",
+      "sha256": "39503ba9c73eb2dac500423291519b5662ca02a1f592e04bcb54fb5ff1e79508",
+      "git_blob_sha1": "0677dd75a3527324b2af742af7e8d56eaf70202c",
+      "local_imports": [],
+      "Mathlib_imports": [
+        "Mathlib.Analysis.SpecialFunctions.ExpDeriv",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp",
+        "Mathlib.Analysis.Real.Pi.Bounds",
+        "Mathlib.Tactic.Ring"
+      ],
+      "historical_record_sha256": "0a6cdbba79e1b980d81e6b67b0ce42346c29ce8574c03798b422e80f157c7bbd",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaShellDerivative.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    },
+    {
+      "module": "ThetaShellShape",
+      "file": "ThetaShellShape.lean",
+      "sha256": "0bdffdb8b984b5e9178b1cf34d461128bccd74a3d8aaff0845b388258b662cd6",
+      "git_blob_sha1": "3720c4fb78395c6fda7bdd04fdfa8af4ba60f902",
+      "local_imports": [],
+      "Mathlib_imports": [
+        "Mathlib.Analysis.Real.Pi.Bounds",
+        "Mathlib.Analysis.SpecialFunctions.Exp",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Ring"
+      ],
+      "historical_record_sha256": "d577863801ca0b3da2c3161b58127333bbd2610e9aa791f6d2aadac12e78e2da",
+      "historical_status": "SAVED_PROVIDER_PASS",
+      "previous_public_path": "review-packages/theta-macdonald/ThetaShellShape.lean",
+      "previous_public_commit": "da62ae636f23189a83998214d0af7d972c22bd7c",
+      "previous_public_bytes_match": true
+    }
+  ],
+  "local_import_edges": [
+    {
+      "imports": "CoordinateSingleCrossing",
+      "module": "ThetaPowerCoordinate"
+    },
+    {
+      "imports": "ThetaMomentOrder",
+      "module": "ThetaPowerCoordinate"
+    },
+    {
+      "imports": "MonotoneMomentOrder",
+      "module": "ThetaMomentOrder"
+    },
+    {
+      "imports": "ThetaSecondMoment",
+      "module": "ThetaMomentOrder"
+    },
+    {
+      "imports": "ExponentialMomentBounds",
+      "module": "MonotoneMomentOrder"
+    },
+    {
+      "imports": "ExponentialMomentBounds",
+      "module": "ThetaSecondMoment"
+    },
+    {
+      "imports": "ThetaCumulativeOrder",
+      "module": "ThetaSecondMoment"
+    },
+    {
+      "imports": "CumulativeSplit",
+      "module": "ThetaCumulativeOrder"
+    },
+    {
+      "imports": "ThetaDensityCrossing",
+      "module": "ThetaCumulativeOrder"
+    },
+    {
+      "imports": "ThetaDensityRatio",
+      "module": "ThetaDensityCrossing"
+    },
+    {
+      "imports": "ThetaProbabilityMass",
+      "module": "ThetaDensityRatio"
+    },
+    {
+      "imports": "ThetaMellinMass",
+      "module": "ThetaProbabilityMass"
+    },
+    {
+      "imports": "ThetaSeedFTC",
+      "module": "ThetaMellinMass"
+    },
+    {
+      "imports": "RhWeilCompletedGrowth001",
+      "module": "ThetaMellinMass"
+    },
+    {
+      "imports": "ThetaMassBounds",
+      "module": "ThetaSeedFTC"
+    },
+    {
+      "imports": "RhWeilThetaGeometry001",
+      "module": "RhWeilCompletedGrowth001"
+    },
+    {
+      "imports": "RhWeilThetaMeasurable001",
+      "module": "RhWeilCompletedGrowth001"
+    },
+    {
+      "imports": "ThetaStrictIncrease",
+      "module": "ThetaMassBounds"
+    },
+    {
+      "imports": "MacdonaldMass",
+      "module": "ThetaMassBounds"
+    },
+    {
+      "imports": "RhWeilThetaBound001",
+      "module": "RhWeilThetaMeasurable001"
+    },
+    {
+      "imports": "ThetaPositiveSlope",
+      "module": "ThetaStrictIncrease"
+    },
+    {
+      "imports": "ThetaOriginStationarity",
+      "module": "ThetaPositiveSlope"
+    },
+    {
+      "imports": "ThetaGaussianSeed",
+      "module": "ThetaOriginStationarity"
+    },
+    {
+      "imports": "ThetaPoissonReflection",
+      "module": "ThetaOriginStationarity"
+    },
+    {
+      "imports": "ThetaCompleteRatio",
+      "module": "ThetaOriginStationarity"
+    },
+    {
+      "imports": "ThetaSeries",
+      "module": "ThetaGaussianSeed"
+    },
+    {
+      "imports": "ThetaOrderCore",
+      "module": "ThetaCompleteRatio"
+    },
+    {
+      "imports": "ThetaShellDerivative",
+      "module": "ThetaSeries"
+    },
+    {
+      "imports": "ThetaShellShape",
+      "module": "ThetaOrderCore"
+    },
+    {
+      "imports": "ThetaShellDerivative",
+      "module": "ThetaOrderCore"
+    },
+    {
+      "imports": "ThetaSeries",
+      "module": "ThetaOrderCore"
+    }
+  ],
+  "default_target": "ThetaPowerCoordinate",
+  "all_local_modules_declared_as_lean_libraries": true,
+  "full_declared_project_packages": [
+    {
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.lean",
+      "rev": "c85646e3ac7d3ca39468f114b2d95d62e1611533",
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "name": "mathlib"
+    },
+    {
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml",
+      "rev": "c2d7840c65673533e15b499f25beecdc6227f7d8",
+      "url": "https://github.com/leanprover-community/plausible",
+      "name": "plausible"
+    },
+    {
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml",
+      "rev": "9d39f9bb0c30aa2f6200808805ff16e6ce950890",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "name": "LeanSearchClient"
+    },
+    {
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml",
+      "rev": "19a8e822bfeace1ae4e090045aad81e0c930e6cf",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "name": "importGraph"
+    },
+    {
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.lean",
+      "rev": "eef6bb95363c38103535ac2df08b6bb141f0a764",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "name": "proofwidgets"
+    },
+    {
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml",
+      "rev": "29c64c56cc38211d39b306db2df11701e3d3de11",
+      "url": "https://github.com/leanprover-community/aesop",
+      "name": "aesop"
+    },
+    {
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml",
+      "rev": "6d26f8bb4b2bb78f929ad160feac508866821316",
+      "url": "https://github.com/leanprover-community/quote4",
+      "name": "Qq"
+    },
+    {
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml",
+      "rev": "8e746d768c73b716c7d4bc07bd8e73f2a75bdb60",
+      "url": "https://github.com/leanprover-community/batteries",
+      "name": "batteries"
+    },
+    {
+      "manifestFile": "lake-manifest.json",
+      "configFile": "lakefile.toml",
+      "rev": "34d2efffcb6dc8d5f3537cf6a7f88bfaa999ec49",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "name": "Cli"
+    }
+  ],
+  "actual_definition": "def powerMomentGap (k : ℕ) : ℝ :=\n  (∫ u in Ioi (0 : ℝ), u^k * thetaDensity u) -\n    ∫ u in Ioi (0 : ℝ), u^k * macdonaldDensity u",
+  "actual_declarations": [
+    {
+      "name": "ThetaMacdonald.PowerCoordinate.powerMomentGap_pos",
+      "signature": "theorem powerMomentGap_pos (k : ℕ) (hk : 0 < k) : 0 < powerMomentGap k"
+    },
+    {
+      "name": "ThetaMacdonald.PowerCoordinate.powerMomentGap_eq_signed",
+      "signature": "theorem powerMomentGap_eq_signed (k : ℕ) :\n    powerMomentGap k = ∫ u in Ioi (0 : ℝ), u^k * densityDifference u"
+    },
+    {
+      "name": "ThetaMacdonald.PowerCoordinate.actual_power_coordinate_measurable",
+      "signature": "theorem actual_power_coordinate_measurable (k : ℕ) :\n    AEMeasurable (fun u : ℝ => u^k) (volume.restrict (Ioi (0 : ℝ)))"
+    },
+    {
+      "name": "ThetaMacdonald.PowerCoordinate.actual_power_crossing_ae",
+      "signature": "theorem actual_power_crossing_ae (k : ℕ) :\n    ∃ a : ℝ, ∀ᵐ u ∂(volume.restrict (Ioi (0 : ℝ))),\n      0 ≤ (u^k - a) * densityDifference u"
+    },
+    {
+      "name": "ThetaMacdonald.PowerCoordinate.actual_power_weighted_integrable",
+      "signature": "theorem actual_power_weighted_integrable (k : ℕ) {φ : ℝ → ℝ} {K : ℝ≥0}\n    (hφ : LipschitzWith K φ) :\n    IntegrableOn (fun u => φ (u^k) * thetaDensity u) (Ioi (0 : ℝ)) ∧\n      IntegrableOn (fun u => φ (u^k) * macdonaldDensity u) (Ioi (0 : ℝ))"
+    },
+    {
+      "name": "ThetaMacdonald.PowerCoordinate.actual_power_lipschitz_gap_le",
+      "signature": "theorem actual_power_lipschitz_gap_le (k : ℕ) {φ : ℝ → ℝ} {K : ℝ≥0}\n    (hφ : LipschitzWith K φ) :\n    |(∫ u in Ioi (0 : ℝ), φ (u^k) * thetaDensity u) -\n      ∫ u in Ioi (0 : ℝ), φ (u^k) * macdonaldDensity u| ≤\n        (K : ℝ) * powerMomentGap k"
+    },
+    {
+      "name": "ThetaMacdonald.PowerCoordinate.actual_positive_power_budget_iff",
+      "signature": "theorem actual_positive_power_budget_iff (k : ℕ) (hk : 0 < k) {B : ℝ} :\n    (∀ φ : ℝ → ℝ, LipschitzWith 1 φ →\n      |(∫ u in Ioi (0 : ℝ), φ (u^k) * thetaDensity u) -\n        ∫ u in Ioi (0 : ℝ), φ (u^k) * macdonaldDensity u| ≤ B) ↔\n      powerMomentGap k ≤ B"
+    }
+  ],
+  "source_authentication": "Current selected original sources, exact accepted-record hashes, and28 published provider source blobs match. No new object/sidecar/producer qualification.",
+  "upstream_manifest_sha256": "ab0f956dfffc99f9c85298d2421047f53e4c9605f95b4ca67b2e087c218f313e",
+  "source_root_layout": "All29 files are flat in this independent package; imports retain their bare module names. No sibling review package or private path adapter is a build provider.",
+  "new_project_lock_and_standalone_consumer_replay": "NOT_RUN"
+}

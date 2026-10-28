@@ -1,6 +1,6 @@
 # Lean review packages
 
-Ten separate projects collect reusable finite algebra and analysis. Start with an essay, then read the exact statements, dependency pins and verification record.
+Eleven separate projects collect reusable finite algebra and analysis. Start with an essay, then read the exact statements, dependency pins and verification record.
 
 **These are review snapshots backed by saved individual source acceptance.** Newly assembled project configurations and locks have not had a clean standalone build or fresh importing-consumer replay. Hosting a snapshot does not establish human mathematical approval, current-upstream compatibility, finalized contribution rights or external review.
 
@@ -14,6 +14,7 @@ Ten separate projects collect reusable finite algebra and analysis. Start with a
 | [Theta–Macdonald order](theta-macdonald/README.md) | Actual normalized densities: unique crossing, strict CDF and positive-integer moment order | 4.36.0-rc1 / c85646e3 |
 | [Cumulative/Lipschitz duality](cumulative-lipschitz/README.md) | Four original-measure contracts with a genuine attaining test | 4.36.0-rc1 / c85646e3 |
 | [Coordinate single-crossing](coordinate-single-crossing/README.md) | Five arbitrary-base coordinate contracts with a sharp signed-moment budget | 4.36.0-rc1 / c85646e3 |
+| [Theta power transport](theta-power-transport/README.md) | Seven actual-source contracts with sharp Lipschitz budgets in natural-power coordinates | 4.36.0-rc1 / c85646e3 |
 | [Finite polynomial root counting](finite-root-counting/README.md) | Strict sign witnesses, robust endpoint margins and exact block counts | 4.35.0 / 6015dbbf |
 | [Polynomial logarithmic degree](polynomial-log-degree/README.md) | Two convenience limits recovering a nonzero polynomial's degree | 4.35.0 / 6015dbbf |
 
@@ -23,15 +24,15 @@ The full revisions are in [COLLECTION.json](COLLECTION.json) and the individual 
 
 Each package contains unchanged Lean sources, explanatory documentation, exact assumptions, dependency information, a build recipe, attribution and notices. Each self-excluding `PAYLOAD-MANIFEST.json` fingerprints its other files. Existing six-package payloads are preserved; their assembly records retain their original dates and verification limits.
 
-The four added API snapshots use public-safe `EVIDENCE.json` maps. They contain source and retained-record hashes, successful-run metadata, and the exact accepted terminal axiom lines. Private raw logs, machine paths, source-development provenance, runtime diagnostics and rejected recovery reports are excluded. These curated records are not fresh compiler transcripts. All fourteen saved reports for the added APIs use only `propext`, `Classical.choice`, and `Quot.sound`.
+The five added API snapshots use public-safe `EVIDENCE.json` maps. They contain source and retained-record hashes, successful-run metadata, and the exact accepted terminal axiom lines. Private raw logs, machine paths, source-development provenance, runtime diagnostics and rejected recovery reports are excluded. These curated records are not fresh compiler transcripts. All twenty-one primary saved reports for the added APIs use only `propext`, `Classical.choice`, and `Quot.sound`.
 
-The new `DEPENDENCIES.json` files list the complete declared pinned project package sets and each local source/import boundary. Fixed Git revisions identify source trees. They do not certify a binary artifact-producer closure or a new per-module import-graph replay. Proposed portable locks and Lake files still require actual acceptance in a legitimately provisioned environment.
+The new `DEPENDENCIES.json` and `DEPS.json` files list the complete declared pinned project package sets and each local source/import boundary. Fixed Git revisions identify source trees. They do not certify a binary artifact-producer closure or a new per-module import-graph replay. Proposed portable locks and Lake files still require actual acceptance in a legitimately provisioned environment.
 
 Read `BUILD.md` before any replay. Dependency acquisition, configuration work, compiler admission and actual build processes require their own scope and resource accounting. No compilation, dependency provisioning or workflow dispatch was performed for this batch. The older [finite-ledger certificates](../qrh-obstructions-lean/README.md) remain a separate project.
 
 ## Mathematical and review scope
 
-The cumulative and polynomial APIs package classical mathematics into explicit reusable formal interfaces. Their application hypotheses remain obligations. The Jensen package retains its two positive measures and exact Gaussian conditions; it does not assert a native/Jordan instantiation. The theta package includes the complete infinite-source and normalization chain. None of the added interfaces supplies an unresolved global arithmetic estimate.
+The cumulative and polynomial APIs package classical mathematics into explicit reusable formal interfaces. Their application hypotheses remain obligations. The Jensen package retains its two positive measures and exact Gaussian conditions; it does not assert a native/Jordan instantiation. The theta package includes the complete infinite-source and normalization chain. The power-transport package adds an actual-source application of the coordinate comparison to every natural power; it includes the needed providers, with 162 supporting reports reused from other packages and excluded from the new primary-report count. None of the added interfaces supplies an unresolved global arithmetic estimate.
 
 Existing repository MIT notices and separate Mathlib Apache-2.0 notices are retained unchanged. Imported dependencies keep their own terms. Each `ATTRIBUTION.md` and `LICENSE-STATUS.md` records pending contributor, rights and API decisions without inventing historical model identities. Owner-authorized hosting of these review snapshots is distinct from a final endorsed release or upstream submission.
 
