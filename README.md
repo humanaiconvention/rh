@@ -6,7 +6,7 @@ Exact finite-arithmetic identities, reproducible checks, and two Lean 4 certific
 
 ## Additional Lean review packages
 
-The [eleven-package review collection](review-packages/README.md) adds finite boundary and prefix identities, a classical digamma integral, scalar EGF differentiation, paired-measure Jensen approximation, theta–Macdonald cumulative order, sharp cumulative/Lipschitz duality, finite polynomial root counting, logarithmic polynomial degree growth, signed single-crossing bounds along a coordinate, and sharp natural-power transport for the actual theta and Macdonald densities.
+The [eleven-package review collection](review-packages/README.md) adds finite boundary and prefix identities, a classical digamma integral, scalar EGF differentiation, paired-measure Jensen approximation, theta–Macdonald cumulative order, sharp cumulative/Lipschitz duality, finite polynomial root and interleaved prefix counting, logarithmic polynomial degree growth, signed single-crossing bounds along a coordinate, and sharp natural-power transport for the actual theta and Macdonald densities.
 
 These are unchanged sources with saved individual acceptance, **not freshly replayed standalone releases**. Nine packages use the recorded Lean 4.36.0-rc1 baseline; the finite root-counting and polynomial-growth APIs retain their Lean 4.35.0 baseline. Each separate project retains exact statements, evidence, build prerequisites, notices and pending-review status. The older certificates below retain their original pins and verification scope.
 

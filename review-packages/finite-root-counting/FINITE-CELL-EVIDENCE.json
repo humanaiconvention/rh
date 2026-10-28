@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "package": "finite-root-counting",
+  "companion": "FiniteCellCount",
+  "verification_level": "HISTORICAL_ACCEPTED_COMPANION_SOURCE_WITH_CURATED_SAVED_REPORTS",
+  "source": {
+    "file": "FiniteCellCount.lean",
+    "sha256": "a2344f1714bb80423bf081367cfa997ba821e492e50e2f740c1849ba4088635f",
+    "unchanged": true
+  },
+  "environment": {
+    "lean": "4.35.0",
+    "mathlib_revision": "6015dbbfc399f4548bafd46f9560ff61595fd328"
+  },
+  "historical_run": {
+    "status": "PASS",
+    "started_utc": "2026-10-22T17:48:35.769330+00:00",
+    "ended_utc": "2026-10-22T17:48:49.240642+00:00",
+    "elapsed_seconds": 13.46899999998277,
+    "exit_code": 0,
+    "nonfatal_deprecation_warning": "Mathlib.Data.Real.Basic; suggested Mathlib.Basic.Real.Basic; accepted source remains unchanged"
+  },
+  "retained_record_identities": {
+    "execution_receipt_sha256": "09b8eedd7dc1af7b8dac3463418d442ead360343559dcbf38028c008f89aaa45",
+    "compiler_log_sha256": "06a79572c82c6bdd31bf26deaaab53223b6a018818383af0d0a01de2063877a4",
+    "saved_object_sha256": "ad333da05d578d7c472382fdf0140277ba93038833f164f10706c53f7383bcce"
+  },
+  "saved_terminal_axiom_reports": [
+    {
+      "declaration": "RhCountingAudit.interleaved_prefix_bounds",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RhCountingAudit.common_cells_prefix_discrepancy",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RhCountingAudit.roots_eq_of_distinct_witnesses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "RhCountingAudit.roots_eq_of_ordered_cell_witnesses",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "accepted_axiom_transcript": [
+    "info: FiniteCellCount.lean:98:0: 'RhCountingAudit.interleaved_prefix_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "info: FiniteCellCount.lean:99:0: 'RhCountingAudit.common_cells_prefix_discrepancy' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "info: FiniteCellCount.lean:100:0: 'RhCountingAudit.roots_eq_of_distinct_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "info: FiniteCellCount.lean:101:0: 'RhCountingAudit.roots_eq_of_ordered_cell_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "source_closure": {
+    "local_sources": 1,
+    "direct_Mathlib_imports": [
+      "Mathlib.Algebra.Polynomial.Roots",
+      "Mathlib.Data.Real.Basic"
+    ],
+    "custom_local_imports": []
+  },
+  "provenance": "Curated successful record fields and exact terminal lines; private raw logs, paths, runtime details and rejected histories are not exported. This is not a fresh compiler transcript.",
+  "other_module_evidence": "EVIDENCE.json retains the separate three-report BlockSignCount acceptance unchanged.",
+  "fresh_two_source_project_and_lock_acceptance": "NOT_RUN",
+  "fresh_standalone_replay": "NOT_RUN",
+  "fresh_combined_importing_consumer": "NOT_RUN",
+  "Lean436_or_current_upstream_port": "NOT_RUN",
+  "historical_model_identities": "UNKNOWN; not inferred from current editorial identity",
+  "human_API_editorial_and_rights_review": "PENDING"
+}

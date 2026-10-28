@@ -9,6 +9,15 @@
         "Mathlib.Topology.Order.IntermediateValue"
       ],
       "local_provider_imports": []
+    },
+    {
+      "file": "FiniteCellCount.lean",
+      "sha256": "a2344f1714bb80423bf081367cfa997ba821e492e50e2f740c1849ba4088635f",
+      "direct_imports": [
+        "Mathlib.Algebra.Polynomial.Roots",
+        "Mathlib.Data.Real.Basic"
+      ],
+      "local_provider_imports": []
     }
   ],
   "full_declared_package_set": [
@@ -81,8 +90,8 @@
     "mathlib_revision": "6015dbbfc399f4548bafd46f9560ff61595fd328",
     "status": "Static pinned-source metadata, not a qualified binary artifact closure"
   },
-  "scope": "One package-local source plus the complete declared pinned project package set. The fixed commits identify dependency source trees. No per-module transitive import graph or artifact-producer closure is claimed.",
-  "proposed_root_configuration": "New local project/lock proposals have not been accepted by Lake; historical machine-local adapters are intentionally excluded.",
+  "scope": "Two package-local sources with no mutual or custom-provider imports, plus the unchanged complete declared pinned upstream package set. Individual source acceptances are separate; neither a combined-project build nor a fresh Mathlib artifact-producer/import-closure replay is certified.",
+  "proposed_root_configuration": "Modified two-library/default-target configuration and retained portable root lock are uncompiled proposals. No compiler, provisioning or consumer check was run; historical machine-local adapters are excluded.",
   "declarations": [
     {
       "name": "BlockSignCount.roots_of_disjoint_sign_changes",
@@ -95,11 +104,36 @@
     {
       "name": "BlockSignCount.exact_block_counts",
       "signature": "theorem exact_block_counts {ι κ : Type*} [Fintype ι]\n    (P : Polynomial ℝ) (hP : P ≠ 0) (a b : ι → ℝ)\n    (hab : ∀ i, a i < b i)\n    (hdisj : Pairwise (fun i j => Disjoint (Ioo (a i) (b i)) (Ioo (a j) (b j))))\n    (hsign : ∀ i, (P.eval (a i) < 0 ∧ 0 < P.eval (b i)) ∨\n      (P.eval (b i) < 0 ∧ 0 < P.eval (a i)))\n    (hdegree : P.natDegree ≤ Fintype.card ι)\n    (label : ι → κ) (U : κ → Set ℝ)\n    (hU : Pairwise (fun j k => Disjoint (U j) (U k)))\n    (hloc : ∀ i, Ioo (a i) (b i) ⊆ U (label i)) :\n    ∀ j, rootCountIn P (U j) = labelCount label j"
+    },
+    {
+      "name": "RhCountingAudit.interleaved_prefix_bounds",
+      "signature": "theorem interleaved_prefix_bounds {α : Type*} [LinearOrder α]\n    (n : ℕ) (r c : ℕ → α)\n    (h : ∀ i < n, r i < c i ∧ c i < r (i + 1)) (t : α) :\n    prefixCount n c t ≤ prefixCount (n + 1) r t ∧\n      prefixCount (n + 1) r t ≤ prefixCount n c t + 1"
+    },
+    {
+      "name": "RhCountingAudit.common_cells_prefix_discrepancy",
+      "signature": "theorem common_cells_prefix_discrepancy {α : Type*} [LinearOrder α]\n    (n : ℕ) (p b c : ℕ → α)\n    (hp : ∀ i < n, p i < c i ∧ c i < p (i + 1))\n    (hb : ∀ i < n, b i < c i ∧ c i < b (i + 1)) (t : α) :\n    prefixCount (n + 1) p t ≤ prefixCount (n + 1) b t + 1 ∧\n      prefixCount (n + 1) b t ≤ prefixCount (n + 1) p t + 1"
+    },
+    {
+      "name": "RhCountingAudit.roots_eq_of_distinct_witnesses",
+      "signature": "theorem roots_eq_of_distinct_witnesses (P : Polynomial ℝ) (hP : P ≠ 0)\n    (d : ℕ) (x : Fin d → ℝ) (hx : Function.Injective x)\n    (hz : ∀ i, P.eval (x i) = 0) (hdeg : P.natDegree ≤ d) :\n    P.roots = (univ.image x).val"
+    },
+    {
+      "name": "RhCountingAudit.roots_eq_of_ordered_cell_witnesses",
+      "signature": "theorem roots_eq_of_ordered_cell_witnesses (P : Polynomial ℝ) (hP : P ≠ 0)\n    (d : ℕ) (b : ℕ → ℝ) (hb : Monotone b) (x : Fin d → ℝ)\n    (hcell : ∀ i, b i.val < x i ∧ x i < b (i.val + 1))\n    (hz : ∀ i, P.eval (x i) = 0) (hdeg : P.natDegree ≤ d) :\n    P.roots = (univ.image x).val"
     }
   ],
   "public_definitions": [
     "BlockSignCount.rootCountIn",
-    "BlockSignCount.labelCount"
+    "BlockSignCount.labelCount",
+    "RhCountingAudit.prefixCount"
   ],
-  "standalone_or_current_upstream_replay": "NOT_RUN"
+  "standalone_or_current_upstream_replay": "NOT_RUN",
+  "additional_source_acceptance": {
+    "source_file": "FiniteCellCount.lean",
+    "historical_execution_receipt_sha256": "09b8eedd7dc1af7b8dac3463418d442ead360343559dcbf38028c008f89aaa45",
+    "Lean": "4.35.0",
+    "Mathlib": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+    "separate_source_acceptance_not_combined_project": true,
+    "imports_retained_with_historical_deprecation_warning": true
+  }
 }

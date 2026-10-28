@@ -1,5 +1,5 @@
 {
-  "snapshot_utc": "2026-10-28T06:22:55.9114947Z",
+  "snapshot_utc": "2026-10-28T06:42:42.3669192Z",
   "status": "REVIEW_SNAPSHOTS_SAVED_SOURCE_ACCEPTANCE_FRESH_REPLAY_NOT_RUN",
   "publication_does_not_establish_mathematical_review_or_rights_clearance": true,
   "packages": [
@@ -97,19 +97,25 @@
       "candidate_manifest_sha256": "2c05bb9e9355eaac46473313e28e78db0ee0e0d89c258ca979d5e480a01c4580"
     },
     {
-      "Lean_sources": 1,
+      "Lean_sources": 2,
       "fresh_importing_consumer": "NOT_RUN",
       "Lean_pin": "4.35.0",
-      "saved_terminal_reports": 3,
+      "saved_terminal_reports": 7,
       "source_sha256": "350132774fd882542e873d900a80e1cdf3a3b83b682449eaf18740092e067af7",
       "fresh_standalone_replay": "NOT_RUN",
       "directory": "finite-root-counting",
       "root_lock_lake_acceptance": "NOT_RUN",
-      "source_assembly_status": "CURATED_ACCEPTED_SOURCE_REVIEW_SNAPSHOT",
+      "source_assembly_status": "TWO_UNCHANGED_SEPARATELY_ACCEPTED_SOURCES_COMBINED_PROJECT_UNCOMPILED",
       "Mathlib_pin": "6015dbbfc399f4548bafd46f9560ff61595fd328",
-      "title": "Finite sign witnesses and polynomial root counts",
+      "title": "Finite root witnesses and interleaved prefix counts",
       "human_mathematical_API_editorial_and_rights_review": "PENDING",
-      "candidate_manifest_sha256": "837ec034301a9f06da8fc6ee2358f2a822f325fbfc07e733d4a8eb99bc5876bd"
+      "candidate_manifest_sha256": "db9fe769d79f02bdb1da63f4e879c92c644992d7b883d179101c531927ed75fc",
+      "additional_source_sha256": "a2344f1714bb80423bf081367cfa997ba821e492e50e2f740c1849ba4088635f",
+      "saved_reports_by_module": {
+        "BlockSignCount": 3,
+        "FiniteCellCount": 4
+      },
+      "fresh_combined_importing_consumer": "NOT_RUN"
     },
     {
       "Lean_sources": 1,
@@ -158,10 +164,10 @@
       "candidate_manifest_sha256": "f7dca0697bc2f4fbfbce9eb0632ea1f59d3110e56273961622ca2fa149ab360e"
     }
   ],
-  "unchanged_Lean_sources": 71,
-  "saved_terminal_axiom_reports": 276,
+  "unchanged_Lean_sources": 72,
+  "saved_terminal_axiom_reports": 280,
   "new_compiler_or_dependency_runs": 0,
-  "scope": "Eleven separate roots; nine recorded 4.36/c856 baselines and two historical 4.35/6015 baselines; no unified build. Counts describe source-file copies and primary saved terminal reports, not unique modules or newly proved results. The 29-source power package includes 28 byte-identical providers already hosted elsewhere; its 162 reused supporting reports are excluded from the total. All ten prior package subtrees remain unchanged.",
-  "previous_snapshot_utc": "2026-10-28T05:27:07.000Z",
-  "base_review_commit": "da62ae636f23189a83998214d0af7d972c22bd7c"
+  "scope": "Eleven separate roots; nine recorded 4.36/c856 baselines and two historical 4.35/6015 baselines; no unified build. Counts describe source-file copies and primary saved terminal reports, not new results. The finite-counting package now includes two separately accepted sources; its modified combined configuration/importer is uncompiled. Ten other prior package subtrees are unchanged. The power package's 162 reused provider reports remain excluded from the primary total.",
+  "previous_snapshot_utc": "2026-10-28T06:22:55.9114947Z",
+  "base_review_commit": "493dbac63cd9295f6abc8037d43bcbf87cb2ce54"
 }

@@ -1,6 +1,6 @@
 name = "finite_root_counting_review"
 version = "0.1.0"
-defaultTargets = ["BlockSignCount"]
+defaultTargets = ["BlockSignCount", "FiniteCellCount"]
 moreLeanArgs = ["-j", "2", "-M", "3072"]
 
 [[require]]
@@ -10,3 +10,6 @@ rev = "6015dbbfc399f4548bafd46f9560ff61595fd328"
 
 [[lean_lib]]
 name = "BlockSignCount"
+
+[[lean_lib]]
+name = "FiniteCellCount"
