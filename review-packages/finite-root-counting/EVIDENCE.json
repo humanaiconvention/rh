@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "package": "finite-root-counting",
+  "verification_level": "HISTORICAL_ACCEPTED_SOURCE_WITH_CURATED_SAVED_REPORTS",
+  "source": {
+    "file": "BlockSignCount.lean",
+    "sha256": "350132774fd882542e873d900a80e1cdf3a3b83b682449eaf18740092e067af7",
+    "unchanged": true
+  },
+  "environment": {
+    "lean": "4.35.0",
+    "mathlib_revision": "6015dbbfc399f4548bafd46f9560ff61595fd328"
+  },
+  "historical_run": {
+    "status": "PASS",
+    "started_utc": "2026-10-22T20:04:17.9468960+00:00",
+    "ended_utc": "2026-10-22T20:04:33.0744360+00:00",
+    "exit_code": 0,
+    "nonfatal_warning_lines": 0
+  },
+  "private_record_identities": {
+    "acceptance_sha256": "5f52233ba13013aff49d8a1f96dd7179d2fd74fb486415b96922ea963392fc0a",
+    "execution_receipt_sha256": "5f52233ba13013aff49d8a1f96dd7179d2fd74fb486415b96922ea963392fc0a",
+    "compiler_log_sha256": "81a2bdc3e9e8326b74e5206c5d00fd64778b4d76bf868d89bce9cc4e28df455d"
+  },
+  "saved_terminal_axiom_reports": [
+    {
+      "declaration": "BlockSignCount.roots_of_disjoint_sign_changes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "BlockSignCount.roots_of_robust_margins",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "BlockSignCount.exact_block_counts",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "accepted_axiom_transcript": [
+    "info: BlockSignCount.lean:155:0: 'BlockSignCount.roots_of_disjoint_sign_changes' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "info: BlockSignCount.lean:156:0: 'BlockSignCount.roots_of_robust_margins' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "info: BlockSignCount.lean:157:0: 'BlockSignCount.exact_block_counts' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "provenance": "Selected fields and accepted report lines transcribed from retained private historical records; hashes identify those originals. Raw logs, paths and runtime data are not included. This is not a fresh compiler transcript.",
+  "excluded": "All rejected builds and elaboration-recovery reports are excluded from acceptance.",
+  "fresh_standalone_replay": "NOT_RUN",
+  "fresh_importing_consumer": "NOT_RUN",
+  "root_lock_lake_acceptance": "NOT_RUN",
+  "model_identity": {
+    "historical_proof_generation": "UNKNOWN",
+    "historical_modification": "UNKNOWN",
+    "historical_checking": "UNKNOWN",
+    "current_editorial_identity": "NOT_AUTHENTICATED_AS_HISTORICAL_ATTRIBUTION"
+  }
+}

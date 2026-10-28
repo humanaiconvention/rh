@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "package": "polynomial-log-degree",
+  "verification_level": "HISTORICAL_ACCEPTED_SOURCE_WITH_CURATED_SAVED_REPORTS",
+  "source": {
+    "file": "PolynomialLogDegree.lean",
+    "sha256": "32df1efdd90ff90b2d266cdce0d5ddc3117c2118c9c0bedcb6dcad05fdf8f098",
+    "unchanged": true
+  },
+  "environment": {
+    "lean": "4.35.0",
+    "mathlib_revision": "6015dbbfc399f4548bafd46f9560ff61595fd328"
+  },
+  "historical_run": {
+    "status": "PASS",
+    "started_utc": "2026-10-22T22:44:06.5258180+00:00",
+    "ended_utc": "2026-10-22T22:44:22.1928920+00:00",
+    "exit_code": 0,
+    "nonfatal_warning_lines": 0
+  },
+  "private_record_identities": {
+    "acceptance_sha256": "ab8a01fce5d12691a5a81128e0ecc0d59276fdad0109934f97f6f598f6dd8b31",
+    "execution_receipt_sha256": "ab8a01fce5d12691a5a81128e0ecc0d59276fdad0109934f97f6f598f6dd8b31",
+    "compiler_log_sha256": "0d707c287ec2ef469d478f8db26696b46fa5eb790d20a290b64e274336f9d306"
+  },
+  "saved_terminal_axiom_reports": [
+    {
+      "declaration": "Polynomial.tendsto_log_abs_eval_div_log",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "Polynomial.not_tendsto_log_abs_eval_div_log_of_not_nat",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "accepted_axiom_transcript": [
+    "info: PolynomialLogDegree.lean:59:0: 'Polynomial.tendsto_log_abs_eval_div_log' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "info: PolynomialLogDegree.lean:60:0: 'Polynomial.not_tendsto_log_abs_eval_div_log_of_not_nat' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "provenance": "Selected fields and accepted report lines transcribed from retained private historical records; hashes identify those originals. Raw logs, paths and runtime data are not included. This is not a fresh compiler transcript.",
+  "excluded": "All rejected builds and elaboration-recovery reports are excluded from acceptance.",
+  "fresh_standalone_replay": "NOT_RUN",
+  "fresh_importing_consumer": "NOT_RUN",
+  "root_lock_lake_acceptance": "NOT_RUN",
+  "model_identity": {
+    "historical_proof_generation": "UNKNOWN",
+    "historical_modification": "UNKNOWN",
+    "historical_checking": "UNKNOWN",
+    "current_editorial_identity": "NOT_AUTHENTICATED_AS_HISTORICAL_ATTRIBUTION"
+  }
+}

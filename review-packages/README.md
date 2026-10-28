@@ -1,32 +1,37 @@
 # Lean review packages
 
-Six separate projects collect reusable mathematics from the RH research archive. Start with a package's essay, then its exact statements and verification record.
+Nine separate projects collect reusable finite algebra and analysis. Start with an essay, then read the exact statements, dependency pins and verification record.
 
-**These are published review snapshots.** Their unchanged source files have saved individual Lean acceptance. The newly assembled standalone projects have **not** had a clean-root build or aggregate replay. Their manually prepared root locks have not been accepted by Lake. No RH proof, new global arithmetic estimate, external peer review or current-upstream novelty is claimed.
+**These are review snapshots backed by saved individual source acceptance.** Newly assembled project configurations and locks have not had a clean standalone build or fresh importing-consumer replay. Hosting a snapshot does not establish human mathematical approval, current-upstream compatibility, finalized contribution rights or external review.
 
-| Package | Mathematical scope | Saved terminal axiom reports |
-|---|---|---:|
-| [Finite boundary gauge](finite-boundary-gauge/README.md) | Reconstruction from finite mixed differences, with boundary terms and signed weights | 10 |
-| [Cumulative-prefix energy](cumulative-prefix-energy/README.md) | Exact square and bilinear integral identities for finite signed prefixes | 10 |
-| [Gauss digamma integral](gauss-digamma/README.md) | Classical digamma difference formula with proved integrability | 23 |
-| [Scalar EGF derivatives](scalar-egf/README.md) | Iterated differentiation with the same power-series radius | 1 |
-| [Paired-measure Jensen approximation](paired-jensen/README.md) | Entire moment expansion and explicit approximation bound under Gaussian integrability | 54 |
-| [Theta–Macdonald order](theta-macdonald/README.md) | Actual normalized densities: unique crossing, strict CDF and positive-integer moment order | 157 |
+| Package | Mathematical scope | Recorded Lean / Mathlib baseline |
+|---|---|---|
+| [Finite boundary gauge](finite-boundary-gauge/README.md) | Finite mixed differences with boundary terms and signed weights | 4.36.0-rc1 / c85646e3 |
+| [Cumulative-prefix energy](cumulative-prefix-energy/README.md) | Exact square and bilinear identities for finite signed prefixes | 4.36.0-rc1 / c85646e3 |
+| [Gauss digamma integral](gauss-digamma/README.md) | Classical difference formula with proved integrability | 4.36.0-rc1 / c85646e3 |
+| [Scalar EGF derivatives](scalar-egf/README.md) | Iterated differentiation with the same power-series radius | 4.36.0-rc1 / c85646e3 |
+| [Paired-measure Jensen approximation](paired-jensen/README.md) | Entire moment expansion and an explicit Gaussian-integrability approximation bound | 4.36.0-rc1 / c85646e3 |
+| [Theta–Macdonald order](theta-macdonald/README.md) | Actual normalized densities: unique crossing, strict CDF and positive-integer moment order | 4.36.0-rc1 / c85646e3 |
+| [Cumulative/Lipschitz duality](cumulative-lipschitz/README.md) | Four original-measure contracts with a genuine attaining test | 4.36.0-rc1 / c85646e3 |
+| [Finite polynomial root counting](finite-root-counting/README.md) | Strict sign witnesses, robust endpoint margins and exact block counts | 4.35.0 / 6015dbbf |
+| [Polynomial logarithmic degree](polynomial-log-degree/README.md) | Two convenience limits recovering a nonzero polynomial's degree | 4.35.0 / 6015dbbf |
 
-## Read the claims at their actual scope
+The full revisions are in [COLLECTION.json](COLLECTION.json) and the individual packages. These are separate roots with different pins, not one verified combined project. The last two packages have no claimed Lean 4.36 replay.
 
-Each directory includes an essay (`README.md`), unchanged Lean sources, `THEOREM-STATEMENTS.md`, `VERIFICATION.md`, source/evidence maps, pinned dependencies, a `BUILD.md` recipe, attribution, notices and a human-review checklist. The [collection manifest](COLLECTION.json) identifies all six snapshots. Each self-excluding `PAYLOAD-MANIFEST.json` fingerprints that package's other files.
+## Evidence and reproduction
 
-All six projects pin **Lean 4.36.0-rc1** and **Mathlib c85646e3ac7d3ca39468f114b2d95d62e1611533**. The 255 saved terminal reports stay within `propext`, `Classical.choice` and `Quot.sound`. Report coverage is documented per package; this is not a separate terminal print for every helper or a new transitive replay. Some saved successful runs contain nonfatal warnings, retained in their evidence.
+Each package contains unchanged Lean sources, explanatory documentation, exact assumptions, dependency information, a build recipe, attribution and notices. Each self-excluding `PAYLOAD-MANIFEST.json` fingerprints its other files. Existing six-package payloads are preserved; their assembly records retain their original dates and verification limits.
 
-These are independent Lake roots, not a verified unified project. Read the relevant build prerequisites before attempting a replay; no compiler or dependency installation was run for this publication. No CI build is supplied for these snapshots. The older [finite-ledger certificates](../qrh-obstructions-lean/README.md) remain a separate project with their original pins and status.
+The three added API snapshots use public-safe `EVIDENCE.json` maps. They contain source and retained-record hashes, successful-run metadata, and the exact accepted terminal axiom lines. Private raw logs, machine paths, source-development provenance, runtime diagnostics and rejected recovery reports are excluded. These curated records are not fresh compiler transcripts. All nine saved reports for the added APIs use only `propext`, `Classical.choice`, and `Quot.sound`.
 
-The Jensen package concerns a difference of two positive measures with the stated Gaussian integrability. It does not supply an unproved native/Jordan signed-measure instantiation. The theta package includes the actual complete infinite source and normalization chain; it does not imply an oscillatory transform order or RH. The other packages implement classical finite algebra or analysis without claiming a new arithmetic cancellation estimate.
+The new `DEPENDENCIES.json` files list the complete declared pinned project package sets and each local source/import boundary. Fixed Git revisions identify source trees. They do not certify a binary artifact-producer closure or a new per-module import-graph replay. Proposed portable locks and Lake files still require actual acceptance in a legitimately provisioned environment.
 
-## Provenance and review
+Read `BUILD.md` before any replay. Dependency acquisition, configuration work, compiler admission and actual build processes require their own scope and resource accounting. No compilation, dependency provisioning or workflow dispatch was performed for this batch. The older [finite-ledger certificates](../qrh-obstructions-lean/README.md) remain a separate project.
 
-The package documents are frozen assembly records. Their statements that human release approval or standalone replay was pending describe those assemblies. The owner subsequently authorized hosting these review snapshots; that does not establish human mathematical approval, a fresh build, historical model identities, rights clearance or a new license grant.
+## Mathematical and review scope
 
-Existing project MIT notices and separate Mathlib Apache-2.0 notices are retained byte-for-byte. Dependencies retain their own notices. Consult each `LICENSE-STATUS.md` and `ATTRIBUTION.md`; no new license is selected here. Preparation was AI-assisted and internal checks are not external independent review.
+The cumulative and polynomial APIs package classical mathematics into explicit reusable formal interfaces. Their application hypotheses remain obligations. The Jensen package retains its two positive measures and exact Gaussian conditions; it does not assert a native/Jordan instantiation. The theta package includes the complete infinite-source and normalization chain. None of the added interfaces supplies an unresolved global arithmetic estimate.
 
-Only curated research payloads are included. Private raw provenance, session records, runtime diagnostics and unrelated archive material remain outside this collection.
+Existing repository MIT notices and separate Mathlib Apache-2.0 notices are retained unchanged. Imported dependencies keep their own terms. Each `ATTRIBUTION.md` and `LICENSE-STATUS.md` records pending contributor, rights and API decisions without inventing historical model identities. Owner-authorized hosting of these review snapshots is distinct from a final endorsed release or upstream submission.
+
+Preparation was AI-assisted. Internal checks are not external independent review. No claim of current-upstream absence or mathematical priority is made. Only the curated payloads are included; no private archive or operational infrastructure is part of the collection.

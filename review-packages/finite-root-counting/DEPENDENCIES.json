@@ -1,0 +1,105 @@
+{
+  "package_local_source_closure": [
+    {
+      "file": "BlockSignCount.lean",
+      "sha256": "350132774fd882542e873d900a80e1cdf3a3b83b682449eaf18740092e067af7",
+      "direct_imports": [
+        "Mathlib.Algebra.Polynomial.Roots",
+        "Mathlib.Topology.Algebra.Polynomial",
+        "Mathlib.Topology.Order.IntermediateValue"
+      ],
+      "local_provider_imports": []
+    }
+  ],
+  "full_declared_package_set": [
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "rev": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "rev": "dfa4f38190d07c37e315953e08b90fe2d95b3c24",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "rev": "d6b4c7be5be75ec4917c873ac50c756dc1436372",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "rev": "a41f0e9a4dea23188ea9cc1c41ac9f8bbafe0b93",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "rev": "df72b022e558978a1c50264cfc4d7fec86fa8e04",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "rev": "4a174c490d8707121c4a9290800489f105d85e07",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "rev": "dce0ad79c486cb1fb504af04f953c3466b0c6db8",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "rev": "c24fe6078c630e89b489bffe59b3e20ac30d12c8",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    }
+  ],
+  "derivation": {
+    "upstream_manifest_sha256": "a7190d6c08899259e731c0d98b94fb540feb172f0dc7754be2a097ceae253f3d",
+    "mathlib_revision": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+    "status": "Static pinned-source metadata, not a qualified binary artifact closure"
+  },
+  "scope": "One package-local source plus the complete declared pinned project package set. The fixed commits identify dependency source trees. No per-module transitive import graph or artifact-producer closure is claimed.",
+  "proposed_root_configuration": "New local project/lock proposals have not been accepted by Lake; historical machine-local adapters are intentionally excluded.",
+  "declarations": [
+    {
+      "name": "BlockSignCount.roots_of_disjoint_sign_changes",
+      "signature": "theorem roots_of_disjoint_sign_changes {ι : Type*} [Fintype ι]\n    (P : Polynomial ℝ) (hP : P ≠ 0) (a b : ι → ℝ)\n    (hab : ∀ i, a i < b i)\n    (hdisj : Pairwise (fun i j => Disjoint (Ioo (a i) (b i)) (Ioo (a j) (b j))))\n    (hsign : ∀ i, (P.eval (a i) < 0 ∧ 0 < P.eval (b i)) ∨\n      (P.eval (b i) < 0 ∧ 0 < P.eval (a i)))\n    (hdegree : P.natDegree ≤ Fintype.card ι) :\n    ∃ x : ι → ℝ,\n      (∀ i, x i ∈ Ioo (a i) (b i) ∧ P.eval (x i) = 0) ∧\n      Function.Injective x ∧\n      P.roots = (Finset.univ.image x).val ∧\n      P.natDegree = Fintype.card ι"
+    },
+    {
+      "name": "BlockSignCount.roots_of_robust_margins",
+      "signature": "theorem roots_of_robust_margins {ι : Type*} [Fintype ι]\n    (P : Polynomial ℝ) (hP : P ≠ 0) (a b : ι → ℝ)\n    (hab : ∀ i, a i < b i)\n    (hdisj : Pairwise (fun i j => Disjoint (Ioo (a i) (b i)) (Ioo (a j) (b j))))\n    (F E : ℝ → ℝ)\n    (herr : ∀ i, |P.eval (a i) - F (a i)| ≤ E (a i) ∧\n      |P.eval (b i) - F (b i)| ≤ E (b i))\n    (hmargin : ∀ i, (E (a i) < F (a i) ∧ F (b i) < -E (b i)) ∨\n      (E (b i) < F (b i) ∧ F (a i) < -E (a i)))\n    (hdegree : P.natDegree ≤ Fintype.card ι) :\n    ∃ x : ι → ℝ,\n      (∀ i, x i ∈ Ioo (a i) (b i) ∧ P.eval (x i) = 0) ∧\n      Function.Injective x ∧\n      P.roots = (Finset.univ.image x).val ∧\n      P.natDegree = Fintype.card ι"
+    },
+    {
+      "name": "BlockSignCount.exact_block_counts",
+      "signature": "theorem exact_block_counts {ι κ : Type*} [Fintype ι]\n    (P : Polynomial ℝ) (hP : P ≠ 0) (a b : ι → ℝ)\n    (hab : ∀ i, a i < b i)\n    (hdisj : Pairwise (fun i j => Disjoint (Ioo (a i) (b i)) (Ioo (a j) (b j))))\n    (hsign : ∀ i, (P.eval (a i) < 0 ∧ 0 < P.eval (b i)) ∨\n      (P.eval (b i) < 0 ∧ 0 < P.eval (a i)))\n    (hdegree : P.natDegree ≤ Fintype.card ι)\n    (label : ι → κ) (U : κ → Set ℝ)\n    (hU : Pairwise (fun j k => Disjoint (U j) (U k)))\n    (hloc : ∀ i, Ioo (a i) (b i) ⊆ U (label i)) :\n    ∀ j, rootCountIn P (U j) = labelCount label j"
+    }
+  ],
+  "public_definitions": [
+    "BlockSignCount.rootCountIn",
+    "BlockSignCount.labelCount"
+  ],
+  "standalone_or_current_upstream_replay": "NOT_RUN"
+}

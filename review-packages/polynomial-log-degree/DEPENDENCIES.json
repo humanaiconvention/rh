@@ -1,0 +1,96 @@
+{
+  "package_local_source_closure": [
+    {
+      "file": "PolynomialLogDegree.lean",
+      "sha256": "32df1efdd90ff90b2d266cdce0d5ddc3117c2118c9c0bedcb6dcad05fdf8f098",
+      "direct_imports": [
+        "Mathlib.Analysis.Polynomial.Basic"
+      ],
+      "local_provider_imports": []
+    }
+  ],
+  "full_declared_package_set": [
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "rev": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "rev": "dfa4f38190d07c37e315953e08b90fe2d95b3c24",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "rev": "d6b4c7be5be75ec4917c873ac50c756dc1436372",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "rev": "a41f0e9a4dea23188ea9cc1c41ac9f8bbafe0b93",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "rev": "df72b022e558978a1c50264cfc4d7fec86fa8e04",
+      "configFile": "lakefile.lean",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "rev": "4a174c490d8707121c4a9290800489f105d85e07",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "rev": "dce0ad79c486cb1fb504af04f953c3466b0c6db8",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "rev": "66e469188fe07963e5cf666c7d4433f45b8131c5",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "rev": "c24fe6078c630e89b489bffe59b3e20ac30d12c8",
+      "configFile": "lakefile.toml",
+      "manifestFile": "lake-manifest.json"
+    }
+  ],
+  "derivation": {
+    "upstream_manifest_sha256": "a7190d6c08899259e731c0d98b94fb540feb172f0dc7754be2a097ceae253f3d",
+    "mathlib_revision": "6015dbbfc399f4548bafd46f9560ff61595fd328",
+    "status": "Static pinned-source metadata, not a qualified binary artifact closure"
+  },
+  "scope": "One package-local source plus the complete declared pinned project package set. The fixed commits identify dependency source trees. No per-module transitive import graph or artifact-producer closure is claimed.",
+  "proposed_root_configuration": "New local project/lock proposals have not been accepted by Lake; historical machine-local adapters are intentionally excluded.",
+  "declarations": [
+    {
+      "name": "Polynomial.tendsto_log_abs_eval_div_log",
+      "signature": "theorem tendsto_log_abs_eval_div_log (p : Polynomial ℝ) (hp : p ≠ 0) :\n    Tendsto (fun x : ℝ => Real.log |p.eval x| / Real.log x)\n      atTop (𝓝 (p.natDegree : ℝ))"
+    },
+    {
+      "name": "Polynomial.not_tendsto_log_abs_eval_div_log_of_not_nat",
+      "signature": "theorem not_tendsto_log_abs_eval_div_log_of_not_nat\n    (p : Polynomial ℝ) (hp : p ≠ 0) {a : ℝ}\n    (ha : ∀ n : ℕ, a ≠ (n : ℝ)) :\n    ¬ Tendsto (fun x : ℝ => Real.log |p.eval x| / Real.log x) atTop (𝓝 a)"
+    }
+  ],
+  "public_definitions": null,
+  "standalone_or_current_upstream_replay": "NOT_RUN"
+}

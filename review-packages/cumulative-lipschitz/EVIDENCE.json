@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "package": "cumulative-lipschitz",
+  "verification_level": "HISTORICAL_ACCEPTED_SOURCE_WITH_CURATED_SAVED_REPORTS",
+  "source": {
+    "file": "Cumulative.lean",
+    "sha256": "22af796226a21064b9c6a90c5cda1e1c5af24846430ebb75f24614a523fcc230",
+    "unchanged": true
+  },
+  "environment": {
+    "lean": "4.36.0-rc1",
+    "mathlib_revision": "c85646e3ac7d3ca39468f114b2d95d62e1611533"
+  },
+  "historical_run": {
+    "status": "PASS",
+    "started_utc": "2026-10-24T01:59:43.2790020+00:00",
+    "ended_utc": "2026-10-24T01:59:59.5787330+00:00",
+    "exit_code": 0,
+    "nonfatal_warning_lines": 4
+  },
+  "private_record_identities": {
+    "acceptance_sha256": "d0da44a69d9f8d840d268a6859891eb245b76dc58c381cfe03779e85fc9f41cd",
+    "execution_receipt_sha256": "12e68425704fe21083b77139a18153ccbd48a80710a93e713bfc646c96180a84",
+    "compiler_log_sha256": "bc3837b511a10f5954823fb77f8e90922883b56239d3af4c8a0d84032d293224"
+  },
+  "saved_terminal_axiom_reports": [
+    {
+      "declaration": "MeasureTheory.integrable_lipschitz_mul",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MeasureTheory.measurable_integrable_setIntegral_Iic",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MeasureTheory.exists_lipschitz_cumulative_attainer",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "MeasureTheory.forall_lipschitz_abs_integral_mul_le_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "accepted_axiom_transcript": [
+    "'MeasureTheory.integrable_lipschitz_mul' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'MeasureTheory.measurable_integrable_setIntegral_Iic' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'MeasureTheory.exists_lipschitz_cumulative_attainer' depends on axioms: [propext, Classical.choice, Quot.sound]",
+    "'MeasureTheory.forall_lipschitz_abs_integral_mul_le_iff' depends on axioms: [propext, Classical.choice, Quot.sound]"
+  ],
+  "provenance": "Selected fields and accepted report lines transcribed from retained private historical records; hashes identify those originals. Raw logs, paths and runtime data are not included. This is not a fresh compiler transcript.",
+  "excluded": "All rejected builds and elaboration-recovery reports are excluded from acceptance.",
+  "fresh_standalone_replay": "NOT_RUN",
+  "fresh_importing_consumer": "NOT_RUN",
+  "root_lock_lake_acceptance": "NOT_RUN",
+  "model_identity": {
+    "historical_proof_generation": "UNKNOWN",
+    "historical_modification": "UNKNOWN",
+    "historical_checking": "UNKNOWN",
+    "current_editorial_identity": "NOT_AUTHENTICATED_AS_HISTORICAL_ATTRIBUTION"
+  }
+}

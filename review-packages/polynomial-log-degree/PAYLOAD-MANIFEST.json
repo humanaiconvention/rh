@@ -1,0 +1,96 @@
+{
+  "scope": "Self-excluding public review snapshot; saved source acceptance, no fresh standalone/importer or root-lock replay",
+  "source_sha256": "32df1efdd90ff90b2d266cdce0d5ddc3117c2118c9c0bedcb6dcad05fdf8f098",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 31,
+      "sha256": "83d18a9c6795e38ed6dffc3828ce126d7ba72e7e0dcb2a6e32d1e45a2e9981c7",
+      "git_blob_sha1": "c5083ac15cd8cbcb47571ea78c0e957c3e55f74c"
+    },
+    {
+      "path": "API.md",
+      "bytes": 1321,
+      "sha256": "fa890d82bf936340762dc69a7e3ec30a5f52fe92ea9c55e170ed30e1a06a9dec",
+      "git_blob_sha1": "5fd453e2679fa21cf8b20f5af32522dc75f6ee61"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 1490,
+      "sha256": "229c64feaccac55d82f1f27d57c3cc35564b6bcce9e5beb00a698a6b2abbed29",
+      "git_blob_sha1": "7b57acf2f8fba7e40bc42e0860c76c8b95bd4d79"
+    },
+    {
+      "path": "BUILD.md",
+      "bytes": 3356,
+      "sha256": "23baa4f583ddc7810b79cad582af4e47e6d67b5359fae38ea1cb82351baef963",
+      "git_blob_sha1": "850f45f4701fef332fd7480ba5ea9df73352d98b"
+    },
+    {
+      "path": "DEPENDENCIES.json",
+      "bytes": 3984,
+      "sha256": "5f8fb50bc140af852b38b0cace3336e930b2ba0fe65a8faa90882636f1ad1e33",
+      "git_blob_sha1": "ec14a160c3092c2b34279c679b8dbf3b58808bf2"
+    },
+    {
+      "path": "EVIDENCE.json",
+      "bytes": 2450,
+      "sha256": "dba34a69d73b41280e47ba302e5f90cb02b8bbc8bcc4cc4c07a4bdf4305f4436",
+      "git_blob_sha1": "c55cebea8a24bfec872e44fe43bdb3335c19b9f7"
+    },
+    {
+      "path": "lake-manifest.json",
+      "bytes": 3678,
+      "sha256": "ced4a0ffb9698087eb06813d16a0fd7a026ec985be9c25d88081645e2e1c7990",
+      "git_blob_sha1": "1842b09a446cc1df885ed0d156af9ef1ba3039d8"
+    },
+    {
+      "path": "lakefile.toml",
+      "bytes": 321,
+      "sha256": "5637f17b7f9d503767914f1f54cd8852a2a8b57e4a590641c520d44185b8c464",
+      "git_blob_sha1": "fbaf29332d267b005aa8c9059853bd26b60c738f"
+    },
+    {
+      "path": "lean-toolchain",
+      "bytes": 25,
+      "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+      "git_blob_sha1": "a6aff065db2882c535684f8c5bcd4f16e9a23915"
+    },
+    {
+      "path": "LICENSE-STATUS.md",
+      "bytes": 785,
+      "sha256": "a1e7f9acf11cbd69a1f6bdd967a68f3e21792c8d80dd8610ba6ac717b7b3468b",
+      "git_blob_sha1": "2c93b673cf15c255f00ede18b69c1ec6b0f6e938"
+    },
+    {
+      "path": "notices/EXISTING-PROJECT-MIT-LICENSE.txt",
+      "bytes": 1074,
+      "sha256": "52d081ddbc2ec14fabc9ffbaaaa919ad003bfde5cf9b7f7d140243489a58d232",
+      "git_blob_sha1": "308ea8b0b77c5001ee772a754d67eb3cb24a7ac4"
+    },
+    {
+      "path": "notices/MATHLIB-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "git_blob_sha1": "8dada3edaf50dbc082c9a125058f25def75e625a"
+    },
+    {
+      "path": "PolynomialLogDegree.lean",
+      "bytes": 2647,
+      "sha256": "32df1efdd90ff90b2d266cdce0d5ddc3117c2118c9c0bedcb6dcad05fdf8f098",
+      "git_blob_sha1": "e32ce7945ac1ab940b7f91921e7e939ce00e970e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1683,
+      "sha256": "5ba519eba340a88dcd7cad5004df227b566fd991261c72ec17f2e2a993fe405f",
+      "git_blob_sha1": "43645bd6b82d3372883bd8e710261ab29bd28bbf"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 1692,
+      "sha256": "3c37bd00c4d2fae69abc78dcf51c26e67e4af726485701d5baaa0aae6ebb0f7b",
+      "git_blob_sha1": "08976cf3682b1c3a7616341c6dc4eb7c5fba31cd"
+    }
+  ]
+}
