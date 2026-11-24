@@ -23,7 +23,7 @@ shutil.copyfile(Path(__file__).with_name("fixture.py"), INPUTS / "fixture.py")
 SENTINEL = BASE / "host-only-sentinel"
 SENTINEL.write_text("must be absent inside the worker namespace\n")
 HOST_NETNS = os.stat("/proc/self/ns/net").st_ino
-REPORT = {"schema": "rh-gauss-linux-infrastructure-001",
+REPORT = {"schema": "rh-gauss-linux-infrastructure-002",
           "claim": "NO_LEAN_OR_STRICT_PROOF_VERDICT", "cases": [],
           "gauss_build": "NOT_RUN", "strict_replay": "NOT_RUN_PENDING",
           "policy": {"tasksMax": 4, "task_vs_process": "STRONGER_THREADS_INCLUDED",
@@ -45,7 +45,7 @@ def available():
 def systemd_properties(unit):
     names = ["Result", "ExecMainCode", "ExecMainStatus", "ActiveState", "SubState",
              "ControlGroup", "TasksMax", "MemoryMax", "MemorySwapMax", "MemoryPeak",
-             "RuntimeMaxUSec", "User", "NoNewPrivileges", "MainPID", "ControlPID"]
+             "RuntimeMaxUSec", "User", "NoNewPrivileges", "PrivateNetwork", "MainPID", "ControlPID"]
     p = capture(unit + "-properties", ["sudo", "systemctl", "show", unit] +
                 ["--property=" + x for x in names])
     assert p.returncode == 0, "cannot obtain native systemd result"
@@ -59,7 +59,7 @@ def run_case(case, memory=3113848832, seconds=90):
     out.chmod(0o777)
     unit = "rhgauss-" + os.environ["GITHUB_RUN_ID"] + "-" + case
     UNITS.append(unit)
-    sandbox = ["/usr/bin/bwrap", "--unshare-all", "--as-pid-1", "--die-with-parent",
+    sandbox = ["/usr/bin/bwrap", "--unshare-all", "--share-net", "--as-pid-1", "--die-with-parent",
                "--new-session", "--clearenv", "--ro-bind", "/usr", "/usr",
                "--ro-bind", "/bin", "/bin", "--ro-bind", "/lib", "/lib",
                "--ro-bind", "/lib64", "/lib64", "--dev", "/dev", "--proc", "/proc",
@@ -79,6 +79,7 @@ def run_case(case, memory=3113848832, seconds=90):
                "--property=StandardOutput=append:" + str(ROOT / (case + ".stdout")),
                "--property=StandardError=append:" + str(ROOT / (case + ".stderr")),
                "--property=NoNewPrivileges=yes", "--property=TasksMax=4",
+               "--property=PrivateNetwork=yes",
                "--property=MemoryMax=" + str(memory), "--property=MemorySwapMax=0",
                "--property=RuntimeMaxSec=" + str(native_runtime),
                "--property=TimeoutStartSec=0.5", "--property=TimeoutStopSec=0.25",
@@ -115,6 +116,7 @@ def run_case(case, memory=3113848832, seconds=90):
     assert props.get("MemorySwapMax") == "0", "native swap limit missing"
     assert props.get("User") == "nobody", "wrong execution identity"
     assert props.get("NoNewPrivileges") == "yes", "privilege gate missing"
+    assert props.get("PrivateNetwork") == "yes", "outer private network missing"
     assert props.get("ControlPID") == "0", "native service control still active"
     group = props.get("ControlGroup", "")
     if group:
@@ -155,6 +157,7 @@ try:
                           ("bwrap-package", ["dpkg-query", "-W", "bubblewrap"])]:
         assert capture(name, command).returncode == 0
     REPORT["bwrap_sha256"] = hashlib.sha256(Path("/usr/bin/bwrap").read_bytes()).hexdigest()
+    assert REPORT["bwrap_sha256"] == "e318903862396f96de3df57264e0158682b952fd3fb53ac23d876413e7b30f71", "bubblewrap changed from inspected candidate pin"
     REPORT["qualifier_sha256"] = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     REPORT["fixture_sha256"] = hashlib.sha256((INPUTS / "fixture.py").read_bytes()).hexdigest()
     REPORT["start_available_bytes"] = available()

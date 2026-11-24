@@ -32,3 +32,18 @@ Primary platform references: [public standard runners and their free compute](ht
 [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions).
 No uploaded artifact/cache storage is requested; small complete receipts are
 encoded in job logs for local recovery. No strict comparator verdict is inferred.
+
+## Candidate 002: network namespace creator
+
+Candidate001's real run45351241893 stopped before the benign fixture: bubblewrap
+could not configure loopback under the unprivileged service. It supplied no
+successful negative-control or Lean result. The complete original logs/commit
+remain retained.
+
+Candidate002 uses systemd `PrivateNetwork=yes` to create the outer private
+network, then bubblewrap `--share-net` shares **only that already private
+namespace**, not the host network. Native PrivateNetwork, a different actual
+network namespace inode and ENETUNREACH are all required. UID=nobody,
+NoNewPrivileges, filesystem/PID isolation, limits and failing controls remain.
+No host sysctl/AppArmor setting or sandbox policy is disabled. This is a new
+explicit candidate, not a reinterpretation of the rejected result.
