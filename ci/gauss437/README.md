@@ -108,3 +108,14 @@ ceilings remain. The tiny fit returns toj2, matching the untouched Gauss TOML.
 
 This is newly built infrastructure requiring native controls, not a theorem or
 a strict verification verdict. All earlier failed candidates remain retained.
+
+## Candidate 008: interaction control
+
+Candidate007 passed all process-aware infrastructure controls, including its
+threaded positive and fifth-process denial. The j2 core Lake fit still failed
+at thread creation under the unchanged memory/address-space ceilings. The
+single-thread control is now repeated with the **new process-aware gate**;
+candidate006's single-thread result used the old four-task substitute. This
+distinguishes the interaction instead of treating those tests as identical.
+It changes only MiniLake/environment scheduling within max2, never a Gauss
+source, configuration, Challenge, pin, cap, or accepted verdict.
