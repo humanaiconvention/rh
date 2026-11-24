@@ -1,7 +1,7 @@
 """Remote Linux preflight. Infrastructure controls, never a proof verdict.
 
-Deliberately stronger four-TASK cap, including threads. Its ability to fit Lake
-is a separate control, not assumed from the original four-process budget.
+Native pre-syscall gate limits four processes, including its own supervisor.
+Threads have a separate secondary kernel ceiling; controls must qualify both.
 """
 import hashlib
 import json
@@ -26,16 +26,20 @@ SENTINEL = BASE / "host-only-sentinel"
 if STAGE == "infrastructure":
     SENTINEL.write_text("must be absent inside the worker namespace\n")
 HOST_NETNS = os.stat("/proc/self/ns/net").st_ino
-REPORT = {"schema": "rh-gauss-linux-infrastructure-006", "stage": STAGE,
+REPORT = {"schema": "rh-gauss-linux-infrastructure-007", "stage": STAGE,
           "claim": "NO_GAUSS_OR_STRICT_PROOF_VERDICT", "cases": [],
           "gauss_build": "NOT_RUN", "strict_replay": "NOT_RUN_PENDING",
-          "policy": {"tasksMax": 4, "task_vs_process": "STRONGER_THREADS_INCLUDED",
+          "policy": {"processesMax": 4, "includesSupervisor": True, "secondaryTasksMax": 16,
                      "memoryMax": 3113848832, "swapMax": 0,
                      "per_process_AS": 2684354560,
-                     "aggregate_AS_upper_from_four_tasks": 10737418240,
+                     "aggregate_AS_upper_from_four_processes": 10737418240,
                      "requestedPhaseLimitSec": 90, "maxLeanCompilers": "NOT_YET_QUALIFIED",
                      "controlPlane": "HOST_QUALIFIER_OUTSIDE_WORKLOAD_CGROUP_AS_IN_PRIOR_JOB_GUARD"}}
 UNITS = []
+GATE = BASE / "process-gate"
+TRACE = BASE / ("fit-guard-logs" if STAGE == "fit" else "guard-logs")
+TRACE.mkdir(mode=0o777)
+TRACE.chmod(0o777)
 
 def capture(name, command):
     p = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -82,18 +86,19 @@ def run_case(case, memory=3113848832, seconds=90):
         sandbox = sandbox[:-5]
         sandbox += ["--ro-bind", str(BASE / "lean"), "/toolchain",
                     "--setenv", "PATH", "/toolchain/bin:/usr/bin:/bin",
-                    "--setenv", "LEAN_NUM_THREADS", "1"]
+                    "--setenv", "LEAN_NUM_THREADS", "2"]
         if case == "lake_fit":
             sandbox += ["--bind", str(out), "/work/.lake"]
         sandbox += leaf
     native_runtime = max(seconds - 1, 0.25)
+    trace_log = TRACE / (case + ".jsonl")
     command = ["sudo", "systemd-run", "--quiet", "--no-block", "--unit=" + unit,
                "--property=User=nobody", "--property=Group=nogroup",
                "--property=RemainAfterExit=yes",
                "--setenv=RH_GAUSS_FORBIDDEN_SENTINEL=must-not-reach",
                "--property=StandardOutput=append:" + str(ROOT / (case + ".stdout")),
                "--property=StandardError=append:" + str(ROOT / (case + ".stderr")),
-               "--property=NoNewPrivileges=yes", "--property=TasksMax=4",
+               "--property=NoNewPrivileges=yes", "--property=TasksMax=16",
                "--property=PrivateNetwork=yes",
                "--property=MemoryMax=" + str(memory), "--property=MemorySwapMax=0",
                "--property=LimitAS=2684354560",
@@ -101,7 +106,8 @@ def run_case(case, memory=3113848832, seconds=90):
                "--property=TimeoutStartSec=0.5", "--property=TimeoutStopSec=0.25",
                "--property=KillSignal=SIGKILL", "--property=FinalKillSignal=SIGKILL",
                "--property=KillMode=control-group", "--property=OOMPolicy=kill",
-               "--property=LimitCORE=0"] + sandbox
+               "--property=LimitCORE=0", str(GATE), "--log", str(trace_log),
+               "--max-processes", "4", "--"] + sandbox
     (ROOT / (case + ".command.json")).write_text(json.dumps(command, indent=2))
     start = time.monotonic()
     (ROOT / (case + ".stdout")).touch()
@@ -127,7 +133,7 @@ def run_case(case, memory=3113848832, seconds=90):
             raise AssertionError("native wall limit did not terminate unit")
         time.sleep(0.1)
     assert not reserve_failed, "runtime reserve below 1 GiB"
-    assert props.get("TasksMax") == "4", "native task limit missing"
+    assert props.get("TasksMax") == "16", "secondary native task limit missing"
     assert props.get("MemoryMax") == str(memory), "native memory limit missing"
     assert props.get("MemorySwapMax") == "0", "native swap limit missing"
     assert props.get("User") == "nobody", "wrong execution identity"
@@ -152,10 +158,25 @@ def run_case(case, memory=3113848832, seconds=90):
             time.sleep(0.01)
     record = {"case": case, "launch_exit": p.returncode, "native": props,
               "elapsed": time.monotonic() - start, "drain_samples": drain_samples}
-    if case in ("isolation", "pids"):
+    read_guard = capture(case + "-guard-read", ["sudo", "cat", "--", str(trace_log)])
+    assert read_guard.returncode == 0, "protected process-gate log unavailable"
+    trace_data = read_guard.stdout.decode()
+    (ROOT / (case + ".guard.jsonl")).write_text(trace_data)
+    events = [json.loads(line) for line in trace_data.splitlines()]
+    if case not in ("memory", "timeout"):
+        complete = [event for event in events if event.get("event") == "complete"]
+        assert len(complete) == 1 and complete[0].get("guard_ok") is True, "process gate did not complete successfully"
+        audit = complete[0]
+        assert audit.get("peak_processes", 99) <= 4, "original process ceiling exceeded"
+        assert audit.get("live_tracees") == 0 and audit.get("pending_processes") == 0, "gate descendants/reservations remain"
+        assert str(audit.get("root_exit_code")) == props.get("ExecMainStatus"), "native/root exit disagreement"
+        record["process_gate"] = audit
+    if case in ("isolation", "threaded", "pids"):
         assert props.get("ExecMainStatus") == "0" and props.get("Result") == "success", "benign/control failed"
         control = json.loads((out / (case + ".json")).read_text())
-        assert control["status"] == ("PASS" if case == "isolation" else "EXPECTED_KERNEL_REJECTION")
+        assert control["status"] == ("EXPECTED_PROCESS_GATE_REJECTION" if case == "pids" else "PASS")
+        if case == "pids":
+            assert record["process_gate"].get("process_denials", 0) >= 1, "fifth-process rejection not observed"
         record["control"] = control
     elif case == "unisolated":
         assert props.get("ExecMainStatus") == "1" and props.get("Result") == "exit-code", "wrong negative-control failure"
@@ -182,6 +203,13 @@ def run_case(case, memory=3113848832, seconds=90):
 try:
     assert os.environ.get("GITHUB_REPOSITORY") == "humanaiconvention/rh"
     assert sys.platform == "linux"
+    gate_binary = Path(os.environ["RUNNER_TEMP"]) / "rh-gauss437-process-gate"
+    if not GATE.exists():
+        shutil.copyfile(gate_binary, GATE)
+        GATE.chmod(0o755)
+    assert hashlib.sha256(GATE.read_bytes()).digest() == hashlib.sha256(gate_binary.read_bytes()).digest(), "native process gate changed"
+    REPORT["process_gate_executable_sha256"] = hashlib.sha256(GATE.read_bytes()).hexdigest()
+    REPORT["process_gate_source_sha256"] = hashlib.sha256(Path(__file__).with_name("process_gate.c").read_bytes()).hexdigest()
     os_release = Path("/etc/os-release").read_text()
     assert 'VERSION_ID="22.04"' in os_release, "unexpected candidate003 platform"
     REPORT["os_release"] = os_release
@@ -208,6 +236,7 @@ try:
     if STAGE == "infrastructure":
         run_case("isolation")
         run_case("unisolated")
+        run_case("threaded")
         run_case("pids")
         run_case("memory", memory=128 * 1024**2)
         run_case("timeout", seconds=1)
@@ -223,7 +252,7 @@ try:
         REPORT["compiler_executable_sha256"] = hashlib.sha256((BASE / "lean" / "bin" / "lean").read_bytes()).hexdigest()
         REPORT["lake_executable_sha256"] = hashlib.sha256((BASE / "lean" / "bin" / "lake").read_bytes()).hexdigest()
         (INPUTS / ".lake").mkdir()
-        (INPUTS / "lakefile.toml").write_text('name = "u03_worker_fit"\nversion = "0.0.0"\ndefaultTargets = ["FitConsumer"]\nmoreLeanArgs = ["-j", "1", "-M", "3072"]\n[[lean_lib]]\nname = "FitProvider"\n[[lean_lib]]\nname = "FitConsumer"\n')
+        (INPUTS / "lakefile.toml").write_text('name = "u03_worker_fit"\nversion = "0.0.0"\ndefaultTargets = ["FitConsumer"]\nmoreLeanArgs = ["-j", "2", "-M", "3072"]\n[[lean_lib]]\nname = "FitProvider"\n[[lean_lib]]\nname = "FitConsumer"\n')
         (INPUTS / "lean-toolchain").write_text("leanprover/lean4:v4.37.0-rc1\n")
         (INPUTS / "lake-manifest.json").write_text(json.dumps({"version":"1.3.0","packagesDir":".lake/packages","name":"u03_worker_fit","lakeDir":".lake","fixedToolchain":False,"packages":[]}))
         (INPUTS / "FitProvider.lean").write_text("namespace FitProvider\ndef workerNumber : Nat := 7\nend FitProvider\n#print axioms FitProvider.workerNumber\n")

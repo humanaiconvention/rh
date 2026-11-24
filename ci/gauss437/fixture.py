@@ -5,6 +5,7 @@ import os
 import pathlib
 import socket
 import sys
+import threading
 import time
 
 case = sys.argv[1]
@@ -38,6 +39,19 @@ if case == "isolation":
     result["environment_keys"] = sorted(os.environ)
     result["status"] = "PASS"
     pathlib.Path("/out/isolation.json").write_text(json.dumps(result, sort_keys=True))
+elif case == "threaded":
+    child = os.fork()
+    threads = [threading.Thread(target=lambda: time.sleep(0.1)) for _ in range(2)]
+    for thread in threads:
+        thread.start()
+    for thread in threads:
+        thread.join()
+    if child == 0:
+        os._exit(0)
+    waited, status = os.waitpid(child, 0)
+    assert waited == child and status == 0
+    result.update(status="PASS", payload_processes=2, extra_threads_each=2)
+    pathlib.Path("/out/threaded.json").write_text(json.dumps(result, sort_keys=True))
 elif case == "pids":
     children = []
     try:
@@ -49,10 +63,11 @@ elif case == "pids":
             children.append(pid)
     except OSError as e:
         assert e.errno == errno.EAGAIN, str(e)
-        result.update(status="EXPECTED_KERNEL_REJECTION", errno=e.errno,
+        result.update(status="EXPECTED_PROCESS_GATE_REJECTION", errno=e.errno,
                       children_started=len(children))
+        assert len(children) >= 1, "all forks rejected; positive capacity not established"
     else:
-        raise AssertionError("eight forks fit the four-task cap")
+        raise AssertionError("eight forks fit the four-process cap")
     finally:
         for pid in children:
             os.kill(pid, 9)

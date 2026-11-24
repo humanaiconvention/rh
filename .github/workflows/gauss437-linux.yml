@@ -34,6 +34,13 @@ jobs:
           command -v bwrap
       - name: Qualify native isolation and resource controls
         shell: bash
+        run: |
+          set -euo pipefail
+          cc --version
+          cc -std=c11 -O2 -Wall -Wextra -Werror ci/gauss437/process_gate.c -o "$RUNNER_TEMP/rh-gauss437-process-gate"
+          sha256sum "$RUNNER_TEMP/rh-gauss437-process-gate"
+      - name: Test native process and isolation controls
+        shell: bash
         run: python3 ci/gauss437/qualify.py
       - name: Acquire and hash the exact official Linux compiler
         shell: bash

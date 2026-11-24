@@ -91,3 +91,20 @@ within the original maximum2, without increasing any task/memory/time ceiling.
 Only the MiniLake fixture changes. The original Gauss TOML/proof/Challenge and
 all source pins remain untouched. A successful serial control would require a
 separately named/disclosed serial Gauss configuration before its actual build.
+
+## Candidate 007: correct process/thread accounting
+
+The serial test also hit the deliberately overstrict four-task substitute.
+Candidate007 restores the original four-**process** budget using a native
+ptrace gate: creation syscalls stop before execution and reserve a TGID slot;
+the supervisor itself counts toward4. Traced threads have a separate secondary
+kernelTasksMax16 ceiling. This does not turn four tasks into sixteen allowed
+processes: acceptance requires the gate's complete record, peak<=4, no pending
+reservations/live tracees, native exit agreement and terminal cgroup cleanup.
+Unsupported state fails closed. The ordinary isolation/negative/memory/timeout
+controls remain, with a new two-process/two-threads-each positive control and
+an actual fifth-process denial control. Original memory/address-space/deadline
+ceilings remain. The tiny fit returns toj2, matching the untouched Gauss TOML.
+
+This is newly built infrastructure requiring native controls, not a theorem or
+a strict verification verdict. All earlier failed candidates remain retained.
