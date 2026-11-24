@@ -90,5 +90,5 @@
     "url": "https://github.com/leanprover/lean4/releases/download/v4.37.0-rc1/lean-4.37.0-rc1-linux.tar.zst",
     "provenance": "GitHub official release API digest read; NOT_DOWNLOADED_NOT_OBSERVED_ARCHIVE_HASH_NOT_INDEPENDENT_ATTESTATION"
   },
-  "current_scope": "INFRASTRUCTURE_CONTROLS_NO_LEAN_DOWNLOAD_OR_BUILD"
+  "current_scope": "INFRASTRUCTURE_THEN_VENDOR_LEAN_AND_CORE_LAKE_FIT_GAUSS_NOT_RUN"
 }

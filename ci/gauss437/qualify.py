@@ -12,22 +12,27 @@ import subprocess
 import sys
 import time
 
-ROOT = Path(os.environ["RUNNER_TEMP"]) / "rh-gauss437-results"
+STAGE = sys.argv[1] if len(sys.argv) > 1 else "infrastructure"
+assert STAGE in ("infrastructure", "fit")
+ROOT = Path(os.environ["RUNNER_TEMP"]) / ("rh-gauss437-fit-results" if STAGE == "fit" else "rh-gauss437-results")
 ROOT.mkdir(exist_ok=False)
 BASE = Path("/tmp") / ("rh-gauss437-" + os.environ["GITHUB_RUN_ID"])
-BASE.mkdir(mode=0o755, exist_ok=False)
-INPUTS = BASE / "input"
+BASE.mkdir(mode=0o755, exist_ok=STAGE == "fit")
+INPUTS = BASE / ("fit-input" if STAGE == "fit" else "input")
 INPUTS.mkdir(mode=0o755)
 shutil.copyfile(Path(__file__).with_name("fixture.py"), INPUTS / "fixture.py")
 (INPUTS / "read-only.txt").write_text("frozen control input\n")
 SENTINEL = BASE / "host-only-sentinel"
-SENTINEL.write_text("must be absent inside the worker namespace\n")
+if STAGE == "infrastructure":
+    SENTINEL.write_text("must be absent inside the worker namespace\n")
 HOST_NETNS = os.stat("/proc/self/ns/net").st_ino
-REPORT = {"schema": "rh-gauss-linux-infrastructure-004",
-          "claim": "NO_LEAN_OR_STRICT_PROOF_VERDICT", "cases": [],
+REPORT = {"schema": "rh-gauss-linux-infrastructure-005", "stage": STAGE,
+          "claim": "NO_GAUSS_OR_STRICT_PROOF_VERDICT", "cases": [],
           "gauss_build": "NOT_RUN", "strict_replay": "NOT_RUN_PENDING",
           "policy": {"tasksMax": 4, "task_vs_process": "STRONGER_THREADS_INCLUDED",
                      "memoryMax": 3113848832, "swapMax": 0,
+                     "per_process_AS": 2684354560,
+                     "aggregate_AS_upper_from_four_tasks": 10737418240,
                      "requestedPhaseLimitSec": 90, "maxLeanCompilers": "NOT_YET_QUALIFIED",
                      "controlPlane": "HOST_QUALIFIER_OUTSIDE_WORKLOAD_CGROUP_AS_IN_PRIOR_JOB_GUARD"}}
 UNITS = []
@@ -45,7 +50,7 @@ def available():
 def systemd_properties(unit):
     names = ["Result", "ExecMainCode", "ExecMainStatus", "ActiveState", "SubState",
              "ControlGroup", "TasksMax", "MemoryMax", "MemorySwapMax", "MemoryPeak",
-             "RuntimeMaxUSec", "User", "NoNewPrivileges", "PrivateNetwork", "MainPID", "ControlPID"]
+             "RuntimeMaxUSec", "User", "NoNewPrivileges", "PrivateNetwork", "LimitAS", "MainPID", "ControlPID"]
     p = capture(unit + "-properties", ["sudo", "systemctl", "show", unit] +
                 ["--property=" + x for x in names])
     assert p.returncode == 0, "cannot obtain native systemd result"
@@ -71,6 +76,16 @@ def run_case(case, memory=3113848832, seconds=90):
     if case == "unisolated":
         sandbox = ["/usr/bin/python3", str(INPUTS / "fixture.py"), "isolation",
                    str(SENTINEL), str(HOST_NETNS)]
+    if case in ("lean_version", "lean_hash", "lake_fit"):
+        leaf = (["/toolchain/bin/lake", "build", "FitConsumer"] if case == "lake_fit" else
+                ["/toolchain/bin/lean", "--githash" if case == "lean_hash" else "--version"])
+        sandbox = sandbox[:-5]
+        sandbox += ["--ro-bind", str(BASE / "lean"), "/toolchain",
+                    "--setenv", "PATH", "/toolchain/bin:/usr/bin:/bin",
+                    "--setenv", "LEAN_NUM_THREADS", "2"]
+        if case == "lake_fit":
+            sandbox += ["--bind", str(out), "/work/.lake"]
+        sandbox += leaf
     native_runtime = max(seconds - 1, 0.25)
     command = ["sudo", "systemd-run", "--quiet", "--no-block", "--unit=" + unit,
                "--property=User=nobody", "--property=Group=nogroup",
@@ -81,6 +96,7 @@ def run_case(case, memory=3113848832, seconds=90):
                "--property=NoNewPrivileges=yes", "--property=TasksMax=4",
                "--property=PrivateNetwork=yes",
                "--property=MemoryMax=" + str(memory), "--property=MemorySwapMax=0",
+               "--property=LimitAS=2684354560",
                "--property=RuntimeMaxSec=" + str(native_runtime),
                "--property=TimeoutStartSec=0.5", "--property=TimeoutStopSec=0.25",
                "--property=KillSignal=SIGKILL", "--property=FinalKillSignal=SIGKILL",
@@ -117,6 +133,7 @@ def run_case(case, memory=3113848832, seconds=90):
     assert props.get("User") == "nobody", "wrong execution identity"
     assert props.get("NoNewPrivileges") == "yes", "privilege gate missing"
     assert props.get("PrivateNetwork") == "yes", "outer private network missing"
+    assert props.get("LimitAS") == "2684354560", "native per-process address-space ceiling missing"
     assert props.get("ControlPID") == "0", "native service control still active"
     group = props.get("ControlGroup", "")
     drain_samples = []
@@ -147,6 +164,18 @@ def run_case(case, memory=3113848832, seconds=90):
         assert props.get("ExecMainStatus") != "0" and props.get("Result") == "oom-kill", "not the intended OOM rejection"
     elif case == "timeout":
         assert props.get("ExecMainStatus") != "0" and props.get("Result") == "timeout", "not the intended timeout rejection"
+    elif case in ("lean_version", "lean_hash", "lake_fit"):
+        assert props.get("ExecMainStatus") == "0" and props.get("Result") == "success", "core Lean/Lake fit failed at preserved limits"
+        text = (ROOT / (case + ".stdout")).read_text()
+        if case == "lean_hash":
+            assert text.strip() == "0b77e12952ad39077d80d8bd6b66d601f225c321", "compiler source revision mismatch"
+        elif case == "lean_version":
+            assert "4.37.0-rc1" in text, "compiler version mismatch"
+        else:
+            for module in ("FitProvider", "FitConsumer"):
+                artifact = out / "build" / "lib" / "lean" / (module + ".olean")
+                assert artifact.is_file(), "fixture module artifact missing"
+            record["scope"] = "TWO_SMALL_CORE_DEFINITIONS_NOT_GAUSS_OR_MATHLIB"
     record["verdict"] = "EXPECTED_RESULT"
     REPORT["cases"].append(record)
 
@@ -176,15 +205,37 @@ try:
     REPORT["qualifier_sha256"] = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     REPORT["fixture_sha256"] = hashlib.sha256((INPUTS / "fixture.py").read_bytes()).hexdigest()
     REPORT["start_available_bytes"] = available()
-    run_case("isolation")
-    run_case("unisolated")
-    run_case("pids")
-    run_case("memory", memory=128 * 1024**2)
-    run_case("timeout", seconds=1)
-    REPORT["infrastructure_controls"] = "PASS"
+    if STAGE == "infrastructure":
+        run_case("isolation")
+        run_case("unisolated")
+        run_case("pids")
+        run_case("memory", memory=128 * 1024**2)
+        run_case("timeout", seconds=1)
+        REPORT["infrastructure_controls"] = "PASS"
+    else:
+        prior = Path(os.environ["RUNNER_TEMP"]) / "rh-gauss437-results"
+        infra = json.loads((prior / "REPORT.json").read_text())
+        acquisition = json.loads((prior / "LEAN-ACQUISITION.json").read_text())
+        assert infra["infrastructure_controls"] == "PASS" and infra["worker_commit"] == os.environ["GITHUB_SHA"]
+        assert acquisition["worker_commit"] == os.environ["GITHUB_SHA"]
+        assert acquisition["observed_archive_sha256"] == pins["future_linux_asset"]["sha256"]
+        assert all(x["empty"] for x in infra["cleanup"])
+        REPORT["compiler_executable_sha256"] = hashlib.sha256((BASE / "lean" / "bin" / "lean").read_bytes()).hexdigest()
+        REPORT["lake_executable_sha256"] = hashlib.sha256((BASE / "lean" / "bin" / "lake").read_bytes()).hexdigest()
+        (INPUTS / ".lake").mkdir()
+        (INPUTS / "lakefile.toml").write_text('name = "u03_worker_fit"\nversion = "0.0.0"\ndefaultTargets = ["FitConsumer"]\nmoreLeanArgs = ["-j", "2", "-M", "3072"]\n[[lean_lib]]\nname = "FitProvider"\n[[lean_lib]]\nname = "FitConsumer"\n')
+        (INPUTS / "lean-toolchain").write_text("leanprover/lean4:v4.37.0-rc1\n")
+        (INPUTS / "lake-manifest.json").write_text(json.dumps({"version":"1.3.0","packagesDir":".lake/packages","name":"u03_worker_fit","lakeDir":".lake","fixedToolchain":False,"packages":[]}))
+        (INPUTS / "FitProvider.lean").write_text("namespace FitProvider\ndef workerNumber : Nat := 7\nend FitProvider\n#print axioms FitProvider.workerNumber\n")
+        (INPUTS / "FitConsumer.lean").write_text("import FitProvider\ndef workerConsumer : Nat := FitProvider.workerNumber\n#print axioms workerConsumer\n")
+        REPORT["fit_input_hashes"] = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in INPUTS.iterdir() if p.is_file()}
+        run_case("lean_version")
+        run_case("lean_hash")
+        run_case("lake_fit")
+        REPORT["core_Lake_fit"] = "PASS"
     REPORT["full_Lake_qualification"] = "PENDING_REAL_LEAN_LAKE_FIT_AND_WORK_GRAPH"
 except Exception as e:
-    REPORT["infrastructure_controls"] = "BLOCKED"
+    REPORT["core_Lake_fit" if STAGE == "fit" else "infrastructure_controls"] = "BLOCKED"
     REPORT["first_blocker"] = str(e)
 finally:
     REPORT["cleanup"] = []
@@ -192,7 +243,7 @@ finally:
         try:
             before = systemd_properties(unit)
         except Exception as e:
-            REPORT["infrastructure_controls"] = "BLOCKED"
+            REPORT["core_Lake_fit" if STAGE == "fit" else "infrastructure_controls"] = "BLOCKED"
             REPORT["cleanup_blocker"] = "native unit state unavailable: " + str(e)
             before = {}
         subprocess.run(["sudo", "systemctl", "kill", "--kill-whom=all", "--signal=KILL", unit],
@@ -211,10 +262,10 @@ finally:
         REPORT["cleanup"].append({"unit": unit, "stop_exit": stop_exit,
                                   "empty": empty, "native_before_stop": before})
         if not empty:
-            REPORT["infrastructure_controls"] = "BLOCKED"
+            REPORT["core_Lake_fit" if STAGE == "fit" else "infrastructure_controls"] = "BLOCKED"
             REPORT["cleanup_blocker"] = "terminal descendants not proven empty"
         subprocess.run(["sudo", "systemctl", "reset-failed", unit],
                        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     (ROOT / "REPORT.json").write_text(json.dumps(REPORT, indent=2, sort_keys=True))
     print(json.dumps(REPORT, sort_keys=True), flush=True)
-sys.exit(0 if REPORT.get("infrastructure_controls") == "PASS" else 1)
+sys.exit(0 if REPORT.get("core_Lake_fit" if STAGE == "fit" else "infrastructure_controls") == "PASS" else 1)

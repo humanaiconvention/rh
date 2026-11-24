@@ -66,3 +66,18 @@ drained cgroup. Candidate004 waits for actual drain within the **same original
 case clock** and retains the native failure cause and drain samples. It does not
 raise or reset a deadline. Candidate003's observed bubblewrap hash is now required
 exactly. All prior failed receipts remain rejected and retained.
+
+## Candidate 005: exact core runtime fit before Mathlib
+
+Run45352886764 passed all five infrastructure controls. Candidate005 repeats
+them and adds a stricter per-process2.5GiB address-space ceiling: with at most
+four workload tasks this bounds aggregate address spaces by10GiB and also
+bounds any Lean heap below the requested3072MiB ceiling. These stronger limits
+may reject legitimate work; they are never silently enlarged.
+
+Only after those controls pass does it download the exact official Linux Lean
+archive, check vendor/observed SHA256 and size, and extract without executing an
+installer. Isolated controls verify version/githash, then a tiny two-definition
+Lake dependency chain at the original j2/M3072 settings. This is a resource-fit
+control, **not Gauss acceptance**, a Mathlib build or strict verification. Full
+Gauss work/configuration binding remains pending. No Mathlib fetch begins here.
