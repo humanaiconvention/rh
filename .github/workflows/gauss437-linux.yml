@@ -1,0 +1,52 @@
+name: Gauss 437 Linux worker qualification
+
+on:
+  push:
+    branches: [worker/gauss437-linux]
+    paths: ['ci/gauss437/**', '.github/workflows/gauss437-linux.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gauss437-linux-worker
+  cancel-in-progress: false
+
+jobs:
+  qualify:
+    if: github.repository == 'humanaiconvention/rh' && github.event.repository.private == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Read the exact worker commit
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Acquire the Ubuntu isolation tool only
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v bwrap >/dev/null; then
+            sudo apt-get install --yes --no-install-recommends bubblewrap
+          fi
+          command -v bwrap
+      - name: Qualify native isolation and resource controls
+        shell: bash
+        run: python3 ci/gauss437/qualify.py
+      - name: Preserve complete control outputs in job logs
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          result="$RUNNER_TEMP/rh-gauss437-results"
+          if [ -d "$result" ]; then
+            for file in "$result"/*; do
+              [ -f "$file" ] || continue
+              printf '\nRH_GAUSS_FILE_BEGIN %s\n' "$(basename "$file")"
+              sha256sum "$file" | cut -d' ' -f1
+              base64 -w 0 "$file"
+              printf '\nRH_GAUSS_FILE_END\n'
+            done
+          fi
