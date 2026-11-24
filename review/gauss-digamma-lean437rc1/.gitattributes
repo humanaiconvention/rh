@@ -1,0 +1,7 @@
+GaussDigamma.lean -text
+PackageConsumer.lean -text
+lake-manifest.json -text
+lean-toolchain -text
+baseline/lakefile.toml -text
+challenge/Challenge.lean -text
+evidence/historical-rc2-replay.json -text

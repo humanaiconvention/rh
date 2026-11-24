@@ -1,0 +1,273 @@
+{
+  "schema": "digamma-rc2-public-verification-summary-001",
+  "status": "three_source_direct_lean_replay_pass",
+  "replay_utc": "2026-11-04T06:54:59.492147+00:00",
+  "toolchain": "leanprover/lean4:v4.36.0-rc2",
+  "mathlib": "9d581dfff2e41de989072ea63abf3daf69311520",
+  "compiler_sha256": "047148940144e24e4705a3cb861e838be3fc2bc6eed0c536c3b27eb1bd6da800",
+  "source_and_configuration_sha256": {
+    "DigammaGauss.lean": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+    "GaussDigamma.lean": "e6ec35b76f38e044fff5ac7713628b6098c2aba5cfdfbfd41ae5acf04bcdce2f",
+    "lake-manifest.json": "a1daf100dc5802203ffd538473c33f586fb8d863aa910ec5e9eb2fb8d3327949",
+    "lakefile.toml": "75b4f768cb9fe8aa01f5bf4bb55bf0ca7f3688f323117f00803b445f1b5ed6f1",
+    "lean-toolchain": "11c697aebe5b539d74f5069e497a588e7dfab1c4eeb74313f28357e351c55ca3",
+    "PackageConsumer.lean": "4327c03b73e2247a80093c60210f536f216fa8d4bf7857b8ad515552f87a4de0"
+  },
+  "internal_receipt_sha256": "ecea46157b83ec885e4c3af0a3aca5ec563cfa894926198aeede632f30afe420",
+  "internal_seal_sha256": "1b7bb2649d700eeeb172f2a9879813b6bb6c5594037d0d556ee4e6e411444976",
+  "total_axiom_reports": 27,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "jobs": [
+    {
+      "module": "DigammaGauss",
+      "source_sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+      "reports": [
+        {
+          "declaration": "DigammaGauss.BetaDomination.exists_right_cancel_bound",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.BetaDomination.dominated",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.BetaDomination.dominator_integrable",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.BetaLimit.limitKernel_integrable",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.BetaLimit.cancelled_integral_limit",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.BetaLimit.beta_difference_eq_integral",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.BetaLimit.beta_difference_integral_limit",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.Substitution.integral_exp_neg",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.Substitution.integrable_exp_neg",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.Substitution.jacobian_kernel",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.Substitution.limitKernel_integral",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.GammaRatio.gamma_ratio_hasDerivAt",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.GammaRatio.ratioDifference_hasDerivAt",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.GammaRatio.ratioDifference_slope_limit",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.GammaRatio.gamma_times_ratio_limit",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.GammaRatio.beta_difference_identity",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.GammaRatio.beta_difference_limit_complex",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.GammaRatio.beta_difference_limit",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.beta_domain_digamma",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.gauss_integrable",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.digamma_difference",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.digamma_difference_exp",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "DigammaGauss.gauss_integrable_exp",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "native_seconds": 21.891,
+      "warning_headers": 10
+    },
+    {
+      "module": "GaussDigamma",
+      "source_sha256": "e6ec35b76f38e044fff5ac7713628b6098c2aba5cfdfbfd41ae5acf04bcdce2f",
+      "reports": [
+        {
+          "declaration": "GaussDigamma.difference_integral",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "GaussDigamma.integrable_difference",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "native_seconds": 17.86,
+      "warning_headers": 0
+    },
+    {
+      "module": "PackageConsumer",
+      "source_sha256": "4327c03b73e2247a80093c60210f536f216fa8d4bf7857b8ad515552f87a4de0",
+      "reports": [
+        {
+          "declaration": "GaussDigammaConsumer.difference",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "GaussDigammaConsumer.integrability",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ],
+      "native_seconds": 18.062,
+      "warning_headers": 0
+    }
+  ],
+  "scope": "Digamma difference integral and actual integrability on Ioi 0 for real a > 0 and complex Re(z) > 0; full typed consumer of both contracts.",
+  "source_changes_in_packaging": false,
+  "verification_boundary": "Local fresh direct-Lean replay using authenticated official upstream cached artifacts and bundled core, not a cold build or external independent review.",
+  "conventional_lake_build": "not_qualified_not_run",
+  "raw_logs_and_object_files_included": false,
+  "summary_is_kernel_checkable_proof_object": false,
+  "publication": "not_performed"
+}

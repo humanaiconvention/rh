@@ -1,0 +1,16 @@
+{
+  "candidate_id": "logistic-public-reading-copy-001",
+  "original_catalog": 3147,
+  "original_note_sha256": "f9f9292451d87e6737aa577e592e9fc3a87db3d00953a6bad9a11eeef24e2373",
+  "reading_copy_sha256": "e54139a44da0774ca1c3e9c1f1e2f2243bc8eeae07a5989149d369671592efa2",
+  "exact_editorial_delta": {
+    "old": "This is a note for private human review, not a release or a novelty claim.",
+    "new": "This is a reading copy for human review on a public review branch, not a release or a novelty claim."
+  },
+  "mathematics": "UNCHANGED",
+  "fresh_Lean": "NOT_RUN",
+  "strict_replay": "PENDING",
+  "external_human_review": "PENDING",
+  "priority": "UNESTABLISHED",
+  "Lean_source_closure": "NOT_INCLUDED_NOT_CLAIMED_REPLAYABLE"
+}

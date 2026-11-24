@@ -1,0 +1,102 @@
+{
+  "candidate_id": "U03-lean437rc1-linked-public-provider-review-001",
+  "base_commit": "475a9d9639f347bb1b72ae30a129d5d330275454",
+  "build": "NOT_RUN",
+  "strict_independent_replay": "PENDING_NOT_RUN",
+  "human_review": "PENDING",
+  "lean": {
+    "toolchain": "leanprover/lean4:v4.37.0-rc1",
+    "source_commit": "0b77e12952ad39077d80d8bd6b66d601f225c321"
+  },
+  "mathlib": "31ce06eaadf4a200c0e1407c5f10953cf606b8f8",
+  "dependencies": [
+    {
+      "name": "mathlib",
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "rev": "31ce06eaadf4a200c0e1407c5f10953cf606b8f8"
+    },
+    {
+      "name": "plausible",
+      "url": "https://github.com/leanprover-community/plausible",
+      "rev": "0d8633efc105d6b15b59a8103614ae0291ee8827"
+    },
+    {
+      "name": "LeanSearchClient",
+      "url": "https://github.com/leanprover-community/LeanSearchClient",
+      "rev": "146200e1ecbf7397e361475b5c0905adc5fe0670"
+    },
+    {
+      "name": "importGraph",
+      "url": "https://github.com/leanprover-community/import-graph",
+      "rev": "cf947504529b8e2ee114e852133d13e4ac923e9b"
+    },
+    {
+      "name": "proofwidgets",
+      "url": "https://github.com/leanprover-community/ProofWidgets4",
+      "rev": "197b8bdfd8bbfea6dff6ac04170a710b231c3aaa"
+    },
+    {
+      "name": "aesop",
+      "url": "https://github.com/leanprover-community/aesop",
+      "rev": "637fdbb8689a3387a82568b07355231f892144d7"
+    },
+    {
+      "name": "Qq",
+      "url": "https://github.com/leanprover-community/quote4",
+      "rev": "ad0c9f87cfe7b41b93446472004724a1646a22f4"
+    },
+    {
+      "name": "batteries",
+      "url": "https://github.com/leanprover-community/batteries",
+      "rev": "87486d547af639cb39c01f0d2f8025aa47d7dde1"
+    },
+    {
+      "name": "Cli",
+      "url": "https://github.com/leanprover/lean4-cli",
+      "rev": "c830de39b67d5d447d854a4e390fff9bb0a9c897"
+    }
+  ],
+  "layout_delta": "One srcDir line; new candidate identity; baselineTOML retained",
+  "provider": {
+    "path": "../../review-packages/gauss-digamma/DigammaGauss.lean",
+    "existing_public_commit": "475a9d9639f347bb1b72ae30a129d5d330275454",
+    "existing_git_blob": "ace0bff441ce4f50a74fbf2f529a607f8f6b432d",
+    "sha256": "20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d",
+    "newly_copied": false,
+    "rights_review": "HISTORICAL_ASSET_LEVEL_REVIEW_PENDING"
+  },
+  "files": [
+    {
+      "path": "GaussDigamma.lean",
+      "sha256": "e6ec35b76f38e044fff5ac7713628b6098c2aba5cfdfbfd41ae5acf04bcdce2f"
+    },
+    {
+      "path": "PackageConsumer.lean",
+      "sha256": "4327c03b73e2247a80093c60210f536f216fa8d4bf7857b8ad515552f87a4de0"
+    },
+    {
+      "path": "lean-toolchain",
+      "sha256": "f11739c25d1640e2b3fda8a98af6d64e97d7b2b1c99840535587a9079b3afee7"
+    },
+    {
+      "path": "lake-manifest.json",
+      "sha256": "179f6366a946b333b787d110f26bc0abe812fd3ea81f44f39147d60d253f2932"
+    },
+    {
+      "path": "lakefile.toml",
+      "sha256": "86f4b13a05033ae28b52ace55edf0793060911099f2ec71c5fafc1fabfd32c72"
+    },
+    {
+      "path": "baseline/lakefile.toml",
+      "sha256": "0cc67c6e669c0ef1614406ade3bc9f2beed03ac76ef9f5dd9542357238b2055c"
+    },
+    {
+      "path": "challenge/Challenge.lean",
+      "sha256": "089d79f22567db09aac20b42e54d0992876ddf5ebbe260fa6e68d699abc91cca"
+    }
+  ],
+  "challenge_holes": "TWO_INTENTIONAL_SPEC_ONLY",
+  "package_claim": "CLASSICAL_FORMALIZATION_NOT_NEW_ANALYTIC_RESULT",
+  "submission_ready": false,
+  "model_authorship": "AI-assisted packaging under human direction; exact historical author identities not reconstructed"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "sanitized-maintenance-3158-3159",
+  "classification": "INPUT_AND_ADMISSION_EVIDENCE_NOT_LEAN_VERIFICATION",
+  "checkpoint3158": {
+    "receipt_sha256": "47ea036b8b3d186393cfce28e6512aadf666ac06bbd0b42f3b1206b12a8b43da",
+    "decision": "NOT_ADMITTED",
+    "required_staged_file": "project/.lake/packages/mathlib/lakefile.lean",
+    "native_error": 3,
+    "two_real_root_leases": "PIN_MATCHED_THEN_CLOSED",
+    "compiled_object_and_trace_validation": "NOT_RUN",
+    "job_lifetime_integration": "NOT_RUN"
+  },
+  "checkpoint3159": {
+    "receipt_sha256": "d7e718beb36e2c21fe7d094b249de9fff2337f239f81331e679fbf76940bb028",
+    "init": "PASS",
+    "fetch_attempts": 1,
+    "fetch": "STOPPED_UNADMITTED_GIT_DISPATCH",
+    "unadmitted_command": "git remote-https <pinned-public-Mathlib-URL> <pinned-public-Mathlib-URL>",
+    "accounted_processes": 3,
+    "cleanup": "ALL_THREE_TERMINATED_124_JOB_EMPTY_OWNER_RELEASED",
+    "usable_checkout": "NONE",
+    "checkout_and_HEAD": "NOT_RUN",
+    "network_verdict": "NOT_ESTABLISHED",
+    "network_bytes": "NOT_ESTABLISHED",
+    "Lean_result": "NONE",
+    "receipt_scope": "FETCH_STAGE_LOG_NOT_AGGREGATE"
+  },
+  "latest_scope": {
+    "Lean437rc1_build": "NOT_RUN",
+    "typed_consumer": "NOT_RUN",
+    "challenge_type_comparison": "NOT_RUN",
+    "axioms": "NOT_RUN",
+    "strict_replay": "NOT_RUN_PENDING",
+    "compiling_mismatch_control": "NOT_RUN",
+    "first_missing_prerequisite": "Exact accepted rc1 inputs and qualified complete execution route",
+    "fetch_retry_or_widening": "NONE_IN_PACKAGING_PASS"
+  },
+  "raw_data_policy": "Private paths, PIDs, environments, raw logs/controllers, binaries, caches and partial checkouts omitted; original records preserved internally"
+}

@@ -1,0 +1,4 @@
+--- baseline/lakefile.toml
++++ lakefile.toml
+@@ -12,0 +13 @@
++srcDir = "../../review-packages/gauss-digamma"

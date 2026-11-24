@@ -1,3 +1,15 @@
+# Review branch — start here
+
+**Lean 4.37.0-rc1 Gauss candidate / BUILD NOT RUN.**
+**Lean 4.36.0-rc2 Gauss direct-Lean replay / HISTORICAL ONLY.**
+**Strict independent replay and human review / PENDING. Not submission-ready.**
+
+Open [REVIEW-START-HERE.md](REVIEW-START-HERE.md), then the [Gauss candidate](review/gauss-digamma-lean437rc1/README.md). The exact provider is linked from the existing public package; it is not newly duplicated or rights-cleared. No new Lean run or release is claimed. The RH/quasi-RH research campaigns remain closed.
+
+The historical repository README follows unchanged below; its open-target descriptions and old verification scopes are reference material, not a new research queue or a verdict on this candidate.
+
+---
+
 # Finite arithmetic and Lean certificates
 
 Exact finite-arithmetic identities, reproducible checks, and two Lean 4 certificates from a bounded investigation related to the Riemann hypothesis.

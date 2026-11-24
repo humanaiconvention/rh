@@ -1,0 +1,13 @@
+# Source reuse, notice and holdback boundary
+
+The project uses the repository's existing [MIT license](../../LICENSE) for material within the publisher's rights. This does not relicense Mathlib or dependencies; their own licenses/notices remain with their pinned sources. No dependency source archive, binary or cache is distributed here.
+
+The extracted provider's historical asset-level contribution/reuse rights review remains unresolved. This pass therefore does **not** add a new copy or alter it. The exact provider was already publicly present at commit `475a9d9639f347bb1b72ae30a129d5d330275454`, Git blob `ace0bff441ce4f50a74fbf2f529a607f8f6b432d`, SHA256 `20a72adc333ab703ce993b75dbb0dced1fa52a56aaac3f56f2303c833f20452d`. This branch is based on that public commit and links that file unchanged. Prior public availability establishes identity/availability, not missing historical title clearance. Existing attribution and notice files remain unchanged at the historical path.
+
+Newly included solution files are the project-owned public API and typed consumer, unchanged from the vetted candidate. The independently frozen Mathlib-only Challenge is a specification, not a proof. No known copied third-party body is introduced by those interfaces; that is not blanket legal clearance of the archive.
+
+One layout-only change adds `srcDir = "../../review-packages/gauss-digamma"` to the provider library in the new candidate TOML. [Baseline](baseline/lakefile.toml) preserves the exact old bytes; [LAYOUT.diff](LAYOUT.diff) records the adaptation. Candidate identity is new. The proof sources, toolchain, nine-entry lock and Challenge remain byte-identical; new layout acceptance is NOT RUN.
+
+The classical formula is due to Gauss. Mathlib provides the imported Gamma/Beta, calculus and integration infrastructure. Existing upstream source notices credit their authors; importing a theorem is not proof-body copying or a claim those authors wrote this extraction. Preparation and internal checking are AI-assisted under human direction. Human proof/provenance/rights approval is pending; no reviewer identity or authorship history has been invented.
+
+Held back from this new payload: a duplicate provider body; raw process logs/controllers; personal paths/PIDs/environment; toolchains, proof objects/caches and partial checkouts; large unreviewed proof closures and upstream captures. The logistic note is a written reading copy with its local evidence labeled separately. No historical seal or release is overwritten, no partial application is promoted, and nothing is called submission-ready.
