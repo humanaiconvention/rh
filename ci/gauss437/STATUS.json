@@ -1,0 +1,35 @@
+{
+  "scope": "LINUX_WORKER_CANDIDATE_NOT_A_PROOF_PACKAGE_VERDICT",
+  "full_Lake_qualification": "BLOCKED",
+  "Gauss_build": "NOT_RUN",
+  "Mathlib_source_and_cache_acquisition": "NOT_RUN",
+  "Gauss_consumer_Challenge_axioms": "NOT_RUN",
+  "strict_independent_comparator": "NOT_RUN_PENDING",
+  "human_mathematical_provenance_rights_review": "PENDING",
+  "official_compiler_metadata": {
+    "version": "4.37.0-rc1",
+    "githash": "0b77e12952ad39077d80d8bd6b66d601f225c321",
+    "archive_bytes": 659694066,
+    "vendor_and_observed_sha256": "2e1bbb832870bb81b7131cb70b13aec2cc7ed9f22e2bdbb236b86076ae20382d",
+    "scope": "VERIFIED_INPUT_IDENTITY_NOT_THEOREM_ACCEPTANCE"
+  },
+  "native_infrastructure": {
+    "four_task_candidate_pass": 45352886764,
+    "process_aware_candidate_controls_pass": 45357423697,
+    "latest_control_run": 45358326604,
+    "latest_commit": "1441564b3467b843a56c0a53f1f338e120e0323b",
+    "latest_result": "BLOCKED_AT_THREADED_CONTROL",
+    "guard_reason": "unsupported_syscall_info_or_abi",
+    "guard_complete_cleanup": false,
+    "outer_cgroup_cleanup_empty": true,
+    "core_serial_repeat": "NOT_REACHED"
+  },
+  "core_Lake_observation": {
+    "process_aware_j2_run": 45357423697,
+    "stderr": "failed to create thread: Resource temporarily unavailable",
+    "native_terminal_result": "timeout",
+    "cause": "NOT_YET_DISAMBIGUATED; DO_NOT_ASSUME_TASK_LIMIT_OR_ADDRESS_SPACE_CAUSE"
+  },
+  "next_single_test": "Add non-permissive diagnostics at failed PTRACE_GET_SYSCALL_INFO (tid, errno, returned size, op, arch); replay threaded control under unchanged limits before further compiler or Gauss work",
+  "automatic_successor": false
+}

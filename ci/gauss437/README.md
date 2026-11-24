@@ -1,5 +1,12 @@
 # Linux worker candidate — infrastructure controls only
 
+**Current: full Lake qualification BLOCKED; Gauss BUILD NOT RUN. Strict and
+human review PENDING.** [Exact status](STATUS.json).
+The [latest run45358326604](https://github.com/humanaiconvention/rh/actions/runs/45358326604)
+rejected a threaded-control tracer state; outer cleanup completed, but this is
+not a healthy process-gate verdict. No successor is queued. Compiler version/
+source/hash checks passed earlier; they are input identity, not theorem checks.
+
 User-authorized worker creation; ordinary free standard Ubuntu runner in this
 public repository. No larger runner, paid service, personal-host platform change,
 proof-source change, or automatic release is used.
