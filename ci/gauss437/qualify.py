@@ -23,7 +23,7 @@ shutil.copyfile(Path(__file__).with_name("fixture.py"), INPUTS / "fixture.py")
 SENTINEL = BASE / "host-only-sentinel"
 SENTINEL.write_text("must be absent inside the worker namespace\n")
 HOST_NETNS = os.stat("/proc/self/ns/net").st_ino
-REPORT = {"schema": "rh-gauss-linux-infrastructure-003",
+REPORT = {"schema": "rh-gauss-linux-infrastructure-004",
           "claim": "NO_LEAN_OR_STRICT_PROOF_VERDICT", "cases": [],
           "gauss_build": "NOT_RUN", "strict_replay": "NOT_RUN_PENDING",
           "policy": {"tasksMax": 4, "task_vs_process": "STRONGER_THREADS_INCLUDED",
@@ -119,11 +119,22 @@ def run_case(case, memory=3113848832, seconds=90):
     assert props.get("PrivateNetwork") == "yes", "outer private network missing"
     assert props.get("ControlPID") == "0", "native service control still active"
     group = props.get("ControlGroup", "")
+    drain_samples = []
     if group:
         events = Path("/sys/fs/cgroup") / group.lstrip("/") / "cgroup.events"
-        assert not events.exists() or "populated 0" in events.read_text(), "live cgroup descendants"
+        while events.exists():
+            try:
+                state = events.read_text()
+            except FileNotFoundError:
+                drain_samples.append({"elapsed": time.monotonic() - start, "events": "CGROUP_REMOVED"})
+                break
+            drain_samples.append({"elapsed": time.monotonic() - start, "events": state})
+            if "populated 0" in state:
+                break
+            assert time.monotonic() - start < seconds, "live cgroup descendants at original deadline"
+            time.sleep(0.01)
     record = {"case": case, "launch_exit": p.returncode, "native": props,
-              "elapsed": time.monotonic() - start}
+              "elapsed": time.monotonic() - start, "drain_samples": drain_samples}
     if case in ("isolation", "pids"):
         assert props.get("ExecMainStatus") == "0" and props.get("Result") == "success", "benign/control failed"
         control = json.loads((out / (case + ".json")).read_text())
@@ -160,7 +171,8 @@ try:
                           ("bwrap-package", ["dpkg-query", "-W", "bubblewrap"])]:
         assert capture(name, command).returncode == 0
     REPORT["bwrap_sha256"] = hashlib.sha256(Path("/usr/bin/bwrap").read_bytes()).hexdigest()
-    REPORT["isolation_tool_pin"] = "CANDIDATE003_BOOTSTRAP_OBSERVATION_ONLY_FREEZE_BEFORE_ANY_LEAN"
+    assert REPORT["bwrap_sha256"] == "bf6cf3d4456665f5d80c14eb79a76e0ce87b39a0883e614a161658b4ec33492c", "isolation tool changed from candidate003 observed pin"
+    REPORT["isolation_tool_pin"] = "CANDIDATE003_EXACT_BINARY_HASH_RECHECKED"
     REPORT["qualifier_sha256"] = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     REPORT["fixture_sha256"] = hashlib.sha256((INPUTS / "fixture.py").read_bytes()).hexdigest()
     REPORT["start_available_bytes"] = available()

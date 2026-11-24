@@ -57,3 +57,12 @@ versions are new bootstrap observations, not the old host's tool pin. These must
 be frozen and accepted before any later Lean execution. All workload controls,
 proof/Challenge bytes, Lean/Mathlib/dependency pins and pending gates remain.
 No host security configuration is edited or disabled on either image.
+
+## Candidate 004: asynchronous OOM teardown
+
+Run45352324458 passed the isolated/unisolated/process controls and recorded the
+intended native oom-kill/status9, but rejected an immediate sample of its not-yet
+drained cgroup. Candidate004 waits for actual drain within the **same original
+case clock** and retains the native failure cause and drain samples. It does not
+raise or reset a deadline. Candidate003's observed bubblewrap hash is now required
+exactly. All prior failed receipts remain rejected and retained.
