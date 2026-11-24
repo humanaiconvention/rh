@@ -26,7 +26,7 @@ SENTINEL = BASE / "host-only-sentinel"
 if STAGE == "infrastructure":
     SENTINEL.write_text("must be absent inside the worker namespace\n")
 HOST_NETNS = os.stat("/proc/self/ns/net").st_ino
-REPORT = {"schema": "rh-gauss-linux-infrastructure-005", "stage": STAGE,
+REPORT = {"schema": "rh-gauss-linux-infrastructure-006", "stage": STAGE,
           "claim": "NO_GAUSS_OR_STRICT_PROOF_VERDICT", "cases": [],
           "gauss_build": "NOT_RUN", "strict_replay": "NOT_RUN_PENDING",
           "policy": {"tasksMax": 4, "task_vs_process": "STRONGER_THREADS_INCLUDED",
@@ -82,7 +82,7 @@ def run_case(case, memory=3113848832, seconds=90):
         sandbox = sandbox[:-5]
         sandbox += ["--ro-bind", str(BASE / "lean"), "/toolchain",
                     "--setenv", "PATH", "/toolchain/bin:/usr/bin:/bin",
-                    "--setenv", "LEAN_NUM_THREADS", "2"]
+                    "--setenv", "LEAN_NUM_THREADS", "1"]
         if case == "lake_fit":
             sandbox += ["--bind", str(out), "/work/.lake"]
         sandbox += leaf
@@ -223,7 +223,7 @@ try:
         REPORT["compiler_executable_sha256"] = hashlib.sha256((BASE / "lean" / "bin" / "lean").read_bytes()).hexdigest()
         REPORT["lake_executable_sha256"] = hashlib.sha256((BASE / "lean" / "bin" / "lake").read_bytes()).hexdigest()
         (INPUTS / ".lake").mkdir()
-        (INPUTS / "lakefile.toml").write_text('name = "u03_worker_fit"\nversion = "0.0.0"\ndefaultTargets = ["FitConsumer"]\nmoreLeanArgs = ["-j", "2", "-M", "3072"]\n[[lean_lib]]\nname = "FitProvider"\n[[lean_lib]]\nname = "FitConsumer"\n')
+        (INPUTS / "lakefile.toml").write_text('name = "u03_worker_fit"\nversion = "0.0.0"\ndefaultTargets = ["FitConsumer"]\nmoreLeanArgs = ["-j", "1", "-M", "3072"]\n[[lean_lib]]\nname = "FitProvider"\n[[lean_lib]]\nname = "FitConsumer"\n')
         (INPUTS / "lean-toolchain").write_text("leanprover/lean4:v4.37.0-rc1\n")
         (INPUTS / "lake-manifest.json").write_text(json.dumps({"version":"1.3.0","packagesDir":".lake/packages","name":"u03_worker_fit","lakeDir":".lake","fixedToolchain":False,"packages":[]}))
         (INPUTS / "FitProvider.lean").write_text("namespace FitProvider\ndef workerNumber : Nat := 7\nend FitProvider\n#print axioms FitProvider.workerNumber\n")

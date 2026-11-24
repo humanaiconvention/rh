@@ -81,3 +81,13 @@ installer. Isolated controls verify version/githash, then a tiny two-definition
 Lake dependency chain at the original j2/M3072 settings. This is a resource-fit
 control, **not Gauss acceptance**, a Mathlib build or strict verification. Full
 Gauss work/configuration binding remains pending. No Mathlib fetch begins here.
+
+## Candidate 006: bounded serial fit
+
+Run45354319441 passed the stronger infrastructure controls and verified the
+official archive and isolated Lean version/githash. The tiny j2 Lake control
+failed at native thread creation. Candidate006 tests j1/LEAN_NUM_THREADS=1,
+within the original maximum2, without increasing any task/memory/time ceiling.
+Only the MiniLake fixture changes. The original Gauss TOML/proof/Challenge and
+all source pins remain untouched. A successful serial control would require a
+separately named/disclosed serial Gauss configuration before its actual build.
