@@ -47,3 +47,13 @@ network namespace inode and ENETUNREACH are all required. UID=nobody,
 NoNewPrivileges, filesystem/PID isolation, limits and failing controls remain.
 No host sysctl/AppArmor setting or sandbox policy is disabled. This is a new
 explicit candidate, not a reinterpretation of the rejected result.
+
+## Candidate 003: supported host compatibility
+
+Run45351869383 confirmed native PrivateNetwork=yes but stopped at unprivileged
+UID mapping; no fixture or proof acceptance followed. Candidate003 explicitly
+selects standard Ubuntu22.04 instead of24.04. Its bubblewrap/systemd bytes and
+versions are new bootstrap observations, not the old host's tool pin. These must
+be frozen and accepted before any later Lean execution. All workload controls,
+proof/Challenge bytes, Lean/Mathlib/dependency pins and pending gates remain.
+No host security configuration is edited or disabled on either image.

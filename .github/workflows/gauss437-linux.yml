@@ -16,7 +16,7 @@ concurrency:
 jobs:
   qualify:
     if: github.repository == 'humanaiconvention/rh' && github.event.repository.private == false
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     timeout-minutes: 10
     steps:
       - name: Read the exact worker commit

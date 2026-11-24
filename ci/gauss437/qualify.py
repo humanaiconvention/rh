@@ -23,7 +23,7 @@ shutil.copyfile(Path(__file__).with_name("fixture.py"), INPUTS / "fixture.py")
 SENTINEL = BASE / "host-only-sentinel"
 SENTINEL.write_text("must be absent inside the worker namespace\n")
 HOST_NETNS = os.stat("/proc/self/ns/net").st_ino
-REPORT = {"schema": "rh-gauss-linux-infrastructure-002",
+REPORT = {"schema": "rh-gauss-linux-infrastructure-003",
           "claim": "NO_LEAN_OR_STRICT_PROOF_VERDICT", "cases": [],
           "gauss_build": "NOT_RUN", "strict_replay": "NOT_RUN_PENDING",
           "policy": {"tasksMax": 4, "task_vs_process": "STRONGER_THREADS_INCLUDED",
@@ -142,6 +142,9 @@ def run_case(case, memory=3113848832, seconds=90):
 try:
     assert os.environ.get("GITHUB_REPOSITORY") == "humanaiconvention/rh"
     assert sys.platform == "linux"
+    os_release = Path("/etc/os-release").read_text()
+    assert 'VERSION_ID="22.04"' in os_release, "unexpected candidate003 platform"
+    REPORT["os_release"] = os_release
     pins = json.loads(Path(__file__).with_name("PINS.json").read_text())
     for source in pins["files"]:
         assert hashlib.sha256(Path(source["path"]).read_bytes()).hexdigest() == source["sha256"], "frozen candidate bytes changed"
@@ -157,7 +160,7 @@ try:
                           ("bwrap-package", ["dpkg-query", "-W", "bubblewrap"])]:
         assert capture(name, command).returncode == 0
     REPORT["bwrap_sha256"] = hashlib.sha256(Path("/usr/bin/bwrap").read_bytes()).hexdigest()
-    assert REPORT["bwrap_sha256"] == "e318903862396f96de3df57264e0158682b952fd3fb53ac23d876413e7b30f71", "bubblewrap changed from inspected candidate pin"
+    REPORT["isolation_tool_pin"] = "CANDIDATE003_BOOTSTRAP_OBSERVATION_ONLY_FREEZE_BEFORE_ANY_LEAN"
     REPORT["qualifier_sha256"] = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     REPORT["fixture_sha256"] = hashlib.sha256((INPUTS / "fixture.py").read_bytes()).hexdigest()
     REPORT["start_available_bytes"] = available()
